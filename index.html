@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Islomiy Ilmlar Maskani</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Hadislar Kutubxonasi</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -12,17 +12,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+                        sans: ['Inter', '-apple-system', 'sans-serif'],
                         arabic: ['Amiri', 'serif'],
-                    },
-                    colors: {
-                        emerald: {
-                            50: '#ecfdf5',
-                            500: '#10b981',
-                            600: '#059669',
-                            900: '#064e3b',
-                            950: '#022c22'
-                        }
                     }
                 }
             }
@@ -30,37 +21,33 @@
     </script>
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- Arabcha Shrift -->
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Shriftlar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        /* Mobil app tuyg'usini berish uchun select va highlightlarni o'chirish */
         -webkit-tap-highlight-color: transparent;
         user-select: none;
         
-        /* Smooth scrolling */
-        .custom-scroll::-webkit-scrollbar {
-            display: none;
-        }
-        .custom-scroll {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
+        .custom-scroll::-webkit-scrollbar { display: none; }
+        .custom-scroll { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
 <body class="h-full bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased font-sans transition-colors duration-300">
 
-    <!-- APPLIKATSIYA KONTEYNERI (Mobile Container) -->
+    <!-- APPLIKATSIYA KONTEYNERI -->
     <div class="max-w-md mx-auto h-full flex flex-col bg-white dark:bg-slate-900 shadow-2xl relative overflow-hidden transition-colors duration-300">
 
-        <!-- 1. YUQORI HEADER -->
+        <!-- YUQORI HEADER -->
         <header class="sticky top-0 z-30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-100 dark:border-slate-800 px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center gap-2">
-                <div class="w-8 h-8 rounded-full bg-emerald-500/10 dark:bg-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
-                    <i data-lucide="book-open-check" class="w-5 h-5"></i>
+            <div class="flex items-center gap-2.5 cursor-pointer" onclick="goHome()">
+                <div class="w-9 h-9 rounded-xl bg-emerald-500/10 dark:bg-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
+                    <i data-lucide="book-open" class="w-5 h-5"></i>
                 </div>
                 <div>
-                    <h1 class="text-base font-bold leading-none text-slate-800 dark:text-slate-100">Ilm Maskani</h1>
-                    <span class="text-[10px] text-slate-400 dark:text-slate-500 font-medium">Ochiq Islomiy Platforma</span>
+                    <h1 class="text-base font-bold leading-none text-slate-800 dark:text-slate-100">Hadislar</h1>
+                    <span class="text-[10px] text-slate-400 dark:text-slate-500 font-medium">Sahih to'plamlar</span>
                 </div>
             </div>
 
@@ -71,117 +58,89 @@
             </button>
         </header>
 
-        <!-- 2. ASOSIY MAZMUN QISMI (SCROLLABLE CONTENT) -->
-        <main class="flex-1 overflow-y-auto custom-scroll p-4 space-y-5 pb-24">
+        <!-- BREADCRUMB -->
+        <div id="breadcrumb" class="px-4 py-2 bg-slate-50 dark:bg-slate-900/50 border-b border-slate-100 dark:border-slate-800 text-xs text-slate-400 flex items-center gap-1.5 overflow-x-auto whitespace-nowrap custom-scroll">
+            <span onclick="goHome()" class="cursor-pointer hover:text-emerald-500">Bosh sahifa</span>
+        </div>
 
-            <!-- Salomlashuv paneli -->
-            <div class="bg-gradient-to-r from-emerald-600 to-teal-700 dark:from-emerald-900 dark:to-teal-950 rounded-2xl p-4 text-white shadow-lg relative overflow-hidden">
-                <div class="absolute -right-4 -bottom-4 w-24 h-24 bg-white/10 rounded-full blur-xl"></div>
-                <p class="text-xs text-emerald-100 font-medium mb-1">Assalomu alaykum va rahmatulloh!</p>
-                <h2 class="text-lg font-bold">Bugungi kun bilan ilmingizni boyiting</h2>
-            </div>
+        <!-- ASOSIY MAZMUN QISMI -->
+        <main class="flex-1 overflow-y-auto custom-scroll p-4 space-y-4 pb-24">
 
-            <!-- KUN OYATI KARTOCHKASI -->
-            <section class="bg-gradient-to-br from-amber-500/5 to-amber-500/10 dark:from-amber-500/10 dark:to-transparent border border-amber-500/20 dark:border-amber-500/30 rounded-2xl p-4 space-y-3 relative">
-                <div class="flex items-center justify-between">
-                    <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
-                        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Kun oyati
-                    </span>
-                    <span class="text-xs font-mono text-slate-400">Baqara, 255</span>
+            <!-- 1. KITOOBLAR RO'YXATI VIEW -->
+            <section id="viewBooks" class="space-y-4">
+                <div class="bg-gradient-to-r from-emerald-600 to-teal-700 dark:from-emerald-900 dark:to-teal-950 rounded-2xl p-4 text-white shadow-lg relative overflow-hidden">
+                    <div class="absolute -right-4 -bottom-4 w-24 h-24 bg-white/10 rounded-full blur-xl"></div>
+                    <p class="text-xs text-emerald-100 font-medium mb-1">Mavjud to'plamlar</p>
+                    <h2 class="text-lg font-bold">Sahih va mo'tabar hadis kitoblari</h2>
                 </div>
-                
-                <!-- Arabcha matn -->
-                <p class="text-right font-arabic text-xl leading-loose text-slate-800 dark:text-slate-100 pt-1" dir="rtl">
-                    اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ
-                </p>
 
-                <!-- Ma'no tarjimasi -->
-                <p class="text-sm text-slate-600 dark:text-slate-300 italic leading-relaxed">
-                    "Alloh — Undan oʻzga iloh yoʻq. U tirikdir, qayyumdir (har daqiqa turgʻizuvchidir)..."
-                </p>
-                
-                <div class="pt-2 flex justify-end">
-                    <button class="text-xs font-semibold text-amber-600 dark:text-amber-400 flex items-center gap-1 hover:underline">
-                        Toʻliq oʻqish <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                    </button>
+                <div id="booksList" class="space-y-3">
+                    <!-- Kitoblar JS orqali chiqadi -->
                 </div>
             </section>
 
-            <!-- KUN HADISI KARTOCHKASI -->
-            <section class="bg-gradient-to-br from-emerald-500/5 to-emerald-500/10 dark:from-emerald-500/10 dark:to-transparent border border-emerald-500/20 dark:border-emerald-500/30 rounded-2xl p-4 space-y-3">
-                <div class="flex items-center justify-between">
-                    <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20">
-                        <i data-lucide="quote" class="w-3.5 h-3.5"></i> Kun hadisi
-                    </span>
-                    <span class="text-xs font-medium text-slate-400">Sahih al-Buxoriy</span>
+            <!-- 2. BOBLAR GRID VIEW -->
+            <section id="viewChapters" class="hidden space-y-4">
+                <div>
+                    <h2 class="text-lg font-bold text-slate-800 dark:text-slate-100" id="chaptersBookTitle">Boblar</h2>
+                    <p class="text-xs text-slate-400">Kerakli bobni tanlang</p>
                 </div>
-
-                <p class="text-sm font-medium text-slate-800 dark:text-slate-200 leading-relaxed">
-                    "Amallar faqat niyatlarga bog'liqdir. Har bir kishi uchun faqat niyat qilgan narsasigina bo'ladi..."
-                </p>
-
-                <div class="flex items-center justify-between pt-1 border-t border-emerald-500/10 dark:border-emerald-500/20 text-xs text-slate-400">
-                    <span>Raviylik: Umar ibn al-Xattob (r.a.)</span>
-                    <button class="font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1 hover:underline">
-                        Barchasi <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                    </button>
+                <div id="chaptersGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    <!-- Boblar JS orqali chiqadi -->
                 </div>
             </section>
 
-            <!-- KUN TAFSIRI KARTOCHKASI -->
-            <section class="bg-gradient-to-br from-blue-500/5 to-blue-500/10 dark:from-blue-500/10 dark:to-transparent border border-blue-500/20 dark:border-blue-500/30 rounded-2xl p-4 space-y-3">
-                <div class="flex items-center justify-between">
-                    <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-700 dark:text-blue-400 border border-blue-500/20">
-                        <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Kun tafsiri
-                    </span>
-                    <span class="text-xs font-medium text-slate-400">Tafsir Ibn Kasir</span>
+            <!-- 3. HADISLAR RO'YXATI VIEW -->
+            <section id="viewHadiths" class="hidden space-y-4">
+                <div class="relative">
+                    <input type="text" id="searchInput" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 text-slate-800 dark:text-slate-100 text-sm focus:outline-none focus:border-emerald-500 transition" placeholder="Hadis matni yoki raqami bo'yicha..." oninput="filterHadiths()">
+                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
                 </div>
 
                 <div>
-                    <h3 class="text-sm font-bold text-slate-800 dark:text-slate-100 mb-1">Ixlos surasi sharhi</h3>
-                    <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-3 leading-relaxed">
-                        Ushbu sura Alloh taoloning yagonaligi va Unisiz hech bir narsa mavjud boʻla olmasligi toʻgʻrisidagi eng mukammal tavsifni oʻz ichiga oladi...
-                    </p>
+                    <h2 class="text-lg font-bold text-slate-800 dark:text-slate-100" id="selectedBookTitle">Hadislar</h2>
+                    <p class="text-xs text-slate-400" id="totalCount"></p>
                 </div>
 
-                <div class="pt-1 flex justify-end">
-                    <button class="text-xs font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-1 hover:underline">
-                        Tafsirni oʻqish <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                    </button>
+                <div id="hadithsList" class="space-y-3">
+                    <!-- Hadislar JS orqali chiqadi -->
                 </div>
+
+                <button id="loadMoreBtn" class="w-full py-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 font-semibold text-sm hidden active:scale-95 transition" onclick="loadMore()">Ko'proq ko'rsatish</button>
             </section>
+
+            <!-- LOADING INDICATOR -->
+            <div id="loading" class="hidden text-center py-8">
+                <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-emerald-500 border-t-transparent"></div>
+                <p class="text-xs text-slate-400 mt-2">Yuklanmoqda...</p>
+            </div>
 
         </main>
 
-        <!-- 3. OSTKI AMALiY MENYU (BOTTOM NAVIGATION) -->
+        <!-- OSTKI AMALIY MENYU (BOTTOM NAVIGATION) -->
         <nav class="absolute bottom-0 left-0 right-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-t border-slate-200/80 dark:border-slate-800/80 px-2 py-2">
             <div class="grid grid-cols-5 gap-1">
                 
-                <!-- Bosh Menu (Active) -->
-                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-600 dark:text-emerald-400 transition active:scale-90">
+                <button onclick="goHome()" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
                     <i data-lucide="layout-grid" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-semibold leading-none">Bosh Menu</span>
+                    <span class="text-[10px] font-medium leading-none">Bosh Menu</span>
                 </button>
 
-                <!-- Quron -->
                 <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
                     <i data-lucide="book-open" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Qur'on</span>
                 </button>
 
-                <!-- Hadislar -->
-                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-600 dark:text-emerald-400 transition active:scale-90">
                     <i data-lucide="scroll" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Hadislar</span>
+                    <span class="text-[10px] font-semibold leading-none">Hadislar</span>
                 </button>
 
-                <!-- Tafsirlar -->
                 <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
                     <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Tafsirlar</span>
                 </button>
 
-                <!-- Kutubxona -->
                 <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
                     <i data-lucide="library" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Kutubxona</span>
@@ -192,12 +151,291 @@
 
     </div>
 
-    <!-- JAVASCRIPT: Rejim va Ikonkalarni Boshqarish -->
+    <!-- JAVASCRIPT INTEGRATSIYASI -->
     <script>
-        // Lucide Ikonkalarini render qilish
-        lucide.createIcons();
+        const SITE_URL = "https://hadis.aloshiy.com";
 
-        // Kun / Tun rejimini boshqarish logika
+        const books = [
+            { id: 1, nameUz: "Sahihul Buxoriy", author: "Imom Buxoriy", file: "db/by_book/the_9_books/bukhari.json", chaptersCount: 98, color: "from-emerald-600 to-teal-800" },
+            { id: 2, nameUz: "Sahihi Muslim", author: "Imom Muslim", file: "db/by_book/the_9_books/muslim.json", chaptersCount: 57, color: "from-blue-600 to-indigo-800" },
+            { id: 3, nameUz: "Sunani Abu Dovud", author: "Imom Abu Dovud", file: "db/by_book/the_9_books/abudawud.json", chaptersCount: 43, color: "from-amber-600 to-orange-800" },
+            { id: 4, nameUz: "Jomi'u at-Tirmiziy", author: "Imom at-Tirmiziy", file: "db/by_book/the_9_books/tirmidhi.json", chaptersCount: 49, color: "from-rose-600 to-pink-800" },
+            { id: 5, nameUz: "Sunani an-Nasa'iy", author: "Imom an-Nasa'iy", file: "db/by_book/the_9_books/nasai.json", chaptersCount: 52, color: "from-green-600 to-emerald-800" },
+            { id: 6, nameUz: "Sunani Ibn Majah", author: "Imom Ibn Majah", file: "db/by_book/the_9_books/ibnmajah.json", chaptersCount: 37, color: "from-purple-600 to-indigo-800" },
+            { id: 7, nameUz: "Muvatto Malik", author: "Imom Malik", file: "db/by_book/the_9_books/malik.json", chaptersCount: 61, color: "from-fuchsia-600 to-pink-800" },
+            { id: 8, nameUz: "Musnad Ahmad", author: "Imom Ahmad", file: "db/by_book/the_9_books/ahmed.json", chaptersCount: 30, color: "from-slate-600 to-slate-800" },
+            { id: 9, nameUz: "Sunani ad-Darimiy", author: "Imom ad-Darimiy", file: "db/by_book/the_9_books/darimi.json", chaptersCount: 24, color: "from-lime-600 to-green-800" },
+            { id: 10, nameUz: "Riyazus Solihin", author: "Imom an-Navaviy", file: "db/by_book/other_books/riyad_assalihin.json", chaptersCount: 20, color: "from-sky-600 to-blue-800" },
+            { id: 11, nameUz: "Al-Arba'in an-Navaviy", author: "Imom an-Navaviy", file: "db/by_book/forties/nawawi40.json", chaptersCount: 1, color: "from-yellow-600 to-amber-800" }
+        ];
+
+        let currentBook = null;
+        let currentHadiths = [];
+        let filteredHadiths = [];
+        let rawBookData = null;
+        let displayedCount = 0;
+        const PAGE_SIZE = 30;
+
+        function init() {
+            lucide.createIcons();
+            const container = document.getElementById('booksList');
+            container.innerHTML = '';
+            
+            books.forEach(book => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-3.5 flex flex-col gap-3 transition hover:border-emerald-500/40';
+                card.innerHTML = `
+                    <div class="flex gap-3 items-center">
+                        <div class="w-14 h-18 bg-gradient-to-br ${book.color} rounded-xl border border-white/20 flex flex-col items-center justify-center text-white text-center p-1 shadow-md shrink-0">
+                            <i data-lucide="book" class="w-5 h-5 mb-1 opacity-80"></i>
+                            <span class="font-arabic text-[10px] leading-tight opacity-90">${book.nameUz}</span>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="text-base font-bold text-slate-800 dark:text-slate-100 truncate">${book.nameUz}</h3>
+                            <p class="text-xs text-slate-400 mb-1">${book.author}</p>
+                            <span class="inline-block px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-medium">${book.chaptersCount} ta bo'lim</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 pt-1 border-t border-slate-100 dark:border-slate-800/60">
+                        <button onclick="openBook(${book.id}, false)" class="py-2 px-3 rounded-xl bg-emerald-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
+                            <i data-lucide="book-open" class="w-3.5 h-3.5"></i> O'qish
+                        </button>
+                        <button onclick="openBook(${book.id}, true)" class="py-2 px-3 rounded-xl bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
+                            Bo'limlar <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            lucide.createIcons();
+        }
+
+        async function openBook(bookId, showChaptersOnly = false) {
+            currentBook = books.find(b => b.id === bookId);
+            showLoading(true);
+
+            try {
+                const res = await fetch(currentBook.file);
+                if (!res.ok) throw new Error("Faylni yuklab bo'lmadi");
+                rawBookData = await res.json();
+
+                const rawHadiths = rawBookData.hadiths || (Array.isArray(rawBookData) ? rawBookData : Object.values(rawBookData));
+                currentHadiths = rawHadiths.map((item, index) => ({
+                    ...item,
+                    bookHadithNo: item.idInBook || (index + 1)
+                }));
+
+                if (showChaptersOnly) {
+                    renderChaptersView();
+                } else {
+                    showAllHadithsOfBook();
+                }
+            } catch (err) {
+                alert("Xatolik: Fayl yuklanmadi!");
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderChaptersView() {
+            document.getElementById('chaptersBookTitle').innerText = currentBook.nameUz + " — Boblar";
+            const container = document.getElementById('chaptersGrid');
+            container.innerHTML = '';
+
+            let chaptersList = rawBookData.chapters || [];
+
+            if (chaptersList.length === 0) {
+                const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].sort((a,b) => a - b);
+                chaptersList = chapterIds.map(id => ({ id: id, english: `Bob #${id}` }));
+            }
+
+            chaptersList.forEach(ch => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-xl p-3 cursor-pointer hover:border-emerald-500/50 transition active:scale-95';
+                card.onclick = () => filterHadithsByChapter(ch.id);
+                card.innerHTML = `
+                    <div class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 mb-0.5">Bob ${ch.id}</div>
+                    <div class="text-xs font-semibold text-slate-700 dark:text-slate-200 line-clamp-2">${ch.english?.title || ch.english || ch.arabic || ('Bob ' + ch.id)}</div>
+                `;
+                container.appendChild(card);
+            });
+
+            showView('viewChapters');
+            updateBreadcrumb([currentBook.nameUz, 'Boblar']);
+        }
+
+        function filterHadithsByChapter(chapterId) {
+            filteredHadiths = currentHadiths.filter(h => h.chapterId === chapterId);
+            document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — Bob ${chapterId}`;
+            document.getElementById('totalCount').innerText = `Ushbu bobda ${filteredHadiths.length} ta hadis bor`;
+
+            displayedCount = 0;
+            showView('viewHadiths');
+            updateBreadcrumb([currentBook.nameUz, `Bob ${chapterId}`]);
+            
+            document.getElementById('hadithsList').innerHTML = '';
+            loadMore();
+        }
+
+        function showAllHadithsOfBook() {
+            filteredHadiths = currentHadiths;
+            document.getElementById('selectedBookTitle').innerText = currentBook.nameUz;
+            document.getElementById('totalCount').innerText = `Jami hadislar: ${currentHadiths.length} ta`;
+
+            displayedCount = 0;
+            showView('viewHadiths');
+            updateBreadcrumb([currentBook.nameUz]);
+
+            document.getElementById('hadithsList').innerHTML = '';
+            loadMore();
+        }
+
+        function renderNextBatch(list) {
+            const container = document.getElementById('hadithsList');
+
+            list.forEach((item, index) => {
+                const currentIndex = displayedCount - list.length + index;
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-4 space-y-3';
+                
+                const arabicText = item.arabic || '';
+                const englishText = item.english?.text || (typeof item.english === 'string' ? item.english : '');
+                const narrator = item.english?.narrator || '';
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-800 pb-2 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                        <span>Hadis #${item.bookHadithNo}</span>
+                        <span>Bob: ${item.chapterId || 1}</span>
+                    </div>
+                    ${arabicText ? `<div class="font-arabic text-lg leading-loose text-right dir-rtl bg-emerald-500/5 p-3 rounded-xl text-slate-800 dark:text-slate-100" dir="rtl">${arabicText}</div>` : ''}
+                    <div class="text-xs leading-relaxed text-slate-600 dark:text-slate-300">
+                        ${narrator ? `<div class="font-bold text-emerald-600 dark:text-emerald-400 mb-1">${narrator}</div>` : ''}
+                        <div>${englishText}</div>
+                    </div>
+                    <div class="flex gap-2 justify-end pt-2 border-t border-slate-100 dark:border-slate-800/60">
+                        <button onclick="copyFormattedHadith(${currentIndex})" class="px-3 py-1.5 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-medium flex items-center gap-1 hover:text-emerald-500 transition active:scale-95">
+                            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Nusxalash
+                        </button>
+                        <button onclick="shareHadith(${currentIndex})" class="px-3 py-1.5 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-medium flex items-center gap-1 hover:text-emerald-500 transition active:scale-95">
+                            <i data-lucide="share-2" class="w-3.5 h-3.5"></i> Bo'lishish
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+
+            const loadBtn = document.getElementById('loadMoreBtn');
+            if (displayedCount < filteredHadiths.length) {
+                loadBtn.classList.remove('hidden');
+            } else {
+                loadBtn.classList.add('hidden');
+            }
+        }
+
+        function loadMore() {
+            const nextBatch = filteredHadiths.slice(displayedCount, displayedCount + PAGE_SIZE);
+            displayedCount += nextBatch.length;
+            renderNextBatch(nextBatch);
+        }
+
+        function buildFormattedTextByIndex(index) {
+            const item = filteredHadiths[index];
+            if (!item) return '';
+
+            const authorName = currentBook ? currentBook.author : 'Hadis';
+            const bookName = currentBook ? currentBook.nameUz : '';
+            const arabic = item.arabic ? `${item.arabic}\n\n` : '';
+            const english = item.english?.text || (typeof item.english === 'string' ? item.english : '');
+            const narrator = item.english?.narrator ? item.english.narrator + '\n' : '';
+
+            return `${authorName} #${item.bookHadithNo}\n\n${arabic}${narrator}${english}\n\nManba: ${bookName}, ${item.bookHadithNo}-hadis.\n\nVisit: ${SITE_URL}`;
+        }
+
+        function copyFormattedHadith(index) {
+            const fullText = buildFormattedTextByIndex(index);
+            if (!fullText) return;
+
+            navigator.clipboard.writeText(fullText).then(() => {
+                alert("Hadis nusxalandi!");
+            });
+        }
+
+        async function shareHadith(index) {
+            const item = filteredHadiths[index];
+            const fullText = buildFormattedTextByIndex(index);
+            if (!fullText) return;
+
+            const shareData = {
+                title: `${currentBook?.author || 'Hadis'} #${item?.bookHadithNo}`,
+                text: fullText
+            };
+
+            if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+                try {
+                    await navigator.share(shareData);
+                } catch (err) {
+                    if (err.name !== 'AbortError') copyFormattedHadith(index);
+                }
+            } else {
+                copyFormattedHadith(index);
+            }
+        }
+
+        function filterHadiths() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            document.getElementById('hadithsList').innerHTML = '';
+            displayedCount = 0;
+
+            if (!query) {
+                filteredHadiths = currentHadiths;
+            } else {
+                filteredHadiths = currentHadiths.filter(item => {
+                    const ar = (item.arabic || '').toLowerCase();
+                    const en = (item.english?.text || '').toLowerCase();
+                    const num = String(item.bookHadithNo);
+                    return ar.includes(query) || en.includes(query) || num === query;
+                });
+            }
+
+            document.getElementById('totalCount').innerText = `Topildi: ${filteredHadiths.length} ta hadis`;
+            loadMore();
+        }
+
+        function showView(viewId) {
+            document.getElementById('viewBooks').classList.add('hidden');
+            document.getElementById('viewChapters').classList.add('hidden');
+            document.getElementById('viewHadiths').classList.add('hidden');
+            document.getElementById(viewId).classList.remove('hidden');
+            document.querySelector('main').scrollTop = 0;
+        }
+
+        function goHome() {
+            showView('viewBooks');
+            updateBreadcrumb([]);
+            document.getElementById('searchInput').value = '';
+        }
+
+        function updateBreadcrumb(paths) {
+            const bc = document.getElementById('breadcrumb');
+            if (paths.length === 0) {
+                bc.innerHTML = '<span onclick="goHome()" class="cursor-pointer hover:text-emerald-500">Bosh sahifa</span>';
+            } else {
+                let html = '<span onclick="goHome()" class="cursor-pointer hover:text-emerald-500">Bosh sahifa</span>';
+                paths.forEach(p => {
+                    html += ` <i data-lucide="chevron-right" class="w-3 h-3 inline"></i> <span class="text-slate-600 dark:text-slate-300 font-medium">${p}</span>`;
+                });
+                bc.innerHTML = html;
+                lucide.createIcons();
+            }
+        }
+
+        function showLoading(show) {
+            document.getElementById('loading').classList.toggle('hidden', !show);
+        }
+
+        // KUN / TUN REJIMINI BOSHQARISH
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -232,6 +470,8 @@
                 }
             }
         });
+
+        init();
     </script>
 </body>
 </html>
