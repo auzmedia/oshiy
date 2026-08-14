@@ -86,13 +86,49 @@
                     </div>
                 </div>
 
-                <div class="flex items-center justify-between pt-2">
-                    <h2 class="text-base font-bold text-slate-800 dark:text-slate-100">Hadis to'plamlari</h2>
-                    <span class="text-xs text-slate-400 font-medium">11 ta kitob</span>
-                </div>
+                <!-- KATEGORIYALAR -->
+                <div class="space-y-5">
+                    <!-- OLTIN SILSILA KATEGORIYASI -->
+                    <div>
+                        <div class="flex items-center justify-between pt-2 mb-3">
+                            <div class="flex items-center gap-2">
+                                <span class="w-1.5 h-5 bg-amber-500 rounded-full"></span>
+                                <h2 class="text-base font-bold text-slate-800 dark:text-slate-100">Oltin silsila</h2>
+                            </div>
+                            <span class="text-xs text-slate-400 font-medium" id="goldenCount"></span>
+                        </div>
+                        <div id="booksListGolden" class="space-y-3">
+                            <!-- Oltin silsila kitoblar JS orqali chiqadi -->
+                        </div>
+                    </div>
 
-                <div id="booksList" class="space-y-3">
-                    <!-- Kitoblar JS orqali chiqadi -->
+                    <!-- BOSHQA HADISLAR KATEGORIYASI -->
+                    <div>
+                        <div class="flex items-center justify-between pt-2 mb-3">
+                            <div class="flex items-center gap-2">
+                                <span class="w-1.5 h-5 bg-sky-500 rounded-full"></span>
+                                <h2 class="text-base font-bold text-slate-800 dark:text-slate-100">Boshqa hadislar</h2>
+                            </div>
+                            <span class="text-xs text-slate-400 font-medium" id="otherCount"></span>
+                        </div>
+                        <div id="booksListOther" class="space-y-3">
+                            <!-- Boshqa hadislar JS orqali chiqadi -->
+                        </div>
+                    </div>
+
+                    <!-- 40 HADIS KATEGORIYASI -->
+                    <div>
+                        <div class="flex items-center justify-between pt-2 mb-3">
+                            <div class="flex items-center gap-2">
+                                <span class="w-1.5 h-5 bg-emerald-500 rounded-full"></span>
+                                <h2 class="text-base font-bold text-slate-800 dark:text-slate-100">40 Hadis to'plami</h2>
+                            </div>
+                            <span class="text-xs text-slate-400 font-medium" id="fortiesCount"></span>
+                        </div>
+                        <div id="booksListForties" class="space-y-3">
+                            <!-- 40 hadis kitoblari JS orqali chiqadi -->
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -172,18 +208,30 @@
     <script>
         const SITE_URL = "https://hadis.aloshiy.com";
 
+        // KITOBLAR RO'YXATI
         const books = [
-            { id: 1, nameUz: "Sahihul Buxoriy", author: "Imom Buxoriy", file: "db/by_book/the_9_books/bukhari.json", chaptersCount: 98, color: "from-emerald-600 to-teal-800" },
-            { id: 2, nameUz: "Sahihi Muslim", author: "Imom Muslim", file: "db/by_book/the_9_books/muslim.json", chaptersCount: 57, color: "from-blue-600 to-indigo-800" },
-            { id: 3, nameUz: "Sunani Abu Dovud", author: "Imom Abu Dovud", file: "db/by_book/the_9_books/abudawud.json", chaptersCount: 43, color: "from-amber-600 to-orange-800" },
-            { id: 4, nameUz: "Jomi'u at-Tirmiziy", author: "Imom at-Tirmiziy", file: "db/by_book/the_9_books/tirmidhi.json", chaptersCount: 49, color: "from-rose-600 to-pink-800" },
-            { id: 5, nameUz: "Sunani an-Nasa'iy", author: "Imom an-Nasa'iy", file: "db/by_book/the_9_books/nasai.json", chaptersCount: 52, color: "from-green-600 to-emerald-800" },
-            { id: 6, nameUz: "Sunani Ibn Majah", author: "Imom Ibn Majah", file: "db/by_book/the_9_books/ibnmajah.json", chaptersCount: 37, color: "from-purple-600 to-indigo-800" },
-            { id: 7, nameUz: "Muvatto Malik", author: "Imom Malik", file: "db/by_book/the_9_books/malik.json", chaptersCount: 61, color: "from-fuchsia-600 to-pink-800" },
-            { id: 8, nameUz: "Musnad Ahmad", author: "Imom Ahmad", file: "db/by_book/the_9_books/ahmed.json", chaptersCount: 30, color: "from-slate-600 to-slate-800" },
-            { id: 9, nameUz: "Sunani ad-Darimiy", author: "Imom ad-Darimiy", file: "db/by_book/the_9_books/darimi.json", chaptersCount: 24, color: "from-lime-600 to-green-800" },
-            { id: 10, nameUz: "Riyazus Solihin", author: "Imom an-Navaviy", file: "db/by_book/other_books/riyad_assalihin.json", chaptersCount: 20, color: "from-sky-600 to-blue-800" },
-            { id: 11, nameUz: "Al-Arba'in an-Navaviy", author: "Imom an-Navaviy", file: "db/by_book/forties/nawawi40.json", chaptersCount: 1, color: "from-yellow-600 to-amber-800" }
+            // OLTIN SILSILA - the_9_books
+            { id: 1, nameUz: "Sahihul Buxoriy", author: "Imom Buxoriy", category: "golden", file: "db/by_book/the_9_books/bukhari.json", chaptersCount: 98, color: "from-emerald-600 to-teal-800" },
+            { id: 2, nameUz: "Sahihi Muslim", author: "Imom Muslim", category: "golden", file: "db/by_book/the_9_books/muslim.json", chaptersCount: 57, color: "from-blue-600 to-indigo-800" },
+            { id: 3, nameUz: "Sunani Abu Dovud", author: "Imom Abu Dovud", category: "golden", file: "db/by_book/the_9_books/abudawud.json", chaptersCount: 43, color: "from-amber-600 to-orange-800" },
+            { id: 4, nameUz: "Jomi'u at-Tirmiziy", author: "Imom at-Tirmiziy", category: "golden", file: "db/by_book/the_9_books/tirmidhi.json", chaptersCount: 49, color: "from-rose-600 to-pink-800" },
+            { id: 5, nameUz: "Sunani an-Nasa'iy", author: "Imom an-Nasa'iy", category: "golden", file: "db/by_book/the_9_books/nasai.json", chaptersCount: 52, color: "from-green-600 to-emerald-800" },
+            { id: 6, nameUz: "Sunani Ibn Majah", author: "Imom Ibn Majah", category: "golden", file: "db/by_book/the_9_books/ibnmajah.json", chaptersCount: 37, color: "from-purple-600 to-indigo-800" },
+            { id: 7, nameUz: "Muvatto Malik", author: "Imom Malik", category: "golden", file: "db/by_book/the_9_books/malik.json", chaptersCount: 61, color: "from-fuchsia-600 to-pink-800" },
+            { id: 8, nameUz: "Musnad Ahmad", author: "Imom Ahmad", category: "golden", file: "db/by_book/the_9_books/ahmed.json", chaptersCount: 30, color: "from-slate-600 to-slate-800" },
+            { id: 9, nameUz: "Sunani ad-Darimiy", author: "Imom ad-Darimiy", category: "golden", file: "db/by_book/the_9_books/darimi.json", chaptersCount: 24, color: "from-lime-600 to-green-800" },
+
+            // BOSHQA HADISLAR - other_books
+            { id: 15, nameUz: "Al-Adab al-Mufrad", author: "Imom Buxoriy", category: "other", file: "db/by_book/other_books/aladab_almufrad.json", chaptersCount: 57, color: "from-teal-600 to-cyan-800" },
+            { id: 16, nameUz: "Riyazus Solihin", author: "Imom an-Navaviy", category: "other", file: "db/by_book/other_books/riyad_assalihin.json", chaptersCount: 20, color: "from-sky-600 to-blue-800" },
+            { id: 17, nameUz: "Bulg' al-Marom", author: "Ibn Hajar al-Asqaloniy", category: "other", file: "db/by_book/other_books/bulugh_almaram.json", chaptersCount: 16, color: "from-indigo-600 to-violet-800" },
+            { id: 18, nameUz: "Mishkot al-Masobih", author: "Imom at-Tabriziy", category: "other", file: "db/by_book/other_books/mishkat_almasabih.json", chaptersCount: 29, color: "from-violet-600 to-purple-800" },
+            { id: 19, nameUz: "Shamoil Muhammadiya", author: "Imom at-Tirmiziy", category: "other", file: "db/by_book/other_books/shamail_muhammadiya.json", chaptersCount: 56, color: "from-pink-600 to-rose-800" },
+
+            // 40 HADIS - forties
+            { id: 10, nameUz: "Al-Arba'in an-Navaviy", author: "Imom an-Navaviy", category: "forties", file: "db/by_book/forties/nawawi40.json", chaptersCount: 1, color: "from-yellow-600 to-amber-800" },
+            { id: 11, nameUz: "Al-Arba'in al-Qudsiya", author: "Hadis Qudsiy", category: "forties", file: "db/by_book/forties/qudsi40.json", chaptersCount: 1, color: "from-orange-600 to-red-800" },
+            { id: 12, nameUz: "Al-Arba'in Shah Valiyulloh", author: "Shoh Valiyulloh", category: "forties", file: "db/by_book/forties/shahwaliullah40.json", chaptersCount: 1, color: "from-cyan-600 to-sky-800" }
         ];
 
         let currentBook = null;
@@ -191,7 +239,7 @@
         let filteredHadiths = [];
         let rawBookData = null;
         let displayedCount = 0;
-        let currentRandomHadithData = null; // Tasodifiy hadis ma'lumotlarini saqlash uchun
+        let currentRandomHadithData = null;
         const PAGE_SIZE = 30;
 
         function init() {
@@ -201,36 +249,65 @@
         }
 
         function renderBooksList() {
-            const container = document.getElementById('booksList');
-            container.innerHTML = '';
-            
-            books.forEach(book => {
-                const card = document.createElement('div');
-                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-3.5 flex flex-col gap-3 transition hover:border-emerald-500/40';
-                card.innerHTML = `
-                    <div class="flex gap-3 items-center">
-                        <div class="w-14 h-18 bg-gradient-to-br ${book.color} rounded-xl border border-white/20 flex flex-col items-center justify-center text-white text-center p-1 shadow-md shrink-0">
-                            <i data-lucide="book" class="w-5 h-5 mb-1 opacity-80"></i>
-                            <span class="font-arabic text-[10px] leading-tight opacity-90">${book.nameUz}</span>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <h3 class="text-base font-bold text-slate-800 dark:text-slate-100 truncate">${book.nameUz}</h3>
-                            <p class="text-xs text-slate-400 mb-1">${book.author}</p>
-                            <span class="inline-block px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-medium">${book.chaptersCount} ta bo'lim</span>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-2 gap-2 pt-1 border-t border-slate-100 dark:border-slate-800/60">
-                        <button onclick="openBook(${book.id}, false)" class="py-2 px-3 rounded-xl bg-emerald-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
-                            <i data-lucide="book-open" class="w-3.5 h-3.5"></i> O'qish
-                        </button>
-                        <button onclick="openBook(${book.id}, true)" class="py-2 px-3 rounded-xl bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
-                            Bo'limlar <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                        </button>
-                    </div>
-                `;
-                container.appendChild(card);
+            // Kategoriyalarga ajratish
+            const goldenBooks = books.filter(b => b.category === 'golden');
+            const otherBooks = books.filter(b => b.category === 'other');
+            const fortiesBooks = books.filter(b => b.category === 'forties');
+
+            // Hisoblagichlarni yangilash
+            document.getElementById('goldenCount').innerText = `${goldenBooks.length} ta kitob`;
+            document.getElementById('otherCount').innerText = `${otherBooks.length} ta kitob`;
+            document.getElementById('fortiesCount').innerText = `${fortiesBooks.length} ta kitob`;
+
+            // Oltin silsila
+            const goldenContainer = document.getElementById('booksListGolden');
+            goldenContainer.innerHTML = '';
+            goldenBooks.forEach(book => {
+                goldenContainer.appendChild(createBookCard(book));
             });
+
+            // Boshqa hadislar
+            const otherContainer = document.getElementById('booksListOther');
+            otherContainer.innerHTML = '';
+            otherBooks.forEach(book => {
+                otherContainer.appendChild(createBookCard(book));
+            });
+
+            // 40 hadis
+            const fortiesContainer = document.getElementById('booksListForties');
+            fortiesContainer.innerHTML = '';
+            fortiesBooks.forEach(book => {
+                fortiesContainer.appendChild(createBookCard(book));
+            });
+
             lucide.createIcons();
+        }
+
+        function createBookCard(book) {
+            const card = document.createElement('div');
+            card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-3.5 flex flex-col gap-3 transition hover:border-emerald-500/40';
+            card.innerHTML = `
+                <div class="flex gap-3 items-center">
+                    <div class="w-14 h-18 bg-gradient-to-br ${book.color} rounded-xl border border-white/20 flex flex-col items-center justify-center text-white text-center p-1 shadow-md shrink-0">
+                        <i data-lucide="book" class="w-5 h-5 mb-1 opacity-80"></i>
+                        <span class="font-arabic text-[10px] leading-tight opacity-90">${book.nameUz}</span>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-base font-bold text-slate-800 dark:text-slate-100 truncate">${book.nameUz}</h3>
+                        <p class="text-xs text-slate-400 mb-1">${book.author}</p>
+                        <span class="inline-block px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-medium">${book.chaptersCount} ta bo'lim</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-2 pt-1 border-t border-slate-100 dark:border-slate-800/60">
+                    <button onclick="openBook(${book.id}, false)" class="py-2 px-3 rounded-xl bg-emerald-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
+                        <i data-lucide="book-open" class="w-3.5 h-3.5"></i> O'qish
+                    </button>
+                    <button onclick="openBook(${book.id}, true)" class="py-2 px-3 rounded-xl bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
+                        Bo'limlar <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+            `;
+            return card;
         }
 
         // BOSH SAHIFA UCHUN TASODIFIY HADIS OLGUCHI FUNKSIYA
