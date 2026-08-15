@@ -9,8 +9,9 @@
       "introduction": ""
     },
     "uzbek": {
-      "title": "Shoh Valialloh Dehlaviyning \"Arbain\"i",
-      "author": "Shoh Valiyuddin Dehlaviy"
+      "title": "Shoh Valiyulloh Dahlaviyning qirq hadisi",
+      "author": "Shoh Valiyuddin Dahlaviy",
+      "introduction": ""
     }
   },
   "chapters": [
@@ -18,7 +19,7 @@
       "id": 0,
       "bookId": 12,
       "arabic": "أربعون شاه ولي الله الدهلوي",
-      "uzbek": "Shoh Valiyulloh Dehlaviyning arba’uni (qirq hadisi)"
+      "uzbek": "Shoh Valiyulloh Dahlaviyning qirq hadisi"
     }
   ],
   "hadiths": [
@@ -29,7 +30,8 @@
       "bookId": 12,
       "arabic": "لَیْسَ الْخَبَرُ کَالْمُعَایَنَةِ",
       "uzbek": {
-        "text": "Xabar ko'z bilan ko'rgandek bo'lmaydi."
+        "narrator": "",
+        "text": "Xabar ko'rish bilan bir xil emas."
       }
     },
     {
@@ -39,7 +41,8 @@
       "bookId": 12,
       "arabic": "الْحَرْبُ خُدَعَةٌ",
       "uzbek": {
-        "text": "Urush — hiyladir."
+        "narrator": "",
+        "text": "Urush — hiyla-nayrangdir."
       }
     },
     {
@@ -49,7 +52,8 @@
       "bookId": 12,
       "arabic": "الْمُسْلِمُ مِرْآةُ الْمُسْلِمِ",
       "uzbek": {
-        "text": "Muslim musluming ko‘zgusidir."
+        "narrator": "",
+        "text": "Musulmon musulmonning oynasidir."
       }
     },
     {
@@ -59,7 +63,8 @@
       "bookId": 12,
       "arabic": "الْمُسْتَشَارُ مُؤتَمَنٌ",
       "uzbek": {
-        "text": "Maslahat so'raluvchi shaxs omonatdordir."
+        "narrator": "",
+        "text": "Maslahat so'ralgan kishi ishonchli (omonatdor)dir."
       }
     },
     {
@@ -67,9 +72,10 @@
       "idInBook": 5,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الدَّالُّ عَلَی الْخَیْرِ کَفَاعِلِهِ",
+      "arabic": "الدَّالُّ عَلَی الْخَیْرِ کَفَاعِلِهِ",
       "uzbek": {
-        "text": "Yaxshilikka boshlovchi (dalolat qiluvchi) ana shu yaxshilikni qiluvchi kabi (savobga ega)dir."
+        "narrator": "",
+        "text": "Yaxshilikka yo'l ko'rsatgan kishi, uni qilgan kishi kabidir."
       }
     },
     {
@@ -79,7 +85,8 @@
       "bookId": 12,
       "arabic": "إِسْتَعِیْنُوْا عَلَی الْحَوَائِجِ بِالْکِتْمَانِ",
       "uzbek": {
-        "text": "Hojatlaringizni yashirish bilan amalga oshiring."
+        "narrator": "",
+        "text": "Ehtiyojlaringizda yashirinlik bilan yordam so'ranglar."
       }
     },
     {
@@ -87,9 +94,10 @@
       "idInBook": 7,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "إِتَّقُوْا النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ",
+      "arabic": "إِتَّقُوْا النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ",
       "uzbek": {
-        "text": "Qo'riqdan saqlaning, garchi yarimta xurmo (sadqa qilish) bilan bo'lsa ham."
+        "narrator": "",
+        "text": "Do'zaxdan hatto yarim xurmo bilan bo'lsa ham saqlaninglar."
       }
     },
     {
@@ -97,9 +105,10 @@
       "idInBook": 8,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الدُّنْیَا سِجْنُ الْمُؤمِنِ وَ جَنَّةُ الْکَافِرِ",
+      "arabic": "الدُّنْیَا سِجْنُ الْمُؤمِنِ وَ جَنَّةُ الْکَافِرِ",
       "uzbek": {
-        "text": "Dunyo mo'minning zindoni, kofirning jannatidir."
+        "narrator": "",
+        "text": "Dunyo mo'minning qamoqxonasi, kofirning jannatidir."
       }
     },
     {
@@ -107,9 +116,10 @@
       "idInBook": 9,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْحَیَاءُ خَیْرٌ کُلُّهُ",
+      "arabic": "الْحَیَاءُ خَیْرٌ کُلُّهُ",
       "uzbek": {
-        "text": "Hayo barchasi yaxshilikdir."
+        "narrator": "",
+        "text": "Hayo — butunlay yaxshilikdir."
       }
     },
     {
@@ -117,9 +127,10 @@
       "idInBook": 10,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "عِدَةُ الْمُؤمِنِ کَاَخْذِ الْکَفِّ",
+      "arabic": "عِدَةُ الْمُؤمِنِ کَاَخْذِ الْکَفِّ",
       "uzbek": {
-        "text": "Mo'minning va'dasi qo'lga kiritilgan oltinga (yoki qo'l bilan ushlangan narsaga) o'xshaydi."
+        "narrator": "",
+        "text": "Mo'minning va'dasi — qo'l berib ahdlashish kabidir."
       }
     },
     {
@@ -127,9 +138,10 @@
       "idInBook": 11,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "لَا یَحِلُّ لِمُؤمِنٍ اَنْ یَّجُهْرَ أخَاهُ فَوقَ ثَلَاثَةِ أیَّامٍ",
+      "arabic": "لَا یَحِلُّ لِمُؤمِنٍ اَنْ یَّجُهْرَ أخَاهُ فَوقَ ثَلَاثَةِ أیَّامٍ",
       "uzbek": {
-        "text": "Mo'min kishiga o'z birodarini uch kundan ortiq tark etishi (gaplashmay yurishi) halol bo'lmaydi."
+        "narrator": "",
+        "text": "Mo'min kishiga birodaridan uch kundan ortiq ajralib yurishi halol emas."
       }
     },
     {
@@ -137,9 +149,10 @@
       "idInBook": 12,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "لَیْسَ مِنَّا مَنْ غَشَّنَا",
+      "arabic": "لَیْسَ مِنَّا مَنْ غَشَّنَا",
       "uzbek": {
-        "text": "Bizdan bo'lmagandir (ya'ni bizning yo'limizda bo'lmagandir) kimki bizni aldasa."
+        "narrator": "",
+        "text": "Bizni aldayotgan kishi bizdan emas."
       }
     },
     {
@@ -149,7 +162,8 @@
       "bookId": 12,
       "arabic": "مَا قَلَّ وَكَفَى خَيْرٌ مِمَّا كَثُرَ وَأَلْهَى",
       "uzbek": {
-        "text": "Oz bo'lib kifoya qilgani ko'p bo'lib chalg'itganidan yaxshiroqdir."
+        "narrator": "",
+        "text": "Oz bo'lsa ham yetarli bo'lgan narsa, ko'p bo'lib chalg'itgan narsadan yaxshidir."
       }
     },
     {
@@ -157,9 +171,10 @@
       "idInBook": 14,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الرَّاجِعُ فِيْ هِبَتِهِ کَالرَّاجِعِ فِيْ قَیْئِهِ",
+      "arabic": "الرَّاجِعُ فِيْ هِبَتِهِ کَالرَّاجِعِ فِيْ قَیْئِهِ",
       "uzbek": {
-        "text": "O‘ziga bergan hiasini (hadya yoki sovg‘ani) qaytarib oluvchi o‘z qusug‘ini qaytadan yeb qo‘yuvchi kabi kishidir."
+        "narrator": "",
+        "text": "Hadya qilgan narsasini qaytarib olgan kishi, qusug'ini qayta yegan kishi kabidir."
       }
     },
     {
@@ -167,9 +182,10 @@
       "idInBook": 15,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْبَلَاءُ مُوَکِّلٌ بِالْمَنْطِقِ",
+      "arabic": "الْبَلَاءُ مُوَکِّلٌ بِالْمَنْطِقِ",
       "uzbek": {
-        "text": "Balo (sinov) gapga (aytilgan so'zga) tirkalgandir."
+        "narrator": "",
+        "text": "Balo (qiyinchilik) tilga (bo'sh gapga) bog'liqdir."
       }
     },
     {
@@ -177,9 +193,10 @@
       "idInBook": 16,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "النَّاسُ کَأسْنَانِ الْمُشْطِ",
+      "arabic": "النَّاسُ کَأسْنَانِ الْمُشْطِ",
       "uzbek": {
-        "text": "Odamlar taroqning tishlaridek barobardirlar."
+        "narrator": "",
+        "text": "Odamlar taroq tishlari kabidir (tengdirlar)."
       }
     },
     {
@@ -189,7 +206,8 @@
       "bookId": 12,
       "arabic": "الْغِنَى غِنَى النَّفْسِ",
       "uzbek": {
-        "text": "Boylik — bu nafs boyligidir."
+        "narrator": "",
+        "text": "Boylik — nafsning boyligidir (qanoatdir)."
       }
     },
     {
@@ -197,9 +215,10 @@
       "idInBook": 18,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْسَّعِیْدُ مَنْ وُّعِظَ بِغَیْرِهِ",
+      "arabic": "الْسَّعِیْدُ مَنْ وُّعِظَ بِغَیْرِهِ",
       "uzbek": {
-        "text": "Baxtiyor (saodatmand) kishi boshqalarning (boshqalarga berilgan pand-nasihat va voqealarning) ibrati ila va'z olgan (pand olgan) kishidir."
+        "narrator": "",
+        "text": "Baxtli kishi — boshqalardan ibrat olgan kishidir."
       }
     },
     {
@@ -207,9 +226,10 @@
       "idInBook": 19,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "وَ إِنَّ مِنَ الشِّعْرِ لَحِکْمَةً وَاِنَّ مِنَ الْبَیَانِ لَسِحْرًا",
+      "arabic": "وَ إِنَّ مِنَ الشِّعْرِ لَحِکْمَةً وَاِنَّ مِنَ الْبَیَانِ لَسِحْرًا",
       "uzbek": {
-        "text": "Va albatta, she’rda hikmat bor, bayonda esa sehr bor."
+        "narrator": "",
+        "text": "Albatta, she'rda hikmat bor va bayonda (notiqlikda) sehr bor."
       }
     },
     {
@@ -219,7 +239,8 @@
       "bookId": 12,
       "arabic": "عَفْوُ الْمُلُوْكِ إِبْقَاءٌ لِلْمُلْكِ",
       "uzbek": {
-        "text": "Podshohlarning kechirimli bo‘lishi – mulkning saqlanib qolishidir."
+        "narrator": "",
+        "text": "Podshohlarning kechirimi — mulkning saqlanishidir."
       }
     },
     {
@@ -227,9 +248,10 @@
       "idInBook": 21,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "اَلْمَرْءُ مَعَ مَنْ أَحَبَّ",
+      "arabic": "اَلْمَرْءُ مَعَ مَنْ أَحَبَّ",
       "uzbek": {
-        "text": "Kishi o'zi sevgan kitosi bilan birgadir."
+        "narrator": "",
+        "text": "Kishi sevgan kishisi bilan birgadir."
       }
     },
     {
@@ -239,7 +261,8 @@
       "bookId": 12,
       "arabic": "مَا هَلَكَ إمْرُؤٌ عَرَفَ قَدْرَهُ",
       "uzbek": {
-        "text": "O'z qadrini bilgan kishi halok bo'lmas."
+        "narrator": "",
+        "text": "O'z qadrini bilgan kishi halok bo'lmaydi."
       }
     },
     {
@@ -249,7 +272,8 @@
       "bookId": 12,
       "arabic": "اَلْوَلَدُ لِلْفِرَاشِ وَ لِلْعَاهِرِ الْحَجَرُ",
       "uzbek": {
-        "text": "Farzand to‘shak egasiniki (nikohdagi erga) tegishlidir. Zokiyga (ziyokorga) esa mahrumlik (toshbo‘ron yoki hech narsa yo‘q)dir."
+        "narrator": "",
+        "text": "Bola to'shak egasiga, zinokorga toshdir."
       }
     },
     {
@@ -257,9 +281,10 @@
       "idInBook": 24,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْیَدُ الْعُلْیَا خَیْرٌ مِّنَ الْیَدِ السُّفْلَی",
+      "arabic": "الْیَدُ الْعُلْیَا خَیْرٌ مِّنَ الْیَدِ السُّفْلَی",
       "uzbek": {
-        "text": "Bergan qoidalaringizga to'liq amal qilgan holda, hadisning o'zbek tilidagi rasmiy islomiy tarjimasi:\n\nYuqori qo'l pastki qo'ldan yaxshiroqdir."
+        "narrator": "",
+        "text": "Yuqori qo'l (beruvchi) pastki qo'ldan (oluvchidan) yaxshidir."
       }
     },
     {
@@ -267,8 +292,9 @@
       "idInBook": 25,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "لَا شَکَرَ اللهَ مَنْ لَّا یَشْکُرُ النَّاسَ",
+      "arabic": "لَا شَکَرَ اللهَ مَنْ لَّا یَشْکُرُ النَّاسَ",
       "uzbek": {
+        "narrator": "",
         "text": "Odamlarga shukr qilmagan kishi Allohga ham shukr qilmagan bo'ladi."
       }
     },
@@ -277,9 +303,10 @@
       "idInBook": 26,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "حُبُّكَ الشَّيْءَ یُعْمِيْ وَ یُصِمُّ",
+      "arabic": "حُبُّكَ الشَّيْءَ یُعْمِيْ وَ یُصِمُّ",
       "uzbek": {
-        "text": "Biror narsani qattiq sevishingiz (uning kamchiliklarini ko'rishdan) ko'zingizni ko'r, qulog'ingizni kar qiladi."
+        "narrator": "",
+        "text": "Bir narsaga bo'lgan muhabbating seni ko'r va kar qilib qo'yadi."
       }
     },
     {
@@ -287,9 +314,10 @@
       "idInBook": 27,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "جُبِلَتِ الْقُلُوبُ عَلی حُبَّ مَنْ اَحْسَنَ اِلَیْهَا وَ بُغْضِ مَنْ اَسَاءَ اِلَیْهَا",
+      "arabic": "جُبِلَتِ الْقُلُوبُ عَلی حُبَّ مَنْ اَحْسَنَ اِلَیْهَا وَ بُغْضِ مَنْ اَسَاءَ اِلَیْهَا",
       "uzbek": {
-        "text": "Qalb o'ziga yaxshilik qilgan zotni sevishga, yomonlik qilgan kimsani yomon ko'rishga tabiatan moyil qilib yaratilgandir."
+        "narrator": "",
+        "text": "Qalblar ularga yaxshilik qilganni sevishga va yomonlik qilganni yomon ko'rishga yaratilgandir."
       }
     },
     {
@@ -297,9 +325,10 @@
       "idInBook": 28,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْتَّائِبُ مِنَ الذَّنْبِ کَمَنْ لَا ذَنْبَ لَهُ",
+      "arabic": "الْتَّائِبُ مِنَ الذَّنْبِ کَمَنْ لَا ذَنْبَ لَهُ",
       "uzbek": {
-        "text": "Gunohdan tavba qiluvchi kishi xuddi gunohi yo'q kabi bo'ladi."
+        "narrator": "",
+        "text": "Gunohdan tavba qilgan kishi gunohi yo'q kishi kabidir."
       }
     },
     {
@@ -307,9 +336,10 @@
       "idInBook": 29,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الشَّاهِدُ یَرَی مَا لَا یَرَاهُ الْغَائِبُ",
+      "arabic": "الشَّاهِدُ یَرَی مَا لَا یَرَاهُ الْغَائِبُ",
       "uzbek": {
-        "text": "G‘oyib ko‘rmagan narsani shohid ko‘radi."
+        "narrator": "",
+        "text": "Hozir bo'lgan kishi, g'oyib kishi ko'rmaydigan narsani ko'radi."
       }
     },
     {
@@ -319,7 +349,8 @@
       "bookId": 12,
       "arabic": "اِذا جَاءَکُمْ کَرِیْمُ قَوْمٍ فَاَکْرِمُوهُ",
       "uzbek": {
-        "text": "Qavmning ulug'i (hurmatli kishisi) kelganda, uni hurmat qilinglar."
+        "narrator": "",
+        "text": "Qavmning ulug' kishisi huzuringizga kelsa, uni hurmat qilinglar."
       }
     },
     {
@@ -327,9 +358,10 @@
       "idInBook": 31,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْیَمِینُ الْفَاجِرَةُ تَدَعُ الدِّیَارَ الْبَلَاقِعَ",
+      "arabic": "الْیَمِینُ الْفَاجِرَةُ تَدَعُ الدِّیَارَ الْبَلَاقِعَ",
       "uzbek": {
-        "text": "Yolg'on qasamyod (egasining) yurtlarini vayonaga (kishi yashamaydigan cho'lga) aylantiradi."
+        "narrator": "",
+        "text": "Yolg'on qasam diyorlarni bo'shab qoldiradi."
       }
     },
     {
@@ -339,7 +371,8 @@
       "bookId": 12,
       "arabic": "مَنْ قُتِلَ دُونَ مَالِهِ فَهُوَ شَهِیْدٌ",
       "uzbek": {
-        "text": "Kimki o‘z mol-mulkini himoya qilish yo‘lida o‘ldirilsa, u shahiddir."
+        "narrator": "",
+        "text": "Kim molini himoya qilishda o'ldirilsa, u shahiddir."
       }
     },
     {
@@ -347,9 +380,10 @@
       "idInBook": 33,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْاَعْمَالُ بِالنِّیَّةِ",
+      "arabic": "الْاَعْمَالُ بِالنِّیَّةِ",
       "uzbek": {
-        "text": "Amallar niyatga ko'radir."
+        "narrator": "",
+        "text": "Amallar niyatga bog'liqdir."
       }
     },
     {
@@ -357,9 +391,10 @@
       "idInBook": 34,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "سَیِّدُ الْقَوْمِ خَادِمُهُمْ",
+      "arabic": "سَیِّدُ الْقَوْمِ خَادِمُهُمْ",
       "uzbek": {
-        "text": "Qavmning sayyidi (boshlig'i) ularning xizmatkoridir."
+        "narrator": "",
+        "text": "Qavmning sardori — ularning xizmatkoridir."
       }
     },
     {
@@ -369,7 +404,8 @@
       "bookId": 12,
       "arabic": "خَیْرُ الْأُمُوْرِ أَوْسَطُهَا",
       "uzbek": {
-        "text": "Ishlarning eng yaxshisi uning o‘rtachasidir."
+        "narrator": "",
+        "text": "Ishlarning eng yaxshisi — o'rtachasidir."
       }
     },
     {
@@ -377,9 +413,10 @@
       "idInBook": 36,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "اَللَّهُمَّ بَارِكْ فِیْ أُمَّتِیْ فِی بُکُوْرِهَا یَوْمَ الْخَمِیْسِ",
+      "arabic": "اَللَّهُمَّ بَارِكْ فِیْ أُمَّتِیْ فِی بُکُوْرِهَا یَوْمَ الْخَمِیْسِ",
       "uzbek": {
-        "text": "Allohim, ummatimga payshanba kungi erta tongni barakali qilgin."
+        "narrator": "",
+        "text": "Ey Alloh! Ummatimga payshanba kuni erta tongda baraka ber."
       }
     },
     {
@@ -389,7 +426,8 @@
       "bookId": 12,
       "arabic": "کَادَ الْفَقْرُ أَنْ یَکُوْنَ کُفْرًا",
       "uzbek": {
-        "text": "Kambag‘allik deyarli kufr bo‘lishiga oz qoldi."
+        "narrator": "",
+        "text": "Kambag'allik kufrga yaqin bo'lib qoldi."
       }
     },
     {
@@ -397,9 +435,10 @@
       "idInBook": 38,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "الْسَّفَرُ قِطْعَةٌ مِّنَ الْعَذَابِ",
+      "arabic": "الْسَّفَرُ قِطْعَةٌ مِّنَ الْعَذَابِ",
       "uzbek": {
-        "text": "Safar azobdan bir parchadir."
+        "narrator": "",
+        "text": "Safar — azobning bir bo'lagidir."
       }
     },
     {
@@ -407,9 +446,10 @@
       "idInBook": 39,
       "chapterId": 0,
       "bookId": 12,
-      "arabic": "خَیْرُ زَّادِ الْتَّقْوَی",
+      "arabic": "خَیْرُ زَّادِ الْتَّقْوَی",
       "uzbek": {
-        "text": "Eng yaxshi zuhd — taqvodir."
+        "narrator": "",
+        "text": "Eng yaxshi safar ozug'i — taqvodorlikdir."
       }
     },
     {
@@ -419,7 +459,8 @@
       "bookId": 12,
       "arabic": "الْمَجَالِسُ بِالْاَمَانَةِ",
       "uzbek": {
-        "text": "Majlislar omonatdir."
+        "narrator": "",
+        "text": "Majlislar — omonatdir."
       }
     }
   ]
