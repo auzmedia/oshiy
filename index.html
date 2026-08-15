@@ -175,7 +175,6 @@
 
         </main>
 
-        <!-- TAFSIR TANLASH MODAL -->
         <div id="tafsirModal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-end justify-center">
             <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-t-3xl p-4 max-h-[70vh] flex flex-col">
                 <div class="flex justify-between items-center mb-3">
@@ -243,6 +242,26 @@
             { id: 11, nameUz: "Al-Arba'in al-Qudsiya", author: "Hadis Qudsiy", category: "forties", file: "db/by_book/forties/qudsi40.json", chaptersCount: 1, color: "from-orange-600 to-red-800" },
             { id: 12, nameUz: "Al-Arba'in Shah Valiyulloh", author: "Shoh Valiyulloh", category: "forties", file: "db/by_book/forties/shahwaliullah40.json", chaptersCount: 1, color: "from-cyan-600 to-sky-800" }
         ];
+
+        const bookIntroductions = {
+            1: { authorBio: "Imom Buxoriy (810-870) - to'liq ismi Abu Abdulloh Muhammad ibn Ismoil ibn Ibrohim al-Buxoriy. U Buxoroda tug'ilgan va hadis ilmining eng buyuk olimi hisoblanadi. U 16 yoshida onasi va akasi bilan hajga borib, keyin 16 yil davomida hadis to'plash uchun Islom olamini kezgan. U 600 mingdan ortiq hadisni yod bilgan va shulardan eng sahihlarini tanlab 'Sahihul Buxoriy' kitobini tuzgan.", bookInfo: "Sahihul Buxoriy - Islom olamida Qur'ondan keyingi eng ishonchli kitob hisoblanadi. Kitobda 7277 ta hadis mavjud bo'lib, ular 98 ta bobga bo'lingan. Imom Buxoriy bu kitobni 600 ming hadisdan tanlab tuzgan." },
+            2: { authorBio: "Imom Muslim (821-875) - to'liq ismi Abul Husayn Muslim ibn al-Hajjoj al-Qushayriy an-Naysoburiy. U Nishopur shahrida tug'ilgan va hadis ilmining eng buyuk olimlaridan biri hisoblanadi. U Buxoriyning zamondoshi va shogirdi bo'lgan.", bookInfo: "Sahihi Muslim - Sahihul Buxoriydan keyingi eng ishonchli hadis to'plami hisoblanadi. Kitobda 7459 ta hadis mavjud bo'lib, ular 57 ta bobga bo'lingan." },
+            3: { authorBio: "Imom Abu Dovud (817-889) - to'liq ismi Sulaymon ibn al-Ash'as ibn Ishoq as-Sijistoniy. U Sijistonda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Sunani Abu Dovud - 'Sunan' deb atalgan to'plamlar ichida eng mashhurlaridan biri hisoblanadi. Kitobda 5276 ta hadis mavjud bo'lib, ular 43 ta bobga bo'lingan." },
+            4: { authorBio: "Imom at-Tirmiziy (824-892) - to'liq ismi Abu Iso Muhammad ibn Iso at-Tirmiziy. U Termizda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi. U Imom Buxoriyning shogirdi bo'lgan.", bookInfo: "Jomi'u at-Tirmiziy - hadis to'plamlari ichida eng mashhurlaridan biri hisoblanadi. Kitobda 4053 ta hadis mavjud bo'lib, ular 49 ta bobga bo'lingan." },
+            5: { authorBio: "Imom an-Nasa'iy (829-915) - to'liq ismi Abu Abdurrahmon Ahmad ibn Shu'ayb an-Nasa'iy. U Nasoda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Sunani an-Nasa'iy - 'Sunan' to'plamlari ichida eng sahihlaridan biri hisoblanadi. Kitobda 5768 ta hadis mavjud bo'lib, ular 52 ta bobga bo'lingan." },
+            6: { authorBio: "Imom Ibn Majah (824-887) - to'liq ismi Abu Abdulloh Muhammad ibn Yazid ibn Majah al-Qazviniy. U Qazvinda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Sunani Ibn Majah - 'Sunan' to'plamlari ichida eng mashhurlaridan biri hisoblanadi. Kitobda 4345 ta hadis mavjud bo'lib, ular 37 ta bobga bo'lingan." },
+            7: { authorBio: "Imom Malik (711-795) - to'liq ismi Abu Abdulloh Malik ibn Anas ibn Malik. U Madinada tug'ilgan va fiqh ilmining buyuk olimlaridan biri hisoblanadi. U to'rt mazhab asoschilaridan biri - Molikiy mazhabining asoschisidir.", bookInfo: "Muvatto Malik - hadis va fiqh kitoblari ichida eng qadimiylaridan biri hisoblanadi. Kitobda 1985 ta hadis mavjud bo'lib, ular 61 ta bobga bo'lingan." },
+            8: { authorBio: "Imom Ahmad ibn Hanbal (780-855) - to'liq ismi Abu Abdulloh Ahmad ibn Muhammad ibn Hanbal ash-Shayboniy. U Bag'dodda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi. U to'rt mazhab asoschilaridan biri - Hanbaliy mazhabining asoschisidir.", bookInfo: "Musnad Ahmad - hadis to'plamlari ichida eng kattalaridan biri hisoblanadi. Kitobda 1374 ta hadis mavjud bo'lib, ular 30 ta bobga bo'lingan." },
+            9: { authorBio: "Imom ad-Darimiy (797-869) - to'liq ismi Abu Muhammad Abdurrahmon ibn Abdulloh ad-Darimiy. U Samarqandda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Sunani ad-Darimiy - 'Sunan' to'plamlari ichida eng mashhurlaridan biri hisoblanadi. Kitobda 3406 ta hadis mavjud bo'lib, ular 24 ta bobga bo'lingan." },
+            10: { authorBio: "Imom an-Navaviy (1233-1277) - to'liq ismi Abu Zakariyo Yahyo ibn Sharaf an-Navaviy. U Navoda tug'ilgan va hadis hamda fiqh ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Al-Arba'in an-Navaviy - 40 hadisdan iborat to'plam bo'lib, Islom olamida eng mashhur 40 hadis kitobidir. Imom an-Navaviy bu kitobda Islomning asosiy tamoyillarini o'z ichiga olgan 42 ta hadisni to'plagan." },
+            11: { authorBio: "Hadis Qudsiy - bu hadislar ma'nosi Alloh taolodan bo'lib, lafzi Payg'ambarimiz Muhammad (s.a.v.)dan bo'lgan hadislardir.", bookInfo: "Al-Arba'in al-Qudsiya - 40 ta hadis qudsiydan iborat to'plam. Hadis qudsiy - ma'nosi Allohdan, lafzi Payg'ambarimizdan bo'lgan hadislardir." },
+            12: { authorBio: "Shoh Valiyulloh Dahlaviy (1703-1762) - to'liq ismi Ahmad ibn Abdurrahim. U Hindistonda tug'ilgan va Islom ilmlarining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Al-Arba'in Shah Valiyulloh - Shoh Valiyulloh tomonidan tanlangan 40 ta hadisdan iborat to'plam." },
+            15: { authorBio: "Imom Buxoriy (810-870) - to'liq ismi Abu Abdulloh Muhammad ibn Ismoil ibn Ibrohim al-Buxoriy. U Buxoroda tug'ilgan va hadis ilmining eng buyuk olimi hisoblanadi.", bookInfo: "Al-Adab al-Mufrad - 'Yakka odoblar' deb tarjima qilinadi. Kitobda 1326 ta hadis mavjud bo'lib, ular 57 ta bobga bo'lingan." },
+            16: { authorBio: "Imom an-Navaviy (1233-1277) - to'liq ismi Abu Zakariyo Yahyo ibn Sharaf an-Navaviy. U Navoda tug'ilgan va hadis hamda fiqh ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Riyazus Solihin - 'Solihlar bog'lari' deb tarjima qilinadi. Kitobda 1896 ta hadis mavjud bo'lib, ular 20 ta bobga bo'lingan." },
+            17: { authorBio: "Ibn Hajar al-Asqaloniy (1372-1449) - to'liq ismi Ahmad ibn Ali ibn Muhammad ibn Hajar al-Asqaloniy. U Misrda yashagan va hadis ilmining eng buyuk olimlaridan biri hisoblanadi.", bookInfo: "Bulg' al-Marom - 'Maqsadga yetish' deb tarjima qilinadi. Kitobda 1767 ta hadis mavjud bo'lib, ular 16 ta bobga bo'lingan." },
+            18: { authorBio: "Al-Xatib at-Tabriziy - to'liq ismi Muhammad ibn Abdulloh al-Xatib at-Tabriziy. U hadis ilmining mashhur olimlaridan biri hisoblanadi.", bookInfo: "Mishkot al-Masobih - 'Chiroqlar uyasi' deb tarjima qilinadi. Kitobda 4428 ta hadis mavjud bo'lib, ular 29 ta bobga bo'lingan." },
+            19: { authorBio: "Imom at-Tirmiziy (824-892) - to'liq ismi Abu Iso Muhammad ibn Iso at-Tirmiziy. U Termizda tug'ilgan va hadis ilmining buyuk olimlaridan biri hisoblanadi.", bookInfo: "Shamoil Muhammadiya - 'Payg'ambar s.a.v.ning sifatlari' deb tarjima qilinadi. Kitobda 402 ta hadis mavjud bo'lib, ular 56 ta bobga bo'lingan." }
+        };
 
         const tafsirs = [
             { id: 381, name: "Tafsir Fathul Majid", author: "AbdulRahman Bin Hasan Al-Alshaikh", language: "bengali", slug: "bn-tafisr-fathul-majid", color: "from-emerald-600 to-teal-800" },
@@ -400,10 +419,7 @@
         function restoreSession() {
             const saved = sessionStorage.getItem('sessionState');
             if (saved) {
-                try {
-                    sessionState = JSON.parse(saved);
-                    return true;
-                } catch (e) { return false; }
+                try { sessionState = JSON.parse(saved); return true; } catch (e) { return false; }
             }
             return false;
         }
@@ -525,16 +541,51 @@
                         <span class="inline-block px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-medium">${book.chaptersCount} ta bo'lim</span>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-2 pt-1 border-t border-slate-100 dark:border-slate-800/60">
+                <div class="grid grid-cols-3 gap-2 pt-1 border-t border-slate-100 dark:border-slate-800/60">
                     <button onclick="openBook(${book.id}, false)" class="py-2 px-3 rounded-xl bg-emerald-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
                         <i data-lucide="book-open" class="w-3.5 h-3.5"></i> O'qish
                     </button>
                     <button onclick="openBook(${book.id}, true)" class="py-2 px-3 rounded-xl bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
-                        Bo'limlar <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        Bo'limlar
+                    </button>
+                    <button onclick="showBookIntro(${book.id})" class="py-2 px-3 rounded-xl bg-amber-500/20 dark:bg-amber-500/10 text-amber-600 dark:text-amber-400 font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition">
+                        <i data-lucide="info" class="w-3.5 h-3.5"></i> Muqaddima
                     </button>
                 </div>
             `;
             return card;
+        }
+
+        function showBookIntro(bookId) {
+            const book = books.find(b => b.id === bookId);
+            const intro = bookIntroductions[bookId];
+            if (!book || !intro) return;
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 z-50 bg-black/50 flex items-end justify-center';
+            modal.innerHTML = `
+                <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-t-3xl p-4 max-h-[80vh] flex flex-col">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="font-bold text-slate-800 dark:text-slate-100">${book.nameUz} - Muqaddima</h3>
+                        <button onclick="this.closest('.fixed').remove()" class="p-1.5 rounded-full bg-slate-100 dark:bg-slate-800"><i data-lucide="x" class="w-5 h-5"></i></button>
+                    </div>
+                    <div class="overflow-y-auto custom-scroll flex-1 space-y-4">
+                        <div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4">
+                            <h4 class="font-bold text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="user" class="w-4 h-4"></i> Muallif haqida
+                            </h4>
+                            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-300">${intro.authorBio}</p>
+                        </div>
+                        <div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4">
+                            <h4 class="font-bold text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="book" class="w-4 h-4"></i> Kitob haqida
+                            </h4>
+                            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-300">${intro.bookInfo}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            lucide.createIcons();
         }
 
         async function loadRandomHadith() {
@@ -610,53 +661,45 @@
         }
 
         function renderChaptersView() {
-    document.getElementById('chaptersBookTitle').innerText = currentBook.nameUz + " — Boblar";
-    const container = document.getElementById('chaptersGrid');
-    container.innerHTML = '';
-    let chaptersList = rawBookData.chapters || [];
-    
-    if (chaptersList.length === 0) {
-        const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].sort((a,b) => a - b);
-        chaptersList = chapterIds.map(id => ({ id, english: `Bob #${id}` }));
-    }
-    
-    // Bob 0 ni (Introduction) birinchi o'ringa qo'yish
-    chaptersList.sort((a, b) => {
-        if (a.id === 0) return -1;
-        if (b.id === 0) return 1;
-        return a.id - b.id;
-    });
-    
-    chaptersList.forEach(ch => {
-        const card = document.createElement('div');
-        card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-xl p-3 cursor-pointer hover:border-emerald-500/50 transition active:scale-95';
-        card.onclick = () => filterHadithsByChapter(ch.id);
-        
-        const chapterLabel = ch.id === 0 ? 'Kirish' : `Bob ${ch.id}`;
-        const chapterName = ch.english?.title || ch.english || ch.arabic || (ch.id === 0 ? 'Introduction' : `Bob ${ch.id}`);
-        
-        card.innerHTML = `
-            <div class="text-[11px] font-bold ${ch.id === 0 ? 'text-amber-600 dark:text-amber-400' : 'text-emerald-600 dark:text-emerald-400'} mb-0.5">${chapterLabel}</div>
-            <div class="text-xs font-semibold text-slate-700 dark:text-slate-200 line-clamp-2">${chapterName}</div>
-        `;
-        container.appendChild(card);
-    });
-    
-    showView('viewChapters');
-    updateBreadcrumb(['Hadislar', currentBook.nameUz, 'Boblar']);
-}
+            document.getElementById('chaptersBookTitle').innerText = currentBook.nameUz + " — Boblar";
+            const container = document.getElementById('chaptersGrid');
+            container.innerHTML = '';
+            let chaptersList = rawBookData.chapters || [];
+            if (chaptersList.length === 0) {
+                const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].sort((a,b) => a - b);
+                chaptersList = chapterIds.map(id => ({ id, english: `Bob #${id}` }));
+            }
+            chaptersList.sort((a, b) => {
+                if (a.id === 0) return -1;
+                if (b.id === 0) return 1;
+                return a.id - b.id;
+            });
+            chaptersList.forEach(ch => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-xl p-3 cursor-pointer hover:border-emerald-500/50 transition active:scale-95';
+                card.onclick = () => filterHadithsByChapter(ch.id);
+                const chapterLabel = ch.id === 0 ? 'Kirish' : `Bob ${ch.id}`;
+                const chapterName = ch.english?.title || ch.english || ch.arabic || (ch.id === 0 ? 'Introduction' : `Bob ${ch.id}`);
+                card.innerHTML = `
+                    <div class="text-[11px] font-bold ${ch.id === 0 ? 'text-amber-600 dark:text-amber-400' : 'text-emerald-600 dark:text-emerald-400'} mb-0.5">${chapterLabel}</div>
+                    <div class="text-xs font-semibold text-slate-700 dark:text-slate-200 line-clamp-2">${chapterName}</div>
+                `;
+                container.appendChild(card);
+            });
+            showView('viewChapters');
+            updateBreadcrumb(['Hadislar', currentBook.nameUz, 'Boblar']);
+        }
+
         function filterHadithsByChapter(chapterId) {
-    filteredHadiths = currentHadiths.filter(h => h.chapterId === chapterId);
-    
-    const chapterLabel = chapterId === 0 ? 'Kirish' : `Bob ${chapterId}`;
-    document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — ${chapterLabel}`;
-    document.getElementById('totalCount').innerText = `Ushbu bobda ${filteredHadiths.length} ta hadis bor`;
-    
-    displayedCount = 0;
-    showView('viewHadiths');
-    updateBreadcrumb(['Hadislar', currentBook.nameUz, chapterLabel]);
-    document.getElementById('hadithsList').innerHTML = '';
-    loadMore();
+            filteredHadiths = currentHadiths.filter(h => h.chapterId === chapterId);
+            const chapterLabel = chapterId === 0 ? 'Kirish' : `Bob ${chapterId}`;
+            document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — ${chapterLabel}`;
+            document.getElementById('totalCount').innerText = `Ushbu bobda ${filteredHadiths.length} ta hadis bor`;
+            displayedCount = 0;
+            showView('viewHadiths');
+            updateBreadcrumb(['Hadislar', currentBook.nameUz, chapterLabel]);
+            document.getElementById('hadithsList').innerHTML = '';
+            loadMore();
         }
 
         function showAllHadithsOfBook() {
@@ -682,7 +725,7 @@
                 card.innerHTML = `
                     <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-800 pb-2 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
                         <span>Hadis #${item.bookHadithNo}</span>
-                        <span>Bob: ${item.chapterId || 1}</span>
+                        <span>${item.chapterId === 0 ? 'Kirish' : 'Bob: ' + (item.chapterId || 1)}</span>
                     </div>
                     ${arabicText ? `<div class="font-arabic text-lg leading-loose text-right dir-rtl bg-emerald-500/5 p-3 rounded-xl text-slate-800 dark:text-slate-100" dir="rtl">${arabicText}</div>` : ''}
                     <div class="text-xs leading-relaxed text-slate-600 dark:text-slate-300">
@@ -757,16 +800,13 @@
             const container = document.getElementById('tafsirList');
             container.innerHTML = '';
             document.getElementById('tafsirCount').innerText = `${tafsirs.length} ta tafsir`;
-            
             const sortedTafsirs = [...tafsirs].sort((a, b) => a.language.localeCompare(b.language));
             const groupedByLetter = {};
-            
             sortedTafsirs.forEach(tafsir => {
                 const firstLetter = tafsir.language.charAt(0).toUpperCase();
                 if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
                 groupedByLetter[firstLetter].push(tafsir);
             });
-            
             Object.keys(groupedByLetter).sort().forEach(letter => {
                 const letterDiv = document.createElement('div');
                 letterDiv.innerHTML = `
@@ -777,12 +817,8 @@
                     </div>
                 `;
                 container.appendChild(letterDiv);
-                
-                groupedByLetter[letter].forEach(tafsir => {
-                    container.appendChild(createTafsirCard(tafsir));
-                });
+                groupedByLetter[letter].forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
             });
-            
             lucide.createIcons();
         }
 
@@ -812,7 +848,6 @@
             const query = document.getElementById('tafsirSearchInput').value.toLowerCase().trim();
             const container = document.getElementById('tafsirList');
             container.innerHTML = '';
-            
             let filtered;
             if (!query) {
                 filtered = tafsirs;
@@ -821,16 +856,13 @@
                 filtered = tafsirs.filter(t => t.name.toLowerCase().includes(query) || t.author.toLowerCase().includes(query) || t.language.toLowerCase().includes(query));
                 document.getElementById('tafsirCount').innerText = `${filtered.length} ta tafsir`;
             }
-            
             const sortedTafsirs = [...filtered].sort((a, b) => a.language.localeCompare(b.language));
             const groupedByLetter = {};
-            
             sortedTafsirs.forEach(tafsir => {
                 const firstLetter = tafsir.language.charAt(0).toUpperCase();
                 if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
                 groupedByLetter[firstLetter].push(tafsir);
             });
-            
             Object.keys(groupedByLetter).sort().forEach(letter => {
                 const letterDiv = document.createElement('div');
                 letterDiv.innerHTML = `
@@ -843,7 +875,6 @@
                 container.appendChild(letterDiv);
                 groupedByLetter[letter].forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
             });
-            
             lucide.createIcons();
         }
 
@@ -957,78 +988,67 @@
         }
 
         function renderModalTafsirList(list) {
-    const container = document.getElementById('modalTafsirList');
-    container.innerHTML = '';
-    
-    // Tafsirlarni til bo'yicha A-Z tartiblash
-    const sortedTafsirs = [...list].sort((a, b) => a.language.localeCompare(b.language));
-    
-    // Harf bo'yicha guruhlash
-    const groupedByLetter = {};
-    sortedTafsirs.forEach(tafsir => {
-        const firstLetter = tafsir.language.charAt(0).toUpperCase();
-        if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
-        groupedByLetter[firstLetter].push(tafsir);
-    });
-    
-    // Har bir harf uchun kategoriya yaratish
-    Object.keys(groupedByLetter).sort().forEach(letter => {
-        const letterDiv = document.createElement('div');
-        letterDiv.className = 'pt-2 mb-1';
-        letterDiv.innerHTML = `
-            <div class="flex items-center gap-2">
-                <span class="w-1 h-4 bg-sky-500 rounded-full"></span>
-                <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase">${letter}</h4>
-                <span class="text-[10px] text-slate-400">${groupedByLetter[letter].length} ta</span>
-            </div>
-        `;
-        container.appendChild(letterDiv);
-        
-        groupedByLetter[letter].forEach(tafsir => {
-            const item = document.createElement('div');
-            item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
-            item.onclick = () => switchToTafsir(tafsir.id);
-            item.innerHTML = `
-                <div class="flex items-center gap-2">
-                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
-                        <i data-lucide="book" class="w-4 h-4"></i>
+            const container = document.getElementById('modalTafsirList');
+            container.innerHTML = '';
+            const sortedTafsirs = [...list].sort((a, b) => a.language.localeCompare(b.language));
+            const groupedByLetter = {};
+            sortedTafsirs.forEach(tafsir => {
+                const firstLetter = tafsir.language.charAt(0).toUpperCase();
+                if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
+                groupedByLetter[firstLetter].push(tafsir);
+            });
+            Object.keys(groupedByLetter).sort().forEach(letter => {
+                const letterDiv = document.createElement('div');
+                letterDiv.className = 'pt-2 mb-1';
+                letterDiv.innerHTML = `
+                    <div class="flex items-center gap-2">
+                        <span class="w-1 h-4 bg-sky-500 rounded-full"></span>
+                        <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase">${letter}</h4>
+                        <span class="text-[10px] text-slate-400">${groupedByLetter[letter].length} ta</span>
                     </div>
-                    <div class="flex-1 min-w-0">
-                        <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
-                        <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
-                    </div>
-                    ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
-                </div>
-            `;
-            container.appendChild(item);
-        });
-    });
-    
-    lucide.createIcons();
-}
+                `;
+                container.appendChild(letterDiv);
+                groupedByLetter[letter].forEach(tafsir => {
+                    const item = document.createElement('div');
+                    item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
+                    item.onclick = () => switchToTafsir(tafsir.id);
+                    item.innerHTML = `
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
+                                <i data-lucide="book" class="w-4 h-4"></i>
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
+                                <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
+                            </div>
+                            ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
+                        </div>
+                    `;
+                    container.appendChild(item);
+                });
+            });
+            lucide.createIcons();
+        }
 
-function filterModalTafsirs() {
-    const query = document.getElementById('modalTafsirSearch').value.toLowerCase().trim();
-    if (!query) {
-        renderModalTafsirList(tafsirs);
-    } else {
-        const filtered = tafsirs.filter(t => t.name.toLowerCase().includes(query) || t.author.toLowerCase().includes(query) || t.language.toLowerCase().includes(query));
-        renderModalTafsirList(filtered);
-    }
-}
+        function filterModalTafsirs() {
+            const query = document.getElementById('modalTafsirSearch').value.toLowerCase().trim();
+            if (!query) {
+                renderModalTafsirList(tafsirs);
+            } else {
+                const filtered = tafsirs.filter(t => t.name.toLowerCase().includes(query) || t.author.toLowerCase().includes(query) || t.language.toLowerCase().includes(query));
+                renderModalTafsirList(filtered);
+            }
+        }
 
         async function switchToTafsir(tafsirId) {
             const tafsir = tafsirs.find(t => t.id === tafsirId);
             if (!tafsir || !currentSurah) return;
-            
             const scrollPos = document.getElementById('mainScroll').scrollTop;
             sessionState.scrollPosition = scrollPos;
-            
             currentTafsir = tafsir;
             sessionState.currentTafsirId = tafsir.id;
             closeTafsirModal();
             showLoading(true);
-            
             try {
                 const res = await fetch(`tafsir/${tafsir.slug}/${currentSurah}.json`);
                 if (!res.ok) throw new Error();
@@ -1042,9 +1062,7 @@ function filterModalTafsirs() {
                 setTimeout(() => { document.getElementById('mainScroll').scrollTop = scrollPos; }, 50);
             } catch (err) {
                 alert("Tafsir yuklanmadi.");
-            } finally {
-                showLoading(false);
-            }
+            } finally { showLoading(false); }
         }
 
         function getTafsirText(ayahNum) {
