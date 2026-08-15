@@ -29,7 +29,6 @@
         .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .dir-rtl { direction: rtl; }
         
-        /* Qidiruvda matnni sariq bilan belgilash (Highlight) */
         mark.highlight {
             background-color: #fbbf24;
             color: #0f172a;
@@ -37,21 +36,18 @@
             border-radius: 4px;
             font-weight: 600;
         }
-
-        /* Settings toggles uchun */
         .toggle-checkbox:checked { right: 0; border-color: #fbbf24; }
         .toggle-checkbox:checked + .toggle-label { background-color: #fbbf24; }
         .toggle-checkbox { right: 100%; transition: all 0.3s; }
         .toggle-label { transition: all 0.3s; }
 
-        /* Asosiy Dark Mode (Rasmdagidek qoramtir zamin) */
         body {
-            background-color: #0f172a; /* Slate-950 */
-            color: #f1f5f9; /* Slate-100 */
+            background-color: #0f172a;
+            color: #f1f5f9;
             font-family: 'Inter', sans-serif;
             transition: background-color 0.3s, color 0.3s;
         }
-        .bg-white { background-color: #1e293b !important; } /* Slate-800 */
+        .bg-white { background-color: #1e293b !important; }
         .bg-slate-50 { background-color: #1e293b !important; }
         .bg-slate-100 { background-color: #334155 !important; }
         .bg-slate-900 { background-color: #0f172a !important; }
@@ -61,7 +57,6 @@
         .border-slate-200, .border-slate-300 { border-color: #334155 !important; }
         .border-slate-100 { border-color: #1e293b !important; }
         
-        /* Sariq (Reading) rejimi uchun qo'shimcha override */
         body.reading-mode {
             background-color: #fef9e7 !important;
             color: #1e293b !important;
@@ -98,9 +93,8 @@
 
         <main id="mainScroll" class="flex-1 overflow-y-auto custom-scroll p-4 space-y-4 pb-24">
 
-            <!-- VIEW: HOME (Tasodifiy Hadis va Tafsir) -->
+            <!-- VIEW: HOME -->
             <section id="viewHome" class="space-y-4">
-                <!-- Random Hadis -->
                 <div class="bg-gradient-to-br from-emerald-700 via-teal-800 to-emerald-950 rounded-2xl p-4 text-white shadow-lg relative overflow-hidden">
                     <div class="flex justify-between items-center mb-2">
                         <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/10 text-[11px] font-medium">
@@ -111,14 +105,9 @@
                         </button>
                     </div>
                     <div id="randomHadithCard">
-                        <div class="animate-pulse space-y-2 py-4">
-                            <div class="h-4 bg-white/20 rounded w-3/4"></div>
-                            <div class="h-4 bg-white/20 rounded w-1/2"></div>
-                        </div>
+                        <div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>
                     </div>
                 </div>
-                
-                <!-- Random Tafsir -->
                 <div class="bg-gradient-to-br from-sky-700 via-blue-800 to-indigo-950 rounded-2xl p-4 text-white shadow-lg relative overflow-hidden">
                     <div class="flex justify-between items-center mb-2">
                         <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/10 text-[11px] font-medium">
@@ -129,10 +118,7 @@
                         </button>
                     </div>
                     <div id="randomTafsirCard">
-                        <div class="animate-pulse space-y-2 py-4">
-                            <div class="h-4 bg-white/20 rounded w-3/4"></div>
-                            <div class="h-4 bg-white/20 rounded w-1/2"></div>
-                        </div>
+                        <div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>
                     </div>
                 </div>
             </section>
@@ -219,83 +205,84 @@
                 <div id="tafsirAyahsList" class="space-y-3"></div>
             </section>
 
+            <!-- VIEW: Settings (endigi sahifa) -->
+            <section id="viewSettings" class="hidden space-y-4">
+                <h2 class="text-xl font-bold text-slate-100 pt-2">Sozlamalar</h2>
+                <p class="text-xs text-slate-400">Ilova sozlamalari</p>
+
+                <!-- Rejimlar -->
+                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3">
+                    <h3 class="font-medium text-sm text-slate-300">Rejimlar</h3>
+                    <div class="grid grid-cols-3 gap-2">
+                        <button onclick="setTheme('dark')" id="btnModeDark" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                            <i data-lucide="moon" class="w-5 h-5"></i> Tungi
+                        </button>
+                        <button onclick="setTheme('light')" id="btnModeLight" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                            <i data-lucide="sun" class="w-5 h-5"></i> Yorug'
+                        </button>
+                        <button onclick="setTheme('reading')" id="btnModeReading" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                            <i data-lucide="book" class="w-5 h-5"></i> O'qish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Matn shriftlari -->
+                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-4">
+                    <h3 class="font-medium text-sm text-slate-300">Matn o'lchamlari</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-slate-400">Tarjima matni</span>
+                        <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
+                            <button onclick="changeFontSize('translation', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
+                            <span id="translationSize" class="text-sm w-8 text-center font-medium text-slate-200">16</span>
+                            <button onclick="changeFontSize('translation', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-slate-400">Arabcha matni</span>
+                        <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
+                            <button onclick="changeFontSize('arabic', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
+                            <span id="arabicSize" class="text-sm w-8 text-center font-medium text-slate-200">20</span>
+                            <button onclick="changeFontSize('arabic', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ko'rsatish -->
+                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3">
+                    <h3 class="font-medium text-sm text-slate-300">Ko'rsatish</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-slate-200">Arabcha matn</span>
+                        <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                            <input type="checkbox" id="showArabic" checked onclick="toggleShow('arabic')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
+                            <label for="showArabic" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-slate-200">Tarjima matni</span>
+                        <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                            <input type="checkbox" id="showTranslation" checked onclick="toggleShow('translation')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
+                            <label for="showTranslation" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW: Bookmarks -->
+            <section id="viewBookmarks" class="hidden space-y-4">
+                <h2 class="text-xl font-bold text-slate-100 pt-2">Bookmarklar</h2>
+                <div class="flex gap-2 bg-slate-800/40 rounded-xl p-1">
+                    <button onclick="switchBookmarkTab('hadith')" id="tabHadith" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Hadis</button>
+                    <button onclick="switchBookmarkTab('tafsir')" id="tabTafsir" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Tafsir</button>
+                    <button onclick="switchBookmarkTab('ayah')" id="tabAyah" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Oyat</button>
+                </div>
+                <div id="bookmarkList" class="space-y-3"></div>
+            </section>
+
             <div id="loading" class="hidden text-center py-8">
                 <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-emerald-500 border-t-transparent"></div>
                 <p class="text-xs text-slate-400 mt-2">Yuklanmoqda...</p>
             </div>
         </main>
-
-        <!-- SOZLAMALAR (SETTINGS) MODAL -->
-        <div id="settingsModal" class="hidden fixed inset-0 z-50 bg-black/80 flex items-end justify-center backdrop-blur-md">
-            <div class="bg-slate-900 w-full max-w-md rounded-t-3xl p-5 max-h-[85vh] flex flex-col shadow-2xl border-t border-slate-800">
-                <div class="flex justify-between items-center mb-4 pb-3 border-b border-slate-800">
-                    <h2 class="font-bold text-lg text-slate-100">Sozlamalar</h2>
-                    <button onclick="toggleSettingsModal()" class="p-1.5 rounded-full bg-slate-800 hover:bg-slate-700 transition"><i data-lucide="x" class="w-5 h-5 text-slate-300"></i></button>
-                </div>
-                <div class="overflow-y-auto custom-scroll space-y-6 pr-1">
-                    <!-- Rejimlar -->
-                    <div class="bg-slate-800/50 p-4 rounded-2xl space-y-3 border border-slate-700">
-                        <h3 class="font-medium text-sm mb-1 text-slate-300">Rejimlar</h3>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-slate-200">Tungi rejim (Dark)</span>
-                            <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" id="toggleDark" onclick="toggleDarkMode()" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                                <label for="toggleDark" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
-                            </div>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-slate-200">Sariq (O‘qish) rejimi</span>
-                            <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" id="toggleReading" onclick="toggleReadingMode()" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                                <label for="toggleReading" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Shrift o'lchamlari -->
-                    <div class="bg-slate-800/50 p-4 rounded-2xl border border-slate-700">
-                        <h3 class="font-medium text-sm mb-3 text-slate-300">Matn o‘lchamlari</h3>
-                        <div class="space-y-4">
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs text-slate-400">Tarjima matni</span>
-                                <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
-                                    <button onclick="changeFontSize('translation', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
-                                    <span id="translationSize" class="text-sm w-8 text-center font-medium text-slate-200">16</span>
-                                    <button onclick="changeFontSize('translation', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
-                                </div>
-                            </div>
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs text-slate-400">Arabcha matni</span>
-                                <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
-                                    <button onclick="changeFontSize('arabic', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
-                                    <span id="arabicSize" class="text-sm w-8 text-center font-medium text-slate-200">20</span>
-                                    <button onclick="changeFontSize('arabic', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Ko'rsatish -->
-                    <div class="bg-slate-800/50 p-4 rounded-2xl space-y-3 border border-slate-700">
-                        <h3 class="font-medium text-sm mb-1 text-slate-300">Ko‘rsatish</h3>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-slate-200">Arabcha matn</span>
-                            <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" id="showArabic" checked onclick="toggleShow('arabic')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                                <label for="showArabic" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
-                            </div>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-slate-200">Tarjima matni</span>
-                            <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" id="showTranslation" checked onclick="toggleShow('translation')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                                <label for="showTranslation" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Tafsir tanlash modali -->
         <div id="tafsirModal" class="hidden fixed inset-0 z-50 bg-black/80 flex items-end justify-center backdrop-blur-md">
@@ -323,16 +310,12 @@
             </div>
         </div>
 
-        <!-- BOTTOM NAV (5-TUGMA - SOZLAMALAR) -->
+        <!-- BOTTOM NAV -->
         <nav class="absolute bottom-0 left-0 right-0 z-30 bg-slate-900/90 backdrop-blur-lg border-t border-slate-800/80 px-2 py-2">
             <div class="grid grid-cols-5 gap-1">
                 <button onclick="goHome()" id="navHome" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
                     <i data-lucide="layout-grid" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Bosh Menu</span>
-                </button>
-                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
-                    <i data-lucide="book-open" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Qur'on</span>
                 </button>
                 <button onclick="showHadithSection()" id="navHadith" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
                     <i data-lucide="scroll" class="w-5 h-5 mb-0.5"></i>
@@ -342,8 +325,11 @@
                     <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Tafsirlar</span>
                 </button>
-                <!-- Endi 5-joyda "Sozlamalar" -->
-                <button onclick="toggleSettingsModal()" id="navSettings" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="showBookmarks()" id="navBookmark" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                    <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
+                    <span class="text-[10px] font-medium leading-none">Bookmark</span>
+                </button>
+                <button onclick="showSettings()" id="navSettings" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
                     <i data-lucide="settings" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Sozlamalar</span>
                 </button>
@@ -387,9 +373,23 @@
         let displayedCount = 0, currentRandomHadithData = null, currentRandomTafsirData = null, currentTafsir = null, currentSurah = null;
         let currentTafsirAyahs = [], filteredTafsirAyahs = [], currentHadithLanguage = 'en', uzDataLoaded = false, currentSearchQuery = '';
         let currentHadithIndexForLang = 0; const PAGE_SIZE = 30;
+        let currentBookmarkTab = 'hadith';
 
         let settings = { fontSize: { translation: 16, arabic: 20 }, showArabic: true, showTranslation: true, darkMode: true, readingMode: false };
         let sessionState = { view: 'viewHome', breadcrumb: [], currentBookId: null, currentTafsirId: null, currentSurah: null, scrollPosition: 0, hadithLanguage: 'en' };
+
+        // Bookmarklar uchun ma'lumotlar localStorage
+        let bookmarks = {
+            hadith: JSON.parse(localStorage.getItem('bookmarks_hadith') || '[]'),
+            tafsir: JSON.parse(localStorage.getItem('bookmarks_tafsir') || '[]'),
+            ayah: JSON.parse(localStorage.getItem('bookmarks_ayah') || '[]')
+        };
+
+        function saveBookmarks() {
+            localStorage.setItem('bookmarks_hadith', JSON.stringify(bookmarks.hadith));
+            localStorage.setItem('bookmarks_tafsir', JSON.stringify(bookmarks.tafsir));
+            localStorage.setItem('bookmarks_ayah', JSON.stringify(bookmarks.ayah));
+        }
 
         function saveSession() {
             sessionState.scrollPosition = document.getElementById('mainScroll').scrollTop;
@@ -405,15 +405,28 @@
         function init() {
             const savedSettings = localStorage.getItem('site_settings');
             if(savedSettings) { try { const parsed = JSON.parse(savedSettings); settings = {...settings, ...parsed}; } catch(e) {} }
+            applyTheme();
             lucide.createIcons();
             renderBooksList(); renderTafsirList();
             if (restoreSession()) { restoreView(); } else { loadRandomHadith(); loadRandomTafsir(); }
+        }
+
+        function applyTheme() {
+            if (settings.darkMode) { document.body.classList.add('dark'); document.body.classList.remove('reading-mode'); }
+            else if (settings.readingMode) { document.body.classList.add('reading-mode'); document.body.classList.remove('dark'); }
+            else { document.body.classList.remove('dark'); document.body.classList.remove('reading-mode'); }
+            // Tugmalarning active holati
+            document.getElementById('btnModeDark')?.classList.toggle('border-amber-500', settings.darkMode);
+            document.getElementById('btnModeLight')?.classList.toggle('border-amber-500', !settings.darkMode && !settings.readingMode);
+            document.getElementById('btnModeReading')?.classList.toggle('border-amber-500', settings.readingMode);
         }
 
         function restoreView() {
             switch(sessionState.view) {
                 case 'viewHadithBooks': showHadithSection(false); break;
                 case 'viewTafsirList': showTafsirSection(false); break;
+                case 'viewSettings': showSettings(false); break;
+                case 'viewBookmarks': showBookmarks(false); break;
                 case 'viewSurahs': if (sessionState.currentTafsirId) { const tafsir = tafsirs.find(t => t.id === sessionState.currentTafsirId); if (tafsir) { currentTafsir = tafsir; showView('viewSurahs'); document.getElementById('tafsirTitle').innerText = tafsir.name; updateBreadcrumb(sessionState.breadcrumb); renderSurahsList(); setTimeout(() => { document.getElementById('mainScroll').scrollTop = sessionState.scrollPosition; }, 50); } } break;
                 case 'viewTafsirAyahs': if (sessionState.currentTafsirId && sessionState.currentSurah) { const tafsir = tafsirs.find(t => t.id === sessionState.currentTafsirId); if (tafsir) { currentTafsir = tafsir; openSurahTafsir(sessionState.currentSurah, false); } } break;
                 case 'viewChapters': if (sessionState.currentBookId) { openBook(sessionState.currentBookId, true, false); } break;
@@ -423,26 +436,30 @@
         }
 
         function updateNavBar(activeSection) {
-            const navButtons = ['navHome', 'navHadith', 'navTafsir'];
+            const navButtons = ['navHome', 'navHadith', 'navTafsir', 'navBookmark', 'navSettings'];
             navButtons.forEach(id => { const btn = document.getElementById(id); if (btn) btn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90'; });
             const activeBtn = document.getElementById(activeSection);
             if (activeBtn) activeBtn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-400 bg-emerald-500/10 transition active:scale-90';
         }
 
         function showView(viewId) {
-            const views = ['viewHome', 'viewHadithBooks', 'viewChapters', 'viewHadiths', 'viewTafsirList', 'viewSurahs', 'viewTafsirAyahs'];
+            const views = ['viewHome', 'viewHadithBooks', 'viewChapters', 'viewHadiths', 'viewTafsirList', 'viewSurahs', 'viewTafsirAyahs', 'viewSettings', 'viewBookmarks'];
             views.forEach(v => document.getElementById(v).classList.add('hidden'));
             document.getElementById(viewId).classList.remove('hidden');
             document.getElementById('mainScroll').scrollTop = 0; sessionState.view = viewId;
             if (viewId === 'viewHome') updateNavBar('navHome');
             else if (viewId === 'viewHadithBooks' || viewId === 'viewChapters' || viewId === 'viewHadiths') updateNavBar('navHadith');
             else if (viewId === 'viewTafsirList' || viewId === 'viewSurahs' || viewId === 'viewTafsirAyahs') updateNavBar('navTafsir');
+            else if (viewId === 'viewSettings') updateNavBar('navSettings');
+            else if (viewId === 'viewBookmarks') updateNavBar('navBookmark');
             saveSession();
         }
 
         function goHome() { showView('viewHome'); updateBreadcrumb([]); loadRandomHadith(); loadRandomTafsir(); }
         function showHadithSection(saveState = true) { showView('viewHadithBooks'); updateBreadcrumb(['Hadislar']); if (saveState) saveSession(); }
         function showTafsirSection(saveState = true) { showView('viewTafsirList'); updateBreadcrumb(['Tafsirlar']); if (saveState) saveSession(); }
+        function showSettings(saveState = true) { showView('viewSettings'); updateBreadcrumb(['Sozlamalar']); if (saveState) saveSession(); }
+        function showBookmarks(saveState = true) { showView('viewBookmarks'); updateBreadcrumb(['Bookmarklar']); switchBookmarkTab(currentBookmarkTab); if (saveState) saveSession(); }
 
         function updateBreadcrumb(paths) {
             const bc = document.getElementById('breadcrumb');
@@ -450,6 +467,8 @@
                 let html = '';
                 if (paths[0] === 'Hadislar') { html = '<span onclick="showHadithSection()" class="cursor-pointer hover:text-emerald-400">Hadislar</span>'; for (let i = 1; i < paths.length; i++) html += ` <i data-lucide="chevron-right" class="w-3 h-3 inline"></i> <span class="text-slate-300 font-medium">${paths[i]}</span>`; }
                 else if (paths[0] === 'Tafsirlar') { html = '<span onclick="showTafsirSection()" class="cursor-pointer hover:text-emerald-400">Tafsirlar</span>'; for (let i = 1; i < paths.length; i++) { if (i === 1 && paths.length > 2) html += ` <i data-lucide="chevron-right" class="w-3 h-3 inline"></i> <span onclick="showSurahsList()" class="cursor-pointer hover:text-emerald-400">${paths[i]}</span>`; else html += ` <i data-lucide="chevron-right" class="w-3 h-3 inline"></i> <span class="text-slate-300 font-medium">${paths[i]}</span>`; } }
+                else if (paths[0] === 'Sozlamalar') { html = '<span class="text-slate-300 font-medium">Sozlamalar</span>'; }
+                else if (paths[0] === 'Bookmarklar') { html = '<span class="text-slate-300 font-medium">Bookmarklar</span>'; }
                 bc.innerHTML = html; lucide.createIcons();
             }
             sessionState.breadcrumb = paths; saveSession();
@@ -496,7 +515,7 @@
             return card;
         }
 
-        async function loadRandomHadith() { /* O'zgarishsiz qoldi, faqat dizaynni yangilash uchun JS o'zgartirilmadi */ 
+        async function loadRandomHadith() { 
             const cardContainer = document.getElementById('randomHadithCard');
             cardContainer.innerHTML = `<div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>`;
             try {
@@ -528,7 +547,7 @@
             } catch (err) { cardContainer.innerHTML = `<p class="text-xs text-amber-200 py-2">Hadisni yuklashda xatolik.</p>`; }
         }
         async function goToRandomHadith() { if (!currentRandomHadithData) return; const d = currentRandomHadithData; await openBook(d.bookId, false); setTimeout(() => { const hadiths = document.querySelectorAll('#hadithsList > div'); for (let i = 0; i < hadiths.length; i++) { if (hadiths[i].textContent.includes(`Hadis #${d.hadithNo}`)) { hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' }); break; } } }, 500); }
-        async function loadRandomTafsir() { /* O'zgarishsiz qoldi */ 
+        async function loadRandomTafsir() { 
             const cardContainer = document.getElementById('randomTafsirCard');
             cardContainer.innerHTML = `<div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>`;
             try {
@@ -577,8 +596,6 @@
             let chaptersList = rawBookData.chapters || [];
             chaptersList = chaptersList.filter(ch => ch.id !== 0);
             if (chaptersList.length === 0) { const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].filter(id => id !== 0).sort((a,b) => a - b); chaptersList = chapterIds.map(id => ({ id, english: `Bob #${id}` })); }
-
-            // MUQADDIMA QO'SHISH
             const introChapter = { id: 0, english: { title: "Muqaddima: Kitob haqida" } };
             chaptersList = [introChapter, ...chaptersList];
             
@@ -646,6 +663,56 @@
             return null;
         }
 
+        // Bookmark funksiyalari
+        function isHadithBookmarked(item) {
+            return bookmarks.hadith.some(b => b.bookId === currentBook.id && b.hadithNo === (item.bookHadithNo));
+        }
+        function toggleHadithBookmark(item) {
+            const idx = bookmarks.hadith.findIndex(b => b.bookId === currentBook.id && b.hadithNo === (item.bookHadithNo));
+            if (idx === -1) {
+                const uzData = getUzHadithData(item);
+                bookmarks.hadith.push({
+                    bookId: currentBook.id,
+                    hadithNo: item.bookHadithNo,
+                    bookName: currentBook.nameUz,
+                    author: currentBook.author,
+                    arabic: item.arabic || '',
+                    english: item.english?.text || '',
+                    narrator: item.english?.narrator || '',
+                    uzText: uzData ? uzData.text : '',
+                    uzNarrator: uzData ? uzData.narrator : ''
+                });
+            } else {
+                bookmarks.hadith.splice(idx, 1);
+            }
+            saveBookmarks();
+            // Cardni yangilash
+            const scrollPos = document.getElementById('mainScroll').scrollTop;
+            const container = document.getElementById('hadithsList');
+            container.innerHTML = ''; displayedCount = 0; loadMore();
+            setTimeout(() => { document.getElementById('mainScroll').scrollTop = scrollPos; }, 50);
+        }
+
+        function isTafsirBookmarked(ayah) {
+            return bookmarks.ayah.some(b => b.tafsirId === currentTafsir?.id && b.surah === currentSurah && b.ayah === ayah.ayah);
+        }
+        function toggleTafsirBookmark(ayah) {
+            const idx = bookmarks.ayah.findIndex(b => b.tafsirId === currentTafsir?.id && b.surah === currentSurah && b.ayah === ayah.ayah);
+            if (idx === -1) {
+                bookmarks.ayah.push({
+                    tafsirId: currentTafsir.id,
+                    tafsirName: currentTafsir.name,
+                    surah: currentSurah,
+                    ayah: ayah.ayah,
+                    text: ayah.text
+                });
+            } else {
+                bookmarks.ayah.splice(idx, 1);
+            }
+            saveBookmarks();
+            renderTafsirAyahs();
+        }
+
         function renderNextBatch(list) {
             const container = document.getElementById('hadithsList');
             list.forEach((item, index) => {
@@ -680,7 +747,6 @@
                     copyText = `${currentBook.author} #${item.bookHadithNo}\n\n${arabicText ? arabicText + '\n\n' : ''}${narrator ? narrator + '\n' : ''}${englishText}\n\nManba: ${currentBook.nameUz}, #${item.bookHadithNo}-hadis.\n\nVisit: ${SITE_URL}`;
                 }
                 
-                // RASMDAGIDEK AYAN DIZAYN (Arabcha yashil fon, qolgani qora)
                 const showArabicBlock = settings.showArabic ? `
                     <div class="font-arabic text-${settings.fontSize.arabic} leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl">${displayArabic}</div>
                 ` : '';
@@ -691,6 +757,8 @@
                         ${translationHtml}
                     </div>
                 ` : '';
+
+                const isBookmarked = isHadithBookmarked(item);
                 
                 card.innerHTML = `
                     <div class="flex justify-between items-center border-b border-slate-800 pb-2 text-xs font-semibold text-emerald-400">
@@ -702,6 +770,9 @@
                     <div class="flex justify-between items-center gap-2 pt-2 border-t border-slate-800/60">
                         <span class="text-[11px] text-slate-400 font-medium">${currentHadithLanguage.toUpperCase()}</span>
                         <div class="flex gap-1.5">
+                            <button onclick="toggleHadithBookmark(filteredHadiths[${currentIndex}])" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-amber-400 transition active:scale-95" title="Bookmark">
+                                <i data-lucide="${isBookmarked ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isBookmarked ? 'text-amber-400' : ''}"></i>
+                            </button>
                             <button onclick="openHadithLangModal(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Tilni almashtirish"><i data-lucide="globe" class="w-4 h-4"></i></button>
                             <button onclick="copyHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Nusxalash"><i data-lucide="copy" class="w-4 h-4"></i></button>
                             <button onclick="shareHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Bo'lishish"><i data-lucide="share-2" class="w-4 h-4"></i></button>
@@ -783,7 +854,7 @@
         function renderSurahsList() { const container = document.getElementById('surahsList'); container.innerHTML = ''; const surahsToShow = filteredSurahs.length > 0 ? filteredSurahs : Array.from({length: 114}, (_, i) => i + 1); surahsToShow.forEach(surahNum => { const ayahCount = SURAH_AYAH_COUNT[surahNum] || 0; const card = document.createElement('div'); card.className = 'bg-slate-800/40 border border-slate-800 rounded-xl p-3.5 flex items-center gap-3 cursor-pointer hover:border-amber-500/50 transition active:scale-[0.98]'; card.onclick = () => openSurahTafsir(surahNum); card.innerHTML = `<div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-sm shrink-0">${surahNum}</div><div class="flex-1"><h3 class="font-semibold text-slate-100 text-sm">${SURAH_NAMES_UZ[surahNum]}</h3><p class="text-xs text-slate-400">${ayahCount} oyat</p></div><i data-lucide="chevron-right" class="w-4 h-4 text-slate-500 shrink-0"></i>`; container.appendChild(card); }); lucide.createIcons(); }
         function filterSurahs() { const query = document.getElementById('surahSearchInput').value.toLowerCase().trim(); if (!query) { filteredSurahs = []; } else { filteredSurahs = []; for (let i = 1; i <= 114; i++) { if (SURAH_NAMES_UZ[i].toLowerCase().includes(query) || String(i) === query) { filteredSurahs.push(i); } } } renderSurahsList(); }
         async function openSurahTafsir(surahNum, saveState = true) { currentSurah = surahNum; sessionState.currentSurah = surahNum; if (saveState) saveSession(); showLoading(true); try { const slug = currentTafsir.slug; const res = await fetch(`tafsir/${slug}/${surahNum}.json`); if (!res.ok) throw new Error(); const data = await res.json(); currentTafsirAyahs = Array.isArray(data) ? data : [data]; filteredTafsirAyahs = currentTafsirAyahs; showView('viewTafsirAyahs'); document.getElementById('ayahsTitle').innerText = `${SURAH_NAMES_UZ[surahNum]} surasi - ${currentTafsir.name}`; updateBreadcrumb(['Tafsirlar', currentTafsir.name, SURAH_NAMES_UZ[surahNum]]); renderTafsirAyahs(); if (!saveState) { setTimeout(() => { document.getElementById('mainScroll').scrollTop = sessionState.scrollPosition; }, 100); } } catch (err) { alert("Tafsir yuklanmadi."); } finally { showLoading(false); } }
-        function renderTafsirAyahs() { const container = document.getElementById('tafsirAyahsList'); container.innerHTML = ''; filteredTafsirAyahs.forEach(ayah => { const card = document.createElement('div'); card.className = 'bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3'; card.innerHTML = `<div class="flex items-center gap-2 pb-2 border-b border-slate-800"><span class="w-7 h-7 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-xs shrink-0">${ayah.ayah}</span><span class="text-xs font-semibold text-slate-400">${SURAH_NAMES_UZ[currentSurah]} surasi, ${ayah.ayah}-oyat</span></div><p class="text-sm leading-relaxed text-slate-300">${ayah.text}</p><div class="flex justify-end items-center gap-1.5 pt-2 border-t border-slate-800/60"><button onclick="openTafsirModal()" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Tafsirni almashtirish"><i data-lucide="refresh-cw" class="w-4 h-4"></i></button><button onclick="copyTafsirAyah(${ayah.ayah})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Nusxalash"><i data-lucide="copy" class="w-4 h-4"></i></button><button onclick="shareTafsirAyah(${ayah.ayah})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Bo'lishish"><i data-lucide="share-2" class="w-4 h-4"></i></button></div>`; container.appendChild(card); }); lucide.createIcons(); }
+        function renderTafsirAyahs() { const container = document.getElementById('tafsirAyahsList'); container.innerHTML = ''; filteredTafsirAyahs.forEach(ayah => { const isBookmarked = isTafsirBookmarked(ayah); const card = document.createElement('div'); card.className = 'bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3'; card.innerHTML = `<div class="flex items-center gap-2 pb-2 border-b border-slate-800"><span class="w-7 h-7 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-xs shrink-0">${ayah.ayah}</span><span class="text-xs font-semibold text-slate-400">${SURAH_NAMES_UZ[currentSurah]} surasi, ${ayah.ayah}-oyat</span></div><p class="text-sm leading-relaxed text-slate-300">${ayah.text}</p><div class="flex justify-end items-center gap-1.5 pt-2 border-t border-slate-800/60"><button onclick="toggleTafsirBookmark(filteredTafsirAyahs.find(a => a.ayah === ${ayah.ayah}))" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-amber-400 transition active:scale-95" title="Bookmark"><i data-lucide="${isBookmarked ? 'bookmark-check' : 'bookmark'}" class="w-4 h-4 ${isBookmarked ? 'text-amber-400' : ''}"></i></button><button onclick="openTafsirModal()" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Tafsirni almashtirish"><i data-lucide="refresh-cw" class="w-4 h-4"></i></button><button onclick="copyTafsirAyah(${ayah.ayah})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Nusxalash"><i data-lucide="copy" class="w-4 h-4"></i></button><button onclick="shareTafsirAyah(${ayah.ayah})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Bo'lishish"><i data-lucide="share-2" class="w-4 h-4"></i></button></div>`; container.appendChild(card); }); lucide.createIcons(); }
         function filterAyahs() { const query = document.getElementById('ayahSearchInput').value.toLowerCase().trim(); if (!query) { filteredTafsirAyahs = currentTafsirAyahs; } else { filteredTafsirAyahs = currentTafsirAyahs.filter(ayah => String(ayah.ayah) === query); } renderTafsirAyahs(); }
         function openTafsirModal() { document.getElementById('tafsirModal').classList.remove('hidden'); document.getElementById('modalTafsirSearch').value = ''; renderModalTafsirList(tafsirs); lucide.createIcons(); }
         function closeTafsirModal() { document.getElementById('tafsirModal').classList.add('hidden'); }
@@ -795,20 +866,12 @@
         async function shareTafsirAyah(ayahNum) { const text = getTafsirText(ayahNum); if (!text) return; const fullText = `«${SURAH_NAMES_UZ[currentSurah]}» surasi, ${ayahNum}-oyat tafsiri (${currentTafsir.name}):\n\n${text}\n\nManba: ${SITE_URL}`; const shareData = { title: `${SURAH_NAMES_UZ[currentSurah]} surasi, ${ayahNum}-oyat`, text: fullText }; if (navigator.share && navigator.canShare && navigator.canShare(shareData)) { try { await navigator.share(shareData); } catch (err) { if (err.name !== 'AbortError') copyTafsirAyah(ayahNum); } } else { copyTafsirAyah(ayahNum); } }
         function showLoading(show) { document.getElementById('loading').classList.toggle('hidden', !show); }
 
-        // --- SETTINGS FUNCTIONS ---
-        function toggleSettingsModal() {
-            document.getElementById('settingsModal').classList.toggle('hidden');
-            document.getElementById('toggleDark').checked = settings.darkMode;
-            document.getElementById('toggleReading').checked = settings.readingMode;
-        }
-        function toggleDarkMode() {
-            settings.darkMode = !settings.darkMode;
-            if(settings.darkMode) { document.body.classList.add('dark'); document.body.classList.remove('reading-mode'); document.getElementById('toggleReading').checked = false; settings.readingMode = false; } else { document.body.classList.remove('dark'); }
-            localStorage.setItem('site_settings', JSON.stringify(settings));
-        }
-        function toggleReadingMode() {
-            settings.readingMode = !settings.readingMode;
-            if(settings.readingMode) { document.body.classList.add('reading-mode'); document.body.classList.remove('dark'); document.getElementById('toggleDark').checked = false; settings.darkMode = false; } else { document.body.classList.remove('reading-mode'); }
+        // Settings funksiyalari
+        function setTheme(mode) {
+            if (mode === 'dark') { settings.darkMode = true; settings.readingMode = false; }
+            else if (mode === 'light') { settings.darkMode = false; settings.readingMode = false; }
+            else if (mode === 'reading') { settings.darkMode = false; settings.readingMode = true; }
+            applyTheme();
             localStorage.setItem('site_settings', JSON.stringify(settings));
         }
         function changeFontSize(type, val) {
@@ -817,7 +880,7 @@
             else s.arabic = Math.min(40, Math.max(14, s.arabic + val));
             document.getElementById(`${type}Size`).innerText = s[type];
             const scrollPos = document.getElementById('mainScroll').scrollTop;
-            const container = document.getElementById('hadithsList'); container.innerHTML = ''; displayedCount = 0; loadMore();
+            const container = document.getElementById('hadithsList'); if (container) { container.innerHTML = ''; displayedCount = 0; loadMore(); }
             setTimeout(() => { document.getElementById('mainScroll').scrollTop = scrollPos; }, 50);
             localStorage.setItem('site_settings', JSON.stringify(settings));
         }
@@ -825,9 +888,54 @@
             if(type === 'arabic') settings.showArabic = !settings.showArabic;
             else settings.showTranslation = !settings.showTranslation;
             const scrollPos = document.getElementById('mainScroll').scrollTop;
-            const container = document.getElementById('hadithsList'); container.innerHTML = ''; displayedCount = 0; loadMore();
+            const container = document.getElementById('hadithsList'); if (container) { container.innerHTML = ''; displayedCount = 0; loadMore(); }
             setTimeout(() => { document.getElementById('mainScroll').scrollTop = scrollPos; }, 50);
             localStorage.setItem('site_settings', JSON.stringify(settings));
+        }
+
+        // Bookmark sahifasi funksiyalari
+        function switchBookmarkTab(tab) {
+            currentBookmarkTab = tab;
+            const tabs = ['tabHadith', 'tabTafsir', 'tabAyah'];
+            tabs.forEach(id => document.getElementById(id).className = 'flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95');
+            const activeBtn = document.getElementById('tabHadith');
+            if (tab === 'hadith') activeBtn = document.getElementById('tabHadith');
+            else if (tab === 'tafsir') activeBtn = document.getElementById('tabTafsir');
+            else activeBtn = document.getElementById('tabAyah');
+            activeBtn.className = 'flex-1 py-2 px-3 rounded-lg text-sm font-semibold bg-amber-500 text-slate-900 transition active:scale-95';
+            renderBookmarkList();
+        }
+        function renderBookmarkList() {
+            const container = document.getElementById('bookmarkList');
+            container.innerHTML = '';
+            let items = [];
+            if (currentBookmarkTab === 'hadith') items = bookmarks.hadith;
+            else if (currentBookmarkTab === 'tafsir') items = bookmarks.tafsir;
+            else items = bookmarks.ayah;
+            if (items.length === 0) {
+                container.innerHTML = '<p class="text-center text-slate-400 py-8">Bookmarklar topilmadi</p>';
+                return;
+            }
+            items.forEach((b, idx) => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-2';
+                if (currentBookmarkTab === 'hadith') {
+                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.bookName} #${b.hadithNo}</div><p class="text-xs text-slate-400 line-clamp-2">${b.english || b.uzText || 'Tarjima yo\'q'}</p><button onclick="removeBookmark('hadith', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
+                } else if (currentBookmarkTab === 'tafsir') {
+                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.tafsirName} ${b.surah}-${b.ayah}</div><p class="text-xs text-slate-400 line-clamp-2">${b.text || ''}</p><button onclick="removeBookmark('tafsir', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
+                } else {
+                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.tafsirName} ${b.surah}-${b.ayah}</div><p class="text-xs text-slate-400 line-clamp-2">${b.text || ''}</p><button onclick="removeBookmark('ayah', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
+                }
+                container.appendChild(card);
+            });
+            lucide.createIcons();
+        }
+        function removeBookmark(type, idx) {
+            if (type === 'hadith') bookmarks.hadith.splice(idx, 1);
+            else if (type === 'tafsir') bookmarks.tafsir.splice(idx, 1);
+            else if (type === 'ayah') bookmarks.ayah.splice(idx, 1);
+            saveBookmarks();
+            renderBookmarkList();
         }
 
         init();
