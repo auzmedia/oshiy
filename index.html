@@ -36,60 +36,153 @@
             border-radius: 4px;
             font-weight: 600;
         }
-        .toggle-checkbox:checked { right: 0; border-color: #fbbf24; }
-        .toggle-checkbox:checked + .toggle-label { background-color: #fbbf24; }
-        .toggle-checkbox { right: 100%; transition: all 0.3s; }
-        .toggle-label { transition: all 0.3s; }
+
+        /* ===== CSS VARIABLES ===== */
+        :root, body.dark {
+            --bg-body: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-hover: #334155;
+            --bg-header: rgba(15, 23, 42, 0.8);
+            --bg-nav: rgba(15, 23, 42, 0.95);
+            --bg-input: rgba(30, 41, 59, 0.5);
+            --bg-badge: rgba(16, 185, 129, 0.1);
+            --bg-button-secondary: rgba(51, 65, 85, 0.6);
+            --bg-modal: #1e293b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --text-accent: #34d399;
+            --text-accent-amber: #fbbf24;
+            --border-color: #1e293b;
+            --border-color-light: #334155;
+            --toggle-bg: #475569;
+            --shadow-color: rgba(0,0,0,0.5);
+        }
+
+        body.light-mode {
+            --bg-body: #f1f5f9;
+            --bg-card: #ffffff;
+            --bg-card-hover: #e2e8f0;
+            --bg-header: rgba(255, 255, 255, 0.9);
+            --bg-nav: rgba(255, 255, 255, 0.95);
+            --bg-input: rgba(241, 245, 249, 0.8);
+            --bg-badge: rgba(16, 185, 129, 0.1);
+            --bg-button-secondary: rgba(226, 232, 240, 0.8);
+            --bg-modal: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #334155;
+            --text-muted: #64748b;
+            --text-accent: #059669;
+            --text-accent-amber: #d97706;
+            --border-color: #e2e8f0;
+            --border-color-light: #cbd5e1;
+            --toggle-bg: #cbd5e1;
+            --shadow-color: rgba(0,0,0,0.1);
+        }
+
+        body.reading-mode {
+            --bg-body: #fef9e7;
+            --bg-card: #fffbeb;
+            --bg-card-hover: #fef3c7;
+            --bg-header: rgba(254, 249, 231, 0.9);
+            --bg-nav: rgba(254, 249, 231, 0.95);
+            --bg-input: rgba(255, 251, 235, 0.8);
+            --bg-badge: rgba(217, 119, 6, 0.1);
+            --bg-button-secondary: rgba(254, 243, 199, 0.8);
+            --bg-modal: #fffbeb;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --text-muted: #78716c;
+            --text-accent: #d97706;
+            --text-accent-amber: #b45309;
+            --border-color: #e2d5b8;
+            --border-color-light: #d6c9a8;
+            --toggle-bg: #d6c9a8;
+            --shadow-color: rgba(0,0,0,0.1);
+        }
 
         body {
-            background-color: #0f172a;
-            color: #f1f5f9;
+            background-color: var(--bg-body);
+            color: var(--text-primary);
             font-family: 'Inter', sans-serif;
             transition: background-color 0.3s, color 0.3s;
         }
-        .bg-white { background-color: #1e293b !important; }
-        .bg-slate-50 { background-color: #1e293b !important; }
-        .bg-slate-100 { background-color: #334155 !important; }
-        .bg-slate-900 { background-color: #0f172a !important; }
-        .text-slate-800, .text-slate-900 { color: #f1f5f9 !important; }
-        .text-slate-600, .text-slate-700 { color: #cbd5e1 !important; }
-        .text-slate-400, .text-slate-500 { color: #94a3b8 !important; }
-        .border-slate-200, .border-slate-300 { border-color: #334155 !important; }
-        .border-slate-100 { border-color: #1e293b !important; }
+
+        /* Override'lar */
+        .bg-slate-800\/40, .bg-slate-800\/50, .bg-slate-800\/60, .bg-slate-800\/80, .bg-slate-800\/90,
+        .bg-slate-800, .bg-slate-50, .bg-slate-100, .bg-white {
+            background-color: var(--bg-card) !important;
+        }
+        .bg-slate-900\/80, .bg-slate-900\/90, .bg-slate-900\/95, .bg-slate-900 {
+            background-color: var(--bg-header) !important;
+        }
+        .bg-slate-200\/60, .bg-slate-700\/60, .bg-slate-700\/80, .bg-slate-700 {
+            background-color: var(--bg-button-secondary) !important;
+        }
+        .bg-emerald-500\/10 {
+            background-color: var(--bg-badge) !important;
+        }
+
+        .text-slate-100, .text-slate-200, .text-slate-800, .text-slate-900 {
+            color: var(--text-primary) !important;
+        }
+        .text-slate-300, .text-slate-600, .text-slate-700 {
+            color: var(--text-secondary) !important;
+        }
+        .text-slate-400, .text-slate-500 {
+            color: var(--text-muted) !important;
+        }
+        .text-emerald-400 {
+            color: var(--text-accent) !important;
+        }
+
+        .border-slate-800, .border-slate-800\/60, .border-slate-800\/80, .border-slate-100 {
+            border-color: var(--border-color) !important;
+        }
+        .border-slate-700, .border-slate-200, .border-slate-300 {
+            border-color: var(--border-color-light) !important;
+        }
+
+        .nav-btn {
+            color: var(--text-muted);
+        }
+        .nav-btn:hover {
+            color: var(--text-secondary);
+        }
         
-        body.reading-mode {
-            background-color: #fef9e7 !important;
-            color: #1e293b !important;
+        input[type="text"] {
+            background-color: var(--bg-input);
+            color: var(--text-primary);
+            border-color: var(--border-color-light);
         }
-        body.reading-mode .bg-white, body.reading-mode .bg-slate-50, body.reading-mode .bg-slate-100 {
-            background-color: #fef9e7 !important;
+        
+        .toggle-checkbox {
+            background-color: var(--toggle-bg) !important;
+            border-color: var(--toggle-bg) !important;
         }
-        body.reading-mode .text-slate-800, body.reading-mode .text-slate-900 {
-            color: #1e293b !important;
-        }
-        body.reading-mode .border-slate-200, body.reading-mode .border-slate-300 {
-            border-color: #e2d5b8 !important;
+        .toggle-label {
+            background-color: var(--toggle-bg) !important;
         }
     </style>
 </head>
-<body class="antialiased transition-colors duration-300 h-screen overflow-hidden">
+<body class="antialiased transition-colors duration-300 h-screen overflow-hidden dark">
 
     <div class="max-w-md mx-auto h-full flex flex-col shadow-2xl relative overflow-hidden transition-colors duration-300">
 
         <!-- HEADER -->
-        <header class="sticky top-0 z-30 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex justify-between items-center shrink-0">
+        <header class="sticky top-0 z-30 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex justify-between items-center shrink-0" style="background-color: var(--bg-header); border-color: var(--border-color);">
             <div class="flex items-center gap-2.5 cursor-pointer" onclick="goHome()">
                 <div class="w-9 h-9 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400">
                     <i data-lucide="book-open" class="w-5 h-5"></i>
                 </div>
                 <div>
-                    <h1 class="text-base font-bold leading-none text-slate-100">Islomiy Kutubxona</h1>
-                    <span class="text-[10px] text-slate-400 font-medium">Qur'on • Hadis • Tafsir</span>
+                    <h1 class="text-base font-bold leading-none" style="color: var(--text-primary);">Islomiy Kutubxona</h1>
+                    <span class="text-[10px] font-medium" style="color: var(--text-muted);">Qur'on • Hadis • Tafsir</span>
                 </div>
             </div>
         </header>
 
-        <div id="breadcrumb" class="px-4 py-2 bg-slate-800/40 border-b border-slate-800 text-xs text-slate-400 flex items-center gap-1.5 overflow-x-auto whitespace-nowrap custom-scroll shrink-0"></div>
+        <div id="breadcrumb" class="px-4 py-2 border-b text-xs flex items-center gap-1.5 overflow-x-auto whitespace-nowrap custom-scroll shrink-0" style="background-color: var(--bg-card); border-color: var(--border-color); color: var(--text-muted);"></div>
 
         <main id="mainScroll" class="flex-1 overflow-y-auto custom-scroll p-4 space-y-4 pb-24">
 
@@ -126,27 +219,27 @@
             <!-- VIEW: Hadith Books -->
             <section id="viewHadithBooks" class="hidden space-y-4">
                 <div class="flex items-center justify-between pt-2">
-                    <h2 class="text-base font-bold text-slate-100">Hadis to'plamlari</h2>
-                    <span class="text-xs text-slate-400 font-medium">17 ta kitob</span>
+                    <h2 class="text-base font-bold" style="color: var(--text-primary);">Hadis to'plamlari</h2>
+                    <span class="text-xs font-medium" style="color: var(--text-muted);">17 ta kitob</span>
                 </div>
                 <div>
                     <div class="flex items-center justify-between pt-2 mb-3">
-                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-amber-500 rounded-full"></span><h3 class="text-sm font-bold text-slate-100">Oltin silsila</h3></div>
-                        <span class="text-xs text-slate-400 font-medium">9 ta kitob</span>
+                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-amber-500 rounded-full"></span><h3 class="text-sm font-bold" style="color: var(--text-primary);">Oltin silsila</h3></div>
+                        <span class="text-xs font-medium" style="color: var(--text-muted);">9 ta kitob</span>
                     </div>
                     <div id="booksListGolden" class="space-y-3"></div>
                 </div>
                 <div>
                     <div class="flex items-center justify-between pt-2 mb-3">
-                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-sky-500 rounded-full"></span><h3 class="text-sm font-bold text-slate-100">Boshqa hadislar</h3></div>
-                        <span class="text-xs text-slate-400 font-medium">5 ta kitob</span>
+                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-sky-500 rounded-full"></span><h3 class="text-sm font-bold" style="color: var(--text-primary);">Boshqa hadislar</h3></div>
+                        <span class="text-xs font-medium" style="color: var(--text-muted);">5 ta kitob</span>
                     </div>
                     <div id="booksListOther" class="space-y-3"></div>
                 </div>
                 <div>
                     <div class="flex items-center justify-between pt-2 mb-3">
-                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-emerald-500 rounded-full"></span><h3 class="text-sm font-bold text-slate-100">40 Hadis to'plami</h3></div>
-                        <span class="text-xs text-slate-400 font-medium">3 ta kitob</span>
+                        <div class="flex items-center gap-2"><span class="w-1.5 h-5 bg-emerald-500 rounded-full"></span><h3 class="text-sm font-bold" style="color: var(--text-primary);">40 Hadis to'plami</h3></div>
+                        <span class="text-xs font-medium" style="color: var(--text-muted);">3 ta kitob</span>
                     </div>
                     <div id="booksListForties" class="space-y-3"></div>
                 </div>
@@ -155,8 +248,8 @@
             <!-- VIEW: Chapters -->
             <section id="viewChapters" class="hidden space-y-4">
                 <div>
-                    <h2 class="text-lg font-bold text-slate-100" id="chaptersBookTitle">Boblar</h2>
-                    <p class="text-xs text-slate-400">Kerakli bobni tanlang</p>
+                    <h2 class="text-lg font-bold" style="color: var(--text-primary);" id="chaptersBookTitle">Boblar</h2>
+                    <p class="text-xs" style="color: var(--text-muted);">Kerakli bobni tanlang</p>
                 </div>
                 <div id="chaptersGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5"></div>
             </section>
@@ -164,12 +257,12 @@
             <!-- VIEW: Hadiths List -->
             <section id="viewHadiths" class="hidden space-y-4">
                 <div>
-                    <h2 class="text-lg font-bold text-slate-100" id="selectedBookTitle">Hadislar</h2>
-                    <p class="text-xs text-slate-400" id="totalCount"></p>
+                    <h2 class="text-lg font-bold" style="color: var(--text-primary);" id="selectedBookTitle">Hadislar</h2>
+                    <p class="text-xs" style="color: var(--text-muted);" id="totalCount"></p>
                 </div>
                 <div class="relative">
-                    <input type="text" id="searchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-700 bg-slate-800/50 text-slate-100 text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Hadis matni yoki raqami..." oninput="filterHadiths()">
-                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="searchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Hadis matni yoki raqami..." oninput="filterHadiths()" style="background-color: var(--bg-input); color: var(--text-primary); border-color: var(--border-color-light);">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5" style="color: var(--text-muted);"></i>
                 </div>
                 <div id="hadithsList" class="space-y-3"></div>
                 <button id="loadMoreBtn" class="w-full py-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-semibold text-sm hidden active:scale-95 transition" onclick="loadMore()">Ko'proq ko'rsatish</button>
@@ -178,87 +271,87 @@
             <!-- VIEW: Tafsir List -->
             <section id="viewTafsirList" class="hidden space-y-4">
                 <div class="relative">
-                    <input type="text" id="tafsirSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-700 bg-slate-800/50 text-slate-100 text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Tafsir qidirish..." oninput="filterTafsirs()">
-                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="tafsirSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Tafsir qidirish..." oninput="filterTafsirs()" style="background-color: var(--bg-input); color: var(--text-primary); border-color: var(--border-color-light);">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5" style="color: var(--text-muted);"></i>
                 </div>
-                <div><h2 class="text-lg font-bold text-slate-100">Tafsirlar</h2><p class="text-xs text-slate-400" id="tafsirCount"></p></div>
+                <div><h2 class="text-lg font-bold" style="color: var(--text-primary);">Tafsirlar</h2><p class="text-xs" style="color: var(--text-muted);" id="tafsirCount"></p></div>
                 <div id="tafsirList" class="space-y-3"></div>
             </section>
 
             <!-- VIEW: Tafsir Surahs -->
             <section id="viewSurahs" class="hidden space-y-4">
                 <div class="relative">
-                    <input type="text" id="surahSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-700 bg-slate-800/50 text-slate-100 text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Sura nomi yoki raqami..." oninput="filterSurahs()">
-                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="surahSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Sura nomi yoki raqami..." oninput="filterSurahs()" style="background-color: var(--bg-input); color: var(--text-primary); border-color: var(--border-color-light);">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5" style="color: var(--text-muted);"></i>
                 </div>
-                <div><h2 class="text-lg font-bold text-slate-100" id="tafsirTitle">Suralar</h2><p class="text-xs text-slate-400">Sura tanlang</p></div>
+                <div><h2 class="text-lg font-bold" style="color: var(--text-primary);" id="tafsirTitle">Suralar</h2><p class="text-xs" style="color: var(--text-muted);">Sura tanlang</p></div>
                 <div id="surahsList" class="space-y-2"></div>
             </section>
 
             <!-- VIEW: Tafsir Ayahs -->
             <section id="viewTafsirAyahs" class="hidden space-y-4">
                 <div class="relative">
-                    <input type="text" id="ayahSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-700 bg-slate-800/50 text-slate-100 text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Oyat raqami bo'yicha qidirish..." oninput="filterAyahs()">
-                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="ayahSearchInput" class="w-full pl-10 pr-4 py-3 rounded-xl border text-sm focus:outline-none focus:border-amber-500 transition" placeholder="Oyat raqami bo'yicha qidirish..." oninput="filterAyahs()" style="background-color: var(--bg-input); color: var(--text-primary); border-color: var(--border-color-light);">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5" style="color: var(--text-muted);"></i>
                 </div>
-                <div><h2 class="text-lg font-bold text-slate-100" id="ayahsTitle">Oyatlar</h2><p class="text-xs text-slate-400">Tafsirni o'qish uchun oyatni tanlang</p></div>
+                <div><h2 class="text-lg font-bold" style="color: var(--text-primary);" id="ayahsTitle">Oyatlar</h2><p class="text-xs" style="color: var(--text-muted);">Tafsirni o'qish uchun oyatni tanlang</p></div>
                 <div id="tafsirAyahsList" class="space-y-3"></div>
             </section>
 
             <!-- VIEW: Settings -->
             <section id="viewSettings" class="hidden space-y-4">
-                <h2 class="text-xl font-bold text-slate-100 pt-2">Sozlamalar</h2>
-                <p class="text-xs text-slate-400">Ilova sozlamalari</p>
+                <h2 class="text-xl font-bold pt-2" style="color: var(--text-primary);">Sozlamalar</h2>
+                <p class="text-xs" style="color: var(--text-muted);">Ilova sozlamalari</p>
 
-                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3">
-                    <h3 class="font-medium text-sm text-slate-300">Rejimlar</h3>
+                <div class="rounded-2xl p-4 space-y-3 border" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <h3 class="font-medium text-sm" style="color: var(--text-secondary);">Rejimlar</h3>
                     <div class="grid grid-cols-3 gap-2">
-                        <button onclick="setTheme('dark')" id="btnModeDark" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                        <button onclick="setTheme('dark')" id="btnModeDark" class="py-3 rounded-xl border font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition" style="border-color: var(--border-color-light); background-color: var(--bg-card); color: var(--text-primary);">
                             <i data-lucide="moon" class="w-5 h-5"></i> Tungi
                         </button>
-                        <button onclick="setTheme('light')" id="btnModeLight" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                        <button onclick="setTheme('light')" id="btnModeLight" class="py-3 rounded-xl border font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition" style="border-color: var(--border-color-light); background-color: var(--bg-card); color: var(--text-primary);">
                             <i data-lucide="sun" class="w-5 h-5"></i> Yorug'
                         </button>
-                        <button onclick="setTheme('reading')" id="btnModeReading" class="py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition">
+                        <button onclick="setTheme('reading')" id="btnModeReading" class="py-3 rounded-xl border font-semibold text-xs flex flex-col items-center gap-1 active:scale-95 transition" style="border-color: var(--border-color-light); background-color: var(--bg-card); color: var(--text-primary);">
                             <i data-lucide="book" class="w-5 h-5"></i> O'qish
                         </button>
                     </div>
                 </div>
 
-                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-4">
-                    <h3 class="font-medium text-sm text-slate-300">Matn o'lchamlari</h3>
+                <div class="rounded-2xl p-4 space-y-4 border" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <h3 class="font-medium text-sm" style="color: var(--text-secondary);">Matn o'lchamlari</h3>
                     <div class="flex justify-between items-center">
-                        <span class="text-xs text-slate-400">Tarjima matni</span>
-                        <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
-                            <button onclick="changeFontSize('translation', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
-                            <span id="translationSize" class="text-sm w-8 text-center font-medium text-slate-200">16</span>
-                            <button onclick="changeFontSize('translation', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
+                        <span class="text-xs" style="color: var(--text-muted);">Tarjima matni</span>
+                        <div class="flex items-center gap-3 rounded-full p-1" style="background-color: var(--bg-card-hover);">
+                            <button onclick="changeFontSize('translation', -1)" class="w-7 h-7 rounded-full shadow-sm active:scale-95" style="background-color: var(--bg-button-secondary); color: var(--text-secondary);">-</button>
+                            <span id="translationSize" class="text-sm w-8 text-center font-medium" style="color: var(--text-primary);">16</span>
+                            <button onclick="changeFontSize('translation', 1)" class="w-7 h-7 rounded-full shadow-sm active:scale-95" style="background-color: var(--bg-button-secondary); color: var(--text-secondary);">+</button>
                         </div>
                     </div>
                     <div class="flex justify-between items-center">
-                        <span class="text-xs text-slate-400">Arabcha matni</span>
-                        <div class="flex items-center gap-3 bg-slate-800 rounded-full p-1">
-                            <button onclick="changeFontSize('arabic', -1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">-</button>
-                            <span id="arabicSize" class="text-sm w-8 text-center font-medium text-slate-200">20</span>
-                            <button onclick="changeFontSize('arabic', 1)" class="w-7 h-7 rounded-full bg-slate-700 shadow-sm active:scale-95 text-slate-300 hover:bg-slate-600">+</button>
+                        <span class="text-xs" style="color: var(--text-muted);">Arabcha matni</span>
+                        <div class="flex items-center gap-3 rounded-full p-1" style="background-color: var(--bg-card-hover);">
+                            <button onclick="changeFontSize('arabic', -1)" class="w-7 h-7 rounded-full shadow-sm active:scale-95" style="background-color: var(--bg-button-secondary); color: var(--text-secondary);">-</button>
+                            <span id="arabicSize" class="text-sm w-8 text-center font-medium" style="color: var(--text-primary);">20</span>
+                            <button onclick="changeFontSize('arabic', 1)" class="w-7 h-7 rounded-full shadow-sm active:scale-95" style="background-color: var(--bg-button-secondary); color: var(--text-secondary);">+</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3">
-                    <h3 class="font-medium text-sm text-slate-300">Ko'rsatish</h3>
+                <div class="rounded-2xl p-4 space-y-3 border" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <h3 class="font-medium text-sm" style="color: var(--text-secondary);">Ko'rsatish</h3>
                     <div class="flex justify-between items-center">
-                        <span class="text-sm text-slate-200">Arabcha matn</span>
-                        <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                            <input type="checkbox" id="showArabic" checked onclick="toggleShow('arabic')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                            <label for="showArabic" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
+                        <span class="text-sm" style="color: var(--text-primary);">Arabcha matn</span>
+                        <div class="relative inline-block w-10 mr-2 align-middle select-none">
+                            <input type="checkbox" id="showArabic" checked onclick="toggleShow('arabic')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer"/>
+                            <label for="showArabic" class="toggle-label block overflow-hidden h-5 rounded-full cursor-pointer" style="background-color: var(--toggle-bg);"></label>
                         </div>
                     </div>
                     <div class="flex justify-between items-center">
-                        <span class="text-sm text-slate-200">Tarjima matni</span>
-                        <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
-                            <input type="checkbox" id="showTranslation" checked onclick="toggleShow('translation')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer border-slate-600"/>
-                            <label for="showTranslation" class="toggle-label block overflow-hidden h-5 rounded-full bg-slate-600 cursor-pointer"></label>
+                        <span class="text-sm" style="color: var(--text-primary);">Tarjima matni</span>
+                        <div class="relative inline-block w-10 mr-2 align-middle select-none">
+                            <input type="checkbox" id="showTranslation" checked onclick="toggleShow('translation')" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-600 border-4 appearance-none cursor-pointer"/>
+                            <label for="showTranslation" class="toggle-label block overflow-hidden h-5 rounded-full cursor-pointer" style="background-color: var(--toggle-bg);"></label>
                         </div>
                     </div>
                 </div>
@@ -266,31 +359,31 @@
 
             <!-- VIEW: Bookmarks -->
             <section id="viewBookmarks" class="hidden space-y-4">
-                <h2 class="text-xl font-bold text-slate-100 pt-2">Bookmarklar</h2>
-                <div class="flex gap-2 bg-slate-800/40 rounded-xl p-1">
-                    <button onclick="switchBookmarkTab('hadith')" id="tabHadith" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Hadis</button>
-                    <button onclick="switchBookmarkTab('tafsir')" id="tabTafsir" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Tafsir</button>
-                    <button onclick="switchBookmarkTab('ayah')" id="tabAyah" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95">Oyat</button>
+                <h2 class="text-xl font-bold pt-2" style="color: var(--text-primary);">Bookmarklar</h2>
+                <div class="flex gap-2 rounded-xl p-1" style="background-color: var(--bg-card);">
+                    <button onclick="switchBookmarkTab('hadith')" id="tabHadith" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95" style="color: var(--text-secondary);">Hadis</button>
+                    <button onclick="switchBookmarkTab('tafsir')" id="tabTafsir" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95" style="color: var(--text-secondary);">Tafsir</button>
+                    <button onclick="switchBookmarkTab('ayah')" id="tabAyah" class="flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition active:scale-95" style="color: var(--text-secondary);">Oyat</button>
                 </div>
                 <div id="bookmarkList" class="space-y-3"></div>
             </section>
 
             <div id="loading" class="hidden text-center py-8">
                 <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-emerald-500 border-t-transparent"></div>
-                <p class="text-xs text-slate-400 mt-2">Yuklanmoqda...</p>
+                <p class="text-xs mt-2" style="color: var(--text-muted);">Yuklanmoqda...</p>
             </div>
         </main>
 
         <!-- Tafsir tanlash modali -->
         <div id="tafsirModal" class="hidden fixed inset-0 z-[60] bg-black/80 flex items-end justify-center backdrop-blur-md">
-            <div class="bg-slate-900 w-full max-w-md rounded-t-3xl p-5 max-h-[70vh] flex flex-col shadow-2xl border-t border-slate-800">
-                <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-800">
-                    <h3 class="font-bold text-slate-100">Tafsir tanlash</h3>
-                    <button onclick="closeTafsirModal()" class="p-1.5 rounded-full bg-slate-800 hover:bg-slate-700 transition"><i data-lucide="x" class="w-5 h-5 text-slate-300"></i></button>
+            <div class="w-full max-w-md rounded-t-3xl p-5 max-h-[70vh] flex flex-col shadow-2xl border-t" style="background-color: var(--bg-modal); border-color: var(--border-color);">
+                <div class="flex justify-between items-center mb-3 pb-2 border-b" style="border-color: var(--border-color);">
+                    <h3 class="font-bold" style="color: var(--text-primary);">Tafsir tanlash</h3>
+                    <button onclick="closeTafsirModal()" class="p-1.5 rounded-full" style="background-color: var(--bg-card-hover);"><i data-lucide="x" class="w-5 h-5" style="color: var(--text-secondary);"></i></button>
                 </div>
                 <div class="relative mb-3">
-                    <input type="text" id="modalTafsirSearch" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/50 text-slate-100 text-sm focus:outline-none focus:border-amber-500" placeholder="Tafsir qidirish..." oninput="filterModalTafsirs()">
-                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="modalTafsirSearch" class="w-full pl-10 pr-4 py-2.5 rounded-xl border text-sm focus:outline-none focus:border-amber-500" placeholder="Tafsir qidirish..." oninput="filterModalTafsirs()" style="background-color: var(--bg-input); color: var(--text-primary); border-color: var(--border-color-light);">
+                    <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5" style="color: var(--text-muted);"></i>
                 </div>
                 <div id="modalTafsirList" class="overflow-y-auto custom-scroll flex-1 space-y-2"></div>
             </div>
@@ -298,35 +391,35 @@
 
         <!-- Hadis tili tanlash modali -->
         <div id="hadithLangModal" class="hidden fixed inset-0 z-[60] bg-black/80 flex items-end justify-center backdrop-blur-md">
-            <div class="bg-slate-900 w-full max-w-md rounded-t-3xl p-5 max-h-[70vh] flex flex-col shadow-2xl border-t border-slate-800">
-                <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-800">
-                    <h3 class="font-bold text-slate-100">Tarjima tilini tanlash</h3>
-                    <button onclick="closeHadithLangModal()" class="p-1.5 rounded-full bg-slate-800 hover:bg-slate-700 transition"><i data-lucide="x" class="w-5 h-5 text-slate-300"></i></button>
+            <div class="w-full max-w-md rounded-t-3xl p-5 max-h-[70vh] flex flex-col shadow-2xl border-t" style="background-color: var(--bg-modal); border-color: var(--border-color);">
+                <div class="flex justify-between items-center mb-3 pb-2 border-b" style="border-color: var(--border-color);">
+                    <h3 class="font-bold" style="color: var(--text-primary);">Tarjima tilini tanlash</h3>
+                    <button onclick="closeHadithLangModal()" class="p-1.5 rounded-full" style="background-color: var(--bg-card-hover);"><i data-lucide="x" class="w-5 h-5" style="color: var(--text-secondary);"></i></button>
                 </div>
                 <div id="hadithLangList" class="overflow-y-auto custom-scroll flex-1 space-y-2"></div>
             </div>
         </div>
 
-        <!-- BOTTOM NAV - FIXED -->
-        <nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-50 bg-slate-900/95 backdrop-blur-lg border-t border-slate-800/80 px-2 py-2">
+        <!-- BOTTOM NAV -->
+        <nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-50 backdrop-blur-lg border-t px-2 py-2" style="background-color: var(--bg-nav); border-color: var(--border-color);">
             <div class="grid grid-cols-5 gap-1">
-                <button onclick="goHome()" id="navHome" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="goHome()" id="navHome" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition active:scale-90">
                     <i data-lucide="layout-grid" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Bosh Menu</span>
                 </button>
-                <button onclick="showHadithSection()" id="navHadith" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="showHadithSection()" id="navHadith" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition active:scale-90">
                     <i data-lucide="scroll" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Hadislar</span>
                 </button>
-                <button onclick="showTafsirSection()" id="navTafsir" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="showTafsirSection()" id="navTafsir" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition active:scale-90">
                     <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Tafsirlar</span>
                 </button>
-                <button onclick="showBookmarks()" id="navBookmark" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="showBookmarks()" id="navBookmark" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition active:scale-90">
                     <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Bookmark</span>
                 </button>
-                <button onclick="showSettings()" id="navSettings" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 hover:text-slate-200 transition active:scale-90">
+                <button onclick="showSettings()" id="navSettings" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition active:scale-90">
                     <i data-lucide="settings" class="w-5 h-5 mb-0.5"></i>
                     <span class="text-[10px] font-medium leading-none">Sozlamalar</span>
                 </button>
@@ -336,6 +429,9 @@
     </div>
 
     <script>
+        // Barcha oldingi JavaScript funksiyalari bu yerda bir xil qoladi
+        // Faqat setTheme va applyTheme funksiyalari yangilanadi
+
         const SITE_URL = "https://hadis.aloshiy.com";
         const SURAH_NAMES_UZ = ['', 'Al-Fotiha', 'Baqara', 'Oli Imron', 'Niso', 'Moida', 'An\'om', 'A\'rof', 'Anfol', 'Tavba', 'Yunus', 'Hud', 'Yusuf', 'Ra\'d', 'Ibrohim', 'Hijr', 'Nahl', 'Isro', 'Kahf', 'Maryam', 'Toha', 'Anbiyo', 'Haj', 'Mo\'minun', 'Nur', 'Furqon', 'Shu\'aro', 'Naml', 'Qasos', 'Ankabut', 'Rum', 'Luqmon', 'Sajda', 'Ahzob', 'Saba', 'Fotir', 'Yosin', 'Saffot', 'Sod', 'Zumar', 'G\'ofir', 'Fussilat', 'Sho\'ro', 'Zuxruf', 'Duxon', 'Josiya', 'Ahqof', 'Muhammad', 'Fath', 'Hujurot', 'Qof', 'Zoriyot', 'Tur', 'Najm', 'Qamar', 'Rahmon', 'Voqea', 'Hadid', 'Mujodala', 'Hashr', 'Mumtahina', 'Saff', 'Jum\'a', 'Munofiqun', 'Tag\'obun', 'Taloq', 'Tahrim', 'Mulk', 'Qalam', 'Hoqqa', 'Ma\'orij', 'Nuh', 'Jin', 'Muzzammil', 'Muddassir', 'Qiyomat', 'Inson', 'Mursalot', 'Naba', 'Naziat', 'Abasa', 'Takvir', 'Infitor', 'Mutaffifin', 'Inshiqoq', 'Buruj', 'Toriq', 'A\'lo', 'G\'oshiya', 'Fajr', 'Balad', 'Shams', 'Layl', 'Zuho', 'Sharh', 'Tin', 'Alaq', 'Qadr', 'Bayyina', 'Zilzol', 'Adiyat', 'Qori\'a', 'Takosur', 'Asr', 'Humaza', 'Fil', 'Quraysh', 'Ma\'un', 'Kavsar', 'Kofirun', 'Nasr', 'Masad', 'Ixlos', 'Falaq', 'Nos'];
         const SURAH_AYAH_COUNT = {1:7,2:286,3:200,4:176,5:120,6:165,7:206,8:75,9:129,10:109,11:123,12:111,13:43,14:52,15:99,16:128,17:111,18:110,19:98,20:135,21:112,22:78,23:118,24:64,25:77,26:227,27:93,28:88,29:69,30:60,31:34,32:30,33:73,34:54,35:45,36:83,37:182,38:88,39:75,40:85,41:54,42:53,43:89,44:59,45:37,46:35,47:38,48:29,49:18,50:45,51:60,52:49,53:62,54:55,55:78,56:96,57:29,58:22,59:24,60:13,61:14,62:11,63:11,64:18,65:12,66:12,67:30,68:52,69:52,70:44,71:28,72:28,73:20,74:56,75:40,76:31,77:50,78:40,79:46,80:42,81:29,82:19,83:36,84:25,85:22,86:17,87:19,88:26,89:30,90:20,91:15,92:21,93:11,94:8,95:8,96:19,97:5,98:8,99:8,100:11,101:11,102:8,103:3,104:9,105:5,106:4,107:7,108:3,109:6,110:3,111:5,112:4,113:5,114:6};
@@ -398,6 +494,66 @@
             return false;
         }
 
+        // ==== THEME FUNCTIONS ====
+        function setTheme(mode) {
+            document.body.classList.remove('dark', 'light-mode', 'reading-mode');
+            
+            if (mode === 'dark') {
+                document.body.classList.add('dark');
+                settings.darkMode = true;
+                settings.readingMode = false;
+            } else if (mode === 'light') {
+                document.body.classList.add('light-mode');
+                settings.darkMode = false;
+                settings.readingMode = false;
+            } else if (mode === 'reading') {
+                document.body.classList.add('reading-mode');
+                settings.darkMode = false;
+                settings.readingMode = true;
+            }
+            
+            localStorage.setItem('site_settings', JSON.stringify(settings));
+            
+            // Tugmalar active holati
+            updateThemeButtons(mode);
+        }
+
+        function updateThemeButtons(activeMode) {
+            const modes = ['dark', 'light', 'reading'];
+            const btnIds = ['btnModeDark', 'btnModeLight', 'btnModeReading'];
+            const modeNames = ['dark', 'light', 'reading'];
+            
+            modes.forEach((m, i) => {
+                const btn = document.getElementById(btnIds[i]);
+                if (btn) {
+                    if (m === activeMode) {
+                        btn.style.borderColor = '#fbbf24';
+                        btn.style.backgroundColor = 'rgba(251, 191, 36, 0.2)';
+                        btn.style.color = '#fbbf24';
+                    } else {
+                        btn.style.borderColor = 'var(--border-color-light)';
+                        btn.style.backgroundColor = 'var(--bg-card)';
+                        btn.style.color = 'var(--text-primary)';
+                    }
+                }
+            });
+        }
+
+        function applyTheme() {
+            document.body.classList.remove('dark', 'light-mode', 'reading-mode');
+            let mode = 'dark';
+            if (settings.readingMode) {
+                document.body.classList.add('reading-mode');
+                mode = 'reading';
+            } else if (!settings.darkMode) {
+                document.body.classList.add('light-mode');
+                mode = 'light';
+            } else {
+                document.body.classList.add('dark');
+            }
+            updateThemeButtons(mode);
+        }
+
         function init() {
             const savedSettings = localStorage.getItem('site_settings');
             if(savedSettings) { try { const parsed = JSON.parse(savedSettings); settings = {...settings, ...parsed}; } catch(e) {} }
@@ -405,12 +561,6 @@
             lucide.createIcons();
             renderBooksList(); renderTafsirList();
             if (restoreSession()) { restoreView(); } else { loadRandomHadith(); loadRandomTafsir(); }
-        }
-
-        function applyTheme() {
-            if (settings.darkMode) { document.body.classList.add('dark'); document.body.classList.remove('reading-mode'); }
-            else if (settings.readingMode) { document.body.classList.add('reading-mode'); document.body.classList.remove('dark'); }
-            else { document.body.classList.remove('dark'); document.body.classList.remove('reading-mode'); }
         }
 
         function restoreView() {
