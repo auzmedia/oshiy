@@ -192,6 +192,7 @@
 
         </main>
 
+        <!-- Tafsir tanlash modali -->
         <div id="tafsirModal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-end justify-center">
             <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-t-3xl p-4 max-h-[70vh] flex flex-col">
                 <div class="flex justify-between items-center mb-3">
@@ -203,6 +204,17 @@
                     <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
                 </div>
                 <div id="modalTafsirList" class="overflow-y-auto custom-scroll flex-1 space-y-2"></div>
+            </div>
+        </div>
+
+        <!-- Hadis tili tanlash modali -->
+        <div id="hadithLangModal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-end justify-center">
+            <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-t-3xl p-4 max-h-[70vh] flex flex-col">
+                <div class="flex justify-between items-center mb-3">
+                    <h3 class="font-bold text-slate-800 dark:text-slate-100">Tarjima tilini tanlash</h3>
+                    <button onclick="closeHadithLangModal()" class="p-1.5 rounded-full bg-slate-100 dark:bg-slate-800"><i data-lucide="x" class="w-5 h-5"></i></button>
+                </div>
+                <div id="hadithLangList" class="overflow-y-auto custom-scroll flex-1 space-y-2"></div>
             </div>
         </div>
 
@@ -260,150 +272,22 @@
             { id: 12, nameUz: "Al-Arba'in Shah Valiyulloh", author: "Shoh Valiyulloh", category: "forties", file: "db/by_book/forties/shahwaliullah40.json", uzFile: "db/by_book/forties/uz-shahwaliullah40.json", chaptersCount: 1, color: "from-cyan-600 to-sky-800" }
         ];
 
-        const bookIntroductions = {
-            1: { authorBio: "Imom Buxoriy (810-870) - to'liq ismi Abu Abdulloh Muhammad ibn Ismoil ibn Ibrohim al-Buxoriy. U Buxoroda tug'ilgan va hadis ilmining eng buyuk olimi hisoblanadi.", bookInfo: "Sahihul Buxoriy - Islom olamida Qur'ondan keyingi eng ishonchli kitob hisoblanadi. Kitobda 7277 ta hadis mavjud." },
-            2: { authorBio: "Imom Muslim (821-875) - to'liq ismi Abul Husayn Muslim ibn al-Hajjoj al-Qushayriy an-Naysoburiy.", bookInfo: "Sahihi Muslim - Sahihul Buxoriydan keyingi eng ishonchli hadis to'plami. 7459 ta hadis." },
-            3: { authorBio: "Imom Abu Dovud (817-889) - to'liq ismi Sulaymon ibn al-Ash'as ibn Ishoq as-Sijistoniy.", bookInfo: "Sunani Abu Dovud - 5276 ta hadis, 43 ta bob." },
-            4: { authorBio: "Imom at-Tirmiziy (824-892) - to'liq ismi Abu Iso Muhammad ibn Iso at-Tirmiziy. U Termizda tug'ilgan.", bookInfo: "Jomi'u at-Tirmiziy - 4053 ta hadis, 49 ta bob." },
-            5: { authorBio: "Imom an-Nasa'iy (829-915) - to'liq ismi Abu Abdurrahmon Ahmad ibn Shu'ayb an-Nasa'iy.", bookInfo: "Sunani an-Nasa'iy - 5768 ta hadis, 52 ta bob." },
-            6: { authorBio: "Imom Ibn Majah (824-887) - to'liq ismi Abu Abdulloh Muhammad ibn Yazid ibn Majah al-Qazviniy.", bookInfo: "Sunani Ibn Majah - 4345 ta hadis, 37 ta bob." },
-            7: { authorBio: "Imom Malik (711-795) - Molikiy mazhabining asoschisi.", bookInfo: "Muvatto Malik - 1985 ta hadis, 61 ta bob." },
-            8: { authorBio: "Imom Ahmad ibn Hanbal (780-855) - Hanbaliy mazhabining asoschisi.", bookInfo: "Musnad Ahmad - 1374 ta hadis, 30 ta bob." },
-            9: { authorBio: "Imom ad-Darimiy (797-869) - to'liq ismi Abu Muhammad Abdurrahmon ibn Abdulloh ad-Darimiy.", bookInfo: "Sunani ad-Darimiy - 3406 ta hadis, 24 ta bob." },
-            10: { authorBio: "Imom an-Navaviy (1233-1277) - to'liq ismi Abu Zakariyo Yahyo ibn Sharaf an-Navaviy.", bookInfo: "Al-Arba'in an-Navaviy - 40 hadisdan iborat mashhur to'plam." },
-            11: { authorBio: "Hadis Qudsiy - ma'nosi Allohdan, lafzi Payg'ambarimizdan.", bookInfo: "Al-Arba'in al-Qudsiya - 40 ta hadis qudsiy." },
-            12: { authorBio: "Shoh Valiyulloh Dahlaviy (1703-1762) - Hindistonda tug'ilgan buyuk olim.", bookInfo: "Al-Arba'in Shah Valiyulloh - 40 hadis." },
-            15: { authorBio: "Imom Buxoriy (810-870) - hadis ilmining eng buyuk olimi.", bookInfo: "Al-Adab al-Mufrad - 1326 ta hadis, 57 ta bob." },
-            16: { authorBio: "Imom an-Navaviy (1233-1277) - hadis va fiqh olimi.", bookInfo: "Riyazus Solihin - 1896 ta hadis, 20 ta bob." },
-            17: { authorBio: "Ibn Hajar al-Asqaloniy (1372-1449) - hadis olimi.", bookInfo: "Bulg' al-Marom - 1767 ta hadis, 16 ta bob." },
-            18: { authorBio: "Al-Xatib at-Tabriziy - hadis olimi.", bookInfo: "Mishkot al-Masobih - 4428 ta hadis, 29 ta bob." },
-            19: { authorBio: "Imom at-Tirmiziy (824-892) - Termizda tug'ilgan olim.", bookInfo: "Shamoil Muhammadiya - 402 ta hadis, 56 ta bob." }
-        };
-
+        // Tafsirlar ro'yxati (qisqartirilgan)
         const tafsirs = [
-    { id: 381, name: "Tafsir Fathul Majid", author: "AbdulRahman Bin Hasan Al-Alshaikh", language: "bengali", slug: "bn-tafisr-fathul-majid", color: "from-emerald-600 to-teal-800" },
-    { id: 92, name: "Tafseer Tanwir al-Miqbas", author: "Tanweer", language: "arabic", slug: "ar-tafseer-tanwir-al-miqbas", color: "from-blue-600 to-indigo-800" },
-    { id: 157, name: "Fi Zilal al-Quran", author: "Sayyid Ibrahim Qutb", language: "urdu", slug: "ur-tafsir-fe-zalul-quran-syed-qatab", color: "from-amber-600 to-orange-800" },
-    { id: 160, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "urdu", slug: "ur-tafseer-ibn-e-kaseer", color: "from-rose-600 to-pink-800" },
-    { id: 159, name: "Tafsir Bayan ul Quran", author: "Dr. Israr Ahmad", language: "urdu", slug: "ur-tafsir-bayan-ul-quran", color: "from-green-600 to-emerald-800" },
-    { id: 818, name: "Tazkirul Quran", author: "Maulana Wahid Uddin Khan", language: "urdu", slug: "ur-tazkirul-quran", color: "from-purple-600 to-indigo-800" },
-    { id: 817, name: "Tazkirul Quran", author: "Maulana Wahid Uddin Khan", language: "english", slug: "en-tazkirul-quran", color: "from-fuchsia-600 to-pink-800" },
-    { id: 109, name: "Kashf Al-Asrar Tafsir", author: "Kashf Al-Asrar Tafsir", language: "english", slug: "en-kashf-al-asrar-tafsir", color: "from-slate-600 to-slate-800" },
-    { id: 108, name: "Al Qushairi Tafsir", author: "Al Qushairi Tafsir", language: "english", slug: "en-al-qushairi-tafsir", color: "from-lime-600 to-green-800" },
-    { id: 107, name: "Kashani Tafsir", author: "Kashani Tafsir", language: "english", slug: "en-kashani-tafsir", color: "from-teal-600 to-cyan-800" },
-    { id: 93, name: "Tafsir al-Tustari", author: "Tafsir al-Tustari", language: "english", slug: "en-tafsir-al-tustari", color: "from-sky-600 to-blue-800" },
-    { id: 86, name: "Asbab Al-Nuzul", author: "Al-Wahidi", language: "english", slug: "en-asbab-al-nuzul-by-al-wahidi", color: "from-cyan-600 to-sky-800" },
-    { id: 73, name: "Tanwir al-Miqbas min Tafsir Ibn Abbas", author: "Tanwir al-Miqbas", language: "english", slug: "en-tafsir-ibn-abbas", color: "from-indigo-600 to-violet-800" },
-    { id: 74, name: "Al-Jalalayn", author: "Al-Jalalayn", language: "english", slug: "en-al-jalalayn", color: "from-violet-600 to-purple-800" },
-    { id: 453, name: "Sinhalese Mokhtasar", author: "Sinhalese Mokhtasar", language: "sinhala", slug: "sinhalese-mokhtasar", color: "from-pink-600 to-rose-800" },
-    { id: 266, name: "English Al-Mukhtasar", author: "Tafsir Center", language: "english", slug: "en-tafsir-al-mukhtasar", color: "from-yellow-600 to-amber-800" },
-    { id: 283, name: "Tafsir As-Saadi", author: "Tafsir As-Saadi", language: "albanian", slug: "sq-saadi", color: "from-orange-600 to-red-800" },
-    { id: 265, name: "Japanese Abridged Explanation", author: "Tafsir Center", language: "japanese", slug: "japanese-mokhtasar", color: "from-red-600 to-pink-800" },
-    { id: 262, name: "Russian Al-Mukhtasar", author: "Tafsir Center", language: "russian", slug: "russian-mokhtasar", color: "from-teal-600 to-emerald-800" },
-    { id: 267, name: "Bengali Abridged Explanation", author: "Tafsir Center", language: "bengali", slug: "bengali-mokhtasar", color: "from-blue-600 to-cyan-800" },
-    { id: 254, name: "Filipino Al-Mukhtasar", author: "Tafsir Center", language: "tagalog", slug: "tagalog-mokhtasar", color: "from-emerald-600 to-green-800" },
-    { id: 307, name: "Tafsir Ibne Kathir", author: "Hafiz Ibn Kathir", language: "russian", slug: "ru-tafsir-ibne-kahtir", color: "from-amber-600 to-yellow-800" },
-    { id: 264, name: "Chinese Abridged Explanation", author: "Tafsir Center", language: "chinese", slug: "chinese-mokhtasar", color: "from-rose-600 to-red-800" },
-    { id: 306, name: "Tafsir Ibne Kathir", author: "Hafiz Ibn Kathir", language: "turkish", slug: "tr-tafsir-ibne-kathir", color: "from-purple-600 to-fuchsia-800" },
-    { id: 250, name: "Asseraj fi Bayan Gharib AlQuran", author: "Asseraj", language: "arabic", slug: "asseraj-fi-bayan-gharib-alquran", color: "from-slate-600 to-gray-800" },
-    { id: 255, name: "Assamese Abridged Explanation", author: "Tafsir Center", language: "assamese", slug: "assamese-mokhtasar", color: "from-lime-600 to-emerald-800" },
-    { id: 251, name: "Arabic Al-Mukhtasar", author: "Tafsir Center", language: "arabic", slug: "ar-tafsir-al-mukhtasar", color: "from-teal-600 to-cyan-800" },
-    { id: 253, name: "Italian Al-Mukhtasar", author: "Tafsir Center", language: "italian", slug: "italian-mokhtasar", color: "from-sky-600 to-indigo-800" },
-    { id: 310, name: "Tafsir As-Saadi", author: "Tafsir As-Saadi", language: "russian", slug: "tafsir-as-saadi-russian", color: "from-cyan-600 to-blue-800" },
-    { id: 252, name: "Bosnian Abridged Explanation", author: "Tafsir Center", language: "bosnian", slug: "bosnian-mokhtasar", color: "from-indigo-600 to-violet-800" },
-    { id: 256, name: "Malayalam Abridged Explanation", author: "Tafsir Center", language: "malayalam", slug: "malayalam-mokhtasar", color: "from-violet-600 to-purple-800" },
-    { id: 258, name: "Turkish Al-Mukhtasar", author: "Tafsir Center", language: "turkish", slug: "turkish-mokhtasar", color: "from-pink-600 to-rose-800" },
-    { id: 257, name: "Khmer Abridged Explanation", author: "Tafsir Center", language: "central khmer", slug: "khmer-mokhtasar", color: "from-yellow-600 to-amber-800" },
-    { id: 259, name: "French Abridged Explanation", author: "Tafsir Center", language: "french", slug: "french-mokhtasar", color: "from-orange-600 to-red-800" },
-    { id: 261, name: "Vietnamese Al-Mukhtasar", author: "Tafsir Center", language: "vietnamese", slug: "vietnamese-mokhtasar", color: "from-red-600 to-rose-800" },
-    { id: 263, name: "Persian Al-Mukhtasar", author: "Tafsir Center", language: "persian", slug: "persian-mokhtasar", color: "from-teal-600 to-emerald-800" },
-    { id: 308, name: "Tafsir As-Saadi", author: "Tafsir As-Saadi", language: "arabic", slug: "ar-tafsir-as-saadi", color: "from-blue-600 to-indigo-800" },
-    { id: 260, name: "Indonesian Al-Mukhtasar", author: "Tafsir Center", language: "indonesian", slug: "indonesian-mokhtasar", color: "from-emerald-600 to-teal-800" },
-    { id: 504, name: "Iraab Al-Muyassar", author: "Iraab Al-Muyassar", language: "arabic", slug: "al-i-rab-al-muyassar", color: "from-amber-600 to-orange-800" },
-    { id: 309, name: "Tafsir As-Saadi - Urdu", author: "Tafsir As-Saadi", language: "urdu", slug: "ur-tafsir-as-saadi-urdu", color: "from-rose-600 to-pink-800" },
-    { id: 503, name: "Tafsir As-Saadi - Indonesian", author: "Tafsir As-Saadi", language: "indonesian", slug: "id-tafsir-as-saadi", color: "from-green-600 to-emerald-800" },
-    { id: 499, name: "Tafsir Ibn Abi Zamanin", author: "Ibn Abi Zamanin", language: "arabic", slug: "tafsir-ibn-abi-zamanin", color: "from-purple-600 to-indigo-800" },
-    { id: 507, name: "Abu Bakr Jabir Al-Jazairi", author: "Abu Bakr Jabir Al-Jazairi", language: "arabic", slug: "abu-bakr-jabir-al-jazairi", color: "from-fuchsia-600 to-pink-800" },
-    { id: 506, name: "I'rab Al Quran li Al Darwish", author: "Al Darwish", language: "arabic", slug: "i-rab-al-quran-li-al-darwish", color: "from-slate-600 to-slate-800" },
-    { id: 498, name: "Nazam Al-Durar Al-Biqa'i", author: "Al-Biqa'i", language: "arabic", slug: "nazam-al-durar-al-biqa-i", color: "from-lime-600 to-green-800" },
-    { id: 25, name: "Tafsir al-Tahrir wa al-Tanwir", author: "Ibn Ashur", language: "arabic", slug: "ar-tafseer-tahrir-al-tanwir", color: "from-teal-600 to-cyan-800" },
-    { id: 35, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "english", slug: "en-tafisr-ibn-kathir", color: "from-sky-600 to-blue-800" },
-    { id: 24, name: "Tafseer Al Saadi", author: "Saddi", language: "arabic", slug: "ar-tafseer-al-saddi", color: "from-cyan-600 to-sky-800" },
-    { id: 36, name: "Tafseer Al Saadi", author: "Saddi", language: "russian", slug: "ru-tafseer-al-saddi", color: "from-indigo-600 to-violet-800" },
-    { id: 22, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "arabic", slug: "ar-tafsir-ibn-kathir", color: "from-violet-600 to-purple-800" },
-    { id: 23, name: "Tafseer Al Qurtubi", author: "Qurtubi", language: "arabic", slug: "ar-tafseer-al-qurtubi", color: "from-pink-600 to-rose-800" },
-    { id: 27, name: "Tafseer Al-Baghawi", author: "Baghawy", language: "arabic", slug: "ar-tafsir-al-baghawi", color: "from-yellow-600 to-amber-800" },
-    { id: 30, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "urdu", slug: "tafseer-ibn-e-kaseer-urdu", color: "from-orange-600 to-red-800" },
-    { id: 28, name: "Fi Zilal al-Quran", author: "Sayyid Qutb", language: "urdu", slug: "tafsir-fe-zalul-quran-syed-qatab", color: "from-red-600 to-rose-800" },
-    { id: 31, name: "Tafseer ibn Kathir", author: "Tawheed Publication", language: "bengali", slug: "bn-tafseer-ibn-e-kaseer", color: "from-teal-600 to-emerald-800" },
-    { id: 29, name: "Tafsir Bayan ul Quran", author: "Dr. Israr Ahmad", language: "urdu", slug: "tafsir-bayan-ul-quran", color: "from-blue-600 to-indigo-800" },
-    { id: 26, name: "Tafsir Al Wasit", author: "Waseet", language: "arabic", slug: "ar-tafsir-al-wasit", color: "from-emerald-600 to-teal-800" },
-    { id: 34, name: "Maarif-ul-Quran", author: "Mufti Muhammad Shafi", language: "english", slug: "en-tafsir-maarif-ul-quran", color: "from-amber-600 to-orange-800" },
-    { id: 38, name: "Tafsir Muyassar", author: "المیسر", language: "arabic", slug: "ar-tafsir-muyassar", color: "from-rose-600 to-pink-800" },
-    { id: 41, name: "Tafsir Jalalayn", author: "Jalalayn", language: "indonesian", slug: "in-tafsir-jalalayn", color: "from-green-600 to-emerald-800" },
-    { id: 32, name: "Tafsir Ahsanul Bayaan", author: "Bayaan Foundation", language: "bengali", slug: "bn-tafsir-ahsanul-bayaan", color: "from-purple-600 to-indigo-800" },
-    { id: 39, name: "Tafsir Fathul Majid", author: "Fathul Majid", language: "bengali", slug: "tafisr-fathul-majid-bn", color: "from-fuchsia-600 to-pink-800" },
-    { id: 33, name: "Tafsir Abu Bakr Zakaria", author: "King Fahd Quran Printing Complex", language: "bengali", slug: "bn-tafsir-abu-bakr-zakaria", color: "from-slate-600 to-slate-800" },
-    { id: 42, name: "Tazkirul Quran", author: "Maulana Wahiduddin Khan", language: "english", slug: "tazkirul-quran-en", color: "from-lime-600 to-green-800" },
-    { id: 43, name: "Tazkirul Quran", author: "Maulana Wahiduddin Khan", language: "urdu", slug: "tazkiru-quran-ur", color: "from-teal-600 to-cyan-800" },
-    { id: 40, name: "Rebar Kurdish Tafsir", author: "Rebar", language: "kurdish", slug: "kurd-tafsir-rebar", color: "from-sky-600 to-blue-800" },
-    { id: 509, name: "Al-Muharrar Al-Wajiz", author: "Ibn Atiyyah", language: "arabic", slug: "al-muharrar-al-wajiz-ibn-atiyyah", color: "from-cyan-600 to-sky-800" },
-    { id: 37, name: "Tafsir al-Tabari", author: "Tabari", language: "arabic", slug: "ar-tafsir-al-tabari", color: "from-indigo-600 to-violet-800" },
-    { id: 511, name: "Al-Basit", author: "Al-Basit", language: "arabic", slug: "al-basit", color: "from-violet-600 to-purple-800" },
-    { id: 515, name: "Alrab Al-Quran li-Da'as", author: "Da'as", language: "arabic", slug: "alrab-al-quran-li-da-as", color: "from-pink-600 to-rose-800" },
-    { id: 514, name: "Tafsir Al-Nasafi", author: "Al-Nasafi", language: "arabic", slug: "tafsir-al-nasafi", color: "from-yellow-600 to-amber-800" },
-    { id: 519, name: "Al-Muyassar fi Al-Gharib", author: "Al-Muyassar", language: "arabic", slug: "al-muyassar-fi-al-gharib", color: "from-orange-600 to-red-800" },
-    { id: 516, name: "Al Lubab fi Ulum Al Kitab", author: "Al Lubab", language: "arabic", slug: "al-lubab-fi-ulum-al-kitab", color: "from-red-600 to-rose-800" },
-    { id: 523, name: "Tafsir Jalalayn", author: "Jalal al-Din al-Mahalli & al-Suyuti", language: "arabic", slug: "ar-tafsir-al-jalalayn", color: "from-teal-600 to-emerald-800" },
-    { id: 518, name: "Tafsir Al-Baydawi", author: "Al-Baydawi", language: "arabic", slug: "tafsir-al-baydawi", color: "from-blue-600 to-indigo-800" },
-    { id: 520, name: "Al Jadwal fi I'rab Al Quran", author: "Al Jadwal", language: "arabic", slug: "al-jadwal-fi-i-rab-al-quran", color: "from-emerald-600 to-teal-800" },
-    { id: 488, name: "Tafsir Al-Razi", author: "Al-Razi", language: "arabic", slug: "tafsir-al-razi", color: "from-amber-600 to-orange-800" },
-    { id: 573, name: "Tafsir Al Jalalayn - English", author: "Jalalayn", language: "english", slug: "tafsir-al-jalalayn", color: "from-rose-600 to-pink-800" },
-    { id: 491, name: "Tafsir Ibn Juzay", author: "Ibn Juzay", language: "arabic", slug: "tafsir-ibn-juzay", color: "from-green-600 to-emerald-800" },
-    { id: 485, name: "Tafsir As-Saadi - Persian", author: "As-Saadi", language: "persian", slug: "fr-tafsir-as-saadi", color: "from-purple-600 to-indigo-800" },
-    { id: 484, name: "Tafsir As-Saadi - Turkish", author: "As-Saadi", language: "turkish", slug: "turkish-tafsir-as-saadi-turkish", color: "from-fuchsia-600 to-pink-800" },
-    { id: 492, name: "Mawsoo'at Al-Tafsir Al-Ma'thoor", author: "Mawsoo'at", language: "arabic", slug: "mawsoo-at-al-tafsir-al-ma-thoor", color: "from-slate-600 to-slate-800" },
-    { id: 487, name: "Tahlil Kalimat al-Qur'an", author: "Tahlil", language: "arabic", slug: "tahlil-kalimat-al-qur-an", color: "from-lime-600 to-green-800" },
-    { id: 486, name: "Tafsir Ibn Uthaymeen", author: "Ibn Uthaymeen", language: "arabic", slug: "tafsir-ibn-uthaymeen", color: "from-teal-600 to-cyan-800" },
-    { id: 490, name: "Tafsir Makhi", author: "Makhi", language: "arabic", slug: "tafsir-makhi", color: "from-sky-600 to-blue-800" },
-    { id: 541, name: "Thai Mokhtasar", author: "Tafsir Center", language: "thai", slug: "thai-mokhtasar", color: "from-cyan-600 to-sky-800" },
-    { id: 524, name: "Mahasin Al-Ta'wil Al-Qasimi", author: "Al-Qasimi", language: "arabic", slug: "mahasin-al-ta-wil-al-qasimi", color: "from-indigo-600 to-violet-800" },
-    { id: 540, name: "Telugu Mokhtasar", author: "Tafsir Center", language: "telugu", slug: "telugu-mokhtasar", color: "from-violet-600 to-purple-800" },
-    { id: 539, name: "Uyghur Mokhtasar", author: "Tafsir Center", language: "uighur", slug: "uyghur-mokhtasar", color: "from-pink-600 to-rose-800" },
-    { id: 533, name: "Pashto Mokhtasar", author: "Tafsir Center", language: "pashto", slug: "pashto-mokhtasar", color: "from-yellow-600 to-amber-800" },
-    { id: 529, name: "Tafsir Al-Sam'ani", author: "Al-Sam'ani", language: "arabic", slug: "tafsir-al-sam-ani", color: "from-orange-600 to-red-800" },
-    { id: 537, name: "Azeri Mokhtasar", author: "Tafsir Center", language: "azeri", slug: "azeri-mokhtasar", color: "from-red-600 to-rose-800" },
-    { id: 534, name: "Fulani Mokhtasar", author: "Tafsir Center", language: "fulah", slug: "fulani-mokhtasar", color: "from-teal-600 to-emerald-800" },
-    { id: 526, name: "Al-Bahr Al-Muhit", author: "Abu Hayyan", language: "arabic", slug: "al-bahr-al-muhit", color: "from-blue-600 to-indigo-800" },
-    { id: 528, name: "Tafsir Al-Tha'alibi", author: "Al-Tha'alibi", language: "arabic", slug: "ar-tafsir-al-tha-alibi", color: "from-emerald-600 to-teal-800" },
-    { id: 538, name: "Uzbek Mokhtasar", author: "Tafsir Center", language: "uzbek", slug: "uzbek-mokhtasar", color: "from-amber-600 to-orange-800" },
-    { id: 527, name: "Tafsir Al-Tha'alibi", author: "Al-Tha'alibi", language: "arabic", slug: "ar-tafsir-al-tha-alibi-527", color: "from-rose-600 to-pink-800" },
-    { id: 525, name: "Adwa' Al-Bayan", author: "Al-Shanqiti", language: "arabic", slug: "adwa-al-bayan", color: "from-green-600 to-emerald-800" },
-    { id: 563, name: "Ayah Dependency Graphs", author: "Tafsir Center", language: "arabic", slug: "ayah-dependency-graphs", color: "from-purple-600 to-indigo-800" },
-    { id: 543, name: "Serbian Mokhtasar", author: "Tafsir Center", language: "serbian", slug: "serbian-mokhtasar", color: "from-fuchsia-600 to-pink-800" },
-    { id: 542, name: "Kurdish Mokhtasar", author: "Tafsir Center", language: "kurdish", slug: "kurdish-mokhtasar", color: "from-slate-600 to-slate-800" },
-    { id: 489, name: "Al-Wajiz Wahidi", author: "Al-Wahidi", language: "arabic", slug: "al-wajiz-wahidi", color: "from-lime-600 to-green-800" },
-    { id: 554, name: "Tamil Mokhtasar", author: "Tafsir Center", language: "tamil", slug: "tamil-mokhtasar", color: "from-teal-600 to-cyan-800" },
-    { id: 494, name: "Fath Al-Qadir", author: "Al-Shawkani", language: "arabic", slug: "fath-al-qadir-al-shawkani", color: "from-sky-600 to-blue-800" },
-    { id: 522, name: "Al Nashr li Ibn Al Jazari", author: "Ibn Al Jazari", language: "arabic", slug: "al-nashr-li-ibn-al-jazari", color: "from-cyan-600 to-sky-800" },
-    { id: 536, name: "Kyrgyz Mokhtasar", author: "Tafsir Center", language: "kyrgyz", slug: "kyrgyz-mokhtasar", color: "from-indigo-600 to-violet-800" },
-    { id: 521, name: "Al Qira'at Al Mawsoo'ah", author: "Tafsir Center", language: "arabic", slug: "al-qira-at-al-mawsoo-ah-al-qur-aniyyah", color: "from-violet-600 to-purple-800" },
-    { id: 268, name: "Spanish Abridged Explanation", author: "Tafsir Center", language: "spanish", slug: "spanish-mokhtasar", color: "from-pink-600 to-rose-800" },
-    { id: 496, name: "Tafsir Ibn Al-Jawzi", author: "Ibn Al-Jawzi", language: "arabic", slug: "tafsir-ibn-al-jawzi", color: "from-yellow-600 to-amber-800" },
-    { id: 500, name: "Tafsir Ibn Al-Qayyim", author: "Ibn Al-Qayyim", language: "arabic", slug: "tafsir-ibn-al-qayyim", color: "from-orange-600 to-red-800" },
-    { id: 535, name: "Hindi Mokhtasar", author: "Tafsir Center", language: "hindi", slug: "hindi-mokhtasar", color: "from-red-600 to-rose-800" },
-    { id: 493, name: "Al-Durr Al-Manthur", author: "Al-Suyuti", language: "arabic", slug: "al-durr-al-manthur", color: "from-teal-600 to-emerald-800" },
-    { id: 508, name: "Jamia Al-Bayan AlIji", author: "Al-Iji", language: "arabic", slug: "jamia-al-bayan-aliji", color: "from-blue-600 to-indigo-800" },
-    { id: 513, name: "Tafsir Al-Samarqandi", author: "Al-Samarqandi", language: "arabic", slug: "tafsir-al-samarqandi", color: "from-emerald-600 to-teal-800" },
-    { id: 502, name: "Tafsir Ibn Abi Hatim", author: "Ibn Abi Hatim", language: "arabic", slug: "tafsir-ibn-abi-hatim", color: "from-amber-600 to-orange-800" },
-    { id: 501, name: "Tafsir Al-Alusi", author: "Al-Alusi", language: "arabic", slug: "tafsir-al-alusi", color: "from-rose-600 to-pink-800" },
-    { id: 505, name: "Al Dur Al Masun", author: "Al-Samin Al-Halabi", language: "arabic", slug: "al-dur-al-masun-lil-samin-al-halabi", color: "from-green-600 to-emerald-800" },
-    { id: 517, name: "Tadabbur wa 'Amal", author: "Tadabbur", language: "arabic", slug: "tadabbur-wa-amal", color: "from-purple-600 to-indigo-800" },
-    { id: 495, name: "Fath Al-Bayan li Al-Qanuji", author: "Al-Qanuji", language: "arabic", slug: "fath-al-bayan-li-al-qanuji", color: "from-fuchsia-600 to-pink-800" },
-    { id: 497, name: "Tafsir Abi Al-Suaood", author: "Abi Al-Suaood", language: "arabic", slug: "tafsir-abi-al-su-ood", color: "from-slate-600 to-slate-800" },
-    { id: 512, name: "Tafsir Al-Mawardi", author: "Al-Mawardi", language: "arabic", slug: "tafsir-al-mawardi", color: "from-lime-600 to-green-800" },
-    { id: 510, name: "Al-Kashshaf", author: "Al-Zamakhshari", language: "arabic", slug: "al-kashshaf-al-zamakhshari", color: "from-teal-600 to-cyan-800" }
-];
+            { id: 538, name: "Uzbek Mokhtasar", author: "Tafsir Center", language: "uzbek", slug: "uzbek-mokhtasar", color: "from-emerald-600 to-teal-800" },
+            { id: 35, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "english", slug: "en-tafisr-ibn-kathir", color: "from-blue-600 to-indigo-800" },
+            { id: 22, name: "Tafsir Ibn Kathir", author: "Hafiz Ibn Kathir", language: "arabic", slug: "ar-tafsir-ibn-kathir", color: "from-amber-600 to-orange-800" },
+            { id: 24, name: "Tafseer Al Saadi", author: "Saddi", language: "arabic", slug: "ar-tafseer-al-saddi", color: "from-rose-600 to-pink-800" },
+            { id: 23, name: "Tafseer Al Qurtubi", author: "Qurtubi", language: "arabic", slug: "ar-tafseer-al-qurtubi", color: "from-green-600 to-emerald-800" },
+            { id: 37, name: "Tafsir al-Tabari", author: "Tabari", language: "arabic", slug: "ar-tafsir-al-tabari", color: "from-purple-600 to-indigo-800" },
+            { id: 27, name: "Tafseer Al-Baghawi", author: "Baghawy", language: "arabic", slug: "ar-tafsir-al-baghawi", color: "from-fuchsia-600 to-pink-800" },
+            { id: 26, name: "Tafsir Al Wasit", author: "Waseet", language: "arabic", slug: "ar-tafsir-al-wasit", color: "from-slate-600 to-slate-800" },
+            { id: 38, name: "Tafsir Muyassar", author: "المیسر", language: "arabic", slug: "ar-tafsir-muyassar", color: "from-lime-600 to-green-800" },
+            { id: 93, name: "Tafsir al-Tustari", author: "Al-Tustari", language: "english", slug: "en-tafsir-al-tustari", color: "from-sky-600 to-blue-800" },
+            { id: 86, name: "Asbab Al-Nuzul", author: "Al-Wahidi", language: "english", slug: "en-asbab-al-nuzul-by-al-wahidi", color: "from-cyan-600 to-sky-800" },
+            { id: 34, name: "Maarif-ul-Quran", author: "Mufti Muhammad Shafi", language: "english", slug: "en-tafsir-maarif-ul-quran", color: "from-teal-600 to-cyan-800" },
+            { id: 266, name: "English Al-Mukhtasar", author: "Tafsir Center", language: "english", slug: "en-tafsir-al-mukhtasar", color: "from-indigo-600 to-violet-800" }
+        ];
 
         let currentBook = null;
         let currentHadiths = [];
@@ -420,6 +304,7 @@
         let filteredTafsirAyahs = [];
         let currentHadithLanguage = 'en';
         let uzDataLoaded = false;
+        let currentHadithIndexForLang = 0;
         const PAGE_SIZE = 30;
 
         let sessionState = {
@@ -603,40 +488,6 @@
             return card;
         }
 
-        function showBookIntro(bookId) {
-            const book = books.find(b => b.id === bookId);
-            const intro = bookIntroductions[bookId];
-            if (!book || !intro) return;
-            const modal = document.createElement('div');
-            modal.className = 'fixed inset-0 z-50 bg-black/50 flex items-end justify-center';
-            modal.innerHTML = `
-                <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-t-3xl p-4 max-h-[80vh] flex flex-col">
-                    <div class="flex justify-between items-center mb-3">
-                        <h3 class="font-bold text-slate-800 dark:text-slate-100">${book.nameUz} - Muqaddima</h3>
-                        <button onclick="this.closest('.fixed').remove()" class="p-1.5 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
-                            <i data-lucide="x" class="w-5 h-5"></i>
-                        </button>
-                    </div>
-                    <div class="overflow-y-auto custom-scroll flex-1 space-y-4 pb-4">
-                        <div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4">
-                            <h4 class="font-bold text-amber-600 dark:text-amber-400 mb-2 flex items-center gap-2">
-                                <i data-lucide="user" class="w-4 h-4"></i> Muallif haqida
-                            </h4>
-                            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-300">${intro.authorBio}</p>
-                        </div>
-                        <div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4">
-                            <h4 class="font-bold text-amber-600 dark:text-amber-400 mb-2 flex items-center gap-2">
-                                <i data-lucide="book" class="w-4 h-4"></i> Kitob haqida
-                            </h4>
-                            <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-300">${intro.bookInfo}</p>
-                        </div>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(modal);
-            lucide.createIcons();
-        }
-
         async function loadRandomHadith() {
             const cardContainer = document.getElementById('randomHadithCard');
             cardContainer.innerHTML = `<div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>`;
@@ -804,17 +655,6 @@
             const container = document.getElementById('chaptersGrid');
             container.innerHTML = '';
             
-            if (bookIntroductions[currentBook.id]) {
-                const introCard = document.createElement('div');
-                introCard.className = 'bg-amber-50 dark:bg-amber-900/20 border border-amber-500/30 rounded-xl p-3 cursor-pointer hover:border-amber-500/60 transition active:scale-95';
-                introCard.onclick = () => showBookIntro(currentBook.id);
-                introCard.innerHTML = `
-                    <div class="text-[11px] font-bold text-amber-600 dark:text-amber-400 mb-0.5">Muqaddima</div>
-                    <div class="text-xs font-semibold text-slate-700 dark:text-slate-200">Muallif va kitob haqida</div>
-                `;
-                container.appendChild(introCard);
-            }
-            
             let chaptersList = rawBookData.chapters || [];
             chaptersList = chaptersList.filter(ch => ch.id !== 0);
             
@@ -887,7 +727,7 @@
                     if (uzData) {
                         narratorHtml = uzData.narrator ? `<div class="font-bold text-emerald-600 dark:text-emerald-400 mb-1">${uzData.narrator}</div>` : '';
                         translationHtml = `<div>${uzData.text}</div>`;
-                        copyText = `${currentBook.author} #${item.bookHadithNo}\n\n${arabicText ? arabicText + '\n\n' : ''}${narratorHtml ? uzData.narrator + '\n' : ''}${uzData.text}\n\nManba: ${currentBook.nameUz}, #${item.bookHadithNo}-hadis.\n\nVisit: ${SITE_URL}`;
+                        copyText = `${currentBook.author} #${item.bookHadithNo}\n\n${arabicText ? arabicText + '\n\n' : ''}${uzData.narrator ? uzData.narrator + '\n' : ''}${uzData.text}\n\nManba: ${currentBook.nameUz}, #${item.bookHadithNo}-hadis.\n\nVisit: ${SITE_URL}`;
                     } else {
                         translationHtml = `<div class="text-slate-400 italic text-sm py-3 text-center border border-dashed border-slate-300 dark:border-slate-700 rounded-xl">Tarjimalar mavjud emas</div>`;
                         copyText = `${currentBook.author} #${item.bookHadithNo}\n\n${arabicText ? arabicText + '\n\n' : ''}Tarjimalar mavjud emas\n\nManba: ${currentBook.nameUz}, #${item.bookHadithNo}-hadis.\n\nVisit: ${SITE_URL}`;
@@ -911,13 +751,11 @@
                         ${translationHtml}
                     </div>
                     <div class="flex justify-between items-center gap-2 pt-2 border-t border-slate-100 dark:border-slate-800/60">
-                        <div class="flex items-center gap-1">
-                            <button onclick="switchHadithLanguage('en')" class="px-2.5 py-1.5 rounded-lg text-[11px] font-semibold transition active:scale-95 ${currentHadithLanguage === 'en' ? 'bg-emerald-500 text-white' : 'bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300'}">EN</button>
-                            <button onclick="switchHadithLanguage('uz')" class="px-2.5 py-1.5 rounded-lg text-[11px] font-semibold transition active:scale-95 ${currentHadithLanguage === 'uz' ? 'bg-emerald-500 text-white' : 'bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300'}">UZ</button>
-                        </div>
+                        <span class="text-[11px] text-slate-400 font-medium">${currentHadithLanguage.toUpperCase()}</span>
                         <div class="flex gap-1.5">
-                            <button onclick="copyHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-emerald-500 transition active:scale-95"><i data-lucide="copy" class="w-4 h-4"></i></button>
-                            <button onclick="shareHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-emerald-500 transition active:scale-95"><i data-lucide="share-2" class="w-4 h-4"></i></button>
+                            <button onclick="openHadithLangModal(${currentIndex})" class="p-2 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-emerald-500 transition active:scale-95" title="Tilni almashtirish"><i data-lucide="globe" class="w-4 h-4"></i></button>
+                            <button onclick="copyHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-emerald-500 transition active:scale-95" title="Nusxalash"><i data-lucide="copy" class="w-4 h-4"></i></button>
+                            <button onclick="shareHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-200/60 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-emerald-500 transition active:scale-95" title="Bo'lishish"><i data-lucide="share-2" class="w-4 h-4"></i></button>
                         </div>
                     </div>
                 `;
@@ -929,10 +767,66 @@
             if (displayedCount < filteredHadiths.length) { loadBtn.classList.remove('hidden'); } else { loadBtn.classList.add('hidden'); }
         }
 
+        // Hadis tili modal
+        function openHadithLangModal(index) {
+            currentHadithIndexForLang = index;
+            document.getElementById('hadithLangModal').classList.remove('hidden');
+            renderHadithLangList();
+            lucide.createIcons();
+        }
+
+        function closeHadithLangModal() {
+            document.getElementById('hadithLangModal').classList.add('hidden');
+        }
+
+        function renderHadithLangList() {
+            const container = document.getElementById('hadithLangList');
+            container.innerHTML = '';
+            
+            const langs = [
+                { code: 'en', name: 'English', available: true },
+                { code: 'uz', name: 'Uzbek', available: uzDataLoaded }
+            ];
+            
+            const sortedLangs = [...langs].sort((a, b) => a.name.localeCompare(b.name));
+            
+            sortedLangs.forEach(lang => {
+                const item = document.createElement('div');
+                item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
+                item.onclick = () => switchHadithLanguage(lang.code);
+                
+                const statusColor = lang.available ? 'text-emerald-500' : 'text-red-400';
+                const statusBg = lang.available ? 'bg-emerald-500/10' : 'bg-red-500/10';
+                
+                item.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-lg ${statusBg} flex items-center justify-center shrink-0">
+                            <i data-lucide="${lang.available ? 'check' : 'x'}" class="w-5 h-5 ${statusColor}"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100">${lang.name}</h4>
+                            <p class="text-xs text-slate-400 uppercase">${lang.code}</p>
+                        </div>
+                        <span class="text-xs font-bold ${statusColor} uppercase">${lang.available ? 'yes' : 'no'}</span>
+                        ${currentHadithLanguage === lang.code ? '<i data-lucide="check-circle" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
+                    </div>
+                `;
+                container.appendChild(item);
+            });
+            lucide.createIcons();
+        }
+
         function switchHadithLanguage(lang) {
-            if (currentHadithLanguage === lang) return;
+            if (lang === 'uz' && !uzDataLoaded) {
+                alert("O'zbekcha tarjima fayli topilmadi!");
+                closeHadithLangModal();
+                return;
+            }
+            
             currentHadithLanguage = lang;
             sessionState.hadithLanguage = lang;
+            closeHadithLangModal();
+            
             const scrollPos = document.getElementById('mainScroll').scrollTop;
             const container = document.getElementById('hadithsList');
             container.innerHTML = '';
@@ -1014,24 +908,7 @@
             container.innerHTML = '';
             document.getElementById('tafsirCount').innerText = `${tafsirs.length} ta tafsir`;
             const sortedTafsirs = [...tafsirs].sort((a, b) => a.language.localeCompare(b.language));
-            const groupedByLetter = {};
-            sortedTafsirs.forEach(tafsir => {
-                const firstLetter = tafsir.language.charAt(0).toUpperCase();
-                if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
-                groupedByLetter[firstLetter].push(tafsir);
-            });
-            Object.keys(groupedByLetter).sort().forEach(letter => {
-                const letterDiv = document.createElement('div');
-                letterDiv.innerHTML = `
-                    <div class="flex items-center gap-2 pt-2 mb-2">
-                        <span class="w-1.5 h-5 bg-sky-500 rounded-full"></span>
-                        <h3 class="text-sm font-bold text-slate-800 dark:text-slate-100">${letter}</h3>
-                        <span class="text-xs text-slate-400 font-medium">${groupedByLetter[letter].length} ta</span>
-                    </div>
-                `;
-                container.appendChild(letterDiv);
-                groupedByLetter[letter].forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
-            });
+            sortedTafsirs.forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
             lucide.createIcons();
         }
 
@@ -1070,24 +947,7 @@
                 document.getElementById('tafsirCount').innerText = `${filtered.length} ta tafsir`;
             }
             const sortedTafsirs = [...filtered].sort((a, b) => a.language.localeCompare(b.language));
-            const groupedByLetter = {};
-            sortedTafsirs.forEach(tafsir => {
-                const firstLetter = tafsir.language.charAt(0).toUpperCase();
-                if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
-                groupedByLetter[firstLetter].push(tafsir);
-            });
-            Object.keys(groupedByLetter).sort().forEach(letter => {
-                const letterDiv = document.createElement('div');
-                letterDiv.innerHTML = `
-                    <div class="flex items-center gap-2 pt-2 mb-2">
-                        <span class="w-1.5 h-5 bg-sky-500 rounded-full"></span>
-                        <h3 class="text-sm font-bold text-slate-800 dark:text-slate-100">${letter}</h3>
-                        <span class="text-xs text-slate-400 font-medium">${groupedByLetter[letter].length} ta</span>
-                    </div>
-                `;
-                container.appendChild(letterDiv);
-                groupedByLetter[letter].forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
-            });
+            sortedTafsirs.forEach(tafsir => container.appendChild(createTafsirCard(tafsir)));
             lucide.createIcons();
         }
 
@@ -1155,7 +1015,7 @@
                 if (!saveState) {
                     setTimeout(() => { document.getElementById('mainScroll').scrollTop = sessionState.scrollPosition; }, 100);
                 }
-            } catch (err) { alert("Tafsir yuklanmadi. Iltimos qaytadan urinib ko'ring."); } finally { showLoading(false); }
+            } catch (err) { alert("Tafsir yuklanmadi."); } finally { showLoading(false); }
         }
 
         function renderTafsirAyahs() {
@@ -1204,41 +1064,23 @@
             const container = document.getElementById('modalTafsirList');
             container.innerHTML = '';
             const sortedTafsirs = [...list].sort((a, b) => a.language.localeCompare(b.language));
-            const groupedByLetter = {};
             sortedTafsirs.forEach(tafsir => {
-                const firstLetter = tafsir.language.charAt(0).toUpperCase();
-                if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
-                groupedByLetter[firstLetter].push(tafsir);
-            });
-            Object.keys(groupedByLetter).sort().forEach(letter => {
-                const letterDiv = document.createElement('div');
-                letterDiv.className = 'pt-2 mb-1';
-                letterDiv.innerHTML = `
+                const item = document.createElement('div');
+                item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
+                item.onclick = () => switchToTafsir(tafsir.id);
+                item.innerHTML = `
                     <div class="flex items-center gap-2">
-                        <span class="w-1 h-4 bg-sky-500 rounded-full"></span>
-                        <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase">${letter}</h4>
-                        <span class="text-[10px] text-slate-400">${groupedByLetter[letter].length} ta</span>
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
+                            <i data-lucide="book" class="w-4 h-4"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
+                            <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
+                        </div>
+                        ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
                     </div>
                 `;
-                container.appendChild(letterDiv);
-                groupedByLetter[letter].forEach(tafsir => {
-                    const item = document.createElement('div');
-                    item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
-                    item.onclick = () => switchToTafsir(tafsir.id);
-                    item.innerHTML = `
-                        <div class="flex items-center gap-2">
-                            <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
-                                <i data-lucide="book" class="w-4 h-4"></i>
-                            </div>
-                            <div class="flex-1 min-w-0">
-                                <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
-                                <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
-                            </div>
-                            ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
-                        </div>
-                    `;
-                    container.appendChild(item);
-                });
+                container.appendChild(item);
             });
             lucide.createIcons();
         }
