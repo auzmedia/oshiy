@@ -538,7 +538,41 @@
                 `; lucide.createIcons();
             } catch (err) { cardContainer.innerHTML = `<p class="text-xs text-amber-200 py-2">Hadisni yuklashda xatolik.</p>`; }
         }
-        async function goToRandomHadith() { if (!currentRandomHadithData) return; const d = currentRandomHadithData; await openBook(d.bookId, false); setTimeout(() => { const hadiths = document.querySelectorAll('#hadithsList > div'); for (let i = 0; i < hadiths.length; i++) { if (hadiths[i].textContent.includes(`Hadis #${d.hadithNo}`)) { hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' }); break; } } }, 500); }
+
+        async function goToRandomHadith() {
+            if (!currentRandomHadithData) return;
+            const d = currentRandomHadithData;
+            await openBook(d.bookId, false);
+            
+            setTimeout(async () => {
+                const targetIndex = currentHadiths.findIndex(h => h.bookHadithNo === d.hadithNo);
+                if (targetIndex === -1) return;
+                
+                const batchCount = Math.ceil((targetIndex + 1) / PAGE_SIZE);
+                const neededDisplay = batchCount * PAGE_SIZE;
+                
+                if (displayedCount < neededDisplay) {
+                    while (displayedCount < neededDisplay) {
+                        const nextBatch = filteredHadiths.slice(displayedCount, displayedCount + PAGE_SIZE);
+                        displayedCount += nextBatch.length;
+                        renderNextBatch(nextBatch);
+                    }
+                    const loadBtn = document.getElementById('loadMoreBtn');
+                    if (displayedCount >= filteredHadiths.length) loadBtn.classList.add('hidden');
+                }
+                
+                setTimeout(() => {
+                    const hadiths = document.querySelectorAll('#hadithsList > div');
+                    for (let i = 0; i < hadiths.length; i++) {
+                        if (hadiths[i].textContent.includes(`Hadis #${d.hadithNo}`)) {
+                            hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            break;
+                        }
+                    }
+                }, 100);
+            }, 500);
+        }
+
         async function loadRandomTafsir() { 
             const cardContainer = document.getElementById('randomTafsirCard');
             cardContainer.innerHTML = `<div class="animate-pulse space-y-2 py-4"><div class="h-4 bg-white/20 rounded w-3/4"></div><div class="h-4 bg-white/20 rounded w-1/2"></div></div>`;
@@ -741,11 +775,11 @@
                 }
                 
                 const showArabicBlock = settings.showArabic ? `
-                    <div class="font-arabic text-${settings.fontSize.arabic} leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl">${displayArabic}</div>
+                    <div class="font-arabic leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl" style="font-size: ${settings.fontSize.arabic}px;">${displayArabic}</div>
                 ` : '';
                 
                 const showTranslationBlock = settings.showTranslation ? `
-                    <div class="text-[${settings.fontSize.translation}px] leading-relaxed text-slate-300">
+                    <div class="leading-relaxed text-slate-300" style="font-size: ${settings.fontSize.translation}px;">
                         ${narratorHtml}
                         ${translationHtml}
                     </div>
@@ -905,8 +939,8 @@
                             <span class="text-xs font-bold text-emerald-400">Hadis #${b.hadithNo}</span>
                             <button onclick="removeBookmark('hadith', ${idx})" class="text-xs text-red-400 hover:text-red-300">O'chirish</button>
                         </div>
-                        ${b.arabic ? `<div class="font-arabic text-base leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl">${b.arabic}</div>` : ''}
-                        <div class="text-xs leading-relaxed text-slate-300">
+                        ${b.arabic ? `<div class="font-arabic leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl" style="font-size: ${settings.fontSize.arabic}px;">${b.arabic}</div>` : ''}
+                        <div class="leading-relaxed text-slate-300" style="font-size: ${settings.fontSize.translation}px;">
                             ${b.uzNarrator ? `<div class="font-bold text-emerald-400 mb-1">${b.uzNarrator}</div>` : b.narrator ? `<div class="font-bold text-emerald-400 mb-1">${b.narrator}</div>` : ''}
                             <div>${b.uzText || b.english || 'Tarjima yo\'q'}</div>
                         </div>
@@ -922,7 +956,7 @@
                             <span class="text-xs font-bold text-emerald-400">${b.tafsirName} — ${SURAH_NAMES_UZ[b.surah]} ${b.ayah}-oyat</span>
                             <button onclick="removeBookmark('${currentBookmarkTab === 'tafsir' ? 'tafsir' : 'ayah'}', ${idx})" class="text-xs text-red-400 hover:text-red-300">O'chirish</button>
                         </div>
-                        <p class="text-sm leading-relaxed text-slate-300">${b.text || ''}</p>
+                        <p class="leading-relaxed text-slate-300" style="font-size: ${settings.fontSize.translation}px;">${b.text || ''}</p>
                         <div class="pt-2 border-t border-slate-800/60">
                             <button onclick="goToBookmarkAyah(${idx})" class="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1">
                                 <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Manba: ${b.tafsirName}, ${SURAH_NAMES_UZ[b.surah]} ${b.ayah}-oyat
@@ -945,14 +979,33 @@
             const b = bookmarks.hadith[idx];
             if (!b) return;
             await openBook(b.bookId, false);
-            setTimeout(() => {
-                const hadiths = document.querySelectorAll('#hadithsList > div');
-                for (let i = 0; i < hadiths.length; i++) {
-                    if (hadiths[i].textContent.includes(`Hadis #${b.hadithNo}`)) {
-                        hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        break;
+            
+            setTimeout(async () => {
+                const targetIndex = currentHadiths.findIndex(h => h.bookHadithNo === b.hadithNo);
+                if (targetIndex === -1) return;
+                
+                const batchCount = Math.ceil((targetIndex + 1) / PAGE_SIZE);
+                const neededDisplay = batchCount * PAGE_SIZE;
+                
+                if (displayedCount < neededDisplay) {
+                    while (displayedCount < neededDisplay) {
+                        const nextBatch = filteredHadiths.slice(displayedCount, displayedCount + PAGE_SIZE);
+                        displayedCount += nextBatch.length;
+                        renderNextBatch(nextBatch);
                     }
+                    const loadBtn = document.getElementById('loadMoreBtn');
+                    if (displayedCount >= filteredHadiths.length) loadBtn.classList.add('hidden');
                 }
+                
+                setTimeout(() => {
+                    const hadiths = document.querySelectorAll('#hadithsList > div');
+                    for (let i = 0; i < hadiths.length; i++) {
+                        if (hadiths[i].textContent.includes(`Hadis #${b.hadithNo}`)) {
+                            hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            break;
+                        }
+                    }
+                }, 100);
             }, 500);
         }
         async function goToBookmarkAyah(idx) {
