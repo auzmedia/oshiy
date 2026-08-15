@@ -938,38 +938,65 @@
         }
 
         function renderModalTafsirList(list) {
-            const container = document.getElementById('modalTafsirList');
-            container.innerHTML = '';
-            list.forEach(tafsir => {
-                const item = document.createElement('div');
-                item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98]';
-                item.onclick = () => switchToTafsir(tafsir.id);
-                item.innerHTML = `
-                    <div class="flex items-center gap-2">
-                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
-                            <i data-lucide="book" class="w-4 h-4"></i>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
-                            <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
-                        </div>
-                        ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
+    const container = document.getElementById('modalTafsirList');
+    container.innerHTML = '';
+    
+    // Tafsirlarni til bo'yicha A-Z tartiblash
+    const sortedTafsirs = [...list].sort((a, b) => a.language.localeCompare(b.language));
+    
+    // Harf bo'yicha guruhlash
+    const groupedByLetter = {};
+    sortedTafsirs.forEach(tafsir => {
+        const firstLetter = tafsir.language.charAt(0).toUpperCase();
+        if (!groupedByLetter[firstLetter]) groupedByLetter[firstLetter] = [];
+        groupedByLetter[firstLetter].push(tafsir);
+    });
+    
+    // Har bir harf uchun kategoriya yaratish
+    Object.keys(groupedByLetter).sort().forEach(letter => {
+        const letterDiv = document.createElement('div');
+        letterDiv.className = 'pt-2 mb-1';
+        letterDiv.innerHTML = `
+            <div class="flex items-center gap-2">
+                <span class="w-1 h-4 bg-sky-500 rounded-full"></span>
+                <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase">${letter}</h4>
+                <span class="text-[10px] text-slate-400">${groupedByLetter[letter].length} ta</span>
+            </div>
+        `;
+        container.appendChild(letterDiv);
+        
+        groupedByLetter[letter].forEach(tafsir => {
+            const item = document.createElement('div');
+            item.className = 'p-3 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer hover:border-emerald-500/50 transition active:scale-[0.98] mb-1.5';
+            item.onclick = () => switchToTafsir(tafsir.id);
+            item.innerHTML = `
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br ${tafsir.color} flex items-center justify-center text-white shrink-0">
+                        <i data-lucide="book" class="w-4 h-4"></i>
                     </div>
-                `;
-                container.appendChild(item);
-            });
-            lucide.createIcons();
-        }
+                    <div class="flex-1 min-w-0">
+                        <h4 class="font-semibold text-sm text-slate-800 dark:text-slate-100 truncate">${tafsir.name}</h4>
+                        <p class="text-xs text-slate-400 truncate">${tafsir.language} • ${tafsir.author}</p>
+                    </div>
+                    ${currentTafsir && currentTafsir.id === tafsir.id ? '<i data-lucide="check" class="w-5 h-5 text-emerald-500 shrink-0"></i>' : ''}
+                </div>
+            `;
+            container.appendChild(item);
+        });
+    });
+    
+    lucide.createIcons();
+}
 
-        function filterModalTafsirs() {
-            const query = document.getElementById('modalTafsirSearch').value.toLowerCase().trim();
-            if (!query) {
-                renderModalTafsirList(tafsirs);
-            } else {
-                const filtered = tafsirs.filter(t => t.name.toLowerCase().includes(query) || t.author.toLowerCase().includes(query) || t.language.toLowerCase().includes(query));
-                renderModalTafsirList(filtered);
-            }
-        }
+function filterModalTafsirs() {
+    const query = document.getElementById('modalTafsirSearch').value.toLowerCase().trim();
+    if (!query) {
+        renderModalTafsirList(tafsirs);
+    } else {
+        const filtered = tafsirs.filter(t => t.name.toLowerCase().includes(query) || t.author.toLowerCase().includes(query) || t.language.toLowerCase().includes(query));
+        renderModalTafsirList(filtered);
+    }
+}
 
         async function switchToTafsir(tafsirId) {
             const tafsir = tafsirs.find(t => t.id === tafsirId);
