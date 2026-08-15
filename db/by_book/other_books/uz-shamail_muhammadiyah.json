@@ -1,0 +1,360 @@
+{
+  "id": 16,
+  "metadata": {
+    "id": 16,
+    "length": 402,
+    "arabic": {
+      "title": "الشمائل المحمدية",
+      "author": "الإمام الترمذي",
+      "introduction": ""
+    },
+    "uzbek": {
+      "title": "Shamoil Muhammadiya",
+      "author": "Imom Termiziy",
+      "introduction": ""
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "bookId": 16,
+      "arabic": "باب ما جاء في خلق رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) xulq-atvori haqida"
+    },
+    {
+      "id": 2,
+      "bookId": 16,
+      "arabic": "باب ما جاء في خاتم النبوة",
+      "uzbek": "Nubuvvat muhri haqida"
+    },
+    {
+      "id": 3,
+      "bookId": 16,
+      "arabic": "باب ما جاء في شعر رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) sochlari haqida"
+    },
+    {
+      "id": 4,
+      "bookId": 16,
+      "arabic": "باب ما جاء في ترجل رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) soch tarashlari haqida"
+    },
+    {
+      "id": 5,
+      "bookId": 16,
+      "arabic": "باب ما جاء في شيب رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) sochlarida oq paydo bo'lishi haqida"
+    },
+    {
+      "id": 6,
+      "bookId": 16,
+      "arabic": "باب ما جاء في خضاب رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) sochlarini bo'yashlari haqida"
+    },
+    {
+      "id": 7,
+      "bookId": 16,
+      "arabic": "باب ما جاء في كُحل رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ko'zga surma qo'yishlari haqida"
+    },
+    {
+      "id": 8,
+      "bookId": 16,
+      "arabic": "باب ما جاء في لباس رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) kiyinishlari haqida"
+    },
+    {
+      "id": 8.2,
+      "bookId": 16,
+      "arabic": "باب ماجاء في عيش رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) turmush darajalari haqida"
+    },
+    {
+      "id": 9,
+      "bookId": 16,
+      "arabic": "باب ما جاء في خف رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) maxsilari haqida"
+    },
+    {
+      "id": 10,
+      "bookId": 16,
+      "arabic": "باب ماجاء في نعل رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) oyoq kiyimlari haqida"
+    },
+    {
+      "id": 11,
+      "bookId": 16,
+      "arabic": "باب ما جاء في ذكر خاتم رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) uzuklari haqida"
+    },
+    {
+      "id": 12,
+      "bookId": 16,
+      "arabic": "باب ماجاء في تختم رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) uzukni o'ng qo'llariga taqishlari haqida"
+    },
+    {
+      "id": 13,
+      "bookId": 16,
+      "arabic": "باب ماجاء في صفة سَيْفِ رَسُولِ اللهِ صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) qilichlari haqida"
+    },
+    {
+      "id": 14,
+      "bookId": 16,
+      "arabic": "باب ماجاء في صفة درع رَسُولِ اللهِ صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) sovutlari haqida"
+    },
+    {
+      "id": 15,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة مغفر رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) dubulg'alari haqida"
+    },
+    {
+      "id": 16,
+      "bookId": 16,
+      "arabic": "باب ما جاء في عمامة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) sallalari haqida"
+    },
+    {
+      "id": 17,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة إزار رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) lungilari haqida"
+    },
+    {
+      "id": 18,
+      "bookId": 16,
+      "arabic": "باب ما جاء في مشية رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) yurishlari haqida"
+    },
+    {
+      "id": 19,
+      "bookId": 16,
+      "arabic": "باب ما جاء في تقنع رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) yuzlarini berkitishlari haqida"
+    },
+    {
+      "id": 20,
+      "bookId": 16,
+      "arabic": "باب ما جاء في جلسته صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) o'tirishlari haqida"
+    },
+    {
+      "id": 21,
+      "bookId": 16,
+      "arabic": "باب ما جاء في تكأة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) yostiqlari haqida"
+    },
+    {
+      "id": 22,
+      "bookId": 16,
+      "arabic": "باب ما جاء في اتكاء رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) yostiqdan boshqa narsaga suyanishlari haqida"
+    },
+    {
+      "id": 23,
+      "bookId": 16,
+      "arabic": "باب ما جاء في أكل رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ovqatlanishlari haqida"
+    },
+    {
+      "id": 24,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة خبز رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) nonlari haqida"
+    },
+    {
+      "id": 25,
+      "bookId": 16,
+      "arabic": "ما جاء في إدام رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) non bilan nima yeyishlari haqida"
+    },
+    {
+      "id": 26,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة وضوء رسول الله صلى الله عليه وسلم عند الطعام",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) ovqat paytida tahorat qilishlari haqida"
+    },
+    {
+      "id": 27,
+      "bookId": 16,
+      "arabic": "باب ما جاء في قول رسول الله صلى الله عليه وسلم قبل الطعام وعند الفراغ منه",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ovqatdan oldin va keyin aytadigan so'zlari haqida"
+    },
+    {
+      "id": 28,
+      "bookId": 16,
+      "arabic": "باب ما جاء في قدح رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) kosalari haqida"
+    },
+    {
+      "id": 29,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة فاكهة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) yegan mevalar haqida"
+    },
+    {
+      "id": 30,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة شراب رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) ichgan narsalar haqida"
+    },
+    {
+      "id": 31,
+      "bookId": 16,
+      "arabic": "باب ما جاء في شرب رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ichish odoblari haqida"
+    },
+    {
+      "id": 32,
+      "bookId": 16,
+      "arabic": "باب ما جاء في تعطررسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) atir ishlatishlari haqida"
+    },
+    {
+      "id": 33,
+      "bookId": 16,
+      "arabic": "باب كيف كان كلام رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) nutqlari haqida"
+    },
+    {
+      "id": 34,
+      "bookId": 16,
+      "arabic": "باب ما جاء في ضحك رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) kulishlari haqida"
+    },
+    {
+      "id": 35,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة مزاح رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) hazil qilishlari haqida"
+    },
+    {
+      "id": 36,
+      "bookId": 16,
+      "arabic": "باب ما جاء في صفة كلام رسول الله صلى الله عليه وسلم في الشعر",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) she'r haqidagi so'zlari haqida"
+    },
+    {
+      "id": 37,
+      "bookId": 16,
+      "arabic": "باب ما جاء في كلام رسول الله صلى الله عليه وسلم في السمر",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) kechasi hikoya qilishlari haqida"
+    },
+    {
+      "id": 38,
+      "bookId": 16,
+      "arabic": "حديث أم زرع",
+      "uzbek": "Ummu Zar' hadisi"
+    },
+    {
+      "id": 39,
+      "bookId": 16,
+      "arabic": "باب في صفة نوم رسول الله صلى الله عليه وسلم في السمر",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) uyqulari haqida"
+    },
+    {
+      "id": 40,
+      "bookId": 16,
+      "arabic": "باب ما جاء في عبادة النبي صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ibodatlari haqida"
+    },
+    {
+      "id": 41,
+      "bookId": 16,
+      "arabic": "باب صلاة الضحى",
+      "uzbek": "Zuho namozi haqida"
+    },
+    {
+      "id": 42,
+      "bookId": 16,
+      "arabic": "باب صلاة التطوع في البيت",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) uyda nafl namozlar o'qishlari haqida"
+    },
+    {
+      "id": 43,
+      "bookId": 16,
+      "arabic": "باب ماجاء في صوم رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ro'za tutishlari haqida"
+    },
+    {
+      "id": 44,
+      "bookId": 16,
+      "arabic": "باب ماجاء في قراءة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) qiroatlari haqida"
+    },
+    {
+      "id": 45,
+      "bookId": 16,
+      "arabic": "باب ماجاء في بكاء رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) yig'lashlari haqida"
+    },
+    {
+      "id": 46,
+      "bookId": 16,
+      "arabic": "باب ماجاء في فراش رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) to'shaklari haqida"
+    },
+    {
+      "id": 47,
+      "bookId": 16,
+      "arabic": "باب ماجاء في تواضع رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) kamtarliklari haqida"
+    },
+    {
+      "id": 48,
+      "bookId": 16,
+      "arabic": "باب ماجاء في خلق رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) go'zal xulqlari haqida"
+    },
+    {
+      "id": 49,
+      "bookId": 16,
+      "arabic": "باب ماجاء في حياء رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) hayolari haqida"
+    },
+    {
+      "id": 50,
+      "bookId": 16,
+      "arabic": "باب ماجاء في حجامة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasululloh (sollallohu alayhi vasallam) hijoma qilishlari haqida"
+    },
+    {
+      "id": 51,
+      "bookId": 16,
+      "arabic": "باب ماجاء في أسماء رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) ismlari haqida"
+    },
+    {
+      "id": 52,
+      "bookId": 16,
+      "arabic": "باب ماجاء في عيش رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) hayot kechirishlari haqida"
+    },
+    {
+      "id": 53,
+      "bookId": 16,
+      "arabic": "باب ماجاء في سن رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) yoshlari haqida"
+    },
+    {
+      "id": 54,
+      "bookId": 16,
+      "arabic": "باب ماجاء في وفاة رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) vafotlari haqida"
+    },
+    {
+      "id": 55,
+      "bookId": 16,
+      "arabic": "باب ماجاء في ميراث رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohning (sollallohu alayhi vasallam) meroslari haqida"
+    },
+    {
+      "id": 56,
+      "bookId": 16,
+      "arabic": "باب ماجاء في رؤية رسول الله صلى الله عليه وسلم",
+      "uzbek": "Rasulullohni (sollallohu alayhi vasallam) tushda ko'rish haqida"
+    }
+  ],
