@@ -610,34 +610,53 @@
         }
 
         function renderChaptersView() {
-            document.getElementById('chaptersBookTitle').innerText = currentBook.nameUz + " — Boblar";
-            const container = document.getElementById('chaptersGrid');
-            container.innerHTML = '';
-            let chaptersList = rawBookData.chapters || [];
-            if (chaptersList.length === 0) {
-                const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].sort((a,b) => a - b);
-                chaptersList = chapterIds.map(id => ({ id, english: `Bob #${id}` }));
-            }
-            chaptersList.forEach(ch => {
-                const card = document.createElement('div');
-                card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-xl p-3 cursor-pointer hover:border-emerald-500/50 transition active:scale-95';
-                card.onclick = () => filterHadithsByChapter(ch.id);
-                card.innerHTML = `<div class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 mb-0.5">Bob ${ch.id}</div><div class="text-xs font-semibold text-slate-700 dark:text-slate-200 line-clamp-2">${ch.english?.title || ch.english || ch.arabic || ('Bob ' + ch.id)}</div>`;
-                container.appendChild(card);
-            });
-            showView('viewChapters');
-            updateBreadcrumb(['Hadislar', currentBook.nameUz, 'Boblar']);
-        }
-
+    document.getElementById('chaptersBookTitle').innerText = currentBook.nameUz + " — Boblar";
+    const container = document.getElementById('chaptersGrid');
+    container.innerHTML = '';
+    let chaptersList = rawBookData.chapters || [];
+    
+    if (chaptersList.length === 0) {
+        const chapterIds = [...new Set(currentHadiths.map(h => h.chapterId))].sort((a,b) => a - b);
+        chaptersList = chapterIds.map(id => ({ id, english: `Bob #${id}` }));
+    }
+    
+    // Bob 0 ni (Introduction) birinchi o'ringa qo'yish
+    chaptersList.sort((a, b) => {
+        if (a.id === 0) return -1;
+        if (b.id === 0) return 1;
+        return a.id - b.id;
+    });
+    
+    chaptersList.forEach(ch => {
+        const card = document.createElement('div');
+        card.className = 'bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 rounded-xl p-3 cursor-pointer hover:border-emerald-500/50 transition active:scale-95';
+        card.onclick = () => filterHadithsByChapter(ch.id);
+        
+        const chapterLabel = ch.id === 0 ? 'Kirish' : `Bob ${ch.id}`;
+        const chapterName = ch.english?.title || ch.english || ch.arabic || (ch.id === 0 ? 'Introduction' : `Bob ${ch.id}`);
+        
+        card.innerHTML = `
+            <div class="text-[11px] font-bold ${ch.id === 0 ? 'text-amber-600 dark:text-amber-400' : 'text-emerald-600 dark:text-emerald-400'} mb-0.5">${chapterLabel}</div>
+            <div class="text-xs font-semibold text-slate-700 dark:text-slate-200 line-clamp-2">${chapterName}</div>
+        `;
+        container.appendChild(card);
+    });
+    
+    showView('viewChapters');
+    updateBreadcrumb(['Hadislar', currentBook.nameUz, 'Boblar']);
+}
         function filterHadithsByChapter(chapterId) {
-            filteredHadiths = currentHadiths.filter(h => h.chapterId === chapterId);
-            document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — Bob ${chapterId}`;
-            document.getElementById('totalCount').innerText = `Ushbu bobda ${filteredHadiths.length} ta hadis bor`;
-            displayedCount = 0;
-            showView('viewHadiths');
-            updateBreadcrumb(['Hadislar', currentBook.nameUz, `Bob ${chapterId}`]);
-            document.getElementById('hadithsList').innerHTML = '';
-            loadMore();
+    filteredHadiths = currentHadiths.filter(h => h.chapterId === chapterId);
+    
+    const chapterLabel = chapterId === 0 ? 'Kirish' : `Bob ${chapterId}`;
+    document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — ${chapterLabel}`;
+    document.getElementById('totalCount').innerText = `Ushbu bobda ${filteredHadiths.length} ta hadis bor`;
+    
+    displayedCount = 0;
+    showView('viewHadiths');
+    updateBreadcrumb(['Hadislar', currentBook.nameUz, chapterLabel]);
+    document.getElementById('hadithsList').innerHTML = '';
+    loadMore();
         }
 
         function showAllHadithsOfBook() {
