@@ -464,14 +464,41 @@
             }
         }
 
-        function showView(viewId) {
-            const views = ['viewHome', 'viewHadithBooks', 'viewChapters', 'viewHadiths', 'viewTafsirList', 'viewSurahs', 'viewTafsirAyahs'];
-            views.forEach(v => document.getElementById(v).classList.add('hidden'));
-            document.getElementById(viewId).classList.remove('hidden');
-            document.getElementById('mainScroll').scrollTop = 0;
-            sessionState.view = viewId;
-            saveSession();
+        function updateNavBar(activeSection) {
+    // Barcha nav tugmalarini default holatga qaytarish
+    const navButtons = ['navHome', 'navHadith', 'navTafsir'];
+    navButtons.forEach(id => {
+        const btn = document.getElementById(id);
+        if (btn) {
+            btn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90';
         }
+    });
+    
+    // Faol tugmani belgilash
+    const activeBtn = document.getElementById(activeSection);
+    if (activeBtn) {
+        activeBtn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 dark:bg-emerald-500/20 transition active:scale-90';
+    }
+}
+
+        function showView(viewId) {
+    const views = ['viewHome', 'viewHadithBooks', 'viewChapters', 'viewHadiths', 'viewTafsirList', 'viewSurahs', 'viewTafsirAyahs'];
+    views.forEach(v => document.getElementById(v).classList.add('hidden'));
+    document.getElementById(viewId).classList.remove('hidden');
+    document.getElementById('mainScroll').scrollTop = 0;
+    sessionState.view = viewId;
+    
+    // Nav barni yangilash
+    if (viewId === 'viewHome') {
+        updateNavBar('navHome');
+    } else if (viewId === 'viewHadithBooks' || viewId === 'viewChapters' || viewId === 'viewHadiths') {
+        updateNavBar('navHadith');
+    } else if (viewId === 'viewTafsirList' || viewId === 'viewSurahs' || viewId === 'viewTafsirAyahs') {
+        updateNavBar('navTafsir');
+    }
+    
+    saveSession();
+}
 
         function goHome() { showView('viewHome'); updateBreadcrumb([]); loadRandomHadith(); }
         function showHadithSection(saveState = true) { showView('viewHadithBooks'); updateBreadcrumb(['Hadislar']); if (saveState) saveSession(); }
@@ -504,23 +531,6 @@
             sessionState.breadcrumb = paths;
             saveSession();
         }
-
-        function updateNavBar(activeSection) {
-    // Barcha nav tugmalarini default holatga qaytarish
-    const navButtons = ['navHome', 'navHadith', 'navTafsir'];
-    navButtons.forEach(id => {
-        const btn = document.getElementById(id);
-        if (btn) {
-            btn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90';
-        }
-    });
-    
-    // Faol tugmani belgilash
-    const activeBtn = document.getElementById(activeSection);
-    if (activeBtn) {
-        activeBtn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 dark:bg-emerald-500/20 transition active:scale-90';
-    }
-}
 
         function showSurahsList() {
             if (currentTafsir) {
