@@ -665,6 +665,7 @@
                 bookmarks.hadith.push({
                     bookId: currentBook.id,
                     hadithNo: item.bookHadithNo,
+                    chapterId: item.chapterId || 1,
                     bookName: currentBook.nameUz,
                     author: currentBook.author,
                     arabic: item.arabic || '',
@@ -691,7 +692,9 @@
             if (idx === -1) {
                 bookmarks.ayah.push({
                     tafsirId: currentTafsir.id,
+                    tafsirSlug: currentTafsir.slug,
                     tafsirName: currentTafsir.name,
+                    tafsirAuthor: currentTafsir.author,
                     surah: currentSurah,
                     ayah: ayah.ayah,
                     text: ayah.text
@@ -742,7 +745,7 @@
                 ` : '';
                 
                 const showTranslationBlock = settings.showTranslation ? `
-                    <div class="text-${settings.fontSize.translation} leading-relaxed text-slate-300">
+                    <div class="text-[${settings.fontSize.translation}px] leading-relaxed text-slate-300">
                         ${narratorHtml}
                         ${translationHtml}
                     </div>
@@ -766,7 +769,6 @@
                             <button onclick="openHadithLangModal(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Tilni almashtirish"><i data-lucide="globe" class="w-4 h-4"></i></button>
                             <button onclick="copyHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Nusxalash"><i data-lucide="copy" class="w-4 h-4"></i></button>
                             <button onclick="shareHadithFromCard(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="Bo'lishish"><i data-lucide="share-2" class="w-4 h-4"></i></button>
-                            <button onclick="showSimilarHadithsFromIndex(${currentIndex})" class="p-2 rounded-lg bg-slate-700/60 text-slate-300 hover:text-emerald-400 transition active:scale-95" title="O'xshash hadislar"><i data-lucide="layers" class="w-4 h-4"></i></button>
                         </div>
                     </div>
                 `;
@@ -775,19 +777,6 @@
             lucide.createIcons();
             const loadBtn = document.getElementById('loadMoreBtn');
             if (displayedCount < filteredHadiths.length) loadBtn.classList.remove('hidden'); else loadBtn.classList.add('hidden');
-        }
-
-        function showSimilarHadithsFromIndex(index) {
-            const item = filteredHadiths[index];
-            if (!item) return;
-            const words = (item.arabic || '').split(' ').filter(w => w.length > 4);
-            if(words.length === 0) { alert("O'xshash hadislarni topish uchun arabcha matn yetarli emas."); return; }
-            filteredHadiths = currentHadiths.filter(h => { if(h.bookHadithNo === item.bookHadithNo && h.chapterId === item.chapterId) return false; return words.some(w => (h.arabic || '').includes(w)); });
-            document.getElementById('selectedBookTitle').innerText = `${currentBook.nameUz} — O'xshash hadislar`;
-            document.getElementById('totalCount').innerText = `${filteredHadiths.length} ta o'xshash hadis topildi`;
-            currentSearchQuery = ''; document.getElementById('searchInput').value = '';
-            displayedCount = 0; showView('viewHadiths'); updateBreadcrumb(['Hadislar', currentBook.nameUz, `O'xshash`]);
-            document.getElementById('hadithsList').innerHTML = ''; loadMore();
         }
 
         function openHadithLangModal(index) { currentHadithIndexForLang = index; document.getElementById('hadithLangModal').classList.remove('hidden'); renderHadithLangList(); lucide.createIcons(); }
@@ -909,13 +898,37 @@
             }
             items.forEach((b, idx) => {
                 const card = document.createElement('div');
-                card.className = 'bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-2';
+                card.className = 'bg-slate-800/40 border border-slate-800 rounded-2xl p-4 space-y-3';
                 if (currentBookmarkTab === 'hadith') {
-                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.bookName} #${b.hadithNo}</div><p class="text-xs text-slate-400 line-clamp-2">${b.english || b.uzText || 'Tarjima yo\'q'}</p><button onclick="removeBookmark('hadith', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
-                } else if (currentBookmarkTab === 'tafsir') {
-                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.tafsirName} ${b.surah}-${b.ayah}</div><p class="text-xs text-slate-400 line-clamp-2">${b.text || ''}</p><button onclick="removeBookmark('tafsir', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
+                    card.innerHTML = `
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold text-emerald-400">Hadis #${b.hadithNo}</span>
+                            <button onclick="removeBookmark('hadith', ${idx})" class="text-xs text-red-400 hover:text-red-300">O'chirish</button>
+                        </div>
+                        ${b.arabic ? `<div class="font-arabic text-base leading-loose text-right dir-rtl bg-emerald-500/10 p-3 rounded-xl text-slate-100 border border-emerald-500/20" dir="rtl">${b.arabic}</div>` : ''}
+                        <div class="text-xs leading-relaxed text-slate-300">
+                            ${b.uzNarrator ? `<div class="font-bold text-emerald-400 mb-1">${b.uzNarrator}</div>` : b.narrator ? `<div class="font-bold text-emerald-400 mb-1">${b.narrator}</div>` : ''}
+                            <div>${b.uzText || b.english || 'Tarjima yo\'q'}</div>
+                        </div>
+                        <div class="pt-2 border-t border-slate-800/60">
+                            <button onclick="goToBookmarkHadith(${idx})" class="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Manba: ${b.bookName} #${b.hadithNo}
+                            </button>
+                        </div>
+                    `;
                 } else {
-                    card.innerHTML = `<div class="text-sm font-bold text-slate-100">${b.tafsirName} ${b.surah}-${b.ayah}</div><p class="text-xs text-slate-400 line-clamp-2">${b.text || ''}</p><button onclick="removeBookmark('ayah', ${idx})" class="text-xs text-red-400">O'chirish</button>`;
+                    card.innerHTML = `
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold text-emerald-400">${b.tafsirName} — ${SURAH_NAMES_UZ[b.surah]} ${b.ayah}-oyat</span>
+                            <button onclick="removeBookmark('${currentBookmarkTab === 'tafsir' ? 'tafsir' : 'ayah'}', ${idx})" class="text-xs text-red-400 hover:text-red-300">O'chirish</button>
+                        </div>
+                        <p class="text-sm leading-relaxed text-slate-300">${b.text || ''}</p>
+                        <div class="pt-2 border-t border-slate-800/60">
+                            <button onclick="goToBookmarkAyah(${idx})" class="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1">
+                                <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Manba: ${b.tafsirName}, ${SURAH_NAMES_UZ[b.surah]} ${b.ayah}-oyat
+                            </button>
+                        </div>
+                    `;
                 }
                 container.appendChild(card);
             });
@@ -927,6 +940,38 @@
             else if (type === 'ayah') bookmarks.ayah.splice(idx, 1);
             saveBookmarks();
             renderBookmarkList();
+        }
+        async function goToBookmarkHadith(idx) {
+            const b = bookmarks.hadith[idx];
+            if (!b) return;
+            await openBook(b.bookId, false);
+            setTimeout(() => {
+                const hadiths = document.querySelectorAll('#hadithsList > div');
+                for (let i = 0; i < hadiths.length; i++) {
+                    if (hadiths[i].textContent.includes(`Hadis #${b.hadithNo}`)) {
+                        hadiths[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        break;
+                    }
+                }
+            }, 500);
+        }
+        async function goToBookmarkAyah(idx) {
+            const b = bookmarks.ayah[idx];
+            if (!b) return;
+            const tafsir = tafsirs.find(t => t.id === b.tafsirId || t.slug === b.tafsirSlug);
+            if (!tafsir) return;
+            currentTafsir = tafsir;
+            sessionState.currentTafsirId = tafsir.id;
+            await openSurahTafsir(b.surah, false);
+            setTimeout(() => {
+                const ayahs = document.querySelectorAll('#tafsirAyahsList > div');
+                for (let i = 0; i < ayahs.length; i++) {
+                    if (ayahs[i].textContent.includes(`${b.ayah}-oyat`)) {
+                        ayahs[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        break;
+                    }
+                }
+            }, 500);
         }
 
         init();
