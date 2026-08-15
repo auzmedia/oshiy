@@ -190,29 +190,29 @@
         </div>
 
         <nav class="absolute bottom-0 left-0 right-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-t border-slate-200/80 dark:border-slate-800/80 px-2 py-2">
-            <div class="grid grid-cols-5 gap-1">
-                <button onclick="goHome()" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
-                    <i data-lucide="layout-grid" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Bosh Menu</span>
-                </button>
-                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
-                    <i data-lucide="book-open" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Qur'on</span>
-                </button>
-                <button onclick="showHadithSection()" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
-                    <i data-lucide="scroll" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Hadislar</span>
-                </button>
-                <button onclick="showTafsirSection()" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
-                    <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Tafsirlar</span>
-                </button>
-                <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
-                    <i data-lucide="library" class="w-5 h-5 mb-0.5"></i>
-                    <span class="text-[10px] font-medium leading-none">Kutubxona</span>
-                </button>
-            </div>
-        </nav>
+    <div class="grid grid-cols-5 gap-1">
+        <button onclick="goHome()" id="navHome" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+            <i data-lucide="layout-grid" class="w-5 h-5 mb-0.5"></i>
+            <span class="text-[10px] font-medium leading-none">Bosh Menu</span>
+        </button>
+        <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+            <i data-lucide="book-open" class="w-5 h-5 mb-0.5"></i>
+            <span class="text-[10px] font-medium leading-none">Qur'on</span>
+        </button>
+        <button onclick="showHadithSection()" id="navHadith" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+            <i data-lucide="scroll" class="w-5 h-5 mb-0.5"></i>
+            <span class="text-[10px] font-medium leading-none">Hadislar</span>
+        </button>
+        <button onclick="showTafsirSection()" id="navTafsir" class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+            <i data-lucide="bookmark" class="w-5 h-5 mb-0.5"></i>
+            <span class="text-[10px] font-medium leading-none">Tafsirlar</span>
+        </button>
+        <button class="nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90">
+            <i data-lucide="library" class="w-5 h-5 mb-0.5"></i>
+            <span class="text-[10px] font-medium leading-none">Kutubxona</span>
+        </button>
+    </div>
+</nav>
 
     </div>
 
@@ -504,6 +504,23 @@
             sessionState.breadcrumb = paths;
             saveSession();
         }
+
+        function updateNavBar(activeSection) {
+    // Barcha nav tugmalarini default holatga qaytarish
+    const navButtons = ['navHome', 'navHadith', 'navTafsir'];
+    navButtons.forEach(id => {
+        const btn = document.getElementById(id);
+        if (btn) {
+            btn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 transition active:scale-90';
+        }
+    });
+    
+    // Faol tugmani belgilash
+    const activeBtn = document.getElementById(activeSection);
+    if (activeBtn) {
+        activeBtn.className = 'nav-btn flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 dark:bg-emerald-500/20 transition active:scale-90';
+    }
+}
 
         function showSurahsList() {
             if (currentTafsir) {
