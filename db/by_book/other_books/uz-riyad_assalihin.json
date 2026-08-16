@@ -1,0 +1,2764 @@
+{
+  "id": 13,
+  "metadata": {
+    "id": 13,
+    "length": 1896,
+    "uzbek": {
+      "title": "Riyozus-solihiyn",
+      "author": "Imom Yahyo ibn Sharaf an-Navaviy",
+      "introduction": ""
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "bookId": 13,
+      "uzbek": "Odob kitobi"
+    },
+    {
+      "id": 2,
+      "bookId": 13,
+      "uzbek": "Taom odobi kitobi"
+    },
+    {
+      "id": 3,
+      "bookId": 13,
+      "uzbek": "Libos kitobi"
+    },
+    {
+      "id": 4,
+      "bookId": 13,
+      "uzbek": "Uyqu odoblari kitobi"
+    },
+    {
+      "id": 5,
+      "bookId": 13,
+      "uzbek": "Salom kitobi"
+    },
+    {
+      "id": 6,
+      "bookId": 13,
+      "uzbek": "Bemorni ziyorat qilish, janozani kuzatish, janoza namozi va dafn etishda ishtirok etish kitobi"
+    },
+    {
+      "id": 7,
+      "bookId": 13,
+      "uzbek": "Safar odoblari kitobi"
+    },
+    {
+      "id": 8,
+      "bookId": 13,
+      "uzbek": "Fazilatlar kitobi"
+    },
+    {
+      "id": 9,
+      "bookId": 13,
+      "uzbek": "E'tikof kitobi"
+    },
+    {
+      "id": 10,
+      "bookId": 13,
+      "uzbek": "Haj kitobi"
+    },
+    {
+      "id": 11,
+      "bookId": 13,
+      "uzbek": "Jihod kitobi"
+    },
+    {
+      "id": 12,
+      "bookId": 13,
+      "uzbek": "Ilm kitobi"
+    },
+    {
+      "id": 13,
+      "bookId": 13,
+      "uzbek": "Alloh taologa hamd va shukr qilish kitobi"
+    },
+    {
+      "id": 14,
+      "bookId": 13,
+      "uzbek": "Rasululloh sollallohu alayhi vasallamga salavot aytish kitobi"
+    },
+    {
+      "id": 15,
+      "bookId": 13,
+      "uzbek": "Zikrlar kitobi"
+    },
+    {
+      "id": 16,
+      "bookId": 13,
+      "uzbek": "Duolar kitobi"
+    },
+    {
+      "id": 17,
+      "bookId": 13,
+      "uzbek": "Man etilgan ishlar kitobi"
+    },
+    {
+      "id": 18,
+      "bookId": 13,
+      "uzbek": "Turli hadislar va latifalar kitobi"
+    },
+    {
+      "id": 19,
+      "bookId": 13,
+      "uzbek": "Istig'for kitobi"
+    },
+    {
+      "id": 0,
+      "bookId": 13,
+      "uzbek": "Muqaddimalar kitobi"
+    }
+  ],
+  "hadiths":[
+  {
+    "id": 41066,
+    "idInBook": 1,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) ansoriylardan bir odamning yonidan o‘tdilar. U kishi birodarini hayo (uyalish) yuzasidan koyimoqda edi. Rasululloh (s.a.v.): «Uni qo‘ying, chunki hayo imondandir», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41067,
+    "idInBook": 2,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Imron ibn Husayn (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Hayo faqat yaxshilik keltiradi», dedilar. Muslim rivoyatida: «Hayo butunlay yaxshilikdir» yoki «Hayo hammasi yaxshilikdir», deganlar."
+    }
+  },
+  {
+    "id": 41068,
+    "idInBook": 3,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Imon yetmishdan ortiq yoki oltmishdan ortiq shu’badir. Ularning eng afzali “La ilaha illallah” kalimasidir, eng kichigi esa yo‘ldan ozor beruvchi narsani olib tashlashdir. Hayo ham imonning bir shu’basidir», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41069,
+    "idInBook": 4,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) parda ortidagi bokira qizdan ham uyatchanroq edilar. Biror yoqtirmagan narsani ko‘rsalar, buni yuzlaridan sezardik. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41070,
+    "idInBook": 5,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Alloh nazdida qiyomat kuni odamlarning eng yomoni — xotini bilan yaqinlik qilib, keyin uning sirini oshkor qilgan kishidir», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41071,
+    "idInBook": 6,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Otam Umar (r.a.) aytdi: Qizi Hafsa (r.a.) beva qolganda, Usmon ibn Affon (r.a.) bilan uchrashdim va unga Hafsani taklif qilib: «Xohlasang, senga Umar qizi Hafsani nikohlab beraman», dedim. U: «Ishimni o‘ylab ko‘raman», dedi. Bir necha kecha kutdim, keyin u menga: «Bugun uylanmaslikni ma’qul ko‘rdim», dedi. So‘ng Abu Bakr Siddiq (r.a.) bilan uchrashdim, u menga hech narsa demadi. Usmondan ko‘ra undan ko‘proq xafa bo‘ldim. Bir necha kecha o‘tgach, Payg‘ambar (s.a.v.) uni (Hafsani) so‘radilar, men uni u zotga nikohlab berdim. Keyin Abu Bakr menga: «Hafsani taklif qilganingda senga javob qaytarmaganimdan xafa bo‘lgandirsan?» dedi. Men: «Ha», dedim. U: «Taklifingga javob bermasligimga faqat shu sabab bo‘ldiki, men Payg‘ambar (s.a.v.) uni tilga olganlarini bilardim. Rasululloh (s.a.v.)ning sirini oshkor qilishni istamadim. Agar Payg‘ambar (s.a.v.) uni tark etganlarida edi, men uni qabul qilgan bo‘lardim», dedi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41072,
+    "idInBook": 7,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Bir kuni Payg‘ambar (s.a.v.)ning barcha xotinlari u zotning huzurlarida edilar. Fatima (r.a.) otasining yurishiga o‘xshab kelayotgan edi. Uni ko‘rib, u zot: «Marhabo, qizim», deb kutib oldilar va o‘ng yoki chap tomonlariga o‘tqazdilar. So‘ng unga yashirincha bir narsa dedilar, u qattiq yig‘ladi. Uning qayg‘usini ko‘rib, ikkinchi marta yashirincha gapirdilar, u kuldi. Men unga: «Rasululloh (s.a.v.) xotinlari orasidan seni tanlab yashirincha gapirdilar, sen esa yig‘layapsan?» dedim. Rasululloh (s.a.v.) ketgach, undan: «Rasululloh (s.a.v.) senga nima dedilar?» deb so‘radim. U: «Men Rasululloh (s.a.v.)ning sirini oshkor qilmayman», dedi. Rasululloh (s.a.v.) vafot etganlaridan keyin: «Sening ustimdagi haqqim bilan qasam ichib so‘rayman, menga ayt, Rasululloh (s.a.v.) senga nima degan edilar?» dedim. U: «Endi ha, aytaman. Birinchi marta yashirincha aytganlarida: “Jabroil har yili men bilan Qur’onni bir marta yoki ikki marta qayta o‘qir edi. Bu yil esa ikki marta qayta o‘qidi. Men ajalm yaqinlashganini sezyapman. Allohdan qo‘rq va sabr qil. Men sen uchun eng yaxshi o‘tmishdosh (salaf) bo‘laman”, dedilar. Shunda sen ko‘rgan yig‘imni yig‘ladim. Qayg‘uimni ko‘rib, ikkinchi marta yashirincha: “Ey Fotima, mo‘min ayollarning yoki bu ummat ayollarining xo‘jayini bo‘lishdan rozi emasmisan?” dedilar. Shunda sen ko‘rgan kulganimdan kuldim», dedi. (Muttafaqun alayh; lafz Muslim)"
+    }
+  },
+  {
+    "id": 41073,
+    "idInBook": 8,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sobit (r.a.)dan rivoyat qilinadi:",
+      "text": "Anas (r.a.) aytdi: «Rasululloh (s.a.v.) mening oldimga keldilar, men bolalar bilan o‘ynayotgan edim. Bizga salom berdilar, meni bir hojatga yubordilar. Onamning oldiga borishim kechikdi. Kelganimda u: “Seni nima ushlab qoldi?” dedi. Men: “Meni Rasululloh (s.a.v.) bir hojatga yuborgan edilar”, dedim. U: “U zotning hojatlari nima edi?” dedi. Men: “Bu sir”, dedim. U: “Rasululloh (s.a.v.)ning sirini hech kimga aytma”, dedi. Anas (r.a.) Sobitga: “Allohga qasamki, agar uni birovga aytsam, senga aytgan bo‘lardim”, dedi». (Muslim; Buxoriy ba’zisini muxtasar qilgan)"
+    }
+  },
+  {
+    "id": 41074,
+    "idInBook": 9,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Munofiqning alomatlari uchtadir: gapirsa yolg‘on gapiradi, va’da bersa xiyonat qiladi, omonatga xiyonat qiladi», dedilar. Muslim rivoyatida qo‘shimcha: «Ro‘za tutsa, namoz o‘qisa va o‘zini musulmon deb hisoblasa ham»."
+    }
+  },
+  {
+    "id": 41075,
+    "idInBook": 10,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Amr ibn Os (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kimda to‘rt xislat bo‘lsa, u sof munofiqdir. Kimda ulardan biri bo‘lsa, uni tark etmaguncha unda nifoq xislatlaridan biri bor: omonatga xiyonat qiladi, gapirsa yolg‘on gapiradi, ahd qilsa xiyonat qiladi, xusumatlashsa fojir (haqdan chetga chiquvchi) bo‘ladi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41076,
+    "idInBook": 11,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.) menga: «Bahrayn moli kelsa, senga shunday, shunday, shunday beraman», dedilar. Bahrayn moli Payg‘ambar (s.a.v.) vafot etgunlaricha kelmadi. Mol kelgach, Abu Bakr (r.a.) buyurib: «Kimning Rasululloh (s.a.v.)da va’dasi yoki qarzi bo‘lsa, bizga kelsin», deb e’lon qildirdi. Men borib: «Payg‘ambar (s.a.v.) menga shunday degan edilar», dedim. U menga ikki hovuch pul berdi. Sanasam, besh yuz dirham edi. So‘ng: «Yana shuncha ol», dedi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41077,
+    "idInBook": 12,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Amr ibn Os (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) menga: «Ey Abdulloh, falonchi kabi bo‘lma. U kechasi namoz o‘qirdi, keyin tark etdi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41078,
+    "idInBook": 13,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Adiy ibn Hotim (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.): «Do‘zaxdan saqlaninglar, hatto yarim xurmo bilan bo‘lsa ham (sadaqa qilib). Kim buni topmasa, shirin so‘z bilan bo‘lsa ham», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41079,
+    "idInBook": 14,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Shirin so‘z ham sadaqadir», dedilar. (Muttafaqun alayh). Bu oldin to‘liq o‘tgan hadisning bir qismidir."
+    }
+  },
+  {
+    "id": 41080,
+    "idInBook": 15,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Zarr (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) menga: «Yaxshilikning hech bir narsasini kichik sanama, hatto birodaringga ochiq yuz bilan yo‘liqishing ham», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41081,
+    "idInBook": 16,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.) biror so‘z aytsalar, tushunarli bo‘lishi uchun uch marta takrorlardilar. Qavm oldiga kelsalar, uch marta salom berardilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41082,
+    "idInBook": 17,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning so‘zlari ochiq-ravshan edi, uni eshitgan har bir kishi tushunardi. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41083,
+    "idInBook": 18,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jarir ibn Abdulloh (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) vida hajida menga: «Odamlarni jim qil», dedilar. Keyin: «Mendan keyin bir-biringizning bo‘ynini chopadigan kofirlarga aylanib qolmanglar», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41084,
+    "idInBook": 19,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Shaqiq ibn Salama (Abu Voil) aytadi:",
+      "text": "Ibn Mas’ud (r.a.) har payshanba kuni bizga va’z qilardi. Bir kishi: «Ey Abu Abdurrahmon, har kuni va’z qilishingizni xohlardim», dedi. U: «Buni qilishimga faqat shu narsa to‘sqinlik qiladi: sizlarni zeriktirib qo‘yishni istamayman. Rasululloh (s.a.v.) ham bizni zeriktirib qo‘yishdan qo‘rqib, va’zni orada qilib turar edilar. Men ham shunday qilaman», dedi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41085,
+    "idInBook": 20,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ammor ibn Yosir (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning: «Kishining namozini uzun o‘qishi va xutbasini qisqa qilishi uning fiqhini (diniy tushunchasini) ko‘rsatadi. Namozni uzun qilinglar, xutbani qisqa qilinglar», deganlarini eshitdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41086,
+    "idInBook": 21,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Muoviya ibn al-Hakam as-Sulamiy (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) bilan namoz o‘qiyotgan edim. Qavmdan bir kishi aksirdi, men: «Yarhamukalloh», dedim. Odamlar menga qarab qo‘yishdi. Men: «Onam yo‘qotgur, nega menga qarayapsizlar?» dedim. Ular qo‘llari bilan sonlariga ura boshladilar. Meni jim bo‘lishga undayotganlarini ko‘rib, jim bo‘ldim. Rasululloh (s.a.v.) namozni tugatgach, otam-onam unga fido bo‘lsin, undan oldin ham, keyin ham undan yaxshiroq muallim ko‘rmaganman. Allohga qasamki, u menga qattiq gapirmadi, urmadi va so‘kmadi. U: «Bu namozda odamlarning so‘zlaridan hech narsa yaramaydi. U faqat tasbeh, takbir va Qur’on o‘qishdir», dedi yoki shunga o‘xshash gap aytdi. Men: «Ey Rasululloh, men yaqinda johiliyatdan chiqdim. Alloh bizga Islomni berdi. Bizdan ba’zi kishilar folbinlarga borishadi?» dedim. U: «Ularga bormanglar», dedi. Men: «Bizdan ba’zilar yomon belgilarga ishonishadi?» dedim. U: «Bu ularning ko‘ngillarida topadigan narsadir, ularni (bu narsa) to‘xtatmasin», dedi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41087,
+    "idInBook": 22,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Irbod ibn Soriya (r.a.) rivoyat qiladi:",
+      "text": "Bir kuni Rasululloh (s.a.v.) bizga shunday ta’sirli va’z qildilarki, ko‘zlar yoshlandi, qalblar yumshadi. Bir kishi: «Ey Allohning payg‘ambari! Bu vidolashuv nutqiga o‘xshaydi, bizga nasihat qiling», dedi. U zot: «Sizlarga Allohdan qo‘rqishni, qora qul ham boshliq etib tayinlangan bo‘lsa, unga quloq solish va itoat qilishni vasiyat qilaman. Mendan keyin yashaydiganlaringiz ko‘p ixtiloflarni ko‘radi. Mening sunnatimga va mendan keyin keladigan hidoyat topgan xulafoi roshidinning sunnatiga mahkam yopishinglar, uni tishlaringiz bilan ushlanglar. Dinda yangi paydo qilingan narsalardan (bid’atdan) saqlaninglar, chunki har bir bid’at adashishdir», dedilar."
+    }
+  },
+  {
+    "id": 41088,
+    "idInBook": 23,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning hech qachon og‘izlari katta ochilib, kichik til ko‘rinadigan darajada kulganlarini ko‘rmadim. Ular faqat tabassum qilardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41089,
+    "idInBook": 24,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning: «Qachon namoz uchun iqomat aytilsa, unga yugurib kelmanglar, balki xotirjam yurib kelinglar. Ustingizda sokinlik bo‘lsin. Qaysi qismga yetishsangiz, o‘shani o‘qing, qolganini to‘ldiring», deganlarini eshitdim. (Muttafaqun alayh). Muslim rivoyatida qo‘shimcha: «Chunki birortangiz namozga qarab yursa, u namozdadir»."
+    }
+  },
+  {
+    "id": 41090,
+    "idInBook": 25,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) aytadi:",
+      "text": "Arafa kuni Payg‘ambar (s.a.v.) bilan (Muzdalifaga) qaytayotgan edim. Payg‘ambar (s.a.v.) orqalaridan qattiq haydash, urish va tuya tovushlarini eshitib, qamchilari bilan ularga ishora qilib: «Ey odamlar! Sokinlikni lozim tutinglar, chunki yaxshilik shoshilishda emas», dedilar. (Buxoriy; Muslim ba’zisini rivoyat qilgan)"
+    }
+  },
+  {
+    "id": 41091,
+    "idInBook": 26,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Kim Allohga va oxirat kuniga imon keltirgan bo‘lsa, mehmonini hurmat qilsin. Kim Allohga va oxirat kuniga imon keltirgan bo‘lsa, qarindoshlik rishtalarini bog‘lasin. Kim Allohga va oxirat kuniga imon keltirgan bo‘lsa, yaxshi gapirsin yoki jim tursin», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41092,
+    "idInBook": 27,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Shuraih Xuvaylid ibn Amr al-Xuzoiy (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning: «Kim Allohga va oxirat kuniga imon keltirgan bo‘lsa, mehmonini haqqi bilan siylasin», deganlarini eshitdim. Ular: «Ey Rasululloh, uning haqqi nima?» deb so‘radilar. U zot: «Bir kecha-kunduz (to‘liq ziyofat qilish)dir. Mehmonlik uch kundir. Undan keyingisi sadaqadir», dedilar. (Muttafaqun alayh). Muslim rivoyatida: «Musulmon kishining birodarinikida uni gunohga qo‘yadigan darajada turishi halol emas», deyilgan. «Ey Rasululloh, uni qanday gunohga qo‘yadi?» deb so‘rashdi. U zot: «Uning oldida (shuncha) turadiki, mezbon uni siylashga hech narsa qolmaydi», dedilar."
+    }
+  },
+  {
+    "id": 41093,
+    "idInBook": 28,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Ibrohim (Abu Muhammad, Abu Muoviya deb ham aytiladi) Abdulloh ibn Abu Avfo (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) Xadichaga (r.a.) jannatda ichi bo‘sh marvariddan bo‘lgan, shovqin va mashaqqat bo‘lmagan saroy xushxabarini berdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41094,
+    "idInBook": 29,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso al-Ash’ariy (r.a.) aytadi:",
+      "text": "U uyida tahorat qilib, so‘ng chiqib: «Bugun Rasululloh (s.a.v.)ga yopishib olaman va shu kunimni ular bilan birga o‘tkazaman», dedi. Masjidga keldi va Payg‘ambar (s.a.v.) haqida so‘radi. Ular: «U u yoqqa yuzlandilar», deyishdi. Men izidan borib so‘rayverdim, to u Bi’ru Aris qudug‘iga kirdi. Eshik oldida o‘tirdim, to Rasululloh (s.a.v.) hojatlarini chiqarib, tahorat qildilar. Keyin oldilariga bordim. U zot Bi’ru Aris qudug‘ining chetiga o‘tirgan, boldirlarini ochib, oyoqlarini quduqqa osiltirgan edilar. Salom berdim va qaytib eshik oldiga o‘tirdim. «Bugun Rasululloh (s.a.v.)ning darvozaboni bo‘laman», dedim. Abu Bakr (r.a.) kelib eshikni taqillatdi. Men: «Kim bu?» dedim. U: «Abu Bakr», dedi. Men: «Shoshma», dedim. So‘ng borib: «Ey Rasululloh, Abu Bakr izn so‘rayapti», dedim. U zot: «Izn ber va unga jannat xushxabarini ber», dedilar. Qaytib: «Kir, Rasululloh senga jannat xushxabarini berayaptilar», dedim. Abu Bakr kirib, Payg‘ambar (s.a.v.)ning o‘ng tomonlariga, quduq chetiga o‘tirdi va oyoqlarini quduqqa osiltirdi, Rasululloh qilganlaridek boldirlarini ochdi. Men qaytib o‘tirdim. Ukamni uyda tahorat qilayotgan holda qoldirgan edim, u menga yetib olishni niyat qilgan edi. Men: «Agar Alloh falonchiga (ukamga) yaxshilikni iroda qilsa, uni keltiradi», dedim. Bir kishi eshikni taqillatdi. Men: «Kim bu?» dedim. U: «Umar ibn Xattob», dedi. Men: «Shoshma», dedim. Rasululloh (s.a.v.) huzurlariga borib: «Umar izn so‘rayapti», dedim. U zot: «Izn ber va unga jannat xushxabarini ber», dedilar. Men Umar oldiga borib: «Izn berildi, Rasululloh senga jannat xushxabarini berayaptilar», dedim. U kirib, Rasululloh (s.a.v.) bilan quduq chetiga, chap tomonlariga o‘tirdi, oyoqlarini quduqqa osiltirdi. Men qaytib o‘tirdim. «Agar Alloh falonchiga (ukamga) yaxshilikni iroda qilsa, uni keltiradi», dedim. Bir kishi eshikni taqillatdi. Men: «Kim bu?» dedim. U: «Usmon ibn Affon», dedi. Men: «Shoshma», dedim. Payg‘ambar (s.a.v.) huzurlariga borib xabar berdim. U zot: «Izn ber va unga jannat bilan birga unga yetadigan musibat (balo) haqida xushxabar ber», dedilar. Borib: «Kir, Rasululloh senga jannat va senga yetadigan musibat bilan xushxabar berayaptilar», dedim. U kirib, quduq cheti to‘lganini ko‘rdi, qarama-qarshi tomonga o‘tirdi. Said ibn Musayyab: «Bu ularning qabrlari joyini talqin qildim», dedi. (Muttafaqun alayh). Boshqa rivoyatda: «Rasululloh (s.a.v.) menga eshikni qo‘riqlashni buyurdilar. Unda Usmon xushxabarni eshitgach, Allohga hamd aytib, so‘ng: “Alloh madad so‘raladigan zotdir”, dedi», deyilgan."
+    }
+  },
+  {
+    "id": 41095,
+    "idInBook": 30,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) aytadi:",
+      "text": "Biz Rasululloh (s.a.v.) atrofida o‘tirgan edik, oramizda Abu Bakr va Umar (r.a.) ham bor edi. Rasululloh (s.a.v.) oramizdan turib ketdilar va kech qaytdilar. Bizni tashlab, boshqa joyga ketib qolishidan qo‘rqib, vahimaga tushdik. Birinchi bo‘lib men qo‘rqdim va Rasululloh (s.a.v.)ni qidirib chiqdim. Banu Najjor ansoriylarining bir bog‘iga yetib bordim. Uning atrofini aylanib, eshik qidirdim, topolmadim. Tashqaridagi quduqdan bog‘ ichiga kichik ariq kirib turardi. Men tulki kabi bujmayib, ichkariga kirdim va Rasululloh (s.a.v.) huzurlariga yetib bordim. U zot: «Abu Hurayra?» dedilar. Men: «Ha, ey Rasululloh», dedim. U zot: «Senga nima bo‘ldi?» dedilar. Men: «Siz oramizda edingiz, turib ketdingiz va kech qaytdingiz. Sizni bizdan ajratib qo‘yishlaridan qo‘rqdik va vahimaga tushdik. Men birinchi bo‘lib qo‘rqdim va bu bog‘ga keldim, tulki kabi kirdim. Mana bu odamlar orqamdan kelmoqdalar», dedim. U zot: «Ey Abu Hurayra», deb menga o‘z tuflilarini berib: «Bu ikki tuflimni olib bor. Mana shu devor ortida kimni uchratsang-u, qalbi ishonch bilan La ilaha illalloh deb guvohlik bersa, unga jannat xushxabarini ber», dedilar. Keyin hadisni to‘liq aytdi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41096,
+    "idInBook": 31,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Shumosa aytadi:",
+      "text": "Amr ibn Os (r.a.)ning huzurlariga, u o‘lim to‘shagida yotganida bordik. U uzoq yig‘ladi va yuzini devorga o‘girdi. O‘g‘li: «Ey ota, Rasululloh (s.a.v.) sizga falon narsa haqida xushxabar bermadilarmi? Sizga falon narsa haqida xushxabar bermadilarmi?» deb ayta boshladi. U yuzini biz tomonga o‘girib: «Eng yaxshi narsa — La ilaha illalloh va Muhammad Rasululloh deb guvohlik berishdir. Men uch bosqichni boshdan kechirdim. Men o‘zimni ko‘rganman: Rasululloh (s.a.v.)ga mendan ko‘ra qattiqroq nafratlanadigan hech kim yo‘q edi. Ularni qo‘lga tushirib o‘ldirishni hammadan ko‘proq istar edim. Agar o‘sha holda o‘lganimda, do‘zax ahli bo‘lur edim. Alloh qalbimga Islomni solgach, Payg‘ambar (s.a.v.) huzurlariga borib: “O‘ng qo‘lingizni cho‘zing, sizga bay’at qilay”, dedim. U zot o‘ng qo‘llarini cho‘zdilar, men qo‘limni tortdim. U zot: “Ey Amr, senga nima bo‘ldi?” dedilar. Men: “Shart qo‘ymoqchi edim”, dedim. U zot: “Nima shart qilmoqchisan?” dedilar. Men: “Mening gunohlarim kechirilishini”, dedim. U zot: “Bilmaysanmi, Islom o‘zidan oldingi narsalarni yo‘q qiladi, hijrat ham o‘zidan oldingi narsalarni yo‘q qiladi, haj ham o‘zidan oldingi narsalarni yo‘q qiladi”, dedilar. So‘ngra Rasululloh (s.a.v.)dan ko‘ra menga suyukliroq va ko‘z oldimda ulug‘roq hech kim bo‘lmadi. Ularning yuzlariga to‘la qarashga toqatim yetmas edi. Agar o‘sha holda o‘lganimda, jannat ahli bo‘lishni umid qilgan bo‘lardim. Keyin biz ba’zi ishlarga bosh bo‘ldik, ulardagi holim nima bo‘lishini bilmayman. O‘lganimda, mening janozamga yig‘lovchi ayol va olov hamroh bo‘lmasin. Meni dafn qilganingizdan keyin tuproqni ustimga sekin sepib, qabrim atrofida tuyani so‘yib, go‘shti taqsimlanadigan vaqt davomida turinglar, to sizlar bilan orom topay va Rabbimning elchilariga (qabrdagi farishtalarga) qanday javob berishimni ko‘ray», dedi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41097,
+    "idInBook": 32,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Zayd ibn Arqam (r.a.)dan rivoyat qilingan hadis:",
+      "text": "U oldin «Rasululloh (s.a.v.) ahliga hurmat» bobida o‘tgan edi. U aytadi: «Rasululloh (s.a.v.) oramizda turib xutba qildilar. Allohga hamd aytdilar, uni ulug‘ladilar, va’z qildilar va eslatdilar, so‘ng: “Amma ba’du! Ey odamlar, men ham bir insonman. Rabbimning elchisi (o‘lim farishtasi) kelishi yaqin, men (chaqiriqqa) javob beraman. Men sizlarga ikki og‘ir narsani qoldiryapman: birinchisi — Allohning Kitobi. Unda hidoyat va nur bor. Allohning Kitobini olinglar va unga mahkam yopishib olinglar”, deb Kitobga targ‘ib qildilar va rag‘batlantirdilar, so‘ng: “Va ahli baytim. Alloh haqini eslataman, ahli baytim haqida Allohdan qo‘rqinglar”, dedilar». (Muslim rivoyati). Bu hadis oldin to‘liq o‘tgan."
+    }
+  },
+  {
+    "id": 41098,
+    "idInBook": 33,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Malik ibn al-Huvayris (r.a.) aytadi:",
+      "text": "Biz yoshlar, yoshi bir-biriga yaqin bo‘lib, Rasululloh (s.a.v.) huzurlariga keldik. Ularning yonlarida yigirma kecha turdik. Rasululloh (s.a.v.) rahmdil va muloyim edilar. U zot bizni oilalarimizni sog‘ingan deb o‘yladilar. Bizdan ortda qoldirgan oilamiz haqida so‘radilar, biz aytdik. Shunda: «Oilalaringizga qaytinglar, ular orasida turinglar, ularga (Islomni) o‘rgatinglar va buyuringlar. Falon namozni falon vaqtda o‘qinglar, falon namozni falon vaqtda o‘qinglar. Namoz vaqti kirsa, biringiz azon aytsin va kattalaringiz imom bo‘lsin», dedilar. (Muttafaqun alayh). Buxoriy bir rivoyatda qo‘shimcha qildi: «Meni namoz o‘qiganimni ko‘rganingizdek namoz o‘qinglar»."
+    }
+  },
+  {
+    "id": 41099,
+    "idInBook": 34,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umar ibn Xattob (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.)dan umra qilish uchun izn so‘radim, izn berdilar va: «Birodar, bizni duolaringdan unutma», dedilar. U zotning bu so‘zlari menga dunyodan ham azizroqdir. Boshqa rivoyatda: «Birodar, bizni duolaringga sherik qil», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41100,
+    "idInBook": 35,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Solim ibn Abdulloh ibn Umardan rivoyat qilinadi:",
+      "text": "Abdulloh ibn Umar (r.a.) safarga chiqmoqchi bo‘lgan kishiga: «Yonimga kel, seni Rasululloh (s.a.v.) bizni vidolashgandek vidolashay», der va: «Astawdi’ulloha dinaka, va amanataka, va xavotima amalik (Diningni, omonatingni va amallaringning oxirini Allohga ishonib topshiraman)», der edi. (Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41101,
+    "idInBook": 36,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Yazid al-Xatmiy (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) qo‘shinni vidolashmoqchi bo‘lganlarida: «Astawdi’ulloha dinakum, va amanatikum, va xavotima a’malikum (Diningizni, omonatlaringizni va amallaringizning oxirini Allohga ishonib topshiraman)», der edilar. (Abu Dovud va boshqalar sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41102,
+    "idInBook": 37,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) aytadi:",
+      "text": "Bir kishi Payg‘ambar (s.a.v.) huzurlariga kelib: «Ey Rasululloh, safarga chiqmoqchiman, menga zaxira bering», dedi. U zot: «Alloh senga taqvo zaxira qilsin», dedilar. U: «Yana bering», dedi. U zot: «Gunohingni mag‘firat qilsin», dedilar. U: «Yana bering», dedi. U zot: «Qayerda bo‘lsang ham senga yaxshilikni oson qilsin», dedilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41103,
+    "idInBook": 38,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) bizga barcha ishlarda istixora qilishni Qur’ondan surani o‘rgatgandek o‘rgatardilar: «Biringiz bir ishni qilishni niyat qilsa, farz bo‘lmagan ikki rakat namoz o‘qisin, so‘ng: “Allohim, ilming ila Sendan yaxshilik so‘rayman, qudrating ila Sendan qodirlik so‘rayman va buyuk fazlingdan so‘rayman. Sen qodirsan, men qodir emasman. Sen bilasan, men bilmayman. Sen g‘ayblarni bilguvchisan. Allohim, agar bu ish (hajatini aytadi) dinim, maoshim va ishim oqibati uchun (yoki hozirgi va keyingi ishim uchun) yaxshilik ekanini bilsang, uni menga taqdir qil, oson qil va barakali qil. Agar bu ish dinim, maoshim va ishim oqibati uchun (yoki hozirgi va keyingi ishim uchun) yomonlik ekanini bilsang, uni mendan qaytar, meni undan qaytar va menga qayerda bo‘lsa ham yaxshilikni taqdir qil, so‘ng meni unga rozi qil”, desin», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41104,
+    "idInBook": 39,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.) hayit kuni (namozgohga) borishda bir yo‘ldan borib, boshqa yo‘ldan qaytardilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41105,
+    "idInBook": 40,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) (Madinadan) Shajara yo‘lidan chiqar, Mu’arras yo‘lidan qaytardilar. Makkaga kirsalar, yuqori dovondan kirar, pastki dovondan chiqardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41106,
+    "idInBook": 41,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) barcha ishlarida o‘ngdan boshlashni yaxshi ko‘rardilar: tahoratda, soch tarashda va tufli kiyishda. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41107,
+    "idInBook": 42,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning o‘ng qo‘llari tahorat va taom uchun, chap qo‘llari hojat va boshqa nopok narsalar uchun edi. (Abu Dovud va boshqalar sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41108,
+    "idInBook": 43,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Atiyya (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.) qizlari Zaynab (r.a.)ni yuvishda ularga: «O‘ng tomonlaridan va tahorat joylaridan boshlanglar», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41109,
+    "idInBook": 44,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz tufli kiysa, o‘ngdan boshlasin, yechganda chapdan boshlasin. O‘ng oyoq kiyishda oldin, yechishda keyin bo‘lsin», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41110,
+    "idInBook": 45,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Hafsa (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) o‘ng qo‘llarini taom, ichimlik va kiyim uchun, chap qo‘llarini boshqa narsalar uchun ishlatardilar. (Abu Dovud, Termiziy va boshqalar)"
+    }
+  },
+  {
+    "id": 41111,
+    "idInBook": 46,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kiyim kiysangiz va tahorat qilsangiz, o‘ng tomonlaringizdan boshlanglar», dedilar. (Abu Dovud va Termiziy sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41112,
+    "idInBook": 47,
+    "chapterId": 1,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) Minoga keldilar, Jamraga borib tosh otdilar, so‘ng Minodagi manzillariga qaytib, qurbonlik qildilar, so‘ng sartaroshga: «Ol», deb avval o‘ng tomonlarini, keyin chap tomonlarini ko‘rsatdilar, so‘ng sochlarini odamlarga bera boshladilar. (Muttafaqun alayh). Boshqa rivoyatda: «U zot Jamraga tosh otib, qurbonlikni so‘yib, soch olishga o‘tgach, sartaroshga boshining o‘ng tomonini uzatdilar, u oldi. So‘ng Abu Talha Ansoriyni chaqirib, sochni unga berdilar. Keyin chap tomonini uzatib: “Olib tashla”, dedilar. U oldi, sochni Abu Talhaga berib: “Odamlarga tarqat”, dedilar»."
+    }
+  },
+  {
+    "id": 41113,
+    "idInBook": 48,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umar ibn Abu Salama (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) menga: «Bismillah ayt, o‘ng qo‘ling bilan ye va o‘z oldingdan ye», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41114,
+    "idInBook": 49,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz taom yesa, Alloh taoloning ismini zikr qilsin (Bismillah desin). Agar boshida zikr qilishni unutsa, “Bismillahi avvalahu va axirahu” (boshida ham oxirida ham Alloh nomi bilan) desin», dedilar. (Abu Dovud va Termiziy)"
+    }
+  },
+  {
+    "id": 41115,
+    "idInBook": 50,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.)ning: «Kishi uyiga kirganda va taom yeyishda Alloh taoloni zikr qilsa, shayton o‘z sheriklariga: “Sizlarga tunash ham, kechki ovqat ham yo‘q”, deydi. Agar kirishda Allohni zikr qilmasa, shayton: “Tunashni topdinglar”, deydi. Agar taomda Allohni zikr qilmasa: “Tunashni ham, kechki ovqatni ham topdinglar”, deydi», deganlarini eshitdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41116,
+    "idInBook": 51,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Huzayfa (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) bilan birga taomga hozir bo‘lganimizda, u zot qo‘l qo‘ymaguncha qo‘l qo‘ymasdik. Bir marta u zot bilan taomga hozir bo‘ldik. Bir joriya xuddi itarilgandek kelib, qo‘lini taomga qo‘ymoqchi bo‘ldi. Rasululloh (s.a.v.) uning qo‘lini ushladilar. Keyin bir a’robiy ham itarilgandek keldi, uning ham qo‘lini ushladilar. So‘ng: «Shayton Alloh taoloning ismi zikr qilinmagan taomni o‘ziga halol deb biladi. U bu joriyani olib keldi, u orqali taomni halol qilmoqchi edi, men uning qo‘lini ushladim. Keyin bu a’robiyni olib keldi, u orqali halol qilmoqchi edi, men uning qo‘lini ushladim. Jonim qo‘lida bo‘lgan zotga qasamki, uning qo‘li ularning qo‘llari bilan birga mening qo‘limda», dedilar. So‘ng Alloh taoloning ismini zikr qildilar va taom yedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41117,
+    "idInBook": 52,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umayya ibn Maxshiy (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) o‘tirgan edilar. Bir kishi taom yeb o‘tirdi, u Allohning ismini zikr qilmadi, to taomidan bir luqma qolgancha. Uni og‘ziga ko‘targanida: «Bismillahi avvalahu va axirahu», dedi. Payg‘ambar (s.a.v.) kulib: «Shayton u bilan birga yeb o‘tirdi. U Allohning ismini zikr qilgach, qornidagini qusib tashladi», dedilar. (Abu Dovud va Nasaiy)"
+    }
+  },
+  {
+    "id": 41118,
+    "idInBook": 53,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.) olti sahobalari bilan taom yeyayotgan edilar. Bir a’robiy kelib, taomni ikki luqmada yeb qo‘ydi. Rasululloh (s.a.v.): «E’tibor bering, agar u Bismillah desa edi, taom barchangizga yetar edi», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41119,
+    "idInBook": 54,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Umoma (r.a.) aytadi:",
+      "text": "Payg‘ambar (s.a.v.) dasturxon yig‘ishtirilganda: «Alhamdu lillahi hamdan kasiran tayyiban mubarakan fih, gayra makfiyyin va la muvadda’in, va la mustag‘nan ‘anhu, Rabbana» (Ey Rabbimiz, Allohga ko‘p, pok, barakali, kamchiliksiz, tark etilmaydigan va undan behojat bo‘lmaydigan hamdlar bo‘lsin), der edilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41120,
+    "idInBook": 55,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Muoz ibn Anas (r.a.) aytadi:",
+      "text": "Rasululloh (s.a.v.): «Kim taom yegach: “Alhamdu lillahil-laziy at’amanii haza, va razaqaniihi min g‘ayri havlin minni va la quvvat” (Menga bu taomni, o‘zimdan hech bir kuch va qudrat bo‘lmagan holda, ato etgan va rizq bergan Allohga hamd bo‘lsin), desa, uning o‘tgan gunohlari mag‘firat qilinadi», dedilar. (Abu Dovud va Termiziy)"
+    }
+  },
+  {
+    "id": 41121,
+    "idInBook": 56,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) hech qachon taomni ayblamaganlar. Agar ishtahalari bo‘lsa yerdilar, yoqtirmasalar tark etardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41122,
+    "idInBook": 57,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) oilalaridan oziq-ovqatga qo‘shib yeyiladigan narsa (udm) so‘radilar. Ular: «Bizda sirka bor, xolos», deyishdi. U zot sirkani keltirishni so‘radilar va uni yeb: «Sirka qanday yaxshi udm! Sirka qanday yaxshi udm!» deb ayta boshladilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41123,
+    "idInBook": 58,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz (ziyofatga) chaqirilsa, javob bersin. Agar ro‘za bo‘lsa, (mezbon uchun) duo qilsin. Agar ro‘za bo‘lmasa, taom yesin», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41124,
+    "idInBook": 59,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Mas’ud al-Badriy (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi Payg‘ambar (s.a.v.) uchun maxsus taom tayyorlab, u zotni yana to‘rt kishi bilan birga chaqirdi. Bir kishi ularga ergashib bordi. Eshik oldiga yetgach, Payg‘ambar (s.a.v.) mezgonga: «Bu kishi bizga ergashib keldi. Xohlasang, unga ham izn berasan, xohlasang qaytib ketadi», dedilar. U: «Yo‘q, ey Rasululloh, unga ham izn beraman», dedi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41125,
+    "idInBook": 60,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umar ibn Abu Salama (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning qaramog‘ida bo‘lgan bola edim. Qo‘lim laganda atrofida aylanib yurardi. Rasululloh (s.a.v.) menga: «Ey bola, Alloh taoloning ismini zikr qil (Bismillah degin), o‘ng qo‘ling bilan ye va o‘z oldingdan ye», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41126,
+    "idInBook": 61,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Salama ibn al-Akva’ (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi Rasululloh (s.a.v.) huzurlarida chap qo‘li bilan taom yedi. U zot: «O‘ng qo‘ling bilan ye», dedilar. U: «Qo‘limdan kelmaydi», dedi. U zot: «Qo‘lingdan kelmasin!» dedilar. Uni (o‘ng qo‘l bilan yeyishdan) faqat kibr to‘sgan edi. Shundan so‘ng u qo‘lini og‘ziga ko‘tara olmadi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41127,
+    "idInBook": 62,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jabala ibn Suhaym rivoyat qiladi:",
+      "text": "Ibn Zubayr (r.a.) bilan birga ocharchilik yiliga duch keldik, bizga xurmo berildi. Abdulloh ibn Umar (r.a.) yonimizdan o‘tayotib, biz yeb o‘tirganimizda: «Ikkita xurmoni qo‘shib yemanglar, chunki Payg‘ambar (s.a.v.) ikkitasini qo‘shib yeyishdan qaytarganlar. Faqat kishi birodaridan izn so‘rasa mayli», der edi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41128,
+    "idInBook": 63,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Vahshiy ibn Harb (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ning sahobalari: «Ey Rasululloh, biz taom yeymiz-u, to‘ymaymiz», deyishdi. U zot: «Balki alohida-alohida yeyayotgandirsizlar?» dedilar. Ular: «Ha», deyishdi. U zot: «Taomlaringizga jam bo‘linglar va Allohning ismini zikr qilinglar, u sizlarga barakali bo‘ladi», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41129,
+    "idInBook": 64,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Baraka taomning o‘rtasiga tushadi. Shuning uchun uning chetlaridan yenglar, o‘rtasidan yemanglar», dedilar. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41130,
+    "idInBook": 65,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Busr (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.)ning «G‘arro» deb ataladigan katta tovoqlari bor edi, uni to‘rt kishi ko‘tarardi. Sahobalar choshgoh namozini o‘qib bo‘lgach, o‘sha tovoq keltirildi, ya’ni ichida non maydalangan ovqat (sarid) bor edi. Ular uning atrofiga to‘planishdi. Odamlar ko‘paygach, Rasululloh (s.a.v.) tiz cho‘kib o‘tirdilar. Bir a’robiy: «Bu qanday o‘tirish?» dedi. Rasululloh (s.a.v.): «Alloh meni hurmatli bir banda qildi, zolim va qaysar qilmadi», dedilar. So‘ng: «Atrofidan yenglar, o‘rta qismini qo‘yinglar, unda baraka bo‘ladi», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41131,
+    "idInBook": 66,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Juhayfa Vahb ibn Abdulloh (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Men suyanib ovqat yemayman», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41132,
+    "idInBook": 67,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning oyoqlarini tik qo‘yib, dumba ustida o‘tirgan holda xurmo yeyayotganlarini ko‘rdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41133,
+    "idInBook": 68,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz taom yeb bo‘lgach, barmoqlarini yalab yoki yalatib bo‘lmaguncha artmasin», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41134,
+    "idInBook": 69,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ka’b ibn Molik (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning uch barmoq bilan taom yeyayotganlarini va yeb bo‘lgach, ularni yalayotganlarini ko‘rdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41135,
+    "idInBook": 70,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) barmoqlarni va tovoqni yalab-tozalashga buyurdilar va: «Sizlar taomingizning qaysi qismida baraka borligini bilmaysizlar», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41136,
+    "idInBook": 71,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringizning luqmasi yerga tushsa, uni olib, ustidagi kirni tozalab yesin, uni shaytonga qoldirmasin. Barmoqlarini yalab bo‘lmaguncha qo‘lini sochiq bilan artmasin. Chunki u taomining qaysi qismida baraka borligini bilmaydi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41137,
+    "idInBook": 72,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Shayton har bir ishingizda, hatto taom yeyishingizda ham hozir bo‘ladi. Biringizning luqmasi tushib ketsa, uni olib, ustidagi kirni tozalab yesin, uni shaytonga qoldirmasin. Yeb bo‘lgach, barmoqlarini yalasin. Chunki u taomining qaysi qismida baraka borligini bilmaydi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41138,
+    "idInBook": 73,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) taom yeb bo‘lgach, uch barmoqlarini yalardilar va: «Biringizning luqmasi tushib ketsa, uni olib, kirini tozalab yesin, uni shaytonga qoldirmasin», derdilar. Bizga tovoqni yalab-tozalashni buyurdilar va: «Sizlar taomingizning qaysi qismida baraka borligini bilmaysizlar», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41139,
+    "idInBook": 74,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sa’id ibn al-Horis rivoyat qiladi:",
+      "text": "Men Jobir (r.a.)dan olovda pishgan taomdan keyin tahorat olish haqida so‘radim. U: «Yo‘q. Biz Payg‘ambar (s.a.v.) davrida bunday taomni juda kam topardik. Topganimizda ham sochiqlarimiz yo‘q edi. Kaftlarimiz, bilaklarimiz va oyoqlarimiz bilan artar edik, so‘ng (yangi) tahorat olmasdan namoz o‘qir edik», dedi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41140,
+    "idInBook": 75,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Ikki kishining taomi uch kishiga yetadi, uch kishining taomi to‘rt kishiga yetadi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41141,
+    "idInBook": 76,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir ibn Abdulloh (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Bir kishining taomi ikki kishiga yetadi, ikki kishining taomi to‘rt kishiga yetadi, to‘rt kishining taomi sakkiz kishiga yetadi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41142,
+    "idInBook": 77,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) ichimlikni uch nafasda (uch qultum qilib) ichardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41143,
+    "idInBook": 78,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Tuyadek bir nafasda ichmanglar, balki ikki yoki uch (nafasda) ichinglar. Ichishni boshlaganingizda Allohning ismini zikr qilinglar va ichib bo‘lgach Unga hamd aytinglar», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41144,
+    "idInBook": 79,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Qatoda (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) idishga nafas olishdan qaytardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41145,
+    "idInBook": 80,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ga suv qo‘shilgan sut keltirildi. O‘ng tomonlarida bir a’robiy, chap tomonlarida Abu Bakr (r.a.) o‘tirgan edi. U zot ichdilar, so‘ng qolganini a’robiyga berib: «O‘ngdagi kishi, keyin yana o‘ngdagi kishi (haqli)», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41146,
+    "idInBook": 81,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sahl ibn Sa’d (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ga bir ichimlik keltirildi. U zot undan ichdilar. O‘ng tomonlarida bir bola, chap tomonlarida keksa kishilar bor edi. U zot bolaga: «Menga ruxsat berasanmi, qolganini mana shu kishilarga bersam?» dedilar. Bola: «Yo‘q, Allohga qasamki, sizdan menga tegadigan nasibamdan hech kimni afzal ko‘rmayman», dedi. Rasululloh (s.a.v.) qolgan ichimlikni uning qo‘liga berdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41147,
+    "idInBook": 82,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) mesh og‘zini bukib, undan ichishdan qaytardilar. Ya’ni uning og‘zini bukib, ichishdan. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41148,
+    "idInBook": 83,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) mesh yoki qopning og‘zidan ichishdan qaytardilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41149,
+    "idInBook": 84,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Sobit Kabsha bint Sobit (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) huzurimga kirdilar va osig‘liq meshning og‘zidan tik turib suv ichdilar. Men turib uning og‘zini kesib oldim. (Termiziy: hasan sahih). Navaviy aytadi: U buni Rasululloh (s.a.v.)ning lablari tekkan joyini saqlash, u bilan baraka olish va uni xor bo‘lishdan asrash uchun qildi. Bu hadis joizlikni bildiradi, oldingi ikki hadis esa afzal va mukammalni bildiradi. Alloh bilguvchiroqdir."
+    }
+  },
+  {
+    "id": 41150,
+    "idInBook": 85,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) ichimlikka puflashdan qaytardilar. Bir kishi: «Men idishda bir parcha narsa (qasqir) ko‘raman?» dedi. U zot: «Uni to‘kib yubor», dedilar. U: «Men bir nafasda qonmayman?» dedi. U zot: «Unda qadahni og‘zingdan uzoqlashtir», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41151,
+    "idInBook": 86,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) ichimlik idishiga nafas olishdan yoki unga puflashdan qaytardilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41152,
+    "idInBook": 87,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.)ga Zamzam suvidan ichirdim. U zot uni tik turib ichdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41153,
+    "idInBook": 88,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Nazzol ibn Sabra (r.a.) rivoyat qiladi:",
+      "text": "Ali (r.a.) Bob ar-Rahbaga keldi va tik turib suv ichdi, so‘ng: «Men Rasululloh (s.a.v.)ni siz meni ko‘rganingizdek qilganlarini ko‘rganman», dedi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41154,
+    "idInBook": 89,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Biz Rasululloh (s.a.v.) davrida yurib taom yeyardik va tik turib suv ichardik. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41155,
+    "idInBook": 90,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Amr ibn Shu’ayb otasidan, u bobosidan rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning tik turib yoki o‘tirib suv ichganlarini ko‘rdim. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41156,
+    "idInBook": 91,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) kishining tik turib ichishidan qaytardilar. Qatoda: «Biz Anasdan taom yeyish haqida so‘radik», deydi. U: «Bu undan ham yomonroq yoki xunukroq», dedi. Muslimning boshqa rivoyatida: «Payg‘ambar (s.a.v.) tik turib ichishdan qaytardilar», deyilgan."
+    }
+  },
+  {
+    "id": 41157,
+    "idInBook": 92,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Sizlardan hech kim tik turib ichmasin. Kim unutib qo‘ysa, qayt qilsin», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41158,
+    "idInBook": 93,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Qatoda (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Qavmga suv quyib beruvchi kishi oxirida ichadi», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41159,
+    "idInBook": 94,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas ibn Molik (r.a.) rivoyat qiladi:",
+      "text": "Namoz vaqti kirganda uyi yaqin bo‘lganlar oilalariga ketishdi, bir qavm esa qoldi. Rasululloh (s.a.v.)ga toshdan yasalgan idish keltirildi. Idish kichik edi, kaftini ichiga yozib bo‘lmasdi. Shunda u zot tahorat oldilar va (suv) butun qavmga yetdi. Ular: «Qancha edingiz?» deyishdi. Anas: «Sakson va undan ortiq edik», dedi. (Muttafaqun alayh; bu Buxoriy rivoyati). Muslim rivoyatida: «Payg‘ambar (s.a.v.) suv solingan idishni so‘radilar. Unga ichida ozgina suvi bor keng idish keltirildi. U zot barmoqlarini ichiga qo‘ydilar. Anas aytadi: “Men suvning barmoqlari orasidan oqib chiqayotganiga qaray boshladim. Tahorat olganlarni yetmishdan sakson kishigacha deb chamaladim”», deyilgan."
+    }
+  },
+  {
+    "id": 41160,
+    "idInBook": 95,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Zayd (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) bizga keldilar. Biz u zotga mis idishda suv chiqarib berdik. U zot tahorat oldilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41161,
+    "idInBook": 96,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) ansoriylardan bir kishining uyiga bir sahobalari bilan kirdilar. U zot: «Agar meshda kechadan qolgan suving bo‘lsa, bizga ichishga ber, bo‘lmasa, biz ariqdan og‘zimizni qo‘yib ichamiz», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41162,
+    "idInBook": 97,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Huzayfa (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) bizni shoyi va ipak kiyishdan hamda oltin va kumush idishlarda ichishdan qaytardilar va: «Bular ularga (kofirlarga) dunyoda, sizlarga esa oxiratda», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41163,
+    "idInBook": 98,
+    "chapterId": 2,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Salama (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kumush idishda ichadigan kishi qorniga jahannam olovini oqizadi», dedilar. (Muttafaqun alayh). Muslim rivoyatida: «Kumush va tilla idishda yegan yoki ichgan kishi...» deyilgan. Yana bir rivoyatda: «Kim tilla yoki kumush idishda ichsa, qorniga jahannamdan olov oqizadi», deyilgan."
+    }
+  },
+  {
+    "id": 41164,
+    "idInBook": 99,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kiyimlaringizdan oq ranglilarini kiyinglar, chunki u eng yaxshi kiyimlaringizdir. O‘liklaringizni ham oq kiyimga kafanlanglar», dedilar. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41165,
+    "idInBook": 100,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Samura (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Oq kiyim kiyinglar, chunki u eng pokiza va eng yoqimlidir. O‘liklaringizni ham unga kafanlanglar», dedilar. (Nasaiy va Hokim rivoyati)"
+    }
+  },
+  {
+    "id": 41166,
+    "idInBook": 101,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) o‘rta bo‘yli edilar. Men u zotni qizil hulla kiygan holda ko‘rdim. Undan chiroyliroq hech narsani ko‘rmaganman. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41167,
+    "idInBook": 102,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Juhayfa Vahb ibn Abdulloh (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.)ni Makkada Abtahda, qizil teri chodirda ko‘rdim. Bilol u zotning tahorat suvlarini olib chiqdi. Kimdir suv sepib turar, kimdir suv keltirar edi. Payg‘ambar (s.a.v.) qizil hulla kiygan holda chiqdilar. Go‘yo men u zotning boldirlarining oqligini ko‘rib turibman. U zot tahorat oldilar, Bilol azon aytdi. Men Bilolning og‘zini u yoq-bu yoqqa kuzatib turardim. U o‘ngga va chapga qarab: «Hayya ala-s-solah, hayya alal-faloh», der edi. So‘ng u zotga bir nayza qadaldi. U zot oldinga o‘tib namoz o‘qidilar. Oldilaridan it va eshak o‘tardi, ularga to‘sqinlik qilmasdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41168,
+    "idInBook": 103,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Rimsа Rifо‘а at-Taymiy (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ni ikkita yashil kiyim kiygan holda ko‘rdim. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41169,
+    "idInBook": 104,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) Makka fath qilingan kuni qora salla o‘ragan holda kirdilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41170,
+    "idInBook": 105,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id Amr ibn Hurayis (r.a.) rivoyat qiladi:",
+      "text": "Go‘yo men Rasululloh (s.a.v.)ni qora salla o‘ragan holda ko‘rib turibman, uning ikki uchini ikki yelkalari orasiga tushirgan edilar. (Muslim rivoyati). Boshqa rivoyatda: «Rasululloh (s.a.v.) qora salla o‘ragan holda odamlarga xutba qildilar», deyilgan."
+    }
+  },
+  {
+    "id": 41171,
+    "idInBook": 106,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) uchta oq sahuliya paxta matosiga kafanlandilar, ularda ko‘ylak ham, salla ham yo‘q edi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41172,
+    "idInBook": 107,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bir tongda qora junli naqshinkor to‘n kiygan holda chiqdilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41173,
+    "idInBook": 108,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Mug‘ira ibn Shu’ba (r.a.) rivoyat qiladi:",
+      "text": "Bir kecha Rasululloh (s.a.v.) bilan safarda edim. U zot menga: «Yoningda suv bormi?» dedilar. Men: «Ha», dedim. U zot ulovdan tushdilar va kecha zulmatida ko‘rinmay ketguncha yurib, so‘ng qaytdilar. Men idishdan suv quydim. U zot yuzlarini yuvdilar. Ustilarida junli jubba bor edi, bilaklarini yengidan chiqara olmadilar, shunda ularni jubbaning pastidan chiqarib yuvdilar va boshlariga masx tortdilar. Men maxsilarini yechmoqchi bo‘ldim. U zot: «Ularni qo‘y, men ularni pok holda kiyganman», dedilar va ustiga masx tortdilar. (Muttafaqun alayh). Boshqa rivoyatda: «Ustida yenglari tor Shom jubbasi bor edi», deyilgan. Yana bir rivoyatda: «Bu voqea Tabuk g‘azotida bo‘lgan edi», deyilgan."
+    }
+  },
+  {
+    "id": 41174,
+    "idInBook": 109,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Salama (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ga eng sevimli kiyim ko‘ylak edi. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41175,
+    "idInBook": 110,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Asmo bint Yazid al-Ansoriya (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) ko‘ylagining yenglari bilakgacha edi. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41176,
+    "idInBook": 111,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Kim kibr bilan kiyimini sudrasa, Alloh qiyomat kuni unga qaramaydi», dedilar. Abu Bakr (r.a.): «Ey Rasululloh, mening izorim bo‘shashib turadi, uni ko‘tarib turaman», dedi. Rasululloh (s.a.v.): «Sen buni kibr bilan qiluvchilardan emassan», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41177,
+    "idInBook": 112,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Qiyomat kuni Alloh izorini kibr bilan sudragan kishiga qaramaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41178,
+    "idInBook": 113,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Izorning to‘piqdan pastki qismi do‘zaxdadir», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41179,
+    "idInBook": 114,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Zarr (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Uch kishi borki, qiyomat kuni Alloh ularga gapirmaydi, ularga qaramaydi, ularni (gunohlaridan) poklamaydi va ular uchun alamli azob bor», dedilar va buni uch marta takrorladilar. Abu Zarr: «Xor bo‘ldilar va ziyon ko‘rdilar. Ular kimlar, ey Rasululloh?» dedi. U zot: «(Kiyimini) sudrab yuruvchi, qilgan yaxshiligini minnat qiluvchi va yolg‘on qasam bilan molini sotuvchi», dedilar. Boshqa rivoyatda: «Izorini sudrab yuruvchi», deyilgan. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41180,
+    "idInBook": 115,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Izor, ko‘ylak va sallani sudrash (isbol) kibr bilan bo‘lsa, kim biror narsani kibr bilan sudrasa, Alloh qiyomat kuni unga qaramaydi», dedilar. (Abu Dovud va Nasaiy rivoyati)"
+    }
+  },
+  {
+    "id": 41181,
+    "idInBook": 116,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Juray Jorir ibn Sulaym (r.a.) rivoyat qiladi:",
+      "text": "Men bir odamni ko‘rdim, odamlar uning fikriga qarab ish yuritar, u nima desa, shunga amal qilishardi. Men: «Bu kim?» dedim. «Rasululloh (s.a.v.)», deyishdi. Men ikki marta: «Alaykas-salamu ya Rasulalloh», dedim. U zot: «“Alaykas-salam” dema, bu o‘liklarga salom berishdir. “As-salamu alayka” degin», dedilar. Men: «Siz Rasulullohmisiz?» dedim. U zot: «Men Allohning elchisiman. Agar senga zarar yetsa va Uni chaqirsang, uni sendan qaytaradi. Agar qahatchilik yili yetsa va Uni chaqirsang, senga (o‘simlikni) undiradi. Agar cho‘l sahroda bo‘lib, ulovingni yo‘qotsang va Uni chaqirsang, uni senga qaytaradi», dedilar. Men: «Menga nasihat qiling», dedim. U zot: «Hech kimni so‘kma», dedilar. Shundan so‘ng men hech qachon ozod kishini ham, qulni ham, tuyani ham, qo‘yni ham so‘kmadim. «Yaxshilikning hech bir narsasini kichik sanama. Birodaring bilan ochiq yuz bilan gaplashishing ham yaxshilikdir. Izoringni boldirning o‘rtasigacha ko‘tar. Agar rozi bo‘lmasang, to‘piqlargacha. Izorni sudrashdan saqlan, chunki bu kibrdir va Alloh kibrni sevmaydi. Agar biror kishi senda borligini bilgan narsa bilan seni haqorat qilsa va ayblasa, sen unda borligini bilgan narsa bilan uni ayblama. Chunki buning gunohi o‘ziga qaytadi», dedilar. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41182,
+    "idInBook": 117,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi izorini sudragan holda namoz o‘qiyotgan edi. Rasululloh (s.a.v.) unga: «Borib tahorat qil», dedilar. U borib tahorat oldi va qaytdi. U zot yana: «Borib tahorat qil», dedilar. Bir kishi: «Ey Rasululloh, uni tahorat qilishga buyurdingiz, so‘ng sababini aytmay jim qoldingiz?» dedi. U zot: «U izorini sudragan holda namoz o‘qigan edi. Alloh izorini sudragan kishining namozini qabul qilmaydi», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41183,
+    "idInBook": 118,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Qays ibn Bishr at-Tag‘libiy otasidan rivoyat qiladi, otasi Abu Dardoning suhbatdoshi edi:",
+      "text": "Damashqda Payg‘ambar (s.a.v.) sahobalaridan bir kishi bor edi, uni Sahl ibn al-Hanzaliya der edilar. U yolg‘izlikni yaxshi ko‘rar, odamlar bilan kam o‘tirar, ko‘p vaqtini namozda o‘tkazar, namozdan bo‘shagach tasbeh va takbir aytar, keyin uyiga borar edi. Bir kuni biz Abu Dardo (r.a.) huzurida o‘tirganimizda u yonimizdan o‘tdi. Abu Dardo unga: «Bizga foyda beradigan va senga zarar keltirmaydigan bir gap ayt», dedi. U: «Rasululloh (s.a.v.) bir harbiy guruhni yuborgan edilar. Ular qaytgach, ulardan biri kelib, Rasululloh (s.a.v.) o‘tirgan majlisda o‘tirdi va yonidagi kishiga: “Qaniydi bizni dushman bilan uchrashganimizda ko‘rsang edi. Falonchi nayzasini olib zarba berdi va: “Buni mendan qabul qil, men G‘iforiy yigitman”, dedi. Bu uning so‘zi haqida nima deysan?” dedi. U: “Menimcha, uning ajri maqtanchoqlik tufayli bekor bo‘ldi”, dedi. Boshqasi: “Men bunda hech qanday muammo ko‘rmayapman”, dedi. Ular tortishib qolishdi, to Rasululloh (s.a.v.) eshitib: “Subhanalloh! Uning ajr olishi va (bu dunyoda) maqtalishida hech qanday zarar yo‘q”, dedilar. Men Abu Dardoning bundan xursand bo‘lganini ko‘rdim, boshini ko‘tarib unga: “Buni Rasululloh (s.a.v.)dan eshitdingmi?” deb qaytara boshladi. U: “Ha”, der edi. Shunchalik qaytardiki, hatto tiz cho‘kib o‘tirib qoladi deb o‘yladim», dedi. U yana bir kuni yonimizdan o‘tdi. Abu Dardo unga: «Bizga foyda beradigan va senga zarar keltirmaydigan bir gap ayt», dedi. U: «Rasululloh (s.a.v.) bizga: “Yaxshilikka (otga) sarf qiluvchi kishi qo‘lini sadaqa uchun ochib, uni qaytarmaydigan kishiga o‘xshaydi”, dedilar», dedi. So‘ng yana bir kuni yonimizdan o‘tdi. Abu Dardo: «Bizga foyda beradigan va senga zarar keltirmaydigan bir gap ayt», dedi. U: «Rasululloh (s.a.v.): “Xuraym al-Usaydiy yaxshi odam, agar sochlari uzun va izori sudralib yurishdan iborat bo‘lmaganda edi”, dedilar. Bu gap Xuraymga yetib bordi. U pichoq olib, sochini quloqlarigacha kesdi va izorini boldirlarining o‘rtasigacha ko‘tardi», dedi. Yana bir kuni yonimizdan o‘tdi. Abu Dardo: «Bizga foyda beradigan va senga zarar keltirmaydigan bir gap ayt», dedi. U: «Men Rasululloh (s.a.v.)ning safardan qaytayotib: “Sizlar birodarlaringiz oldiga qaytyapsizlar. Egar-jabduqlaringizni va kiyimlaringizni tuzatinglar, toki odamlar orasida xoldek ko‘rinadigan bo‘linglar. Chunki Alloh ifloslikni va beodoblikni sevmaydi”, deganlarini eshitdim», dedi. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41184,
+    "idInBook": 119,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Musulmon kishining izori boldirning o‘rtasigacha bo‘ladi. U bilan to‘piqlar orasida hech qanday gunoh yo‘q. To‘piqdan pastda bo‘lgan qismi do‘zaxdadir. Kim izorini kibr bilan sudrasa, Alloh unga qaramaydi», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41185,
+    "idInBook": 120,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.) yonidan izorim salqirag‘an holda o‘tdim. U zot: «Ey Abdulloh, izoringni ko‘tar», dedilar. Men ko‘tardim. Keyin: «Yana ko‘tar», dedilar, men yana ko‘tardim. Shundan keyin uning joyini kuzatib yurardim. Qavmdan ba’zilar: «Qayergacha?» deyishdi. U zot: «Boldirlarning o‘rtasigacha», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41186,
+    "idInBook": 121,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim kiyimini kibr bilan sudrasa, Alloh qiyomat kuni unga qaramaydi», dedilar. Ummu Salama (r.a.): «Ayollar kiyim etaklarini qanday qiladilar?» deb so‘radi. U zot: «Bir qarich tushirsinlar», dedilar. U: «Unda oyoqlari ochilib qoladi», dedi. U zot: «Bir ziro‘ (tirsak) tushirsinlar, undan ortiq qilmasinlar», dedilar. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41187,
+    "idInBook": 122,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Muoz ibn Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim qodir bo‘la turib, Alloh uchun tavoze yuzasidan chiroyli va qimmatbaho kiyimlarni tark etsa, Alloh qiyomat kuni uni barcha xaloyiq oldida chaqirib, imon liboslaridan xohlaganini kiyishni ixtiyoriga beradi», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41188,
+    "idInBook": 123,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Amr ibn Shu’ayb otasidan, u bobosidan rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Alloh o‘z ne’matining asarini bandasida ko‘rishni yaxshi ko‘radi», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41189,
+    "idInBook": 124,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umar ibn Xattob (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Shoyi kiymanglar. Kim uni dunyoda kiysa, oxiratda kiymaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41190,
+    "idInBook": 125,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Umar ibn Xattob (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Shoyini faqat nasibasi yo‘q kishi kiyadi», deganlarini eshitdim. (Muttafaqun alayh). Buxoriy rivoyatida: «Oxiratda nasibasi yo‘q kishi», deyilgan."
+    }
+  },
+  {
+    "id": 41191,
+    "idInBook": 126,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim shoyini dunyoda kiysa, oxiratda kiymaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41192,
+    "idInBook": 127,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ali (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning bir parcha shoyini o‘ng qo‘llariga, oltinni chap qo‘llariga olib: «Bu ikkisi ummatim erkaklariga haromdir», deganlarini ko‘rdim. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41193,
+    "idInBook": 128,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso al-Ash’ariy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Shoyi va oltin kiyish ummatim erkaklariga harom, ayollariga halol qilindi», dedilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41194,
+    "idInBook": 129,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Huzayfa (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) bizni oltin va kumush idishlardan ichishdan, ularda taom yeyishdan, shoyi va diboj (zarbof) kiyishdan hamda ular ustida o‘tirishdan qaytardilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41195,
+    "idInBook": 130,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) Zubayr va Abdurrahmon ibn Avf (r.a.)ga qichima kasalligi borligi sababli shoyi kiyishga ruxsat berdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41196,
+    "idInBook": 131,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Muoviya (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Shoyi va qoplon terisidan qilingan egar-to‘qimlarga minmanglar», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41197,
+    "idInBook": 132,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abul-Malih otasidan rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) yirtqich hayvonlarning terilaridan foydalanishni qaytardilar. (Abu Dovud, Termiziy va Nasaiy rivoyati). Termiziyning boshqa rivoyatida: «Yirtqich hayvonlarning terilarini to‘shak qilib ishlatishdan qaytardilar», deyilgan."
+    }
+  },
+  {
+    "id": 41198,
+    "idInBook": 133,
+    "chapterId": 3,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) yangi kiyim kiyganlarida uni nomi bilan atardilar: salla, ko‘ylak yoki rido, va: «Allohumma lakal-hamdu Anta kasavtanihi, as’aluka xayrahu va xayra ma suni’a lahu, va a’uzu bika min sharrihi va sharri ma suni’a lahu (Ey Allohim, hamd Sengadir, Sen buni menga kiydirding. Sening yaxshiligingni va u uchun yaratilgan narsaning yaxshiligini so‘rayman, yomonligidan va u uchun yaratilgan narsaning yomonligidan Sening panohingga sig‘inaman)», der edilar. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41199,
+    "idInBook": 134,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro ibn Ozib (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) yotadigan joylariga kelganlarida o‘ng yonboshiga yotar va: «Allohumma aslamtu nafsi ilayka, va vajjahtu vajhi ilayka, va favvaztu amri ilayka, va alja’tu zahri ilayka, ragbatan va rahbatan ilayka. La malja’a va la manja minka illa ilayka. Amantu bikitabikal-lazi anzalta va nabiyyikal-lazi arsalta (Ey Allohim, jonimni Senga topshirdim, yuzimni Senga qaratdim, ishimni Senga ishonib topshirdim, orqamni Senga suyadim, Senga ragbat va rahbat ila. Sendan boshqa panoh va najot yo‘q, faqat Sengagina. Sen nozil qilgan Kitobingga va yuborgan payg‘ambaringga imon keltirdim)», der edilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41200,
+    "idInBook": 135,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro ibn Ozib (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) menga: «Yotadigan joyingga kelsang, namoz uchun tahorat olganingdek tahorat qil, so‘ng o‘ng yonboshi bilan yot va ayt...», dedilar va shunga o‘xshash zikrni aytdilar. Unda: «Buni oxirgi so‘zlaring qilib ol», deyilgan. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41201,
+    "idInBook": 136,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) kechasi o‘n bir rakat (nafl) namoz o‘qirdilar. Tong otgach, ikki qisqa rakat o‘qib, so‘ng o‘ng yonboshiga yotardilar, to muazzin kelib xabar berguncha. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41202,
+    "idInBook": 137,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Huzayfa (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) kechasi yotadigan joylariga yotganlarida qo‘llarini yonoqlari ostiga qo‘yar va: «Allohumma bismika amutu va ahya (Ey Allohim, Sening noming ila o‘laman va tirilaman)», der edilar. Uyg‘onganlarida: «Alhamdu lillahil-lazi ahyana ba’da ma amatana va ilayhin-nushur (Bizni o‘ldirgandan keyin tiriltirgan Allohga hamd bo‘lsin. Qaytish Ungadir)», der edilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41203,
+    "idInBook": 138,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ya’ish ibn Tixfa al-G‘iforiy (r.a.) otasidan rivoyat qiladi:",
+      "text": "Otam aytdi: Men masjidda qornim bilan yotgan edim, bir kishi meni oyog‘i bilan turtib: «Bu Alloh yomon ko‘radigan yotish usulidir», dedi. Qarasam, u Rasululloh (s.a.v.) edilar. (Abu Dovud sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41204,
+    "idInBook": 139,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim bir joyda o‘tirib Alloh taoloni zikr qilmasa, unga Allohdan nuqson (gunoh) bo‘ladi. Kim bir joyda yotib Alloh taoloni zikr qilmasa, unga Allohdan nuqson (gunoh) bo‘ladi», dedilar. (Abu Dovud hasan sanad). «Tira» — nuqson yoki javobgarlik deyiladi."
+    }
+  },
+  {
+    "id": 41205,
+    "idInBook": 140,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Zayd (r.a.) rivoyat qiladi:",
+      "text": "U Rasululloh (s.a.v.)ni masjidda chalqancha yotgan holda, bir oyog‘ini ikkinchisi ustiga qo‘yganlarini ko‘rdi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41206,
+    "idInBook": 141,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir ibn Samura (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) bomdod namozini o‘qigach, quyosh chiqib yorishguncha o‘tirgan joyida chordana qurib o‘tirar edilar. (Abu Dovud va boshqalar sahih sanadlar bilan)"
+    }
+  },
+  {
+    "id": 41207,
+    "idInBook": 142,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ni Ka’ba hovlisida qo‘llari bilan tizlarini quchoqlab, sonlarini qorinlariga bosgan holda o‘tirganlarini ko‘rdim. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41208,
+    "idInBook": 143,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Qayla bint Maxrama (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.)ni tizlarini quchoqlab o‘tirgan holda ko‘rdim. Rasululloh (s.a.v.)ning bu o‘tirishdagi tavoze’sini ko‘rib, qo‘rquvdan titrab ketdim. (Abu Dovud va Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41209,
+    "idInBook": 144,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sharid ibn Suvayd (r.a.) rivoyat qiladi:",
+      "text": "Men chap qo‘limni orqamga qo‘yib, kaftimga tayanib o‘tirgan edim. Rasululloh (s.a.v.) yonimdan o‘tib: «G‘azabga uchraganlarning o‘tirishidek o‘tirasanmi?» dedilar. (Abu Dovud sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41210,
+    "idInBook": 145,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Hech biringiz birovni joyidan turg‘izib, o‘zi o‘tirmasin. Balki kengayib, joy ochinglar», dedilar. Ibn Umar (r.a.) biror kishi o‘z joyidan unga turib bersa, u joyga o‘tirmas edi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41211,
+    "idInBook": 146,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz majlisidan turib ketsa-da, so‘ng qaytib kelsa, u joyga (boshqadan) haqliroqdir», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41212,
+    "idInBook": 147,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir ibn Samura (r.a.) rivoyat qiladi:",
+      "text": "Biz Payg‘ambar (s.a.v.) huzurlariga kelganimizda, har birimiz (majlisning) oxiridan joy olar edik. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41213,
+    "idInBook": 148,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Salmon al-Forisiy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim juma kuni g‘usl qilsa, imkon qadar poklansa, moy surtsa yoki uyidagi atirdan surtsa, so‘ng chiqib, ikki kishi orasini ajratmasa, so‘ng unga yozilgan namozni o‘qisa va imom gapirganda jim tursa, uning shu juma bilan oldingi juma o‘rtasidagi gunohlari mag‘firat qilinadi», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41214,
+    "idInBook": 149,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Amr ibn Shu’ayb otasidan, u bobosidan rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Bir kishiga ikki kishining orasini ularning iznisiz ajratish halol emas», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan). Abu Dovudning boshqa rivoyatida: «Ikki kishining orasiga ularning iznisiz o‘tirmasin», deyilgan."
+    }
+  },
+  {
+    "id": 41215,
+    "idInBook": 150,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Huzayfa ibn al-Yamon (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) halqa o‘rtasida o‘tirgan kishini la’natladilar. (Abu Dovud sahih sanad bilan). Termiziy Abu Mijlazdan rivoyat qiladi: Bir kishi halqa o‘rtasida o‘tirdi. Huzayfa: «Muhammad (s.a.v.) tilida halqa o‘rtasida o‘tirgan kishi la’natlangan», dedi. Termiziy: hasan sahih."
+    }
+  },
+  {
+    "id": 41216,
+    "idInBook": 151,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Majlislarning eng yaxshisi eng kengidir», deganlarini eshitdim. (Abu Dovud sahih sanad bilan Buxoriy shartiga ko‘ra)"
+    }
+  },
+  {
+    "id": 41217,
+    "idInBook": 152,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim bir majlisda o‘tirib, unda behuda gaplar ko‘paysa va o‘sha majlisidan turishdan oldin: “Subhanakallohumma va bihamdika, ash-hadu an la ilaha illa Anta, astag‘firuka va atubu ilayk” (Ey Allohim, Sen poksan va hamd Sengadir. Sendan o‘zga iloh yo‘qligiga guvohlik beraman. Sendan mag‘firat so‘rayman va Senga tavba qilaman), desa, o‘sha majlisidagi gunohlari mag‘firat qilinadi», dedilar. (Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41218,
+    "idInBook": 153,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Barza (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) umrlarining oxirlarida majlisdan turmoqchi bo‘lganlarida: «Subhanakallohumma va bihamdika, ash-hadu an la ilaha illa Anta, astag‘firuka va atubu ilayk», der edilar. Bir kishi: «Ey Rasululloh, siz ilgari aytmagan so‘zlarni aytyapsiz?» dedi. U zot: «Bu majlisda bo‘ladigan narsalarga kafforatdir», dedilar. (Abu Dovud; Hokim Mustadrakda Oisha (r.a.) rivoyatidan keltirgan va sahih degan)"
+    }
+  },
+  {
+    "id": 41219,
+    "idInBook": 154,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) majlisdan kamdan-kam hollarda bu duolarsiz turardilar: «Allohumma-qsim lana min xashyatika ma tahulu bihi baynana va bayna ma’asika, va min ta’atika ma tuballiguna bihi jannataka, va minal-yaqini ma tuhavvinu bihi alayna masa’ibad-dunya. Allohumma matti’na bi asma’ina va absarina va quvvatina ma ahyaytana, vaj’alhul-varisa minna, vaj’al sa’rana ala man zalamana, vansurna ala man adana, va la taj’al musibatana fi dinina, va la taj’alid-dunya akbara hammina, va la mablag‘a ilmina, va la tusallit alayna man la yarhamuna» (Ey Allohim, bizlarga gunohlaring bilan oramizni to‘sadigan xavfingdan nasiba bergin, bizni jannatingga yetkazadigan toatingdan bergin, dunyo musibatlarini yengil qiladigan yaqindan bergin. Ey Allohim, bizni hayot qilganing davomida quloqlarimiz, ko‘zlarimiz va quvvatimizdan bahramand qil, ularni bizga meros qil, zulm qilganlardan qasosimizni ol, dushmanlarimizga qarshi nusrat ber, dindagi musibatimizni qilma, dunyoni eng katta tashvishimiz qilma, ilmimizning chegarasi qilma va bizga rahm qilmaydiganlarni ustimizga hukmron qilma). (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41220,
+    "idInBook": 155,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Bir qavm bir majlisdan turib, unda Alloh taoloni zikr qilmasa, ular o‘lik eshakning leşiga o‘xshab turib ketadilar va ularga hasrat bo‘ladi», dedilar. (Abu Dovud sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41221,
+    "idInBook": 156,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Bir qavm bir majlisda o‘tirib, unda Alloh taoloni zikr qilmasa va payg‘ambarlariga salavot aytmasa, bu ularga zarar (tira) bo‘ladi. Xohlasa, ularni azoblaydi, xohlasa mag‘firat qiladi», dedilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41222,
+    "idInBook": 157,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim bir joyda o‘tirib, Alloh taoloni zikr qilmasa, unga Allohdan tira (zarar) bo‘ladi. Kim bir joyda yotib, Allohni zikr qilmasa, unga Allohdan tira bo‘ladi», dedilar. (Abu Dovud rivoyati). Bu yaqinda o‘tdi va unda «tira» ni sharhlagan edik."
+    }
+  },
+  {
+    "id": 41223,
+    "idInBook": 158,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Nubuvvatdan faqat mujdalar (mubashshirot) qoldi», deganlarini eshitdim. Ular: «Mujdalar nima?» deb so‘radilar. U zot: «Solih (yaxshi) tushdir», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41224,
+    "idInBook": 159,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Zamon yaqinlashganda mo‘minning tushi deyarli yolg‘on bo‘lmaydi. Mo‘minning tushi nubuvvatning qirq oltidan bir qismidir», dedilar. (Muttafaqun alayh). Boshqa rivoyatda: «Tushi eng rost bo‘lganlaringiz so‘zi eng rost bo‘lganlaringizdir», deyilgan."
+    }
+  },
+  {
+    "id": 41225,
+    "idInBook": 160,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim meni tushida ko‘rsa, uyquda emas, hushyor holatda ko‘radi — yoki xuddi hushyor holatda ko‘rgandek bo‘ladi. Shayton mening qiyofamga kira olmaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41226,
+    "idInBook": 161,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "U Payg‘ambar (s.a.v.)ning: «Biringiz o‘zi yaxshi ko‘radigan tush ko‘rsa, u Alloh taolodandir. Buning uchun Allohga hamd aytsin va uni (boshqalarga) aytib bersin», deganlarini eshitgan. Boshqa rivoyatda: «Faqat o‘zi yaxshi ko‘rgan kishiga aytib bersin», deyilgan. «Agar yoqtirmaydigan boshqa narsani ko‘rsa, u shaytondandir. Uning yomonligidan Allohdan panoh so‘rasin va uni hech kimga aytmasin, shunda u unga zarar keltirmaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41227,
+    "idInBook": 162,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Qatoda (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Solih tush — boshqa rivoyatda: yaxshi tush — Allohdandir, yomon tush shaytondandir. Kim yoqtirmaydigan narsani ko‘rsa, chap tomoniga uch marta sekin puflasin va shaytondan Allohga panoh tilasin, shunda u unga zarar bermaydi», dedilar. (Muttafaqun alayh). «Nafs» — tupuriksiz yengil puflashdir."
+    }
+  },
+  {
+    "id": 41228,
+    "idInBook": 163,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz yoqtirmaydigan tush ko‘rsa, chap tomoniga uch marta tupursin (puflasin), shaytondan Allohga uch marta panoh tilasin va yotgan tomonini o‘zgartirsin», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41229,
+    "idInBook": 164,
+    "chapterId": 4,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Vosila ibn al-Asqa’ (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Eng katta yolg‘onlardan biri — kishining o‘z otasidan boshqaga da’vo qilishi, ko‘rmagan narsasini ko‘rgan deb aytishi (yolg‘on tush aytishi) yoki Rasululloh (s.a.v.) aytmagan gapni ularga nisbat berishidir», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41230,
+    "idInBook": 165,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Amr ibn Os (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi Rasululloh (s.a.v.)dan: «Islomning qaysi amali yaxshiroq?» deb so‘radi. U zot: «Taom berishing va taniydigan-tanimaydigan har bir kishiga salom berishing», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41231,
+    "idInBook": 166,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) aytdilar: «Alloh taolo Odam (a.s.)ni yaratgach, unga: “Borib o‘sha o‘tirgan farishtalar jamoatiga salom bergin va ular sening salomingga qanday javob qaytarishlarini eshitgin, chunki bu sening va zurriyotingning salomidir”, dedi. Odam (a.s.) farishtalarga: “Assalomu alaykum”, dedi. Ular: “Assalomu alaykum va rahmatulloh”, deb javob qildilar. Ular uning salomiga “va rahmatulloh”ni qo‘shdilar». (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41232,
+    "idInBook": 167,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro ibn Ozib (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bizga yetti narsani buyurdilar: bemorni ziyorat qilishni, janozaga ergashishni, aksirganga «yarhamukalloh» deb aytishni, zaifga yordam berishni, mazlumga ko‘maklashishni, salomni oshkor qilishni va qasam ichuvchining qasamini bajarishga yordamlashishni. (Muttafaqun alayh; bu Buxoriy rivoyatlaridan birining lafzi)"
+    }
+  },
+  {
+    "id": 41233,
+    "idInBook": 168,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Jonim qo‘lida bo‘lgan Zotga qasamki, imon keltirmaguningizcha jannatga kirmaysizlar, bir-biringizni sevmaguningizcha ham imon keltirmagansizlar. Sizlarga bir narsani ko‘rsataymi, uni qilsangiz bir-biringizni sevib qolasizlar? Orangizda salomni oshkor qilinglar», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41234,
+    "idInBook": 169,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Salom (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Ey odamlar, salomni oshkor qilinglar, taom beringlar, qarindoshlik rishtalarini bog‘langlar va odamlar uyquda bo‘lganda namoz o‘qinglar, shunda jannatga salomatlik bilan kirasizlar», deganlarini eshitdim. (Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41235,
+    "idInBook": 170,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Tufayl ibn Ubay ibn Ka’b (r.a.) rivoyat qiladi:",
+      "text": "U Abdulloh ibn Umar (r.a.) huzuriga borar va u bilan bozorga chiqar edi. Bozorga borganimizda Abdulloh mayda sotuvchi, do‘kon egasi, miskin yoki boshqa hech kimni uchratmasin, hammasiga salom berar edi. Tufayl aytadi: Bir kuni Abdulloh ibn Umar huzuriga keldim, u meni bozorga ergashtirdi. Men unga: «Bozorda nima qilasan? Sen savdo ustida to‘xtamaysan, mol haqida so‘ramaysan, narx ham aytmaysan va bozor majlislarida ham o‘tirmaysan. Keling, shu yerda o‘tirib suhbatlashamiz», dedim. U: «Ey Abu Batn, — Tufayl qorni katta edi — biz bozorga faqat salom uchun boramiz, uchrashgan har bir kishimizga salom beramiz», dedi. (Molik Muvattoda sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41236,
+    "idInBook": 171,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Imron ibn Husayn (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi Payg‘ambar (s.a.v.) huzurlariga kelib: «Assalomu alaykum», dedi. U zot javob qaytardilar va u o‘tirdi. Payg‘ambar (s.a.v.): «O‘n», dedilar. Keyin boshqa kishi kelib: «Assalomu alaykum va rahmatulloh», dedi. U zot javob qaytardilar va u o‘tirdi. U zot: «Yigirma», dedilar. Keyin yana bir kishi kelib: «Assalomu alaykum va rahmatullohi va barokatuh», dedi. U zot javob qaytardilar va u o‘tirdi. U zot: «O‘ttiz», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41237,
+    "idInBook": 172,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) menga: «Bu Jabroildir, u senga salom aytmoqda», dedilar. Men: «Va alayhis-salomu va rahmatullohi va barokatuh», dedim. (Muttafaqun alayh). Ikki sahihning ba’zi rivoyatlarida «va barokatuh» ziyodasi bor, ba’zilarida yo‘q. Ishonchli roviyning ziyodasi maqbuldir."
+    }
+  },
+  {
+    "id": 41238,
+    "idInBook": 173,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) biror so‘z aytsalar, tushunarli bo‘lishi uchun uch marta takrorlardilar. Qavm oldiga kelsalar, ularga salom berardilar va salomni uch marta takrorlardilar. (Buxoriy rivoyati). Bu holat jamoat ko‘p bo‘lgandagiga talqin qilingan."
+    }
+  },
+  {
+    "id": 41239,
+    "idInBook": 174,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Miqdad (r.a.) o‘zining uzun hadisida rivoyat qiladi:",
+      "text": "Biz Payg‘ambar (s.a.v.)ga sutdan ulushlarini ajratib qo‘yardik. U zot kechasi kelib, uxlab yotganni uyg‘otmaydigan, uyg‘oq kishiga eshittiriladigan tarzda salom berardilar. Payg‘ambar (s.a.v.) kelib, odatdagidek salom berdilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41240,
+    "idInBook": 175,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Asmo bint Yazid (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bir kuni masjiddan o‘tdilar, bir to‘da ayollar o‘tirgan edi. U zot qo‘llari bilan ishora qilib salom berdilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41241,
+    "idInBook": 176,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Umoma (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Allohga eng yaqin odam — salomni birinchi boshlagan kishidir», dedilar. (Abu Dovud yaxshi sanad bilan; Termiziy ham shu ma’noda rivoyat qilib, hasan degan)"
+    }
+  },
+  {
+    "id": 41242,
+    "idInBook": 177,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Juray al-Hujaymiy (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.) huzurlariga kelib: «Alaykas-salomu ya Rasulalloh», dedim. U zot: «“Alaykas-salom” dema, chunki bu o‘liklarga salom berishdir», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan sahih. Hadis oldin to‘liq o‘tgan)"
+    }
+  },
+  {
+    "id": 41243,
+    "idInBook": 178,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Chavandoz piyodaga, piyoda o‘tirganga, kichik jamoa katta jamoaga salom beradi», dedilar. (Muttafaqun alayh). Buxoriy rivoyatida: «Kichik kattaga salom beradi», deyilgan."
+    }
+  },
+  {
+    "id": 41244,
+    "idInBook": 179,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Umoma Suday ibn Ajlon al-Bohiliy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Allohga eng yaqin odam — salomni birinchi boshlagan kishidir», dedilar. (Abu Dovud yaxshi sanad bilan). Termiziy Abu Umomadan rivoyat qiladi: «Ey Rasululloh, ikki kishi uchrashsa, qaysi biri salomni boshlaydi?» deb so‘raldi. U zot: «Alloh taologa yaqinroq bo‘lgani», dedilar. Termiziy: hasan."
+    }
+  },
+  {
+    "id": 41245,
+    "idInBook": 180,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) namozini noto‘g‘ri o‘qigan kishi haqidagi hadisda rivoyat qiladi:",
+      "text": "U kishi Payg‘ambar (s.a.v.) huzurlariga kelib salom berdi. Payg‘ambar (s.a.v.) salomiga javob qaytardilar va: «Qaytib namozingni qayta o‘qi, chunki sen namozni to‘g‘ri o‘qimading», dedilar. U qaytib namoz o‘qidi, so‘ng Payg‘ambar (s.a.v.) huzuriga kelib salom berdi. Payg‘ambar (s.a.v.) salomiga javob qaytardilar. Bu ish uch marta takrorlandi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41246,
+    "idInBook": 181,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz birodarini uchratsa, unga salom bersin. Agar oralarini daraxt, devor yoki tosh to‘sib, keyin yana uchratsa, yana salom bersin», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41247,
+    "idInBook": 182,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas ibn Molik (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) menga: «Ey o‘g‘lim, uyingga kirganingda oilangga salom bergin, bu senga va oila ahl-ingga baraka bo‘ladi», dedilar. (Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41248,
+    "idInBook": 183,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "U bolalar yonidan o‘tib, ularga salom berdi va: «Rasululloh (s.a.v.) shunday qilardilar», dedi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41249,
+    "idInBook": 184,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sahl ibn Sa’d (r.a.) rivoyat qiladi:",
+      "text": "Oramizda bir ayol bor edi — boshqa rivoyatda: bizda bir kampir bor edi — u lavlagi ildizlaridan olib qozonga solar va bir necha arpa donini maydalab qo‘shib pishirardi. Juma namozini o‘qib qaytganimizda unga salom berardik, u esa bizga o‘sha ovqatni taqdim qilardi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41250,
+    "idInBook": 185,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Honi Faxita bint Abu Tolib (r.a.) rivoyat qiladi:",
+      "text": "Fath kuni Payg‘ambar (s.a.v.) huzurlariga keldim. U zot g‘usl qilayotgan edilar, Fotima esa kiyim bilan to‘sib turardi. Men salom berdim va hadisni zikr qildim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41251,
+    "idInBook": 186,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Asmo bint Yazid (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) biz ayollar jamoasi yonidan o‘tdilar va bizga salom berdilar. (Abu Dovud va Termiziy; Termiziy: hasan. Bu Abu Dovud lafzi). Termiziy lafzi: «Rasululloh (s.a.v.) bir kuni masjiddan o‘tdilar, bir to‘da ayollar o‘tirgan edi, u zot qo‘llari bilan ishora qilib salom berdilar»."
+    }
+  },
+  {
+    "id": 41252,
+    "idInBook": 187,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Yahudiy va nasroniylarga salom berishda birinchi bo‘lib boshlamanglar. Ulardan birini yo‘lda uchratsangiz, uni torroq joyga siqib qo‘yinglar», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41253,
+    "idInBook": 188,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Ahl kitob sizlarga salom bersa, sizlar: “Va alaykum”, denglar», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41254,
+    "idInBook": 189,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Usoma ibn Zayd (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) musulmonlar, mushriklar va yahudiylardan iborat aralash majlis yonidan o‘tdilar va ularga salom berdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41255,
+    "idInBook": 190,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz majlisga kelsa, salom bersin. Turmoqchi bo‘lsa ham salom bersin. Birinchi salom oxirgisidan afzal emas», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41256,
+    "idInBook": 191,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso al-Ash’ariy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Izn so‘rash uch marta. Agar izn berilsa, kirgin, bo‘lmasa qaytib ketgin», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41257,
+    "idInBook": 192,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sahl ibn Sa’d (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Izn so‘rash faqat ko‘z (qarash) uchun qonun qilingan», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41258,
+    "idInBook": 193,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Rib’iy ibn Hiraish rivoyat qiladi:",
+      "text": "Banu Omir qabilasidan bir kishi bizga aytdi: U Payg‘ambar (s.a.v.) uyda bo‘lganlarida kirishga izn so‘radi va: «Kiraymi?» dedi. Rasululloh (s.a.v.) xizmatkorlariga: «Bu kishiga chiqib izn so‘rashni o‘rgat. Unga ayt: “Assalomu alaykum, kiraymi?” desin», dedilar. U kishi buni eshitib: «Assalomu alaykum, kiraymi?» dedi. Payg‘ambar (s.a.v.) unga izn berdilar va u kirdi. (Abu Dovud sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41259,
+    "idInBook": 194,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Kilda ibn al-Hanbal (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.) huzurlariga keldim va salom bermasdan kirdim. Payg‘ambar (s.a.v.): «Qaytib, “Assalomu alaykum, kiraymi?” degin», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41260,
+    "idInBook": 195,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) o‘zining isro haqidagi mashhur hadisida rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «So‘ng Jabroil meni osmoni dunyoga ko‘tardi va eshikni ochishni so‘radi. “Kim bu?” deyildi. U: “Jabroil”, dedi. “Yoningda kim bor?” deyildi. U: “Muhammad”, dedi. So‘ng ikkinchi, uchinchi, to‘rtinchi va boshqa osmonlarga ko‘tarildi. Har osmon eshigida: “Kim bu?” deb so‘raladi, u: “Jabroil”, der edi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41261,
+    "idInBook": 196,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Zarr (r.a.) rivoyat qiladi:",
+      "text": "Bir kecha tashqariga chiqsam, Rasululloh (s.a.v.) yolg‘iz yuribdilar. Men oy nurida yura boshladim. U zot orqalariga o‘girilib meni ko‘rdilar va: «Kim bu?» dedilar. Men: «Abu Zarr», dedim. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41262,
+    "idInBook": 197,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Honi (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.) huzurlariga keldim, u zot g‘usl qilayotgan edilar, Fotima esa to‘sib turardi. U zot: «Kim bu?» dedilar. Men: «Men Ummu Honiyman», dedim. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41263,
+    "idInBook": 198,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Jobir (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.) huzurlariga kelib eshikni taqillatdim. U zot: «Kim?» dedilar. Men: «Men», dedim. U zot: «Men, men?» dedilar, go‘yo buni yoqtirmadilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41264,
+    "idInBook": 199,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Alloh aksirishni yaxshi ko‘radi, esnashni esa yoqtirmaydi. Biringiz aksirsa va Alloh taologa hamd aytsa, uni eshitgan har bir musulmonga unga “yarhamukalloh” deyish vojib bo‘ladi. Esnash esa shaytondandir. Biringiz esnamoqchi bo‘lsa, imkon qadar uni qaytarsin. Chunki biringiz esnasa, shayton unga kuladi», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41265,
+    "idInBook": 200,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Biringiz aksirsa: “Alhamdu lillah”, desin. Uning birodari yoki do‘sti unga: “Yarhamukalloh”, desin. U kishi: “Yarhamukalloh” deb aytsa, aksirgan kishi: “Yahdikumulloh va yuslihu bolakum”, desin», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41266,
+    "idInBook": 201,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ning: «Biringiz aksirib, Allohga hamd aytsa, unga “yarhamukalloh” deb javob qilinglar. Agar Allohga hamd aytmasa, javob qilmanglar», deganlarini eshitdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41267,
+    "idInBook": 202,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) huzurlarida ikki kishi aksirdi. U zot biriga «yarhamukalloh» dedilar, ikkinchisiga demadilar. Unga aytilmagan kishi: «Falonchi aksirdi, unga javob qaytardingiz, men aksirdim, menga javob qaytarmadingizmi?» dedi. U zot: «U Allohga hamd aytdi, sen esa Allohga hamd aytmading», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41268,
+    "idInBook": 203,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) aksirganlarida qo‘llarini yoki kiyimlarini og‘izlariga qo‘yar va ovozlarini pasaytirar edilar. (Abu Dovud va Termiziy; Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41269,
+    "idInBook": 204,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso (r.a.) rivoyat qiladi:",
+      "text": "Yahudiylar Rasululloh (s.a.v.) huzurlarida ataylab aksirardilar, u zot ularga «yarhamukumulloh» deyishlarini umid qilib. U zot esa: «Yahdikumulloh va yuslihu bolakum», der edilar. (Abu Dovud va Termiziy; Termiziy: hasan sahih)"
+    }
+  },
+  {
+    "id": 41270,
+    "idInBook": 205,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biringiz esnasa, og‘ziga qo‘li bilan to‘ssin, chunki shayton kiradi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41271,
+    "idInBook": 206,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Xattob Qatoda rivoyat qiladi:",
+      "text": "Men Anasga: «Rasululloh (s.a.v.) sahobalari orasida qo‘l berib ko‘rishish bormi edi?» deb so‘radim. U: «Ha», dedi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41272,
+    "idInBook": 207,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Yaman ahllari kelganda Rasululloh (s.a.v.): «Sizlarga Yaman ahli keldi. Ular birinchi bo‘lib qo‘l berib ko‘rishishni olib keldilar», dedilar. (Abu Dovud sahih sanad bilan)"
+    }
+  },
+  {
+    "id": 41273,
+    "idInBook": 208,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Ikki musulmon uchrashib, qo‘l berib ko‘rishsa, ular ajralishlaridan oldin gunohlari mag‘firat qilinadi», dedilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41274,
+    "idInBook": 209,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Bir kishi: «Ey Rasululloh, bizdan bir kishi birodarini yoki do‘stini uchratsa, unga egilib ta’zim qiladimi?» deb so‘radi. U zot: «Yo‘q», dedilar. U: «Uni quchoqlab o‘padimi?» dedi. U zot: «Yo‘q», dedilar. U: «Qo‘lini tutib ko‘rishadimi?» dedi. U zot: «Ha», dedilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41275,
+    "idInBook": 210,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Safvon ibn Assol (r.a.) rivoyat qiladi:",
+      "text": "Bir yahudiy do‘stiga: «Bizni mana bu payg‘ambar huzuriga olib bor», dedi. Ular Rasululloh (s.a.v.) huzurlariga kelib, to‘qqiz ochiq mo‘jiza haqida so‘radilar. Hadisni zikr qildi, oxirida: «Ular Rasululloh (s.a.v.)ning qo‘llari va oyoqlarini o‘pdilar va: “Sening payg‘ambar ekanligingga guvohlik beramiz”, dedilar», deyilgan. (Termiziy va boshqalar sahih sanadlar bilan)"
+    }
+  },
+  {
+    "id": 41276,
+    "idInBook": 211,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) hadisining oxirida aytadi:",
+      "text": "Biz Payg‘ambar (s.a.v.)ga yaqinlashib, u zotning qo‘llarini o‘pdik. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41277,
+    "idInBook": 212,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Zayd ibn Horisa Madinaga keldi. Rasululloh (s.a.v.) mening uyimda edilar. U kelib eshikni taqillatdi. Payg‘ambar (s.a.v.) kiyimlarini sudrab o‘rnilaridan turdilar, uni quchoqlab o‘pdilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41278,
+    "idInBook": 213,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Zarr (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) menga: «Yaxshilikning hech bir narsasini kichik sanama, hatto birodaringga ochiq yuz bilan yo‘liqishing ham», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41279,
+    "idInBook": 214,
+    "chapterId": 5,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) nabiralari Hasan ibn Alini o‘pdilar. Aqra ibn Hobis: «Mening o‘nta farzandim bor, ulardan birortasini o‘pmaganman», dedi. Rasululloh (s.a.v.): «Kim rahm qilmasa, unga rahm qilinmaydi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41280,
+    "idInBook": 215,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Baro ibn Ozib (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bizga bemorni ziyorat qilishni, janozaga ergashishni, aksirganga «yarhamukalloh» deyishni, qasam ichuvchining qasamini bajarishga yordam berishni, mazlumga nusrat berishni, da’vatgo‘yning da’vatini qabul qilishni va salomni oshkor qilishni buyurdilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41281,
+    "idInBook": 216,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Musulmonning musulmon ustida besh haqqi bor: salomga javob qaytarish, bemorni ziyorat qilish, janozaga ergashish, da’vatni qabul qilish va aksirganga javob aytish», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41282,
+    "idInBook": 217,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Alloh azza va jalla qiyomat kuni: “Ey odam bolasi, Men kasal bo‘ldim, sen Meni ziyorat qilmading!” deydi. U: “Ey Rabbim, Sen olamlarning Robbi bo‘lsang, qanday qilib Seni ziyorat qilaman?” deydi. U: “Bilmadimmi, Mening falon bandam kasal edi, uni ziyorat qilmading. Agar uni ziyorat qilganingda, Meni uning huzurida toparding. Ey odam bolasi, Men sendan taom so‘radim, sen Menga taom bermading!” deydi. U: “Ey Rabbim, Sen olamlarning Robbi bo‘lsang, qanday qilib Senga taom beraman?” deydi. U: “Bilmadimmi, Mening falon bandam sendan taom so‘ragan edi, unga taom bermading. Agar unga taom berganingda, buning savobini Mening huzurimda toparding. Ey odam bolasi, Men sendan suv so‘radim, sen Menga suv bermading!” deydi. U: “Ey Rabbim, Sen olamlarning Robbi bo‘lsang, qanday qilib Senga suv beraman?” deydi. U: “Mening falon bandam sendan suv so‘ragandi, unga suv bermading. Agar unga suv berganingda, buning savobini Mening huzurimda toparding”», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41283,
+    "idInBook": 218,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Bemorni ziyorat qilinglar, ochga taom beringlar va asirni ozod qilinglar», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41284,
+    "idInBook": 219,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Savbon (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Musulmon kishi birodarini ziyorat qilsa, qaytgunicha jannat bog‘ining mevalarini terib yurgan bo‘ladi», dedilar. «Ey Rasululloh, jannat bog‘ining mevasi nima?» deb so‘raldi. U zot: «Uning uzilgan mevasi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41285,
+    "idInBook": 220,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ali ibn Abu Tolib (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Bir musulmon ertalab birodarini ziyorat qilsa, kechga qadar unga yetmish ming farishta duo qiladi. Agar kechqurun ziyorat qilsa, tongga qadar yetmish ming farishta duo qiladi va unga jannatda uzilgan meva bo‘ladi», deganlarini eshitdim. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41286,
+    "idInBook": 221,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Bir yahudiy bola Payg‘ambar (s.a.v.)ga xizmat qilardi. U kasal bo‘lib qoldi. Payg‘ambar (s.a.v.) uni ziyorat qilgani keldilar va boshining yonida o‘tirib: «Musulmon bo‘l», dedilar. Bola yonida bo‘lgan otasiga qaradi. Otasi: «Abul Qosimga itoat qil», dedi. Bola musulmon bo‘ldi. Payg‘ambar (s.a.v.) chiqib: «Uni do‘zaxdan qutqargan Allohga hamd bo‘lsin», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41287,
+    "idInBook": 222,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Biror kishi biror og‘rig‘idan shikoyat qilsa yoki yarasi bo‘lsa, Payg‘ambar (s.a.v.) barmoqlari bilan shunday qilardilar. Roviy Sufyon ibn Uyayna ko‘rsatkich barmog‘ini yerga qo‘yib keyin ko‘tardi va u zot: «Bismilloh, tursatu ardina, biriqati ba’dina, yushfa bihi saqimuna, bi izni Rabbina» (Alloh nomi bilan, yurtimiz tuprog‘i, ba’zilarimizning so‘lagi bilan, Rabbimizning izni bilan kasalimiz shifo topadi), der edilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41288,
+    "idInBook": 223,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) oila ahlidan biror kishini ziyorat qilganlarida o‘ng qo‘llari bilan silab: «Allohumma Rabban-nas, azhibil-ba’sa, vashfi, Antash-shafi, la shifa’a illa shifa’uka, shifaan la yug‘odiru saqaman» (Ey odamlarning Robbi, dardni ketkaz, shifo ber. Sen shifo beruvchisan. Sening shifoingdan boshqa shifo yo‘q. Hech qanday kasallik qoldirmaydigan shifo ber), der edilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41289,
+    "idInBook": 224,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) Sobitga aytadi:",
+      "text": "Senga Rasululloh (s.a.v.)ning rukyasi bilan dam qilaymi? U: «Ha», dedi. Anas: «Allohumma Rabban-nas, muzhibal-ba’s, ishfi Antash-shafi, la shafiya illa Anta, shifaan la yug‘odiru saqaman» (Ey odamlarning Robbi, dardni ketkazuvchi, shifo ber. Sen shifo beruvchisan. Sendan o‘zga shifo beruvchi yo‘q. Hech qanday kasallik qoldirmaydigan shifo ber), deb duo qildi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41290,
+    "idInBook": 225,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sa’d ibn Abu Vaqqos (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) meni kasalimda ziyorat qilib: «Allohumma-shfi Sa’dan, Allohumma-shfi Sa’dan, Allohumma-shfi Sa’dan» (Ey Allohim, Sa’dga shifo bergin, ey Allohim, Sa’dga shifo bergin, ey Allohim, Sa’dga shifo bergin), deb duo qildilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41291,
+    "idInBook": 226,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Abdulloh Usmon ibn Abu al-Os (r.a.) rivoyat qiladi:",
+      "text": "U Rasululloh (s.a.v.)ga badanida topayotgan og‘riqdan shikoyat qildi. Rasululloh (s.a.v.): «Qo‘lingni badaning og‘riyotgan joyiga qo‘y va uch marta “Bismillah” de. So‘ng yetti marta: “A’uzu bi izzatillahi va qudratihi min sharri ma ajidu va uhaziru” (Allohning izzati va qudrati bilan o‘zim his qilayotgan va ehtiyot qilayotgan narsaning yomonligidan panoh so‘rayman), degin», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41292,
+    "idInBook": 227,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Kim ajal yetmagan bemorni ziyorat qilib, huzurida yetti marta: “As’alullohal-azima Rabbal-arshil-azimi an yashfiyaka” (Ulug‘ Arshning Robbi bo‘lmish ulug‘ Allohdan senga shifo berishini so‘rayman), desa, Alloh uni bu kasallikdan forig‘ qiladi», dedilar. (Abu Dovud va Termiziy; Termiziy: hasan; Hokim: Buxoriy shartiga ko‘ra sahih)"
+    }
+  },
+  {
+    "id": 41293,
+    "idInBook": 228,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) bir a’robiyni ziyorat qilgani kirdilar. U zot kasalni ziyorat qilganlarida: «La ba’sa, tahurun in sha Alloh» (Hechqisi yo‘q, inshaalloh poklanishdir), der edilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41294,
+    "idInBook": 229,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Jabroil Payg‘ambar (s.a.v.) huzurlariga kelib: «Ey Muhammad, kasalmisan?» dedi. U zot: «Ha», dedilar. Jabroil: «Bismillahi arqika, min kulli shay’in yu’zika, min sharri kulli nafsin av ayni hasidin, Allahu yashfika, bismillahi arqika» (Alloh nomi bilan seni dam qilaman, senga ozor beruvchi har bir narsadan, har bir nafs yoki hasadgo‘y ko‘zning yomonligidan. Alloh senga shifo bersin, Alloh nomi bilan seni dam qilaman), deb duo qildi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41295,
+    "idInBook": 230,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy va Abu Hurayra (r.a.) rivoyat qiladilar:",
+      "text": "Rasululloh (s.a.v.): «Kim: “La ilaha illallohu vallohu akbar”, desa, Robbi uni tasdiqlab: “La ilaha illa ana va ana akbar” (Mendan o‘zga iloh yo‘q, Men eng buyukman), deydi. Qachon: “La ilaha illallohu vahdahu la sharika lah”, desa, Alloh: “La ilaha illa ana vahdi la sharika li” (Mendan o‘zga iloh yo‘q, yolg‘iz Menman, sherigim yo‘q), deydi. Qachon: “La ilaha illallohu lahul-mulku va lahul-hamd”, desa, Alloh: “La ilaha illa ana, liyal-mulku va liyal-hamd” (Mendan o‘zga iloh yo‘q, mulk Menikidir, hamd Mengadir), deydi. Qachon: “La ilaha illallohu va la havla va la quvvata illa billah”, desa, Alloh: “La ilaha illa ana va la havla va la quvvata illa bi” (Mendan o‘zga iloh yo‘q, Men bilan bo‘lmaguncha hech qanday kuch-qudrat yo‘q), deydi», dedilar va: «Kim buni kasalida aytsa va vafot etsa, do‘zax unga tegmaydi», deb qo‘shimcha qildilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41296,
+    "idInBook": 231,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Ali ibn Abu Tolib (r.a.) Rasululloh (s.a.v.) vafot etgan kasalliklarida u zotning huzurlaridan chiqdi. Odamlar: «Ey Abul Hasan, Rasululloh (s.a.v.)ning ahvollari qanday?» deb so‘radilar. U: «Allohga hamd bo‘lsin, sog‘ayib qoldilar», dedi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41297,
+    "idInBook": 232,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.)ning menga suyanib yotgan holda: «Allohumma-g‘fir li, varhamni, va alhiqni bir-Rafiqil-a’la» (Ey Allohim, meni mag‘firat qil, menga rahm et va meni oliy do‘stlarga qo‘sh), deganlarini eshitdim. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41298,
+    "idInBook": 233,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ni o‘lim paytida ko‘rdim. Huzurlarida ichida suv bo‘lgan idish bor edi. U zot qo‘llarini suvga botirib, yuzlariga surtar va: «Allohumma a’inni ala g‘amarotil-mavti va sakarotil-mavt» (Ey Allohim, menga o‘lim og‘riqlari va o‘lim talvasalarida yordam bergin), der edilar. (Termiziy rivoyati)"
+    }
+  },
+  {
+    "id": 41299,
+    "idInBook": 234,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Imron ibn Husayn (r.a.) rivoyat qiladi:",
+      "text": "Juhayna qabilasidan bir ayol zinodan homilador bo‘lib Payg‘ambar (s.a.v.) huzurlariga keldi va: «Ey Rasululloh, men haddga loyiq gunoh qildim, uni menga joriy qiling», dedi. Rasululloh (s.a.v.) uning valiysini chaqirib: «Unga yaxshilik qil, qachonki u tug‘sa, uni menga olib kel», dedilar. U shunday qildi. So‘ng Payg‘ambar (s.a.v.) uning kiyimlarini mahkam bog‘lab qo‘yishni buyurdilar, keyin toshbo‘ron qilishga buyurdilar, so‘ng uning janozasini o‘qidilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41300,
+    "idInBook": 235,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Mas’ud (r.a.) rivoyat qiladi:",
+      "text": "Men Payg‘ambar (s.a.v.) huzurlariga kirdim, u zot isitmalab yotgan edilar. Qo‘lim bilan ushlab: «Siz juda qattiq isitmalayapsiz», dedim. U zot: «Men sizlardan ikki kishining isitmalaganidek isitmalayman», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41301,
+    "idInBook": 236,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Sa’d ibn Abu Vaqqos (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) meni qattiq og‘rig‘imda ziyorat qilgani keldilar. Men: «Ko‘rib turganingizdek, dard meni qiynadi. Men boy odamman, menga faqat qizim merosxo‘r bo‘ladi», dedim va hadisni zikr qildim. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41302,
+    "idInBook": 237,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Qosim ibn Muhammad rivoyat qiladi: Oisha (r.a.):",
+      "text": "«Voy, boshim!» dedi. Payg‘ambar (s.a.v.): «Yo‘q, men “voy, boshim” deyman», dedilar. Va hadisni zikr qildi. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41303,
+    "idInBook": 238,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Muoz ibn Jabal (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kimning oxirgi so‘zi “La ilaha illalloh” bo‘lsa, jannatga kiradi», dedilar. (Abu Dovud va Hokim; Hokim: sahih sanad)"
+    }
+  },
+  {
+    "id": 41304,
+    "idInBook": 239,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «O‘layotganlaringizga “La ilaha illalloh”ni talqin qilinglar», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41305,
+    "idInBook": 240,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Salama (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) Abu Salama (r.a.) huzuriga kirdilar, uning ko‘zlari ochiq qolgan edi. Ularni yopdilar va: «Ruh qabul qilinganda, ko‘z unga ergashadi», dedilar. Oilasidan ba’zilar yig‘lay boshladi. U zot: «O‘zlaringizga faqat yaxshilikni duo qilinglar, chunki farishtalar aytganlaringizga “omin” deydilar», dedilar. So‘ng: «Allohumma-g‘fir li Abi Salama, varfa’ darajatahu fil-mahdiyyin, vahlufhu fi aqbihi fil-g‘obirin, vag‘fir lana va lahu ya Rabbal-alamin, vafsah lahu fi qabrihi, va navvir lahu fihi» (Ey Allohim, Abu Salamani mag‘firat qil, hidoyat topganlar orasida darajasini ko‘tar, ortda qolgan avlodlarida unga yaxshi o‘rinbosar ber. Ey olamlarning Robbi, bizni va uni mag‘firat qil. Uning qabrini keng qil va uni yorug‘ qil), dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41306,
+    "idInBook": 241,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Salama (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Bemor yoki o‘layotgan kishining huzuriga borganingizda yaxshi gapiringlar, chunki farishtalar aytganlaringizga “omin” deydilar», dedilar. U aytadi: Abu Salama vafot etgach, Payg‘ambar (s.a.v.) huzurlariga borib: «Ey Rasululloh, Abu Salama vafot etdi», dedim. U zot: «Allohumma-g‘fir li va lahu, va a’qibni minhu uqba hasana», deb aytgin, dedilar. Men shunday dedim. Alloh menga undan yaxshiroq bo‘lgan Muhammad (s.a.v.)ni o‘rinbosar qilib berdi. (Muslim shunday rivoyat qilgan: «Bemor yoki o‘lik huzuriga borganingizda» degan shubha bilan. Abu Dovud va boshqalar: «o‘lik» deb shubhasiz rivoyat qilganlar)"
+    }
+  },
+  {
+    "id": 41307,
+    "idInBook": 242,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Salama (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Biror banda musibatga uchrab: “Inna lillahi va inna ilayhi roji’un, Allohumma’jurni fi musibati, vaxluf li xayran minha” (Albatta biz Allohnikimiz va Unga qaytuvchimiz. Ey Allohim, musibatimda menga ajr ber va menga undan yaxshiroq o‘rinbosar ber), desa, Alloh taolo unga musibatida ajr beradi va undan yaxshiroq o‘rinbosar beradi», deganlarini eshitdim. U aytadi: Abu Salama vafot etgach, Rasululloh (s.a.v.) buyurganlaridek aytdim. Alloh menga undan yaxshiroq — Rasululloh (s.a.v.)ni o‘rinbosar qilib berdi. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41308,
+    "idInBook": 243,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Muso al-Ash’ariy (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Banda farzandi vafot etsa, Alloh taolo farishtalariga: “Banda farzandini oldingizmi?” deydi. Ular: “Ha”, deydilar. U: “Uning qalb mevasini oldingizmi?” deydi. Ular: “Ha”, deydilar. U: “Banda nima dedi?” deydi. Ular: “Senga hamd aytdi va istirjo qildi (inna lillahi va inna ilayhi roji’un dedi)”, deydilar. Alloh taolo: “Banda uchun jannatda bir uy quringlar va uni Baytul-hamd (Hamd uyi) deb nomlanglar”, deydi», dedilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41309,
+    "idInBook": 244,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Alloh taolo aytadi: “Mo‘min bandamning dunyo ahli orasidan sevimlisini (farzandini) olsam va u sabr qilib ajr umid qilsa, Mening huzurimda unga faqat jannat bor”», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41310,
+    "idInBook": 245,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Usoma ibn Zayd (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.)ning qizlaridan biri u zotga odam yuborib, o‘g‘lining o‘lim to‘shagida ekanini aytib chaqirdi. U zot elchiga: «Unga qaytib ayt: Alloh taolo olgan narsa ham, bergan narsa ham Unikidir. Har bir narsa Uning huzurida belgilangan ajalga ega. Unga ayt, sabr qilsin va ajr umid qilsin», dedilar va hadisni to‘liq zikr qildi. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41311,
+    "idInBook": 246,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Umar (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) Sa’d ibn Ubodani kasalida ziyorat qildilar. U bilan Abdurrahmon ibn Avf, Sa’d ibn Abu Vaqqos va Abdulloh ibn Mas’ud (r.a.) bor edi. Rasululloh (s.a.v.) yig‘ladilar. Qavm u zotning yig‘laganlarini ko‘rib, ular ham yig‘ladilar. U zot: «Eshitmayapsizlarmi? Alloh ko‘z yoshi va qalb g‘ami uchun azoblamaydi, balki mana bu uchun azoblaydi yoki rahm qiladi», deb tillariga ishora qildilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41312,
+    "idInBook": 247,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Usoma ibn Zayd (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.)ga qizlarining o‘g‘li o‘lim to‘shagida ko‘tarilib keltirildi. Rasululloh (s.a.v.)ning ko‘zlaridan yosh oqdi. Sa’d: «Bu nima, ey Rasululloh?» dedi. U zot: «Bu Alloh taolo rahmdil bandalarining qalblariga joylab qo‘ygan rahmatdir. Alloh bandalaridan rahmdillariga rahm qiladi», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41313,
+    "idInBook": 248,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Anas (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) o‘g‘illari Ibrohim (r.a.) jon berayotganida huzuriga kirdilar. Rasululloh (s.a.v.)ning ko‘zlaridan yosh oqa boshladi. Abdurrahmon ibn Avf: «Siz ham yig‘laysizmi, ey Rasululloh?» dedi. U zot: «Ey Ibn Avf, bu rahmatdir», dedilar. So‘ng yana yig‘lab: «Ko‘z yosh to‘kadi, qalb qayg‘uradi, lekin biz Rabbimiz rozi bo‘ladigan gapdan boshqa gapirmaymiz. Ey Ibrohim, biz sening ayrilig‘ingdan mahzunmiz», dedilar. (Buxoriy; Muslim ba’zisini rivoyat qilgan)"
+    }
+  },
+  {
+    "id": 41314,
+    "idInBook": 249,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Rofi’ Aslam (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim o‘likni yuvib, unda ko‘rgan aybini yashirsa, Alloh uni qirq marta mag‘firat qiladi», dedilar. (Hokim: Muslim shartiga ko‘ra sahih)"
+    }
+  },
+  {
+    "id": 41315,
+    "idInBook": 250,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim janozada qatnashib, uning namozi o‘qilguncha qolsa, unga bir qirot ajr bor. Kim dafn etilguncha qatnashsa, unga ikki qirot ajr bor», dedilar. «Ikki qirot nima?» deb so‘raldi. U zot: «Ikki ulkan tog‘dek», dedilar. (Muttafaqun alayh)"
+    }
+  },
+  {
+    "id": 41316,
+    "idInBook": 251,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Kim musulmon janozasiga imon va ajr umidida ergashsa va namozi o‘qilib, dafn etilguncha u bilan birga bo‘lsa, u ikki qirot ajr bilan qaytadi. Har bir qirot Uhud tog‘idekdir. Kim namozini o‘qib, dafn etilishidan oldin qaytsa, bir qirot bilan qaytadi», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41317,
+    "idInBook": 252,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ummu Atiyya (r.a.) rivoyat qiladi:",
+      "text": "Biz (ayollar) janozaga ergashishdan qaytarildik, lekin bizga qat’iy buyurilmadi. (Muttafaqun alayh). Ya’ni haromlardagi kabi qattiq qaytarmadi."
+    }
+  },
+  {
+    "id": 41318,
+    "idInBook": 253,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Oisha (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.): «Biror o‘lik borki, unga yuz kishilik musulmon jamoasi janoza namozini o‘qisa va ularning hammasi unga shafoat qilishsa, ularning shafoatlari qabul qilinadi», dedilar. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41319,
+    "idInBook": 254,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Ibn Abbos (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «Biror musulmon kishi vafot etsa va uning janozasiga Allohga hech narsani sherik qilmaydigan qirq kishi turib namoz o‘qisa, Alloh ularning shafoatini u uchun qabul qiladi», deganlarini eshitdim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41320,
+    "idInBook": 255,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Marsad ibn Abdulloh al-Yazaniy rivoyat qiladi:",
+      "text": "Molik ibn Hubayra (r.a.) janoza namozini o‘qisa va odamlar oz bo‘lsa, ularni uch safga bo‘lar, so‘ng: «Rasululloh (s.a.v.): “Kimga uch saf namoz o‘qisa, unga (jannat) vojib bo‘ldi”, dedilar», der edi. (Abu Dovud va Termiziy; Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41321,
+    "idInBook": 256,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Abdurrahmon Avf ibn Molik (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bir janoza namozini o‘qidilar. Men u zotning duolaridan yodlab qoldim: «Allohumma-g‘fir lahu, varhamhu, va afihi, va’fu anhu, va akrim nuzulahu, va vassi’ mudxalahu, vag‘silhu bil-mai vas-salji val-barad, va naqqihi minal-xataya kama naqqaytas-savbal-abyada minad-danas, va abdilhu doran xayran min dorihi, va ahlan xayran min ahlihi, va zavjan xayran min zavjihi, va adxilhul-jannata, va a’izhu min azabil-qabri va min azabin-nar» (Ey Allohim, uni mag‘firat qil, rahm qil, ofiyat ber, afv et, manzilini hurmatli qil, kiradigan joyini keng qil, uni suv, qor va do‘l bilan yuv, xatolardan oq kiyimni kirdan tozalaganingdek tozala, unga uyidan yaxshiroq uy, oilasidan yaxshiroq oila, juftidan yaxshiroq juft ber, uni jannatga kirit va qabr azobidan hamda do‘zax azobidan saqla). Shu darajada duolarini eshitib, o‘sha o‘lik bo‘lishni orzu qildim. (Muslim rivoyati)"
+    }
+  },
+  {
+    "id": 41322,
+    "idInBook": 257,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra, Abu Qatoda va Abu Ibrohim al-Ash-haliy otasidan (otasi sahoba) rivoyat qiladilar:",
+      "text": "Payg‘ambar (s.a.v.) bir janoza namozini o‘qib: «Allohumma-g‘fir lihayyina va mayyitina, va sag‘irina va kabirina, va zakarina va unsana, va shohidina va g‘oibina. Allohumma man ahyaytahu minna fa-ahyihi alal-Islom, va man tavaffaytahu minna fata-vaffahu alal-imon. Allohumma la tahrimna ajrahu va la taftinna ba’dahu» (Ey Allohim, tirigimizni ham o‘ligimizni ham, kichigimizni ham kattamizni ham, erkagimizni ham ayolimizni ham, hozirimizni ham g‘oibimizni ham mag‘firat qil. Ey Allohim, bizdan kimni tirik qoldirsang, Islomda tirik qoldir, kimni vafot ettirsang, imonda vafot ettir. Ey Allohim, bizni uning ajridan mahrum qilma va undan keyin bizni fitnaga solma), dedilar. (Termiziy Abu Hurayra va al-Ash-haliy rivoyatidan keltirgan; Abu Hurayra rivoyati sahih; Abu Dovud Abu Hurayra va Abu Qatoda rivoyatidan; Hokim: Abu Hurayra hadisi Buxoriy va Muslim shartiga ko‘ra sahih; Termiziy: Buxoriy aytdi: bu hadisning eng sahih rivoyati al-Ash-haliy rivoyatidir. Buxoriy: bu bobdagi eng sahih narsa Avf ibn Molik hadisidir)"
+    }
+  },
+  {
+    "id": 41323,
+    "idInBook": 258,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Men Rasululloh (s.a.v.)ning: «O‘likka namoz o‘qisangiz, unga sidqidildan duo qilinglar», deganlarini eshitdim. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41324,
+    "idInBook": 259,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.) janoza namozida: «Allohumma Anta Rabbuhо, va Anta xalaqtahо, va Anta hadaytahо lil-Islom, va Anta qabadta ruhahо, va Anta a’lamu bisirriha va alaniyyatiha, ji’naka shufa’a’a lahu fag‘fir lahu» (Ey Allohim, Sen uning Robbisan, Sen uni yaratding, Sen uni Islomga hidoyat qilding, Sen uning ruhini olding, Sen uning sirini ham oshkorasini ham bilguvchisan. Biz Senga uning uchun shafoatchi bo‘lib keldik, uni mag‘firat qil), deb duo qildilar. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41325,
+    "idInBook": 260,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Vosila ibn al-Asqa’ (r.a.) rivoyat qiladi:",
+      "text": "Rasululloh (s.a.v.) bizga bir musulmon kishining janoza namozini o‘qib berdilar. Men u zotning: «Allohumma inna fulana ibna fulanin fi zimmatika va habli jivarika, faqihi fitnatal-qabri va azaban-nar, va Anta ahlul-vafoi val-hamd. Allohumma-g‘fir lahu varhamhu, innaka Antal-g‘afurur-rahim» (Ey Allohim, falonchi falonchi o‘g‘li Sening himoyangda va Sening qo‘shnichilik arqoningda. Uni qabr fitnasidan va do‘zax azobidan saqla. Sen vafo va hamd egasisan. Ey Allohim, uni mag‘firat qil va rahm qil. Albatta Sen mag‘firatli va rahmlisan), deganlarini eshitdim. (Abu Dovud rivoyati)"
+    }
+  },
+  {
+    "id": 41326,
+    "idInBook": 261,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abdulloh ibn Abu Avfo (r.a.) rivoyat qiladi:",
+      "text": "U qizining janozasida to‘rt marta takbir aytdi. To‘rtinchi takbirdan keyin ikki takbir orasidagi vaqtga yaqin turib, unga istig‘for aytdi va duo qildi, so‘ng: «Rasululloh (s.a.v.) shunday qilardilar», dedi. Boshqa rivoyatda: «U to‘rt marta takbir aytdi, bir soat turdi, hatto biz beshinchi takbirni aytadi deb o‘yladik, so‘ng o‘ng va chap tomoniga salom berdi. U tugatgach, biz: “Bu nima?” deb so‘radik. U: “Men sizlarga Rasululloh (s.a.v.)ning qilganlarini ko‘rganimdan ortiq qilmayman yoki Rasululloh (s.a.v.) shunday qilganlar”, dedi», deyilgan. (Hokim: sahih)"
+    }
+  },
+  {
+    "id": 41327,
+    "idInBook": 262,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Janozani tezlashtiringlar. Agar u solih bo‘lsa, uni yaxshilikka yetaklayapsizlar. Agar undan boshqa bo‘lsa, bo‘yiningizdan yomonlikni tashlab qo‘yasizlar», dedilar. (Muttafaqun alayh). Muslim rivoyatida: «Uni yaxshilikka yetaklaysiz», deyilgan."
+    }
+  },
+  {
+    "id": 41328,
+    "idInBook": 263,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Sa’id al-Xudriy (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Janoza qo‘yilgach, erkaklar uni yelkalarida ko‘tarishsa, agar u solih bo‘lsa: “Meni tezroq olib boringlar”, deydi. Agar u solih bo‘lmasa, oilasiga: “Voy, uni qayoqqa olib ketyapsizlar!” deydi. Uning ovozini odamdan boshqa hamma narsa eshitadi. Agar odam eshitsa, hushidan ketib qolardi», dedilar. (Buxoriy rivoyati)"
+    }
+  },
+  {
+    "id": 41329,
+    "idInBook": 264,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Abu Hurayra (r.a.) rivoyat qiladi:",
+      "text": "Payg‘ambar (s.a.v.): «Mo‘minning ruhi qarzi tufayli to‘xtatib turiladi, to uni to‘languncha», dedilar. (Termiziy: hasan)"
+    }
+  },
+  {
+    "id": 41330,
+    "idInBook": 265,
+    "chapterId": 6,
+    "bookId": 13,
+    "uzbek": {
+      "narrator": "Husayn ibn Vahvah (r.a.) rivoyat qiladi:",
+      "text": "Talha ibn al-Baro (r.a.) kasal bo‘ldi. Payg‘ambar (s.a.v.) uni ziyorat qilgani keldilar va: «Menimcha, Talhada o‘lim alomatlari paydo bo‘ldi. U vafot etsa, menga xabar beringlar va uni tezlashtiringlar. Musulmon jasadining oila a’zolari orasida ushlanib qolishi to‘g‘ri emas», dedilar. (Abu Dovud rivoyati)"
+    }
+  }
