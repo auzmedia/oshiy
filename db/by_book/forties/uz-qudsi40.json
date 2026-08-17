@@ -1,0 +1,465 @@
+{
+  "id": 11,
+  "metadata": {
+    "id": 11,
+    "length": 40,
+    "arabic": {
+      "title": "الأربعون القدسية",
+      "author": "",
+      "introduction": ""
+    },
+    "uzbek": {
+      "title": "Al-Arbaviyn al-Qudsiyya"
+    }
+  },
+  "chapters": [
+    {
+      "id": 0,
+      "bookId": 11,
+      "arabic": "الحديث القدسي",
+      "uzbek": "Qudsiy hadis"
+    }
+  ],
+  "hadiths": [
+    {
+      "id": 40986,
+      "idInBook": 1,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" لَمَّا قَضَى اللَّهُ الْخَلْقَ، كَتَبَ فِي كِتَابِهِ عَلَى نَفْسِهِ، فَهُوَ مَوْضُوعٌ عِنْدَهُ: إِنَّ رَحْمَتِي تَغْلِبُ غَضَبِي\" \nرواه مسلم (وكذلك البخاري والنسائي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh taolo maxluqotlarni yaratib bo'lganida, O'z huzuridagi Kitobiga: «Albatta, Mening rahmatim g'azabimdan g'olib keldi», deb yozib qo'ygan». Uni Muslim (shuningdek Buxoriy, Nasaiy va Ibn Moja) rivoyat qildi."
+      }
+    },
+    {
+      "id": 40987,
+      "idInBook": 2,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" قَالَ اللَّهُ تَعَالَى: كَذَّبَنِي ابْنُ آدَمَ وَلَمْ يَكُنْ لَهُ ذَلِكَ، وَشَتَمَنِي وَلَمْ يَكُنْ لَهُ ذَلِكَ، فَأَمَّا تَكْذِيبُهُ إِيَّايَ فَقَوْلُهُ: لَنْ يُعِيدَنِي كَمَا بَدَأَنِي، وَلَيْسَ أَوَّلُ الْخَلْقِ بِأَهْوَنَ عَلَيَّ مِنْ إِعَادَتِهِ، وَأَمَّا شَتْمُهُ إِيَّايَ فَقَوْلُهُ: اتَّخَذَ اللَّهُ وَلَدًا، وَأَنَا الْأَحَدُ الصَّمَدُ، لَمْ أَلِدْ وَلَمْ أُولَدْ، وَلَمْ يَكُنْ لِي كُفُوًا أَحَدٌ\" \nرواه البخاري (وكذلك النسائي)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar:\n\n«Alloh taolo aytdi: «Odam o‘g‘li meni yolg‘onchiga chiqardi, holbuki uning bunga haqi yo‘q edi. Va u meni so‘kdi, holbuki uning bunga haqi yo‘q edi. Uning meni yolg‘onchiga chiqargani – uning: «Meni avval boshdan yaratganidek, qaytadan tirik qilmaydi», deganidir. Holbuki, xalqning avvalgisi uni qaytadan yaratishimdan ko‘ra menga osonroq emasdir. Uning meni so‘kgani esa – uning: «Alloh farzand tutdi», deganidir. Holbuki, men – Yolg‘iz, Somadman; tug‘maganman, tug‘ilmaganman va hech bir tengdoshim yo‘qdir».\n\nUni Buxoriy (shuningdek Nasaiy) rivoyat qildi.»"
+      }
+    },
+    {
+      "id": 40988,
+      "idInBook": 3,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ زَيْدِ بْنِ خَالِدٍ الْجُهَنِيِّ، رَضِيَ اللَّهُ عَنْهُ قَالَ: \n\"صَلَّى لَنَا رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ صَلَاةَ الصُّبْحِ بِالْحُدَيْبِيَةِ، عَلَى إِثْرِ سَمَاءٍ (1) كَانَتْ مِنْ اللَّيْلَةِ، فَلَمَّا انْصَرَفَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَقْبَلَ عَلَى النَّاسِ، فَقَالَ لَهُمْ: \"هَلْ تَدْرُونَ مَاذَا قَالَ رَبُّكُمْ؟ قَالُوا: اللَّهُ وَرَسُولُهُ أَعْلَمُ، قَالَ: أَصْبَحَ مِنْ عِبَادِي مُؤْمِنٌ بِي وَكَافِرٌ، فَأَمَّا مَنْ قَالَ: مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ، فَذَلِكَ مُؤْمِنٌ بِي، كَافِرٌ بِالْكَوْكَبِ، وَأَمَّا مَنْ قَالَ: مُطِرْنَا بِنَوْءِ(1) كَذَا وَكَذَا، فَذَلِكَ كَافِرٌ بِي، مُؤْمِنٌ بِالْكَوْكَبِ\" \nرواه البخاري (وكذلك مالك والنسائي)",
+      "uzbek": {
+        "narrator": "Zayd ibn Xolid al-Juhaniy roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U kishi aytdilar: «Rasululloh sollallohu alayhi vasallam bizga Hudaybiyada kechasi bo'lib o'tgan yomg'irdan keyin bomdod namozini o'qitib berdilar. Nabiy sollallohu alayhi vasallam namozdan fariq bo'lgach (tugatib), odamlarga yuzlandilar va ularga dedilar: «Bilasizlarmi, Rabbingiz nima dedi?» Ular: «Alloh va Uning Rasuli biluvchiroqdir», deyishdi. U zot aytdilar: «Bandalarimdan kimdir menga mo'min, kimdir kofir bo'lib tong ottirdi. Kimki: «Bizga Allohning fazli va rahmati ila yomg'ir berildi», desa, bas, u menga mo'min, yulduzga kofirdir. Va kimki: «Bizga falonchi va falonchi yulduz (botishi yoki chiqishi) tufayli yomg'ir berildi», desa, bas, u menga kofir, yulduzga mo'minu ishonuvchidir»». Uni Imom Buxoriy rivoyat qilgan (shuningdek, Molik va Nasaiy ham rivoyat qilishgan)."
+      }
+    },
+    {
+      "id": 40989,
+      "idInBook": 4,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" قَالَ اللَّهُ: يَسُبُّ بَنُو آدَمَ الدَّهْرَ، وَأَنَا الدَّهْرُ، بِيَدِي اللَّيْلُ وَالنَّهَارُ\" \nرواه البخاري (وكذلك مسلم)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh taolo aytdi: «Odam bolasi dahrni (vaqtni, zamonni) söngiydi, holbuki Men dahrning O'ziman (zamonni yaratuvchisi va uning egasiman). Kecha va kunduz Mening qo'limdadir»».\n\nImom Buxoriy rivoyat qilgan (shuningdek, Imom Muslim ham)."
+      }
+    },
+    {
+      "id": 40990,
+      "idInBook": 5,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" قَالَ اللَّهُ تَبَارَكَ وَتَعَالَى: أَنَا أَغْنَى الشُّرَكَاءِ عَنْ الشِّرْكِ؛ مَنْ عَمِلَ عَمَلًا أَشْرَكَ مَعِي غَيْرِي(1)، تَرَكْتُهُ وَشِرْكَهُ\". \nرواه مسلم (وكذلك ابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Tabaraka va taolo bo‘lgan Alloh shunday dedi: «Men sheriklarning shirkdan eng behojatidirman (befaryodiman). Kim bir amal qilsa-yu, unda Menga boshqasini sherik qilsa, uni ham, uning shirkini ham tark qilaman (tashlab qo‘yaman)».\nBuni Muslim (va shuningdek Ibn Moja) rivoyat qildi."
+      }
+    },
+    {
+      "id": 40991,
+      "idInBook": 6,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: \n\n\" إِنَّ أَوَّلَ النَّاسِ يُقْضَى يَوْمَ الْقِيَامَةِ عَلَيْهِ رَجُلٌ اسْتُشْهِدَ، فَأُتِيَ بِهِ فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا، قَالَ: فَمَا عَمِلْتَ فِيهَا؟ قَالَ قَاتَلْتُ فِيكَ حَتَّى اسْتُشْهِدْتُ، قَالَ: كَذَبْتَ، وَلَكِنَّكَ قَاتَلْتَ لِأَنْ يُقَالَ: جَرِيءٌ، فَقَدْ قِيلَ، ثُمَّ أُمِرَ بِهِ فَسُحِبَ عَلَى وَجْهِهِ حَتَّى أُلْقِيَ فِي النَّارِ. وَرَجُلٌ تَعَلَّمَ الْعِلْمَ وَعَلَّمَهُ وَقَرَأَ الْقُرْآنَ، فَأُتِيَ بِهِ، فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا، قَالَ: فَمَا عَمِلْتَ فِيهَا؟ قَالَ: تَعَلَّمْتُ الْعِلْمَ وَعَلَّمْتُهُ، وَقَرَأْتُ فِيكَ الْقُرْآنَ، قَالَ: كَذَبْتَ، وَلَكِنَّكَ تَعَلَّمْتَ الْعِلْمَ لِيُقَالَ: عَالِمٌ، وَقَرَأْتَ الْقُرْآنَ لِيُقَالَ: هُوَ قَارِئٌ، فَقَدْ قِيلَ، ثُمَّ أُمِرَ بِهِ، فَسُحِبَ عَلَى وَجْهِهِ حَتَّى أُلْقِيَ فِي النَّارِ. وَرَجُلٌ وَسَّعَ اللَّهُ عَلَيْهِ، وَأَعْطَاهُ مِنْ أَصْنَافِ الْمَالِ كُلِّهِ، فَأُتِيَ بِهِ، فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا، قَالَ: فَمَا عَمِلْتَ فِيهَا؟ قَالَ: مَا تَرَكْتُ مِنْ سَبِيلٍ تُحِبُّ أَنْ يُنْفَقَ فِيهَا إِلَّا أَنْفَقْتُ فِيهَا لَكَ، قَالَ: كَذَبْتَ، وَلَكِنَّكَ فَعَلْتَ لِيُقَالَ: هُوَ جَوَادٌ، فَقَدْ قِيلَ، ثُمَّ أُمِرَ بِهِ فَسُحِبَ عَلَى وَجْهِهِ، ثُمَّ أُلْقِيَ فِي النَّارِ\". \nرواه مسلم (وكذلك الترمذي والنسائي)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U zot aytdilar: «Men Rasululloh sollallohu alayhi vasallamning shunday deyaotganlarini eshitdim: «Albatta, qiyomat kunida odamlardan birinchi bo'lib hukm qilinadigan kishi – shahid qilingan bir odamdir. U keltiriladi va Alloh unga o'z ne'matlarini tanishtiradi, u ham ularni tanib e'tirof etadi. Alloh taolo: «Ular(ne'matlar)da nima amal qilding?» deydi. U: «Sen uchun jang qildim, hatto shahid bo'ldim», deydi. Alloh: «Yolg'on aytding, lekin sen: «U botir», deyishlari uchun jang qilgan eding va bu aytildi», deydi. So'ngra uning haqida buyruq qilinib, yuztuban sudrab ketiladi va oxiri do'zaxga uloqtiriladi. Ikkinchi kishi – ilmni o'rgangan, o'rgatgan va Qur'on o'qigan bir odamdir. U keltiriladi, Alloh unga o'z ne'matlarini tanishtiradi, u ham ularni tanib e'tirof etadi. Alloh taolo: «Ular(ne'matlar)da nima amal qilding?» deydi. U: «Ilm o'rgandim, uni boshqalarga o'rgatdim va Sen uchun Qur'on o'qidim», deydi. Alloh: «Yolg'on aytding, lekin sen: «U olim», deyishlari uchun ilm o'rganding va: «U qori», deyishlari uchun Qur'on o'qiding, bu aytildi», deydi. So'ngra uning haqida buyruq qilinib, yuztuban sudrab ketiladi va oxiri do'zaxga uloqtiriladi. Uchinchi kishi – Alloh uning rizqini keng qilgan va unga barcha turdagi mol-mulklarni bergan bir odamdir. U keltiriladi, Alloh unga o'z ne'matlarini tanishtiradi, u ham ularni tanib e'tirof etadi. Alloh taolo: «Ular(ne'matlar)da nima amal qilding?» deydi. U: «Sen sarflanishini yaxshi ko'radigan birorta ham yo'lni qoldirmadim,-barchasida Sen uchun infon-sadaqa qildim», deydi. Alloh: «Yolg'on aytding, lekin sen: «U saxiy», deyishlari uchun shunday qilding, bu aytildi», deydi. So'ngra uning haqida buyruq qilinib, yuztuban sudrab ketiladi, so'ngra do'zaxga uloqtiriladi».» \n\nUni Muslim (shuningdek Termiziy va Nasaiy ham) rivoyat qilgan."
+      }
+    },
+    {
+      "id": 40992,
+      "idInBook": 7,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ عُقْبَةَ بْنِ عَامِرٍ، رَضِيَ اللَّهُ عَنْهُ، قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: \n\n\" يَعْجَبُ رَبُّكَ مِنْ رَاعِي غَنَمٍ، فِي رَأْسِ شَظِيَّةِ الْجَبَلِ(1)، يُؤَذِّنُ بِالصَّلَاةِ وَيُصَلِّي، فَيَقُولُ اللَّهُ، عَزَّ وَجَلَّ: انْظُرُوا إِلَى عَبْدِي هَذَا، يُؤَذِّنُ وَيُقِيمُ الصَّلَاةَ، يَخَافُ مِنِّي، قَدْ غَفَرْتُ لِعَبْدِي، وَأَدْخَلْتُهُ الْجَنَّةَ\". \nرواه النسائي بسند صحيح",
+      "uzbek": {
+        "narrator": "Uqba ibn Omir roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U zot aytdilar: «Men Rasululloh sollallohu alayhi vasallamning shunday deyayotganlarini eshitdim: «Robbingiz tog‘ cho‘qqisidagi qo‘y boquvchidan ajablanadi; u namozga azon aytib namoz o‘qiydi. Shunda aziz va jallol bo‘lgan Alloh taolo: «Mana bu bandamga qaranglar, azon aytmoqda, namozga takbir aytmoqda, mendan qo‘rqmoqda. Batahqiq, bandamni mag‘firat qildim va uni jannatga kiritdim», deydi».\n\nUni Nasaiy sahih sanad bilan rivoyat qilgan."
+      }
+    },
+    {
+      "id": 40993,
+      "idInBook": 8,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" مَنْ صَلَّى صَلَاةً لَمْ يَقْرَأْ فِيهَا بِأُمِّ الْقُرْآنِ، فَهِيَ خِدَاجٌ(1) ثَلَاثًا، غَيْرَ تَمَامٍ، فَقِيلَ لِأَبِي هُرَيْرَةَ: إِنَّا نَكُونُ وَرَاءَ الْإِمَامِ، فَقَالَ: اقْرَأْ بِهَا فِي نَفْسِكَ، فَإِنِّي سَمِعْتُ النبي صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: قَالَ اللَّهُ عَزَّ وَجَلَّ: قَسَمْتُ الصَّلَاةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ، وَلِعَبْدِي مَا سَأَلَ، فَإِذَا قَالَ الْعَبْدُ:{ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ } قَالَ اللَّهُ عَزَّ وَجَلَّ: حَمِدَنِي عَبْدِي، وَإِذَا قَالَ:{ الرَّحْمَنِ الرَّحِيمِ } قَالَ اللَّهُ عَزَّ وَجَلَّ: أَثْنَى عَلَيَّ عَبْدِي، وَإِذَا قَالَ:{ مَالِكِ يَوْمِ الدِّينِ } قَالَ اللَّهُ: مَجَّدَنِي عَبْدِي - وَقَالَ مَرَّةً: فَوَّضَ إِلَيَّ عَبْدِي، فَإِذَا قَالَ:{ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ } قَالَ: هَذَا بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ، فَإِذَا قَالَ:{ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ } قَالَ: هَذَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ\". \nرواه مسلم (وكذلك مالك والترمذي وأبو داود والنسائي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Kim bir namoz o‘qib, unda Umchul Qur'onni (Fotihani) o‘qimasa, u xidajdir, (ya'ni) uch marta, mukammal emasdir». Abu Hurayraga: «Biz imomning ortida bo‘lamiz-ku», deyildi. Shunda u: «Uni ichingda o‘qigin, chunki men Nabiy sollallohu alayhi vasallamning shunday deganlarini eshitganman: «Alloh azza va jalla aytdi: «Namozni o‘zim bilan bandam o‘rtasida ikki yarmga bo‘ldim. Bandamga so‘ragan narsasi beriladi». Banda «Al-hamdu lillahi robbil 'alamiyn» deganda, Alloh azza va jalla: «Bandam meni hamd qildi», deydi. Banda «Ar-rohmanir-rohiym» deganda, Alloh azza va jalla: «Bandam menga sano aytdi», deydi. Banda «Maliki yawmiddiyn» deganda, Alloh: «Bandam meni ulug‘ladi», deydi — bir safar: «Bandam ishini menga topshirdi», dedi. Banda «Iyyaka na'budu wa iyyaka nasta'iyn» deganda: «Bu men bilan bandam o‘rtasidadir, bandamga so‘ragani beriladi», deydi. Banda «Ihdinas-sirotol-mustaqiym, sirotollaziyna an'amta 'alayhim, ğayril-mağdubi 'alayhim wa laddoolliyn» deganda: «Bu bandam uchundir, bandamga so‘ragani beriladi», deydi». Uni Muslim rivoyat qilgan (shuningdek, Molik, Termiziy, Abu Dovud, Nasoiy va Ibn Maja ham rivoyat qilishgan)."
+      }
+    },
+    {
+      "id": 40994,
+      "idInBook": 9,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\"إِنَّ أَوَّلَ مَا يُحَاسَبُ بِهِ الْعَبْدُ يَوْمَ الْقِيَامَةِ مِنْ عَمَلِهِ صَلَاتُهُ. فَإِنْ صَلُحَتْ فَقَدْ أَفْلَحَ وَأَنْجَحَ، وَإِنْ فَسَدَتْ فَقَدْ خَابَ وَخَسِرَ، فَإِنْ انْتَقَصَ مِنْ فَرِيضَتِهِ شَيْءٌ، قَالَ الرَّبُّ عَزَّ وَجَلَّ: انْظُرُوا هَلْ لِعَبْدِي مِنْ تَطَوُّعٍ فَيُكَمَّلَ بِهَا مَا انْتَقَصَ مِنْ الْفَرِيضَةِ، ثُمَّ يَكُونُ سَائِرُ عَمَلِهِ عَلَى ذَلِكَ\". \nرواه الترمذي(1) وكذلك أبو داود والنسائي وابن ماجه وأحمد",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Albatta, qiyomat kunida banda amalidan birinchi hisob-kitob qilinadigan narsa uning namozidir. Agar u durust bo‘lsa, batahqiq, najot topibdi va yutug‘iga erishibdi. Agar u buzilsa, batahqiq, noumid bo‘libdi va ziyon ko‘ribdi. Bas, agar uning farozidan biror narsa kam bo‘lsa, aziz va jallil bo‘lgan Rabb عز وجل derkan: «Qaranglar, bandamning farzdan kam chiqqanini to‘ldirib qo‘yadigan nafl namozlari bormi?» So‘ngra uning qolgan amallari ham shunga ko‘ra bo‘ladi».\nUni Termiziy, shuningdek, Abu Dovud, Nasoiy, Ibn Maja va Ahmad rivoyat qilishgan."
+      }
+    },
+    {
+      "id": 40995,
+      "idInBook": 10,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" يَقُولُ اللَّهُ عَزَّ وَجَلَّ: الصَّوْمُ لِي، وَأَنَا أَجْزِي بِهِ، يَدَعُ شَهْوَتَهُ وَأَكْلَهُ وَشُرْبَهُ مِنْ أَجْلِي، وَالصَّوْمُ جُنَّةٌ(1)، وَلِلصَّائِمِ فَرْحَتَانِ: فَرْحَةٌ حِينَ يُفْطِرُ، وَفَرْحَةٌ حِينَ يَلْقَى رَبَّهُ، وَلَخُلُوفُ(2) فَمِ الصَّائِمِ أَطْيَبُ عِنْدَ اللَّهِ مِنْ رِيحِ الْمِسْكِ\". \nرواه البخاري (وكذلك مسلم ومالك والترمذي النسائي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar:\n\n«Alloh azza va jalla aytdi: «Ro‘za Men uchundir va uning mukofotini O‘zim beraman. U o‘z shahvatini, taomini va ichimligini Mening uchun tark qiladi. Ro‘za qalqondir. Ro‘zador uchun ikki xursandchilik bor: iftor qilgan paytidagi xursandchiligi va Robbiga yo‘liqqan paytidagi xursandchiligi. Ro‘zador og‘zining hidi Allohning nazdida mis hididan ham xushbo‘yroqdir».\n\nBuni Buxoriy rivoyat qilgan (shuningdek, Muslim, Molik, Termiziy, Nasoiy va Ibn Maja ham rivoyat qilganlar)."
+      }
+    },
+    {
+      "id": 40996,
+      "idInBook": 11,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" قَالَ اللَّهُ: أَنْفِقْ يَا ابْنَ آدَمَ، أُنْفِقْ عَلَيْكَ \".",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Rasululloh sollallohu alayhi vasallam shunday dedilar: «Alloh taolo aytdi: «Ey Odam bolasi, nafaqa qil (xaraj qil), Men ham senga nafaqa qilaman (rizqingni beraman)»."
+      }
+    },
+    {
+      "id": 40997,
+      "idInBook": 12,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي مَسْعُودٍ الْأَنْصَارِيِّ، رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" حُوسِبَ رَجُلٌ مِمَّنْ كَانَ قَبْلَكُمْ، فَلَمْ يُوجَدْ لَهُ مِنْ الْخَيْرِ شَيْءٌ، إِلَّا أَنَّهُ كَانَ يُخَالِطُ(1) النَّاسَ، وَكَانَ مُوسِرًا، فَكَانَ يَأْمُرُ غِلْمَانَهُ أَنْ يَتَجَاوَزُوا عَنْ الْمُعْسِرِ، قَالَ (2) قَالَ اللَّهُ : نَحْنُ أَحَقُّ بِذَلِكَ مِنْكَ، تَجَاوَزُوا عَنْهُ\" \nرواه مسلم (وكذلك البخاري والنسائي)",
+      "uzbek": {
+        "narrator": "Abu Mas'ud al-Ansoriy roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Sizdan oldingi kishilardan bir kishi hisob-kitob qilindi va uning yaxshiliklaridan hech narsa topilmadi. Faqat u odamlar bilan aralashib yashaydigan boy kishi edi va u xizmatkorlariga kambag'alning (qarorini to'lashda) yengillik qilishni buyurardi. Alloh taolo aytdi: \"Biz bunga sendan ko'ra haqliroqdirmiz, uning (gunohidan) o'tingiz\"».\n\nUni Muslim (shuningdek Buxoriy va Nasaiy) rivoyat qilgan."
+      }
+    },
+    {
+      "id": 40998,
+      "idInBook": 13,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ عَدِيَّ بْنَ حَاتِمٍ رَضِيَ اللَّهُ عَنْهُ يَقُولُ: \n\n\"كُنْتُ عِنْدَ رَسُولِ اللَّهِ، صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، فَجَاءَهُ رَجُلَانِ: أَحَدُهُمَا يَشْكُو الْعَيْلَةَ(1)، وَالْآخَرُ يَشْكُو قَطْعَ السَّبِيلِ(2)، فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَمَّا قَطْعُ السَّبِيلِ فَإِنَّهُ لَا يَأْتِي عَلَيْكَ إِلَّا قَلِيلٌ، حَتَّى تَخْرُجَ الْعِيرُ إِلَى مَكَّةَ بِغَيْرِ خَفِيرٍ. وَأَمَّا الْعَيْلَةُ، فَإِنَّ السَّاعَةَ لَا تَقُومُ حَتَّى يَطُوفَ أَحَدُكُمْ بِصَدَقَتِهِ، لَا يَجِدُ مَنْ يَقْبَلُهَا مِنْهُ، ثُمَّ لَيَقِفَنَّ أَحَدُكُمْ بَيْنَ يَدَيْ اللَّهِ، لَيْسَ بَيْنَهُ وَبَيْنَهُ حِجَابٌ وَلَا تَرْجُمَانٌ يُتَرْجِمُ لَهُ، ثُمَّ لَيَقُولَنَّ لَهُ: أَلَمْ أُوتِكَ مَالًا؟ فَلَيَقُولَنَّ: بَلَى، ثُمَّ لَيَقُولَنَّ: أَلَمْ أُرْسِلْ إِلَيْكَ رَسُولًا؟ فَلَيَقُولَنَّ: بَلَى، فَيَنْظُرُ عَنْ يَمِينِهِ، فَلَا يَرَى إِلَّا النَّارَ، ثُمَّ يَنْظُرُ عَنْ شِمَالِهِ، فَلَا يَرَى إِلَّا النَّارَ، فَلْيَتَّقِيَنَّ أَحَدُكُمْ النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ، فَإِنْ لَمْ يَجِدْ فَبِكَلِمَةٍ طَيِّبَةٍ\". \nرواه البخاري",
+      "uzbek": {
+        "narrator": "Adiy ibn Hotam roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U kishi shunday dedilar: «Men Rasululloh sollallohu alayhi vasallamning huzurlarida edim. U zotning oldilariga ikki kishi keldi: ularning biri faqirlikdan shikoyat qilar, ikkinchisi эsa yo'qto'sarlikdan (qaroqchilikdan) shikoyat qilar edi. Shunda Rasululloh sollallohu alayhi vasallam dedilar: «Yo'qto'sarlikka kelsak, ko'p o'tmay shunday bir zamon keladiki, karvon Makka sari qo'riqchisiz chiqib ketadigan darajada oz fursat qoladi. Faqirlik masalasiga kelsak, toki birortangiz sadaqasini olib aylanib yurgach, uni qabul qilib oladigan kimsani topa olmaydigan holatga kelmagunicha qiyomat qo'pmas. So'ngra albatta har biringiz Allohning huzurida turasiz, U zot bilan uning o'rtasida na parda va na unga tarjima qilib beruvchi tarjimon bo'ladi. So'ngra U zot unga: «Menga mol bermaganmidim?» deydi. U: «Ha», deydi. So'ngra: «Senga elchi yubormaganmidim?» deydi. U: «Ha», deydi. Shunda u o'ng tomoniga qaraydi, faqat olovni ko'radi, so'ngra chap tomoniga qaraydi, faqat olovni ko'radi. Bas, har biringiz yarimta xurmo bo'lsa ham (sadaqa qilib) olovdan saqlansin, agar uni ham topmasa, yaxshi so'z bilan bo'lsa ham (saqlansin)»». Buxoriy rivoyat qildilar."
+      }
+    },
+    {
+      "id": 40999,
+      "idInBook": 14,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" إِنَّ لِلَّهِ تَبَارَكَ وَتَعَالَى مَلَائِكَةً سَيَّارَةً فُضُلًا(1)، يَتَتَبَّعُونَ مَجَالِسَ الذِّكْرِ، فَإِذَا وَجَدُوا مَجْلِسًا فِيهِ ذِكْرٌ، قَعَدُوا مَعَهُمْ، وَحَفَّ بَعْضُهُمْ بَعْضًا بِأَجْنِحَتِهِمْ، حَتَّى يَمْلَأُوا مَا بَيْنَهُمْ وَبَيْنَ السَّمَاءِ الدُّنْيَا، فَإِذَااْنْصَرَفُوا عَرَجُوا وَصَعِدُوا إِلَى السَّمَاءِ، قَالَ (2) : فَيَسْأَلُهُمْ اللَّهُ عَزَّ وَجَلَّ وَهُوَ أَعْلَمُ بِهِمْ: مِنْ أَيْنَ جِئْتُمْ؟ فَيَقُولُونَ: جِئْنَا مِنْ عِنْدِ عِبَادٍ لَكَ فِي الْأَرْضِ، يُسَبِّحُونَكَ وَيُكَبِّرُونَكَ وَيُهَلِّلُونَكَ وَيَحْمَدُونَكَ وَيَسْأَلُونَكَ، قَالَ: وَمَا يَسْأَلُونِي؟ قَالُوا يَسْأَلُونَكَ جَنَّتَكَ، قَالَ: وَهَلْ رَأَوْا جَنَّتِي؟ قَالُوا: لَا أَيْ رَبِّ، قَالَ: فَكَيْفَ لَوْ رَأَوْا جَنَّتِي! قَالُوا: وَيَسْتَجِيرُونَكَ، قَالَ: وَمِمَّ يَسْتَجِيرُونَي؟ قَالُوا: مِنْ نَارِكَ يَا رَبِّ، قَالَ: وَهَلْ رَأَوْا نَارِي؟ قَالُوا: لَا، قَالَ: فَكَيْفَ لَوْ رَأَوْا نَارِي! قَالُوا: وَيَسْتَغْفِرُونَكَ، قَالَ (1) فَيَقُولُ: قَدْ غَفَرْتُ لَهُمْ، وأَعْطَيْتُهُمْ مَا سَأَلُوا، وَأَجَرْتُهُمْ مِمَّا اسْتَجَارُوا، قَالَ(1) يَقُولُونَ: رَبِّ فِيهِمْ فُلَانٌ، عَبْدٌ خَطَّاءٌ إِنَّمَا مَرَّ فَجَلَسَ مَعَهُمْ، قَالَ(1): فَيَقُولُ: وَلَهُ غَفَرْتُ؛ هُمْ الْقَوْمُ، لَا يَشْقَى بِهِمْ جَلِيسُهُمْ\" \nرواه مسلم وكذلك البخاري والترمذي والنسائي",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Albatta, Alloh taboraka va taoloning sayr qilib yuruvchi, fazilatli farishtalari borki, ular zikr majlislarini poylab yurishadilar. Qachonki ular zikr bor majlisni topsalar, ular bilan birga o'tiradilar va qanotlari bilan bir-birlarini to'ldirib, toki o'zlari bilan dunyo osmonining o'rtasini to'ldirgunlaricha o'rab oladilar. Qachonki (odamlar) tarqalishganda, ular osmonga ko'tarilib chiqadilar». (Roviy) aytdi: «Alloh azza va jalla ulardan so'raydi – holbuki, U zot ulardan ko'ra yaxshiroq bilguvchidir: «Qayerdan keldingiz?» Ular: «Yer yuzidagi Sening bandalaring huzuridan keldik, ular Seni tasbeh aytadilar, takbir aytadilar, tahlil qiladilar, hamd aytadilar va Sendan so'raydilar», – deydilar. (Alloh taolo): «Mendan nimani so'raydilar?» – deydi. Ular: «Sening jannatingni so'raydilar», – deydilar. (Alloh): «Ular Mening jannatimni ko'rganlarmi?» – deydi. Ular: «Yo'q, ey Robbim», – deydilar. (Alloh): «Agar Ular Mening jannatimni ko'rganlarida edi, qanday bo'lardi!» – deydi. Ular: «Sendan panoh so'raydilar», – deydilar. (Alloh): «Nimadan panoh so'raydilar?» – deydi. Ular: «Ey Robbim, Sening olovingdan», – deydilar. (Alloh): «Ular Mening olovimni ko'rganlarmi?» – deydi. Ular: «Yo'q», – deydilar. (Alloh): «Agar ular Mening olovimni ko'rganlarida edi, qanday bo'lardi!» – deydi. Ular: «Sendan mag'firat so'raydilar», – deydilar. (Roviy) aytdi: «Alloh taolo: «Batahqiq, ularni mag'firat qildim, so'ragan narsalarini berdim va panoh so'ragan narsalaridan ularga panoh berdim», – deydi». (Roviy) aytdi: «Ular: «Ey Robbim, ularning orasida falonchi ham borki, xato qiluvchi banda, u shunchaki o'tib ketayotib, ular bilan birga o'tirib qolgan edi», – deyishadi. (Alloh taolo) aytadi: «Ung ham mag'firat qildim. Ular shunday qavmki, ular bilan o'tirgan kishi ham badbaxt bo'lmaydi»».\n\nImom Muslim rivoyat qilgan, shuningdek, Buxoriy, Termiziy va Nasoiylar ham rivoyat qilishgan."
+      }
+    },
+    {
+      "id": 41000,
+      "idInBook": 15,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : \n\n\"يَقُولُ اللَّهُ تَعَالَى: أَنَا عِنْدَ ظَنِّ عَبْدِي بِي، وَأَنَا مَعَهُ إِذَا ذَكَرَنِي، فَإِنْ ذَكَرَنِي فِي نَفْسِهِ، ذَكَرْتُهُ فِي نَفْسِي، وَإِنْ ذَكَرَنِي فِي مَلَإٍ، ذَكَرْتُهُ فِي مَلَإٍ خَيْرٍ مِنْهُمْ، وَإِنْ تَقَرَّبَ إِلَيَّ بِشِبْرٍ، تَقَرَّبْتُ إِلَيْهِ ذِرَاعًا، وَإِنْ تَقَرَّبَ إِلَيَّ ذِرَاعًا، تَقَرَّبْتُ إِلَيْهِ بَاعًا(1) وَإِنْ أَتَانِي يَمْشِي، أَتَيْتُهُ هَرْوَلَةً\" \nرواه البخاري (وكذلك مسلم والترمذي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Alloh taolo aytadi: «Men bandamning Men hafimdagi gumonidaman. Agar u meni eslasa, Men u bilan birgadirman. Agar u meni ichida eslasa, Men ham uni O'z ichimda eslayman. Agar u meni bir jamoat ichida eslasa, Men ham uni ularnikidan yaxshiroq jamoatda eslayman. Agar u Menga bir qariycha yaqinlashsa, Men unga bir quloch yaqinlashaman. Agar u Menga bir quloch yaqinlashsa, Men unga bir qulochdan ortiqroq yaqinlashaman. Agar u Menga yurib kelsa, Men unga yugurib boraman».\nBuxoriy (shuningdek, Muslim, Termiziy va Ibn Moja) rivoyat qildilar."
+      }
+    },
+    {
+      "id": 41001,
+      "idInBook": 16,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، فِيمَا يَرْوِي عَنْ رَبِّهِ عَزَّ وَجَلَّ، قَالَ: \n\n\"إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ، ثُمَّ بَيَّنَ ذَلِكَ: فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا، كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا، كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ، إِلَى سَبْعِمِائَةِ ضِعْفٍ، إِلَى أَضْعَافٍ كَثِيرَةٍ، وَمَنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا، كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا، كَتَبَهَا اللَّهُ سَيِّئَةً وَاحِدَةً\". \nرواه البخاري ومسلم",
+      "uzbek": {
+        "narrator": "Ibn Abbos roziyallohu anhumodan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam o'z Robbi aziza va jalladan rivoyat qilgan hadislarida shunday dedilar: «Albatta, Alloh taolo yaxshiliklar va yomonliklarni yozib qo'ydi, so'ngra buni bayon qildi: Kim bir yaxshilikni qasid qilsayu, uni bajarmasa, Alloh buni uning huzurida to'la bir yaxshilik qilib yozadi. Agar u o'sha yaxshilikni qasd qilsa va uni bajarsa, Alloh buni uning huzurida o'ntadan to yetti yuz chandon, hattoki undan ham ko'p qat-qat yaxshiliklar qilib yozadi. Kim bir yomonlikni qasd qilsayu, uni bajarmasa, Alloh buni uning huzurida to'la bir yaxshilik qilib yozadi. Agar u o'sha yomonlikni qasd qilsa va uni bajarsa, Alloh buni bitta yomonlik qilib yozadi». Buni Imom Buxoriy va Imom Muslim rivoyat qilishgan."
+      }
+    },
+    {
+      "id": 41002,
+      "idInBook": 17,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي ذَرٍّ الْغِفَارِيِّ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِيمَا يَرْوِيهِ عَنْ رَبِّهِ عَزَّ وَجَلَّ أَنَّهُ قَالَ: \n\n\" يَا عِبَادِي: إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلَا تَظَالَمُوا. \nيَا عِبَادِي: كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ، يَا عِبَادِي: كُلُّكُمْ جَائِعٌ إِلَّا مَنْ أَطْعَمْتُهُ فَاسْتَطْعِمُونِي أُطْعِمْكُمْ، يَا عِبَادِي: كُلُّكُمْ عَارٍ إِلَّا مَنْ كَسَوْتُهُ فَاسْتَكْسُونِي أَكْسُكُمْ، يَا عِبَادِي: إِنَّكُمْ تُخْطِئُونَ بِاللَّيْلِ وَالنَّهَارِ، وَأَنَا أَغْفِرُ الذُّنُوبَ جَمِيعًا، فَاسْتَغْفِرُونِي أَغْفِرْ لَكُمْ. \nيَا عِبَادِي: إِنَّكُمْ لَنْ تَبْلُغُوا ضَرِّي فَتَضُرُّونِي، وَلَنْ تَبْلُغُوا نَفْعِي فَتَنْفَعُونِي، يَا عِبَادِي: لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَتْقَى قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَا زَادَ ذَلِكَ فِي مُلْكِي شَيْئًا، يَا عِبَادِي: لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَفْجَرِ قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَا نَقَصَ ذَلِكَ مِنْ مُلْكِي شَيْئًا، يَا عِبَادِي: لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ قَامُوا فِي صَعِيدٍ وَاحِدٍ فَسَأَلُونِي، فَأَعْطَيْتُ كُلَّ وَاحِدٍ مَسْأَلَتَهُ، مَا نَقَصَ ذَلِكَ مِمَّا عِنْدِي إِلَّا كَمَا يَنْقُصُ الْمِخْيَطُ إِذَا أُدْخِلَ الْبَحْرَ. \nيَا عِبَادِي: إِنَّمَا هِيَ أَعْمَالُكُمْ أُحْصِيهَا لَكُمْ، ثُمَّ أُوَفِّيكُمْ إِيَّاهَا، فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدْ اللَّهَ، وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلَا يَلُومَنَّ إِلَّا نَفْسَهُ\". \nرواه مسلم (وكذلك الترمذي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Zarr al-G‘iforiy roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam o‘z Robbi azza va jalladan rivoyat qilgan hadisda u zot shunday dedilar: \n\n«Ey bandalarim! Men zulmni O‘zimga harom qildim va uni orangizda ham harom qildim. Bas, bir-biringizga zulm qilmanglar!\n\nEy bandalarim! Hammangiz adashgansiz, faqat Men hidoyat qilgan kimsagina (mustasno). Bas, Mendan hidoyat so‘ranglar, sizni hidoyat qilgayman. Ey bandalarim! Hammangiz ochsizlar, faqat Men taomlantirgan kimsagina (mustasno). Bas, Mendan taom so‘ranglar, sizni taomlantirgayman. Ey bandalarim! Hammangiz yalang‘ochsizlar, faqat Men kiyintirgan kimsagina (mustasno). Bas, Mendan kiyim so‘ranglar, sizni kiyintirgayman. Ey bandalarim! Sizlar kechayu kunduz xato qilasizlar, Men esa barcha gunohlarni mag‘firat qilurman. Bas, Mendan mag‘firat so‘ranglar, sizni mag‘firat qilgayman.\n\nEy bandalarim! Sizlar sira ham Menga zarar yetkazishga qodir emassizlar, shuning uchun (hech qachon) menga zarar yetkaza olmaysizlar. Sizlar sira ham Menga manfaat yetkazishga qodir emassizlar, shuning uchun (hech qachon) menga manfaat yetkaza olmaysizlar. Ey bandalarim! Agar avvalingizu oxiringiz, insu jiningiz orangizdagi eng taqvodor bir kishining qalbidagidek bo‘lsalar ham, bu mening mulkimga biror narsani ziyoda qila olmaydi. Ey bandalarim! Agar avvalingizu oxiringiz, insu jiningiz orangizdagi eng fojir bir kishining qalbidagidek bo‘lsalar ham, bu mening mulkimdan biror narsani kamaytirib qo‘ya olmaydi. Ey bandalarim! Agar avvalingizu oxiringiz, insu jiningiz bir sa’idga (tekis yerga) to‘planib, Mendan so‘rasalar, Men har bir so‘rovchiga so‘raganini bersam, bu Mendagi narsalardan faqat igna dengizga botirib chiqarilganda uning suvini kamaytirgani kabi (ozgina)gina kamaytirishi mumkin, xolos.\n\nEy bandalarim! Ular (aslida) sizlarning amallaringizdirki, ularni sizlarga sanab-o‘lchab qo‘yaman, so‘ngra uning (ajru jazosini) to‘la-to‘kis beraman. Kimki (nomai a’molidan) yaxshilik topsa, Allohga hamd aytsin! Kimki undan o‘zgachani topsa, o‘zidan boshqani malomat qilmasin!»\n\nUni Muslim (shuningdek, Termiziy va Ibn Maja ham) rivoyat qildi."
+      }
+    },
+    {
+      "id": 41003,
+      "idInBook": 18,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" إِنَّ اللَّهَ عَزَّ وَجَلَّ يَقُولُ يَوْمَ الْقِيَامَةِ: يَا ابْنَ آدَمَ، مَرِضْتُ فَلَمْ تَعُدْنِي(1) قَالَ: يَا رَبِّ كَيْفَ أَعُودُكَ وَأَنْتَ رَبُّ الْعَالَمِينَ؟ قَالَ: أَمَا عَلِمْتَ أَنَّ عَبْدِي فُلَانًا مَرِضَ فَلَمْ تَعُدْهُ؟ أَمَا عَلِمْتَ أَنَّكَ لَوْ عُدْتَهُ لَوَجَدْتَنِي عِنْدَهُ. يَا ابْنَ آدَمَ: اسْتَطْعَمْتُكَ فَلَمْ تُطْعِمْنِي، قَالَ: يَا رَبِّ وَكَيْفَ أُطْعِمُكَ وَأَنْتَ رَبُّ الْعَالَمِينَ؟ قَالَ: أَمَا عَلِمْتَ أَنَّهُ اسْتَطْعَمَكَ عَبْدِي فُلَانٌ فَلَمْ تُطْعِمْهُ؟ أَمَا عَلِمْتَ أَنَّكَ لَوْ أَطْعَمْتَهُ لَوَجَدْتَ ذَلِكَ عِنْدِي. يَا ابْنَ آدَمَ: اسْتَسْقَيْتُكَ فَلَمْ تَسْقِنِي، قَالَ: يَا رَبِّ كَيْفَ أَسْقِيكَ وَأَنْتَ رَبُّ الْعَالَمِينَ؟ قَالَ اسْتَسْقَاكَ عَبْدِي فُلَانٌ فَلَمْ تَسْقِهِ، أَمَا إِنَّكَ لَوْ سَقَيْتَهُ لَوَجَدْتَ ذَلِكَ عِنْدِي\" \nرواه مسلم",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh azza va jalla qiyomat kuni shunday deydi: «Ey Odam bolasi! Kasal bo'ldim, meni ziyorat qilmading?» U aytadi: «Ey Robbim, seni qanday ziyorat qilay, sen olamlarning Robbisidirsan?» U zot deydi: «Bilmadingmi, falonchi bandam kasal bo'ldi, uni ziyorat qilmading? Bilmadingmi, agar uni ziyorat qilganingda, meni uning huzurida topgan bo'larding?! Ey Odam bolasi! Mendan taom so'rading, menga taom bermading?» U aytadi: «Ey Robbim, senga qanday taom berayin, sen olamlarning Robbisidirsan?» U zot deydi: «Bilmadingmi, sendan falonchi bandam taom so'radi, unga taom bermading? Bilmadingmi, agar unga taom berganingda, buning savobini (yoki mukofotini) my huzurimdan topgan bo'larding?! Ey Odam bolasi! Mendan suv so'rading, menga suv bermading?» U aytadi: «Ey Robbim, senga qanday suv berayin, sen olamlarning Robbisidirsan?» U zot deydi: «Sendan falonchi bandam suv so'radi, unga suv bermading? Bilmadingmi, agar unga suv berganingda, buning mukofotini mening huzurimdan topgan bo'larding?!»\"\n\nUni Muslim rivoyat qildi."
+      }
+    },
+    {
+      "id": 41004,
+      "idInBook": 19,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" قَالَ اللَّهُ عَزَّ وَجَلَّ: الْكِبْرِيَاءُ رِدَائِي، وَالْعَظَمَةُ إِزَارِي، فَمَنْ نَازَعَنِي وَاحِدًا مِنْهُمَا، قَذَفْتُهُ فِي النَّارِ\". \nرواه أبو داود(وكذلك ابن ماجه وأحمد) بأسانيد صحيحة.(1)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh azza va jalla shunday dedi: «Kibriya (ulug‘vorlik) – Ridom (qubba kiyimim), azamat (buyuklik) – izorimdir. Kimki menga bu ikkisidan biri bo‘yicha talashsa (o‘zini shunday ko‘rsatib, ulug‘lik da'vo qilsa), uni do‘zaxga uloqtiraman»». Buni Abu Dovud (shuningdek, Ibn Maja va Ahmad) sahih asanidlar bilan rivoyat qilgan."
+      }
+    },
+    {
+      "id": 41005,
+      "idInBook": 20,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ ،أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" تُفْتَحُ أَبْوَابُ الْجَنَّةِ يَوْمَ الِاثْنَيْنِ، وَيَوْمَ الْخَمِيسِ، فَيُغْفَرُ لِكُلِّ عَبْدٍ لَا يُشْرِكُ بِاللَّهِ شَيْئًا، إِلَّا رَجُلًا كَانَتْ بَيْنَهُ وَبَيْنَ أَخِيهِ شَحْنَاءُ، فَيُقَالُ: (1) أَنْظِرُوا (2) هَذَيْنِ حَتَّى يَصْطَلِحَا، أَنْظِرُوا هَذَيْنِ حَتَّى يَصْطَلِحَا، أَنْظِرُوا هَذَيْنِ حَتَّى يَصْطَلِحَا\" \nرواه مسلم (وكذلك مالك وأبو داود)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Albatta, Rasululloh sollallohu alayhi vasallam bunday dedilar: «Jannat eshiklari dushanba va payshanba kunlari ochiladi. Shunda Allohga hech bir narsani sherik qilmaydigan har bir bandasining gunohi kechiriladi, faqat o‘rtasida birodariga nisbatan adovat-kin bo‘lgan kishi bundan mustasno. Bas, aytiladi: «Ushbu ikki kishini to sulh tuzgunlaricha kechiktirib turinglar, bu ikki kishini to sulh tuzgunlaricha kechiktirib turinglar, bu ikki kishini to sulh tuzgunlaricha kechiktirib turinglar». Muslim rivoyat qilgan (shuningdek, Molik va Abu Dovud ham)."
+      }
+    },
+    {
+      "id": 41006,
+      "idInBook": 21,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: \n\n\" قَالَ اللَّهُ تَعَالَى: ثَلَاثَةٌ أَنَا خَصْمُهُمْ يَوْمَ الْقِيَامَةِ: رَجُلٌ أَعْطَى بِي ثُمَّ غَدَرَ (1)، وَرَجُلٌ بَاعَ حُرًّا فَأَكَلَ ثَمَنَهُ، وَرَجُلٌ اسْتَأْجَرَ أَجِيرًا فَاسْتَوْفَى مِنْهُ وَلَمْ يُعْطِهِ أَجْرَهُ\" \nرواه البخاري (وكذلك ابن ماجه وأحمد)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar:\n\n\"Alloh taolo aytdi: «Qiyomat kunida uch kishining dushmaniman: Mening nomim bilan berib, so'ng xiyonat qilgan kishi; hur (ozod) odamni sotib, uning pulini yegan kishi va bir kishini yollab, undan ishni to'la bajarib olib, lekin haqini bermagan kishi»\".\n\nBuxoriy rivoyat qilgan (shuningdek, Ibn Moja va Ahmad ham)."
+      }
+    },
+    {
+      "id": 41007,
+      "idInBook": 22,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي سَعِيدٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" لَا يَحْقِرْ أَحَدُكُمْ نَفْسَهُ، قَالُوا: يَا رَسُولَ اللَّهِ كَيْفَ يَحْقِرُ أَحَدُنَا نَفْسَهُ؟ قَالَ: يَرَى أَمْرَ الِلَّهِ عَلَيْهِ فِيهِ مَقَالٌ، ثُمَّ لَا يَقُولُ فِيهِ، فَيَقُولُ اللَّهُ عَزَّ وَجَلَّ لَهُ يَوْمَ الْقِيَامَةِ: مَا مَنَعَكَ أَنْ تَقُولَ فِي كَذَا وَكَذَا؟ فَيَقُولُ: خَشْيَةُ النَّاسِ، فَيَقُولُ: فَإِيَّايَ كُنْتَ أَحَقَّ أَنْ تَخْشَى\" \nرواه ابن ماجه بسند صحيح",
+      "uzbek": {
+        "narrator": "Abu Said roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Sizlardan birortangiz o'zini o'zi haqoratlasin (past sanasin)!» Shunda sahobalar: «Yo Rasululloh, birortamiz o'zini qanday qilib haqoratlasin?» deb so'radilar. U zot aytdilar: «O'ziga (amal qilish lozim bo'lgan) Allohning biror amri keladi, u haqda (odamlar tomonidan) gap-so'z qilinishini ko'radi-yu, lekin u (haqiqatni) aytmaydi. Shunda buyuk va aziz Alloh qiyomat kuni unga: «Senga falon-falon ishda (haqiqatni) aytishingga nima to'sqinlik qildi?» deydi. U: «Odamlarning qo'rquvi», deb javob beradi. Shunda Alloh: «Qo'rqishingga eng haqliroq zot Men edim-ku!» deydi». Ibn Molja sahih sanad bilan rivoyat qilgan."
+      }
+    },
+    {
+      "id": 41008,
+      "idInBook": 23,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : \n\n\"إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يَقُولُ يَوْمَ الْقِيَامَةِ: أَيْنَ الْمُتَحَابُّونَ بجَلَالِي؟ الْيَوْمَ أُظِلُّهُمْ فِي ظِلِّي يَوْمَ لَا ظِلَّ إِلَّا ظِلِّي\" \nرواه البخاري (وكذلك مالك)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam shunday dedilar:\n\n«Albatta, Alloh tabaroka va taolo Qiyomat kunida aytadi: “Mening ulug‘vorligim yo‘lida bir-birlarini yaxshi ko‘rganlar qayerda? Bugun, Mening soyamdan o‘zga soya bo‘lmagan kunda, ularni O‘z soyam ostida soyalantirurman”».\n\nBuxoriy rivoyat qilgan (shuningdek, Molik ham)."
+      }
+    },
+    {
+      "id": 41009,
+      "idInBook": 24,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" إِنَّ اللَّهَ إِذَا أَحَبَّ عَبْدًا دَعَا جِبْرِيلَ، فَقَالَ: إِنِّي أُحِبُّ فُلَانًا فَأَحِبَّهُ، قَالَ: فَيُحِبُّهُ جِبْرِيلُ، ثُمَّ يُنَادِي فِي السَّمَاءِ فَيَقُولُ: إِنَّ اللَّهَ يُحِبُّ فُلَانًا فَأَحِبُّوهُ، فَيُحِبُّهُ أَهْلُ السَّمَاءِ، قَالَ: ثُمَّ يُوضَعُ لَهُ الْقَبُولُ فِي الْأَرْضِ. وَإِذَا اللَّهُ أَبْغَضَ عَبْدًا، دَعَا جِبْرِيلَ فَيَقُولُ: إِنِّي أُبْغِضُ فُلَانًا فَأَبْغِضْهُ، فَيُبْغِضُهُ جِبْرِيلُ ثُمَّ يُنَادِي فِي أَهْلِ السَّمَاءِ: إِنَّ اللَّهَ يُبْغِضُ فُلَانًا فَأَبْغِضُوهُ، قَالَ: فَيُبْغِضُونَهُ، ثُمَّ تُوضَعُ لَهُ الْبَغْضَاءُ فِي الْأَرْضِ\". \nرواه مسلم (وكذلك البخاري ومالك والترمذي)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U kishi aytdilar: «Rasululloh sollallohu alayhi vasallam shunday dedilar:\n\n“Albatta, Alloh taolo biror bandani yaxshi ko‘rib qolsa, Jabroilga nido qilib: «Men falonchini yaxshi ko‘raman, sen ham uni yaxshi ko‘rgin!» deydi. Shunda Jabroil ham uni yaxshi ko‘radi. So‘ngra osmonda nido qilib: «Albatta, Alloh falonchini yaxshi ko‘radi, sizlar ham uni yaxshi ko‘ringlar!» deydi. Shundan keyin osmon ahli ham uni yaxshi ko‘radi. Keyin esa yer yuzida u uchun qabul (mehr-muhabbat) qo‘yiladi.\n\nAgar Alloh biror bandani yomon ko‘rib qolsa, Jabroilga nido qilib: «Men falonchini yomon ko‘raman, sen ham uni yomon ko‘rgin!» deydi. Shunda Jabroil ham uni yomon ko‘radi. So‘ngra osmon ahli ichida nido qilib: «Albatta, Alloh falonchini yomon ko‘radi, sizlar ham uni yomon ko‘ringlar!» deydi. Shundan keyin ular ham uni yomon ko‘radilar. Keyin esa yer yuzida u uchun g‘azab (nafrat) qo‘yiladi”.»\n\n(Muslim rivoyati. Shuningdek, Buxoriy, Molik va Termiziy ham rivoyat qilishgan)."
+      }
+    },
+    {
+      "id": 41010,
+      "idInBook": 25,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: \n\n\" إِنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ: مَنْ عَادَى لِي وَلِيًّا، فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ، كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لَأُعْطِيَنَّهُ، وَلَئِنْ اسْتَعَاذَنِي لَأُعِيذَنَّهُ، وَمَا تَرَدَّدْتُ عَنْ شَيْءٍ أَنَا فَاعِلُهُ تَرَدُّدِي عَنْ نَفْسِ عَبْدِي الْمُؤْمِنِ، يَكْرَهُ الْمَوْتَ وَأَنَا أَكْرَهُ مَسَاءَتَهُ\" \nرواه البخاري",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh azza va jalla dedi: «Kim Mening valiy (do'st)imga dushmanlik qilsa, bas, Men unga qarshi urush e'lon qilaman. Bandam Menga Men faraz qilgan narsalardan ko'ra o'zi uchun suyukliroq bo'lgan biror narsa bilan yaqinlasha olmaydi. Bandim Mاnga nofilalar bilan yaqinlashishda davom etaveradi, toki Uni sevib qolaman. Qachonki Uni sevib qolsam, uning eshitadigan qulog'i, ko'radigan ko'zi, tutadigan qo'li va yuradigan oyog'i bo'laman. Agar Men undan so'rasa, albatta, unga (so'raganini) beraman, agar Mendan panoh so'rasa, albatta, unga panoh beraman. Men qiladigan biror ishimda, mo'min bandamning jonini olishdagi kabi tereddudga tushmadim: u o'limni yomon ko'radi, Men esa uning yomon ko'rishini yomon ko'raman».\n\nBuxoriy rivoyat qilgan."
+      }
+    },
+    {
+      "id": 41011,
+      "idInBook": 26,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي أُمامةَ رَضِيَ اللهُ عَنْهُ عَن النَّبِيّ صَلَّى الله عَلَيْهِ وَ سَلَّمَ قَالَ  \nقَالَ اللهُ عَزَّ وَجَلَّ :  إِنَّ أَغْبَطَ أَوْلِيَائي عِنْدِي لَمُوْمِنُ خَفِيفُ الخَاذِ ذُو حَظِّ مِنَ الصَّلاةِ أَحْسَنَ عِبَادَتَ رَبِّهِ وَ أَطَاعَهُ فِي السَّرِّ وَ كَانَ غَامِضًا فِي النَّاسِ لا يُشارُ إِلَيْهِ بِالأَصابِعِ وَ كَانَ رِزْقُهُ كفافًا فَصَبَرَ عَلى ذَلِكَ  ثُمَّ نَفَضَ بِيَدِهِ  ثُمَّ قَالَ : عُجِّلَتْ مَنِيَّتُهُ قَلَّتْ بَواكِيهِ قَلَّ تُرَاثُهُ  \nرواه الترمذي  (وكذالك أحمد و ابن ماجه)  وإسنَاده حسن",
+      "uzbek": {
+        "narrator": "Abu Umoma roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Alloh azza va jala aytdi: \"Albatta, mening huzurimdagi do‘stlarimning eng havas qilinarlisi – yuki yengil, namozdan nasibi bor, Robbiga ibodatini chiroyli qilgan, maxfiyda Unga itoat etgan, odamlar orasida bilinmaydigan, barmoqlar bilan unga ishora qilinmaydigan, rizqi yetarli bo‘lib, shunga sabr qilgan mo‘min kishidir\". So‘ngra u zot qo‘llarini qoqib shunday dedilar: \"Ajali tezlashdi, yig‘lovchilari kamaydi, merosi ozaydi\"». Termiziy rivoyat qilgan (shuningdek, Ahmad va Ibn Maja ham), uning isnodi hasandir."
+      }
+    },
+    {
+      "id": 41012,
+      "idInBook": 27,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ مَسْرُوقٍ . قَالَ :  \n  \nسَأَلْنَا ـ أَوْ سَأَلْتُ عَبْدَاللهِ (أَيْ ابْنَ مَسْعُودٍ ) عَنْ هَذِهِ الايةِ : \n: ولَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا في سَبِيلِ اللهِ أَمْواتاً بَلْ أَحْياءُ عِنْدَ رَبِّهِمْ يُرْزَقُونَ )) ـ قَالَ : أَمَا إِنَّا قَدْ سَأَلْنَا عَنْ ذَلِكَ ، فَقَالَ))\nأَرْواحُهُمْ في جَوْفِ طَيْرٍ خُضْرٍ ، لَهَا قَنَادِيلُ مُعَلَّقَةٌ بِالعَرْشِ ، تَسْرَحُ مِنَ الجَنَّةِ حَيْثُ شَاءَتْ ، ثُمَّ َ تَأْوِي إِلي تِلْكَ القَنَادِيلِ ، فَأَطَّلَعَ إِلَيْهِمْ رَبُّهُمْ اطِّلَاعَةً فَقَالَ : هَلْ تَشْتَهُونَ شَيْئاً ؟ قَالُوا : أَيَّ شَيْءٍ نَشْتَهِي ، وَ نَحْنُ نَسْرَحُ مِنَ الجَنَّةِ حَيْثُ شِئْنا ؟ فَفَعَلَ ذَلِكَ بِهِمْ ثَلَاثََ مَرَّاتٍ ، فَلَمَّا رَأَوْا أَنَّهُمْ لَنْ يُتْرَكُوا مِنْ أَنْ يُسْأَلُوا ، قَالُوا : يَا رَبِّ ، نُرِيْدُ أَنْ تَرُدَّ أَرْوَاحَنَا في أَجْسَادِنَا ؛ حَتَّى نُقْتَلَ في سَبِيلِكَ مَرَّةً أُخْرَي . فَلَمَّا رَأَى أَنْ لَيْسَ لَهُمْ حَاجَةٌ تُرِكُوا . \n  \n(رواهُ مسلم (وكذلك الترمذي والنسائي وابن ماجه",
+      "uzbek": {
+        "narrator": "Masruq roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U kishi aytdilar: «Biz — yoki men — Abdullohdan (ya'ni Ibn Mas'uddan) ushbu oyat haqida so'radik: «Alloh yo'lida o'ldirilganlarni sira o'liklar deb o'ylamang, balki ular tirikdirlar, Robbylari huzurida rizqlanmoqdalar». U zot aytdi: «Ogoh bo'lingki, biz, albatta, bu haqda (Rasululloh sollallohu alayhi vasallamdan) so'raganmiz. Bas, u zot shunday dedilar: «Ularning ruhlari yashil qushlarning jofida bo'lib, ular uchun Arshga osilgan qandillar bordir. Ular jannatda xohlagan joylariga borib keladilar, so'ngra o'sha qandillarga qaytib keladilar. Shunda Robbylari ularga bir nazar tashlab: «Biror narsani xohlaysizmi?» — dedi. Ular: «Biz jannatda xohlagan joyimizga borib kelsak, yana nimani ham xohlar edik?!» — dedilar. U zot buni ularga uch marta qildi. Qachonki ular (biror narsa so'ramagunlaricha) qo'yilmasliklarini ko'rgach, dedilar: «Ey Robbimiz, biz ruhlarimizning jasadlarimizga qaytarilishini xohlaymiz, toki Sening yo'lingda yana bir bor o'ldirilsak». Bas, (Alloh taolo) ularning boshqa hojatlari yo'qligini ko'rgach, (so'rashdan) to'xtatildilar».\n\nImom Muslim rivoyat qilgan (shuningdek, Termiziy, Nasoiy va Ibn Maja ham rivoyat qilganlar)."
+      }
+    },
+    {
+      "id": 41013,
+      "idInBook": 28,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": ":عَنْ جُنْدُبٍ بِن عَبْدِاللهِ رَضِيَ اللهُ عَنْهُ قَالَ : رَسُولُ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ  \n \nكَانَ فِيمَنْ كَانَ قَبْلَكُمْ رَجُلٌ  بِهِ جُرْحٌ  فَجَزِعَ فَأَخَذَ سِكِّينًا فَحَزَّ بِهَا يَدَهُ فَمَا رقَأَ الدَّمُ  حَتَّى ماتَ قَالَ اللهُ تَعَالَى : بَادَرَنِي عَبْدِي بِنَفْسِهِ حَرَّمْتُ عَلَيْهِ الجَنَّةَ \nرواه البخاري",
+      "uzbek": {
+        "narrator": "Jundub ibn Abdulloh roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Sizdan oldingi ummatlar orasida yarasi bor bir kishi bo'lgan edi. U (og'riqqa) chiday olmay, pichoq olib qo'lini kesdi. Qon to'xtamay o'lib qoldi. Shunda Alloh taolo aytdi: «Bandam jonini olishda mendan oldin shoshildi, unga jannatni harom qildim»». \nBuxoriy rivoyat qilgan."
+      }
+    },
+    {
+      "id": 41014,
+      "idInBook": 29,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": ": عَنْ أبي هرَيرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ قَالَ \n \n يَقُولُ اللهُ تَعَالَى : مَا لِعَبْدِي المُؤْمِنِ عِنْدِي جَزَاءٌ، إِذا قَبَضْتُ صَفِيَّهُ، مِنْ أَهلِ الدُّنْيَا، ثُمَّ احْتَسبَهُ، إِلَّا الجَنَّةَ\nرواه البخاري",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Albatta, Rasululloh sollallohu alayhi vasallam aytdilar:\n\n«Alloh taolo aytadi: «Dunyoh ahli bo'lmish suyukli bandasining jonini olganimdan so'ng, u (bu musibatga) savob umid qilib sabr qilsa, mening huzurimdagi mo'min bandamning mukofoti faqat jannat bo'lur».»\n\nImom Buxoriy rivoyat qildilar."
+      }
+    },
+    {
+      "id": 41015,
+      "idInBook": 30,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": ":عَنْ أَبي هُرَيْرَةَ ،  رَضِيَ اللهُ عَنْهُ ،  أَنَّ رَسُولَ اللهِ ، صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، قَالَ\n. قَالَ اللهُ عَزَّ وَجَلَّ : إِذا أَحَبَّ عَبْدِي لِقَائي ،  أَحْبَبْتُ لِقَاءَهُ ، وإِذا كَرِهَ لِقَائي ، كَرِهْتُ لِقَاءَهُ \n.رواه البخاري و مالك\nو في رواية مسلم ، توضح معنى الحديث : \n: عَنْ عَائِشَةَ ، رَضِيَ اللهُ عَنْهَا ، قَالَتْ : قَالَ رَسُولُ اللهِ ، صَلَّى اللهُ عَلَيْهِ وسَلَّمَ\nمَنْ أَحَبَّ لِقَاءَ اللهِ ، أَحَبَّ اللهُ لِقَاءَهُ ، وَ مَنْ كَرِهَ لِقَاءَ اللهِ ، كَرِهَ اللهُ لِقَاءَهُ . فَقُلْتُ : يَا نَبِيَّ اللهِ ، أَكَراهِيةَ المَوْتِ ؟ فَكُلُّنَا نَكْرَهُ المَوْتَ . قَالَ لَيْسَ كَذَلِكَ ، وَلَكِنَّ المُؤْمِنَ إذا بُشِّرَ  بِرَحْمةِ اللهِ وَ رِضْوَانِهِ وَجَنَّتِهِ ، أَحَبَّ لِقَاءَ اللهِ ، فَأَحَبَّ اللهُ لِقَاءَهُ ، وَإِنَّ الكَافِرَ إِذا بُشِّرَ بِعَذَابِ اللهِ وَسَخَطِهِ ، كَرِهَ لِقَاءَاللهِ ، وَكَرِهَ اللهُ لِقاءَهُ",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Rasululloh sollallohu alayhi vasallam dedilar:\nAlloh azza va jalla aytdi: «Bandam Menga ro‘baro‘ bo‘lishni yaxshi ko‘rsa, Men ham uning ro‘baro‘ bo‘lishini yaxshi ko‘raman. Agar Menga ro‘baro‘ bo‘lishni yomon ko‘rsa, Men ham uning ro‘baro‘ bo‘lishini yomon ko‘raman».\nBuni Imom Buxoriy va Molik rivoyat qilishgan.\nMuslimning rivoyatida esa hadisning ma'nosi oydinlashtiriladi:\nOisha roziyallohu anhodan rivoyat qilinadi: Rasululloh sollallohu alayhi vasallam aytdilar:\n«Kim Allohga ro‘baro‘ bo‘lishni yaxshi ko‘rsa, Alloh ham uning ro‘baro‘ bo‘lishini yaxshi ko‘radi. Kim Allohga ro‘baro‘ bo‘lishni yomon ko‘rsa, Alloh ham uning ro‘baro‘ bo‘lishini yomon ko‘radi». Shunda men aytdim: «Ey Nabiyalloh, (bu) o‘limni yomon ko‘rishmi? Chunki hammamiz o‘limni yomon ko‘ramiz-ku!» U zot aytdilar: «Unday emas, biroq mo‘yinga Allohning rahmati, rizosi va jannati bashorati berilganda, u Allohga ro‘baro‘ bo‘lishni yaxshi ko‘radi, shuning uchun Alloh ham uning ro‘baro‘ bo‘lishini yaxshi ko‘radi. Albatta, kofirga Allohning azobi va g‘azabi bashorati berilganda, u Allohga ro‘baro‘ bo‘lishni yomon ko‘radi, shuning uchun Alloh ham uning ro‘baro‘ bo‘lishini yomon ko‘radi»."
+      }
+    },
+    {
+      "id": 41016,
+      "idInBook": 31,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ جُنْدُبٍ رَضِيَ اللهُ عَنْهُ : أَنَّ رَسُولَ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ حَدَّثَ \n \n  (أَنْ رجُلاً قال : واللهِ لا يَغْفِرُ اللهُ لِفُلانٍ وإِنَّ اللهَ تَعَالَى قَالَ : مَنْ ذَا الَّذِي يَتَأَلَّى عَلَيَّ أَنْ لا أَغْفِرَ لِفُلان،فَإِنِّي قَدْ غَفَرْتُ لِفُلانٍ، وأَحْبَطْتُ عَمَلَكَ (أَوْ كَمَا قَال \nرواه مسلم",
+      "uzbek": {
+        "narrator": "Jundub roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Albatta, Rasululloh sollallohu alayhi vasallam shunday deb hadis aytdilar: «Bir kishi: «Allohga qasamyod qilamanki, Alloh falonchiga mag‘firat qilmaydi», dedi. Shunda Alloh taolo: «Kim Mening falonchiga mag‘firat qilmasligimga qasam ichyapti? Batahqiq, Men falonchini mag‘firat qildim va sening amalimgni behuda qildim», dedi» (yoki u zot shunga o‘xshashni aytdilar). Muslim rivoyat qildi."
+      }
+    },
+    {
+      "id": 41017,
+      "idInBook": 32,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي هُرَيْرَةَ ،  رَضِيَ اللهُ عَنْهُ ،  عَنِ النَّبَيِّ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، قَالَ :  \n  \nأَسْرَفَ رَجُلٌ عَلي نَفْسِهِ ، فَلَمَّا حَضَرَهُ المَوْتُ أَوْصَى بَنِيه ، فَقَالَ : إِذَا أَنَا مِتُّ فَأَحْرِقُوني ، ثُمَّ اسْحَقُوني ، ثُمَّ أَذْرُوني في البَحْرِ فَوَاللهِ لَئِنْ قَدَرَ عَلَيَّ رَبِّي لَيُعَذَّبَنِّي عَذَاباً ، مَا عَذَّبَهُ أَحَداً ، فَفَعَلُوا ذَلِكَ بِهِ . فَقَالَ لِلْأَرْضِ : أَدِّي مَا أَخَذْتِ ، فَإِذا هُوَ قَائِمٌ ، فَقَالَ لَهُ : مَا حَمَلَكَ عَلَي مَا صَنَعْتَ ؟ قَالَ : خَشْيَتُكَ يَا رَبِّ ، أَوْ مَخَافَتُكَ . فَغَفَرَ لَهُ بِذَلِكَ . \n  \nرواهُ مسلم (وكذلك البخاري والنسائي وابن ماجه)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar:\n\n«Bir kishi o‘z joniga ko‘p jabr qilgan edi. Unga o‘lim yaqinlashganda, o‘g‘illariga vasiyat qilib shunday dedi: «Qachon men o‘lsam, meni yoqinglar, so‘ngra (kulimni) tuyib kukun qilinglar, so‘ngra dengizga sochib yuboringlar. Allohga qasamki, agar Robbim mendan qodir bo‘lsa (qayta tiriltirib jazolashga qodir bo‘lsa), menga hech kimni azoblamagan bir azobni beradi». Ular unga shuni qilishdi. (Alloh taolo yerga buyurdi): Yerga: «Olgan nasangni chiqargin», dedi. Birdan u tik turgan holda paydo bo‘ldi. (Alloh taolo) unga: «Seni bu qilgan ishingga nima majbur qildi?» dedi. U: «Sening qo‘rquving, ey Robbim!» yoki «Sening mahobatingdan qo‘rqdim», dedi. Shuning uchun Alloh uning gunohini kechirdi».\n\nUni Muslim (shuningdek, Buxoriy, Nasoiy va Ibn Maja ham) rivoyat qildi."
+      }
+    },
+    {
+      "id": 41018,
+      "idInBook": 33,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي هُرَيْرَةَ ،  رَضِيَ اللهُ عَنْهُ ،  عَنِ النَّبَيِّ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، فِيما يَحْكِي عَنْ رَبِّهِ عَزَّ وَجَلَّ ، قَالَ    :  \n  \nأَذْنَبَ عَبْدٌ ذَنْبًا ، فَقَالَ : اللَّهُمَّ اغْفِرْ لِي ذَنْبي . فَقَالَ تَبَارَكَ وَتَعَالى : أَذْنَبَ عَبْدِي ذَنْبًا ، فَعَلِمَ أنَّ لَهُ رَبّاً ، يَغْفِرُ الذَّنْبَ ، وَيَأْخُذُ بِهِ . ثُمَّ عَادَ فَأَذْنَبَ ، فَقَالَ : أَيّ رَبِّ ، اغْفِرْ لِي ذَنْبِِي ، فَقَالَ تَبَارَكَ وتَعَالى : عَبْدِي أَذْنَبَ ذَنْباً . فَعَلِمَ أَنَّ لَهُ رَبّاً يَغْفِرُ الذَّنْبَ ، ويَأْخُذُ بِهِ . ثُمَّ عَادَ فَأَذْنَبَ ، فَقَالَ : أَيّ رَبِّ ، اغْفِرْ لِي ذَنْبِي : فَقَالَ تَبَارَكَ وَتَعَالَى : أَذْنَبَ عَبْدِي ذَنْباً ، فَعَلِمَ أَنَّ لَهُ رَبّاً ، يَغْفِرُ الذَّنْبَ ، ويَأْخُذُ بالذَّنْبِ . اعْمَلْ مَا شِئْتَ ، فَقَدْ غَفَرْتُ لَكَ .  \n  \nرواهُ مسلم (وكذلك البخاري)",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam o'zlarining Robbi azza va jalladan rivoyat qilib shunday dedilar: «Bir banda gunoh qildi va: «Ey Allohim, gunohimni mag'firat qil!» dedi. Shunda tabaraka va taolo zoti aytdi: «Bandam gunoh qildi, so'ngra bildiki, uning gunohni mag'firat qiladigan va uning ila jazolaydigan Robbi bordir». So'ngra yana qaytib gunoh qildi va: «Ey Robbim, gunohimni kechir!» dedi. Shunda tabaraka va taolo zoti aytdi: «Bandam gunoh qildi, so'ngra bildiki, uning gunohni mag'firat qiladigan va uning ila jazolaydigan Robbi bordir». So'ngra yana qaytib gunoh qildi va: «Ey Robbim, gunohimni kechir!» dedi. Shunda tabaraka va taolo zoti aytdi: «Bandam gunoh qildi, so'ngra bildiki, uning gunohni mag'firat qiladigan va gunoh ila jazolaydigan Robbi bordir. (Ey bandam,) xohlaganingni qil,batahqiq, seni mag'firat qildim»». Uni Muslim (va shuningdek Buxoriy) rivoyat qildi."
+      }
+    },
+    {
+      "id": 41019,
+      "idInBook": 34,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَنَسٍ رَضِيَ اللهُ عَنْهُ ،  قَالَ : سَمِعْتُ  رَسُولَ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، يَقُولُ :  \n  \nقَالَ اللهُ تَعَالَى : يَا ابْنَ ادَمَ ، إِنَّكَ مَا دَعَوْتََنِي وَرَجَوْتَنِي ، غَفَرْتُ لَكَ عَلَى مَا كَانَ مِنْكَ وَلَا أُبالِي . يا ابْنَ ادَمَ  :لَوْ بَلَغَتْ ذُنُوبُكَ عَنانَ السَّماءِ ثُم َّ اسْتَغْفَرْتَني ، غَفَرْتُ لَكَ . يَا ابْنَ ادَمَ : إِنَّكَ لَوْ أَتَيْتَنِي بِقُرَابِ الأَرْضِ خَطَايا ثُمَّ لَقِيتَني لَا تُشْرِكُ بِي شَيْأً ، لَأَتيْتُكَ بِقُرَابِها مَغْفِرَةً \n    \nرواهُ الترمذي (وكذلك أحمد) وسنده حسن",
+      "uzbek": {
+        "narrator": "Anas roziyallohu anhudan rivoyat qilinadi:",
+        "text": "U kishi shunday dedilar: «Men Rasululloh sollallohu alayhi vasallamning shunday deyaëtganlarini eshitdim:\n\nAlloh taolo aytdi: «Ey Odam bolasi! Sen Meni duo qilib, mendan umidvor bo'lganing ekansan, mendan sodir bo'lgan narsalarga (gunohlaringga) qaramasdan seni kechiraman va parvo ham qilmayman. Ey Odam bolasi! Agar gunohlaring osmon ustunlarigacha yetib borib, so'ngra Mendan mag'firat so'rasang ham, seni kechiraman. Ey Odam bolasi! Agar Sen huzurimga yer yuzini to'ldiradigan darajadagi xatolar bilan kelsang-u, so'ngra Menga hech bir narsani sherik qilmagan holingda ro'baro' bo'lsang, men senga uni to'ldiradigan darajadagi mag'firat ila kelurman».\n\nUni Termiziy (va shuningdek Ahmad) rivoyat qildi, uning sanadlari hasandir»."
+      }
+    },
+    {
+      "id": 41020,
+      "idInBook": 35,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ  أَنَّ رَسُولَ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ قَالَ \n   \nيَتنزَّلُ رَبُّنَا ، تَبَارَكَ وَتَعَالَى ، كُلَّ لَيْلَةٍ إلي سَمَاءِ الدُّنْيا ، حينَ يَبْقَى ثُلُثُ اللَّيْلِ الاخِرُ ، فَيَقُولُ  مَنْ يَدْعُوني فأَسْتَجِيبَ لَه ؟ مَنْ يَسْأَلُني فَأُعْطِيَهُ ؟ مَنْ يَسْتَغْفِرُني فَأَغْفِرَلَهُ ؟ \n     \n رواه البخاري (وكذلك مسلم ومالك والترمذي و أبو داود) \nوفي رواية لمسلم زيادة: \nفَلا يَزالُ كذَلِك حَتَى يُضِيءَ الفَجْرُ",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Tabaraka va taolo bo‘lgan Robbimiz har kecha dunyo osmoniga kechaning oxirgi uchdan biri qolganida tushadi va: «Kim Menga duo qiladiki, uning duosini ijobat qilsam? Kim Mendan so‘raydiki, uning so‘raganini bersam? Kim Mendan istig‘for so‘raydiki, uni mag‘firat qilsam?» deydi». Uni Imom Buxoriy rivoyat qilganlar (shuningdek, Muslim, Molik, Termiziy va Abu Dovud ham rivoyat qilishgan). Muslimning rivoyatida esa yana qo‘shimcha bormiz: «Bas, to tong otgunicha U zot shundoq bo‘lib tururlar»."
+      }
+    },
+    {
+      "id": 41021,
+      "idInBook": 36,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَنَسٍ ،  رَضِيَ اللهُ عَنْهُ ، عَنِ النَّبِيِّ صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، قَالَ \nيَجْتَمِعُ المُؤْمِنُونَ يَوْمَ القِيَامَةِ فَيَقُولُونَ : لَوِ اسْتَشْفَعْنَا إلى رَبِّنَا ، فَيَأْتُونَ ادَمَ ، فَيَقُولُونَ : أَنْتَ أَبو النَّاسِ ، خَلَقَكَ اللهُ بِيَدِهِ ، وَأَسْجَدَ لَكَ مَلائِكَتَهُ ، وَعَلَّمَكَ أَسْماءَ كُلِّ شَيْءٍ ، فاشْفَعْ لَنا عِنْدَ رَبِّكَ ، حَتَّى يُرِيحَنا مِنْ مَكَانِنا هَذا ، فَيَقُولُ : لَسْتُ هُنَاكُمْ ـ وَيَذْكُرُ ذَنْبَهُ ، فَيَسْتَحْيي ـ ائْتُوا نُوحاً ؛ فَإِنَّهُ أَوَّلُ رَسُولٍ بَعَثَهُ اللهُ إِلي أَهْلِ الأَرْض ، فَيَأْتُونَهُ ، فَيَقُولُ : لَسْتُ هُنَاكُمْ ـ ويَذْكُرُ سُؤالَهُ رَبَّهُ مَا لَيْسَ لَهُ بِهِ عِلْمٌ ، فَيَسْتَحْيي ـ فَيَقُولُ : اؤْتُوا خَلِيلَ الرَّحْمنِ ، فَيَأْتُونَهُ ، فَيَقُولُ : لَسْتُ هُنَاكُم ،   اؤْتُوا موسى ، عَبْداً كَلَّمَهُ اللهُ ، و أَعْطَاهُ التَّوْرَاةَ . فَيَأْتُونَهُ ، فَيَقُولُ : لَسْتُ هُنَاكُمْ ـ وَيَذْكُرُ  قَتْلَ النَّفْسِ بِغَيْرِ نَفْسٍ ، فَيَسْتَحْيي مِنْ رَبِّهِ ـ فَيَقُولُ : اؤْتُوا عِيسَى ، عَبْدَ اللهِ وَرَسُولَهُ ، وَكَلِمَةَ اللهِ وَرُوحَهُ . فَيَأْتُونَهُ ، فَيَقُولُ : لَسْتُ هُنَاكُمْ ، اؤْتُوا مُحَمَّداً ، ـ صَلَّى الله عَلَيْهِ وَ سَلَّمَ ـ عَبْداً غَفَرَ اللهُ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ وَمَا تَأَخَّرَ ، فَيَأْتُونَنِي ، فَأَنْطَلِقُ حَتَّي أَسْتَأْذِنَ عَلَي رَبِّي فَيُؤْذَنُ . فإذا رَأَيْتُ رَبِّي وَقَعْتُ سَاجداً ، فَيَدَعُني مَا شَاءَ اللهُ ، ثُمَّ يُقَالُ : ارْفَعْ رَأْسَكَ ، وسَلْ تُعْطَهُ ، وَقُلْ يُسْمَعْ ، واشْفَعْ تُشَفَّعْ . فَأَرْفَعُ رَأْسي ، فَأَحْمَدُهُ بِتَحْمِيدٍ يُعَلِّمُنِيهِ ، ثُمَّ أَشْفَعُ ، فَيحُدُّ لي حَدّاً ، فَأُدْخِلُهُمْ الجَنَّةَ . ثُمَّ أَعُودُ إِلَيْهِ ، فإِذا رَأَيْتُ رَبِّي ( فَأَقَعُ ساجداً ) مِثْلَهُ ، ثُمَّ أَشْفَعُ فَيَحُدُّ لِي حَدّاً ، فَأُدْخِلُهُمُ الجَنَّةَ . ثُمَّ أَعُودُ الثالِثةَ ، ثُمَّ أَعُودُ الرَّابعة ، فَأقُولُ : مَا بَقِي في النَّارِ إِلَّا مَنْ حَبَسَهُ القُرْانُ ، ووَجَبَ عَلَيْهِ الخُلُودُ \nرواه البخاري ( وكذلك مسلم والترمذي وابن ماجه ) و في رواية أخرى للبخاري زيادة هي \nقَالَ النَّبِيُّ صَلَّى الله عَلَيْهِ وَ سَلَّمَ ، يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ : لَا إِلهَ إِلَّا اللهُ ، وكَانَ فِي قَلْبِهِ مِنَ الخَيْرِ مَا يَزِنُ شَعِيرةً ، ثُمَّ يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ : لَا إِلهَ إِلَّا اللهُ ، وكَانَ فِي قَلْبِهِ مِنَ الخَيْرِ مَا يَزِنُ بُرَّةً ، ثُمَّ يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ : لَا إِلهَ إِلَّا اللهُ ، وكَانَ فِي قَلْبِهِ مَا يَزِنُ مِنَ الخَيْرِ ذَرَّةً",
+      "uzbek": {
+        "narrator": "Anas roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Qiyomat kuni mo‘minlar to‘planadilar va: «Qani edi, Parvardigorimiz huzurida shfoatchi topsak», deydilar. So‘ng Odam alayhissalomning oldilariga kelib: «Siz odamlarning otasisiz, Alloh Sizni o‘z qo‘li bilan yaratdi, farishtalarini Sizga sajda qildirdi va Sizga barcha narsalarning ismlarini o‘rgatdi. Bizni bu joyimizdan qutqarishi uchun Parvardigoringiz huzurida bizga shafoat qiling», deydilar. Shunda u zot: «Men bunga loyiq emasman», deb o‘zining gunohini eslab, uyaladi va: «Nuhning oldiga boringlar, chunki u Alloh yer ahliga yuborgan ilk rasuldir», deydi. Odamlar uning oldiga keladilar. Shunda u: «Men bunga loyiq emasman», deb o‘zi bilmagan narsani Parvardigaridan so‘raganini eslab, uyaladi va: «Rahmonning do‘stining oldiga boringlar», deydi. Odamlar uning oldiga keladilar. Shunda u: «Men bunga loyiq emasman», deb: «Alloh gaplashgan va Tavrotni ato etgan banda Musoning oldiga boringlar», deydi. Odamlar uning oldiga keladilar. Shunda u: «Men bunga loyiq emasman», deb nohaq jon qasd qilganini eslaydi va Parvardigaridan uyaladi hamda: «Allohning bandasi va elchisi, Uning kalimasi va ruhining oldiga boringlar», deydi. Odamlar uning oldiga keladilar. Shunda u: «Men bunga loyiq emasman, Alloh oldingi va keyingi gunohlarini mag‘firat qilgan banda Muhammad sollallohu alayhi vasallamning oldiga boringlar», deydi. Shunda odamlar oldimga keladilar. Men borib, Rabbimdan izn so‘rayman, bas, izn beriladi. Qachonki Rabbimni ko‘rsam, sajdaga yiqilaman. Alloh xohlagancha meni o‘sha holatda qoldiradi, so‘ng: «Boshingni ko‘tar, so‘ra – berilasan, gapir – eshitilasan, shafoat qil – shafoating qabul qilinadi», deyiladi. Shunda boshimni ko‘taraman-da, O‘zi menga o‘rgatgan hamdlar bilan Unga hamd aytaman. So‘ng shafoat qilaman, menga bir حدّ (chegara) belgilanadi, bas, ularni jannatga kirgizaman. So‘ng yana u zotning huzuriga qaytaman. Qachonki Rabbimni ko‘rsam, o‘shanday (sajdaga yiqilaman). So‘ng shafoat qilaman, menga bir chegara belgilanadi, bas, ularni jannatga kirgizaman. So‘ng uchinchi bor qaytaman. So‘ng to‘rtinchi bor qaytib: «Do‘zaxda faqatgina Qur'on ushlab qolgan (hukmi abadiy bo‘lgan) va abadiy qolishi vojib bo‘lgan kimsalargina qoldi», deyman».\nImom Buxoriy rivoyat qilganlar (shuningdek, Muslim, Termiziy va Ibn Maja ham).\nImom Buxoriyning boshqa bir rivoyatida quyidagi ziyoda bor:\nNabiy sollallohu alayhi vasallam dedilar: «Do‘zaxdan «La ilaha illalloh» degan va qalbida arpa doni og‘irlikdagi yaxshiligi bo‘lgan kishi chiqariladi. So‘ng do‘zaxdan «La ilaha illalloh» degan va qalbida bug‘doy doni og‘irlikdagi yaxshiligi bo‘lgan kishi chiqariladi. So‘ng do‘zaxdan «La ilaha illalloh» degan va qalbida zarra og‘irlikdagi yaxshiligi bo‘lgan kishi chiqariladi»."
+      }
+    },
+    {
+      "id": 41022,
+      "idInBook": 37,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ : قَالَ رَسُولَ اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ  \n   \nقَالَ اللهُ أَعْدَدْتُ لِعِبَادي الصَّالِحِينَ مَا لَا عَيْنٌ رَأَت وَ لَا أُذُنٌ سَمِعَتْ وَلَا خَطَرَ عَلَى قَلْبِ بَشَرٍ  فاقْرأُوا إنْ شِئْتُمْ : فَلَا تَعْلَمُ نَفْسٌ مَّا أُخْفِيَ لَهُمْ مِنْ قُرَّةِ أَعْيُنٍ   \n     \nرواه البخاري و مسلم والترمذي وابن ماجه",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh taolo: «Men solih bandalarim uchun hech bir ko‘z ko‘rmagan, hech bir quloq eshitmagan va insonning diliga ham kelmagan narsalarni tayyorlab qo‘ydim», dedi». Agar xohlasangiz, «Bas, hech bir jon o‘zlari uchun ko‘zlar quvonchi bo‘lgan narsalardan nimalar berkitib qo‘yilganini bilmas...» (Sajda surasi, 17-oyat) oyatini o‘qing.\n\nBuxoriy, Muslim, Termiziy va Ibn Maja rivoyat qilishgan."
+      }
+    },
+    {
+      "id": 41023,
+      "idInBook": 38,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ  عَنْ رَسُول اللهِ  صَلَّى الله عَلَيْهِ وَ سَلَّمَ قَالَ \n   \nلَمَّا خَلَقَ اللهُ الجَنَّةَ وَالنَّارَ  أَرْسَلَ جِبْرِيْلَ إلى الجنَّةِ  فَقَالَ  انْظُرْ إِلَيْهَا وَإلى مَا أَعْدَدْتُ لأهْلِهَا فِيْهَا . قَالَ: فَجَاءَهَا وَنَظَرَ إِلَيْهَا وَ إِلى مَا أَعَدَّاللهُ  لأهْلِهَا فِيْهَا. قَالَ:  فَرَجَعَ إِلَيْهِ  قَالَ:  فَوَعِزَّتِكَ لَا يَسْمَعُ بِهَا أَحَدٌ إِلَّا دَخَلَهَا  فَأَمَرَ بِهَا فَحُفَّتْ بِالمَكَارِهِ  فَقَالَ:  ارْجِعْ إِلَيْهَا ، فَانْظُرْ إِلى مَا أَعْدَدْتُ لأَهْلِهَا فِيْهَا ، قَالَ:  فَرَجَعَ إِلَيْهَا ، فإِذا هِيَ قَدْ حُفَّتْ  بِالمَكَارِهِ ، فَرَجَعَ إِلَيْهِ ، فَقَالَ:  وَعِزَّتِكَ لَقَدْ خِفْتُ أَنْ لَا يَدْخُلَهَا أَحَدٌ قَالَ:  اذْهَبْ إِلى النَّارِ فَانْظُرْ إِليْها ، وإلى مَا أَعْدَدْتُ لأَهْلِها فِيْهَا . فإذا هِي يَرْكَبُ بَعْضُهَا بَعْضًا ، فَرَجَعَ إِلَيْهِ ، فَقَالَ:  وَ عِزَّتِكَ لَا يَسْمَعُ بِهَا أحَدٌ فَيَدْخُلَهَا . فَأَمَر بِها فَحُفَّتْ بِالشَّهَوَاتِ ، فَقَالَ:  ارْجِعْ إِلَيْهَا ، فَرَجَعَ إلَيْهَا ، فَقَالَ:  وَ عِزَّتِكَ لَقَدْ خَشِيتُ أنْ لَا يَنْجُوَ   مِنْهَا أَحَدٌ إِلَّا دَخَلَهَا \n     \n رواه الترمذي و قال حديث حسن صحيح و كذلك أبو داود والنسائي",
+      "uzbek": {
+        "narrator": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi",
+        "text": "Rasululloh sollallohu alayhi vasallam aytdilar: «Alloh taolo jannat va do‘zaxni yaratganida Jabriilni jannatga yuborib: «Ungagina va uning ahliga unda tayyorlab qo‘ygan narsalarimga nazar sol!» – dedi. U kelib, unga va Alloh uning ahliga unda tayyorlab qo‘ygan narsalarga nazar soldi. So‘ng U zotga qaytib kelib: «Izzatingga qasamki, uni eshitgan biror kishi yo‘qarki, unga kirmasa», dedi. Shunda u (jannat) haqida buyruq berildi va u mashaqqatlar bilan o‘raldi. So‘ng (Alloh taolo): «Unga qaytgin va uning ahliga unda tayyorlab qo‘ygan narsalarimga nazar sol!» – dedi. U unga qaytib bordi, qarasaki, u mashaqqatlar bilan o‘ralgan ekan. U zotga qaytib kelib: «Izzatingga qasamki, unga biror kishi kirishidan qo‘rqdim», dedi. (Alloh taolo): «Do‘zaxga borib unga va uning ahliga unda tayyorlab qo‘ygan narsalarimga nazar sol!» – dedi. Qarasaki, uning ba'zi qismlari ba'zining ustiga chiqib yotibdi. U zotga qaytib kelib: «Izzatingga qasamki, uni eshitgan biror kishi unga kirmay qo‘ymaydi», dedi. Shunda u haqida buyruq berildi va u shahvatlar bilan o‘raldi. So‘ng: «Unga qaytgin», dedi. U unga qaytib bordi va: «Izzatingga qasamki, undan biror kishi najot topmay, hammasi unga kirib ketishidan qo‘rqdim», dedi».\n\nTermiziy rivoyat qilib, «hasan sahih hadis» deganlar. Shuningdek, Abu Dovud va Nasoiy ham rivoyat qilganlar."
+      }
+    },
+    {
+      "id": 41024,
+      "idInBook": 39,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أَبي سَعيدٍ الْخُدْريّ رَضِيَ اللهُ عَنْهُ عَن النَّبِيّ صَلَّى الله عَلَيْهِ وَ سَلَّمَ قَالَ : احْتَجَّتِ الجَنَّةُ والنَّارُ فَقَالتِ النَّارُ : فِيَّ الجَبَّارونَ والمُتكَبَّرونَ  وَقَالتِ الجَنَّةُ : فِيّ ضُعَفاءُ النَّاسِ ومساكينُهُمْ  فَقَضَى اللهُ بَيْنَهُما : إِنَّكِ الجَنَّةُ رَحْمَتِي أَرْحَمُ بِكِ مَنْ أَشاءُ، وإنكِ النارُ عذابي ، أُعَذِبُ بِكِ من أشاءُ ،  وَلِكلَيْكُما عَلَيَّ مِلْؤُها\n(رواه مسلم  (وكذلك البخاري والترمذي",
+      "uzbek": {
+        "narrator": "Abu Said al-Xudriy roziyallohu anhudan rivoyat qilinadi",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Jannat va do‘zax talashib qolishdi. Do‘zax: «Menda jabborlar va mutakabbirlar bor», dedi. Jannat esa: «Menda odamlarning zaiflari va miskinlari bor», dedi. Shunda Alloh taolo ularning o‘rtasida hukm qilib: «Sen jannatsan, rahmatimdirsan, sen bilan xohlagan kishimga rahm qilaman. Sen esa do‘zaxsan, azobimdirsan, sen bilan xohlagan kishimni azoblayman. Ikkingizning ham to‘lishingiz Mening zimmamdadir», dedi».\n(Muslim rivoyat qilgan, shuningdek Buxoriy va Termiziy ham rivoyat qilishgan)"
+      }
+    },
+    {
+      "id": 41025,
+      "idInBook": 40,
+      "chapterId": 0,
+      "bookId": 11,
+      "arabic": "عَنْ أبي سَعِيدٍ الخُدّريّ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ النَّبِىُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ\n إنَّ اللهَ يَقُولُ لأَهْلِ الجَنَّةِ : يَا أهْلَ الجَنَّةِ . فَيَقُولُون : لَبَّيْكَ رَبَّنا وسَعْدَيْكَ ، والخَيْرُ في يَدَيْكَ. فَيَقُولُ : هَلْ رَضِيتُم ؟  فَيَقُولُونَ : وَما لَنا لَا نَرْضَىى يَا رَبّ ،  وَقَدْ أَعْطَيْتَنا مَا لمْ تُعْطِ أَحَداً مِنْ خَلْقِكَ .  فَيَقُولُ : أَلا أُعْطِيكُمْ أَفْضَلَ مِنْ ذَلِك ؟  فَيَقُولُونَ :  يَا رَبّ وأيُّ شيءٍ أَفْضَلُ مِنْ ذَلِك ؟ فَيَقُولُ : أٌحِلُّ عَلَيْكُمْ رِضْواني ، فَلا أَسْخَطُ عَلَيْكُمْ بَعْدَهُ أَبداً \nرواه البخاري (وكذلك مسلم والترمذي)",
+      "uzbek": {
+        "narrator": "Abu Sa'id al-Xudriy roziyallohu anhudan rivoyat qilinadi:",
+        "text": "Nabiy sollallohu alayhi vasallam shunday dedilar: «Albatta, Alloh taolo jannat ahliga: «Ey jannat ahillari!» deydi. Shunda ular: «Labbay, Robbimiz va sa'dayk! Va yaxshilik Sening qo'lingdadir», deyishadi. Bas, U zot: «Rozi bo'ldingizmi?» deydi. Ular: «Ey Robbimiz, nega rozi bo'lmaylik, holbuki O'zing maxluqotlaringdan birortasiga bermagan narsalarni bizga ato etding-ku!» deyishadi. Shunda U zot: «Sizlarga bundan ham afzalroq narsani berayinmi?» deydi. Ular: «Ey Robbimiz, bundan ham afzalroq narsa nima ekan?» deyishadi. Bas, U zot: «Ustingizga roziligimni nozil qilaman, bundan keyin sizlarga aslo g'azab qilmayman», deydi». \n\nImom Buxoriy rivoyat qilganlar (shuningdek, Muslim va Termiziy ham rivoyat qilishgan)."
+      }
+    }
+  ]
+}
